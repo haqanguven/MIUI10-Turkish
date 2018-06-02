@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi aile izni</string>
+    <string name="category">Yetki</string>
+    <string name="dialog_message">Açık olduğunda uygulama mevcut sistem hesabınız altında Mi akıllı cihaza erişebilir veya bunları kontrol edebilir</string>
+    <string name="disclaim_cancel">İptal et</string>
+    <string name="disclaim_confirm">Kabul et ve devam et</string>
+    <string name="disclaim_content">Mi ailesinin kullanım sırasında ağa bağlanması gerekiyor?</string>
+    <string name="disclaim_remember">Tekrar gösterme</string>
+    <string name="disclaim_title">Kullanım şartları</string>
+    <string name="load_auth_app_failed">Yetkilendirme listesi alınamadı</string>
+    <string name="loading_auth_list">Yükleme listesi</string>
+    <string name="login_mihome_failed">Giriş yapılamadı</string>
+    <string name="set_auth_failed">Ayarlama başarısız oldu</string>
+    <string name="title_bar_name">Mijia ekipman yetki yönetimi</string>
+</resources>
