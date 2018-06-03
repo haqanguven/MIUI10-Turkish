@@ -487,8 +487,8 @@
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>"İsteğe bağlı kodekleri etkinleştir"</item>
-        <item>"İsteğe bağlı kodekleri devre dışı bırak"</item>
+        <item>İsteğe bağlı kodekleri etkinleştir</item>
+        <item>İsteğe bağlı kodekleri devre dışı bırak</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Sistem seçimini kullan (Varsayılan)</item>
@@ -497,8 +497,8 @@
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>"İsteğe bağlı kodekleri etkinleştir"</item>
-        <item>"İsteğe bağlı kodekleri devre dışı bırak"</item>
+        <item>İsteğe bağlı kodekleri etkinleştir</item>
+        <item>İsteğe bağlı kodekleri devre dışı bırak</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
@@ -1474,6 +1474,24 @@
         <item>Son 30 gün</item>
         <item>Kullanım döngüsünü ayarla</item>
     </string-array>
+    <string-array name="date_of_app_all">
+        <item>Bugün (Mobil veri)</item>
+        <item>Bu ay (Mobil veri)</item>
+        <item>Geçen ay (Mobil veri)</item>
+        <item>Bugün (Wifi)</item>
+        <item>Bu ay (Wifi)</item>
+        <item>Geçen ay (Wifi)</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"Bugün "</item>
+        <item>"Bu ay "</item>
+        <item>"Geçen ay "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Bugün: "</item>
+        <item>"Bu ay: "</item>
+        <item>"Geçen ay: "</item>
+    </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Kapalı</item>
         <item>Fazla çizilen alanları göster</item>
@@ -1501,6 +1519,59 @@
         <item>HK</item>
         <item>TW</item>
         <item>UA</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+        <item>clover</item>
+        <item>dipper</item>
+        <item>sirius</item>
+        <item>ursa</item>
+    </string-array>
+    <string-array name="device_support_pickup_by_xiaomi">
+        <item>polaris</item>
+        <item>dipper</item>
+        <item>sirius</item>
+        <item>ursa</item>
+        <item>beryllium</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
     </string-array>
     <string-array name="dndm_auto_time_trun_on_off">
         <item>@string/dndm_auto_time_turn_on</item>
@@ -2365,6 +2436,13 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>Kritik düzeyde</item>
         <item>\?</item>
     </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
     <string-array name="screen_button_style">
         <item>Sol el stili</item>
         <item>Sağ el stili</item>
@@ -2374,6 +2452,11 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>Normal</item>
         <item>Soğuk</item>
     </string-array>
+    <integer-array name="screen_density">
+        <item>640</item>
+        <item>480</item>
+        <item>320</item>
+    </integer-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
         <item>recent_panel</item>
@@ -2424,11 +2507,17 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
     <integer-array name="screen_resolution">
         <item>3686400</item>
         <item>2073600</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Parlak</item>
@@ -2487,17 +2576,25 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>4194304</item>
         <item>16777216</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Kapalı</item>
+        <item>Hata</item>
+        <item>Uyar</item>
+        <item>Bilgi</item>
+        <item>Hata ayıklama</item>
+        <item>Gereksiz</item>
+    </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Off</item>
-        <item>All log buffers</item>
-        <item>All but radio log buffers</item>
-        <item>kernel log buffer only</item>
+        <item>Kapalı</item>
+        <item>Tüm günlük arabellekleri</item>
+        <item>Radyo kayıt arabelleği hariç tümü</item>
+        <item>Sadece çekirdek günlük arabelleği</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Off</item>
-        <item>All</item>
-        <item>All but radio</item>
-        <item>kernel only</item>
+        <item>Kapalı</item>
+        <item>Tümü</item>
+        <item>Radyo hariç hepsi</item>
+        <item>Sadece çekirdek</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -2578,32 +2675,6 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>2</item>
         <item>0</item>
     </string-array>
-    <string-array name="status_bar_show_carrier_entries">
-        <item>Sadece kilit ekranında göster</item>
-        <item>Sadece durum çubuğunda göster</item>
-        <item>Hiçbir zaman operatör adını gösterme</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_entries_for_notch">
-        <item>@string/carrier_show_in_lock_screen</item>
-        <item>@string/carrier_show_none</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_values_for_notch">
-        <item>0</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="status_bar_style_entries">
-        <item>Birleşik</item>
-        <item>Ayrı</item>
-    </string-array>
-    <string-array name="status_bar_style_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
         <item>@drawable/threedrop01</item>
@@ -2657,6 +2728,10 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Mobil kullanımı "</item>
+        <item>"Wifi kullanımı "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Kapalı</item>

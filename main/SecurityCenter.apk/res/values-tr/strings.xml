@@ -43,7 +43,7 @@
     <string name="dlg_clear_current_call">Bu numaradan gelen tüm engellenmiş aramalar temizlensin mi?</string>
     <string name="dlg_clear_all_ok">Tümünü temizle</string>
     <string name="dlg_clear_current_ok">Temizle</string>
-    <string name="dlg_no_block">"Bu numaranın engeli kaldırılsın ve bu numaradan gelen aramalar
+    <string name="dlg_no_block">"Bu numaranın engeli kaldırılsın ve bu numaradan gelen aramalar 
 arama geçmişine geri yüklensin mi?"</string>
     <string name="dlg_no_block_ok">Engeli kaldır</string>
     <string name="dlg_add_blacklist_title">Engelli listesine ekle</string>
@@ -101,7 +101,7 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="st_settings_name">Engelli listesi ayarları</string>
     <string name="st_filter_keywords_setting_summary1">Bu listedeki kelimeleri içeren ve bilinmeyen numaralardan gelen mesajlar engellenecektir</string>
     <string name="st_filter_keywords_setting_summary3">Bu listede bulunan kelimeleri içeren bilinmeyen numaralardan gelen iletilere izin verilecektir</string>
-    <string name="st_filter_keywords_setting_summary2">"
+    <string name="st_filter_keywords_setting_summary2">" 
 (Birden fazla kelimeyi ayırmak için virgül kullanın)"</string>
     <string name="label_callwait">Arama bekletme bildirimi</string>
     <string name="open_callwait">Aç</string>
@@ -339,8 +339,8 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="lock_screen_hongbao_message">%1$s kaynağından</string>
     <string name="lock_screen_business_hongbao_message">%1$s kaynağından</string>
     <string name="hongbao_name">Mi kırmızı zarf yardımcısı</string>
-    <string name="lucky_assistant_description">"Mi resmi imalat
-WeChat/QQ
+    <string name="lucky_assistant_description">"Mi resmi imalat 
+WeChat/QQ 
 Hatırlatıcıları engellenen grupları desteklemez ve yazılımın rahatsız etme işlevini kaydetmek için bilgisayarı açar"</string>
     <string name="float_window">Masaüstünde asılı pencereler</string>
     <string name="random_expression">Rastgele ifade</string>
@@ -485,10 +485,10 @@ Hatırlatıcıları engellenen grupları desteklemez ve yazılımın rahatsız e
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Operatörünüz doğru değil mi?&lt;/U>&lt;/font>"</string>
     <string name="card_tc_failed">Kalibre edilemedi</string>
     <string name="card_tc_failed_content">"Muhtemel nedenler:
- 1. Operatörler ay başlarında veya ay sonlarında daha yavaş çalışırlar. Bir kaç gün içerisinde yeniden deneyin
- 2. İlk defa kalibrasyon işlemi yapılırken bir ağ talep şablonu gereklidir. Ağa bağlanın ve yeniden deneyin
- 3. Operatörünüz bakiye ve kalan veri miktarı bilgilerini içeren metin mesajları göndermeyi desteklemiyor olabilir. Daha fazla bilgi edinmek için operatörünüz ile iletişime geçin
- 4. Operatör verilerinde hata olabilir. Bu hatayı çözmek için operatör tanılamalarını kullanmayı deneyin
+ 1. Operatörler ay başlarında veya ay sonlarında daha yavaş çalışırlar. Bir kaç gün içerisinde yeniden deneyin 
+ 2. İlk defa kalibrasyon işlemi yapılırken bir ağ talep şablonu gereklidir. Ağa bağlanın ve yeniden deneyin 
+ 3. Operatörünüz bakiye ve kalan veri miktarı bilgilerini içeren metin mesajları göndermeyi desteklemiyor olabilir. Daha fazla bilgi edinmek için operatörünüz ile iletişime geçin 
+ 4. Operatör verilerinde hata olabilir. Bu hatayı çözmek için operatör tanılamalarını kullanmayı deneyin 
  5. Hiçbiri yardımcı olmuyor mu? Geri bildirimininizi Xiaomi'ye bir metin mesajı içerisinde göndermek için mesaj ile bildir seçeneğine dokunun"</string>
     <string name="card_sms_report">Mesaj ile bildir</string>
     <string name="main_normal_data_usage">Mobil veri kullanımı</string>
@@ -504,6 +504,14 @@ bekleniyor"</string>
     <string name="main_tobe_added_desc">Mobil veri ile 0.03¥/MB</string>
     <string name="main_button_mi_sim_close">Mi Sim etkinleştirme</string>
     <string name="main_button_mi_sim_open">Detayları göster</string>
+    <string name="adjust_sms_cmd"><u>Kalibrasyon mesaj şablonunu ayarla</u></string>
+    <string name="sms_detail_correct_success_text">"Önceki kalibrasyondan veri kullanım istatistikleri (%1$s):"</string>
+    <string name="tc_send_sms_error">Mesaj gönderilemedi</string>
+    <string name="tc_cmd_invalid">Şablon geçersiz</string>
+    <string name="tc_receive_timeout">Kalibrasyon zaman aşımına uğradı</string>
+    <string name="tc_parse_error">Mesaj ayrıştırılamadı</string>
+    <string name="tc_get_cmd_error">Şablon alınamadı</string>
+    <string name="tc_web_correct_error">Kalibre edilemedi</string>
     <string name="firewall_activity_lable">Uygulama için veri kullanımını kısıtla</string>
     <string name="firewall_applist">Uygulamalar</string>
     <string name="firewall_mobile">Mobil veri</string>
@@ -550,6 +558,7 @@ bekleniyor"</string>
     <string name="foreground_traffic">Ön plan %s</string>
     <string name="background_traffic">Arka plan %s</string>
     <string name="detail_app_button">Uygulama bilgisi</string>
+    <string name="managed_user_title">Tüm iş uygulamaları</string>
     <string name="pref_about_traffic_title">Veri kullanım ayarları</string>
     <string name="pref_traffic_manage_title">Veri kullanımı</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
@@ -648,7 +657,7 @@ bekleniyor"</string>
     <string name="traffic_setting_fragment_sms_content_tips">Mesajınızı buraya yazın</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Tekrar gösterme</string>
     <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'>&lt;U>Operatörünüzden emin değil misiniz?&lt;/U>&lt;/font>"</string>
-    <string name="data_usage_warning_body">Veri kullanım detaylarını görüntülemek için dokunun.</string>
+    <string name="data_usage_warning_body">Veri kullanım detaylarını görüntülemek için dokunun</string>
     <string name="data_usage_mobile_limit_title">Mobil veri limitine ulaşıldı</string>
     <string name="data_usage_limit_body">Mobil veriyi açmak için dokunun</string>
     <string name="data_usage_disabled_dialog">Tarifenizin veri kullanım limitine ulaştınız. Tarifenizin veri kullanım limitini aşarsanız operatörünüz tarafından ek ücretlendirmelere maruz kalabilirsiniz</string>
@@ -802,6 +811,9 @@ Kalibrasyon işlemi sırasında Miui kalibrasyon şablonunu almak amacıyla bir 
     <string name="roaming_limit_dialog_message">Günlük dolaşım mobil veri limitine ulaşıldı</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Dolaşımda mobil veri kullanımına izin verilsin mi?</string>
+    <string name="dialog_roaming_warning_message">Uluslararası veri dolaşımını açtıktan sonra operatör sizi ücretlendirecektir. Açılsın mı?</string>
+    <string name="dialog_roaming_warning_checkbox">Tekrar gösterme</string>
+    <string name="dialog_roaming_warning_ok">Aç</string>
     <string name="title_limit_traffic_per_day">Günlük veri kullanım limiti</string>
     <string name="daily_limit_and_lock_screen">Veri limiti &amp; bildirimler</string>
     <string name="pref_title_traffic_limit_number">Boyut</string>
@@ -885,44 +897,44 @@ Kalibrasyon işlemi sırasında Miui kalibrasyon şablonunu almak amacıyla bir 
     <string name="renew_ip">Yeniden dene</string>
     <string name="network_permission_exception_tips">Ağa bağlanmak için mobil veri kullanılamıyor</string>
     <string name="open_now">Uygulamanın mobil veri kullanımına izin ver</string>
-    <string name="network_roaming_exception_tips">Dolaşım sırasında mobil veri kullanılarak ağa bağlanılamıyor.</string>
+    <string name="network_roaming_exception_tips">Dolaşım sırasında mobil veri kullanılarak ağa bağlanılamıyor</string>
     <string name="network_mobile_exception_detail">"Cihazınız internete bağlanamıyor:
 
 1. Tarifenizin mobil veri kullanım sınırını aşmadığınızdan emin olun
 
-2. Eğer yeni bir satın alma veya yükleme işlemi yaptıysanız cihazınızı yeniden başlatın ve ardından tekrar deneyin
+2. Eğer yeni bir satın alma veya yükleme işlemi yaptıysanız cihazınızı yeniden başlatın ve ardından tekrar deneyin 
 
 3. Mevcut konumunuzda operatörünüzün sinyal gücü zayıf olabilir"</string>
-    <string name="network_sim_exception_detail">"Sim kartınızda bir sorun olabilir:
+    <string name="network_sim_exception_detail">"Sim kartınızda bir sorun olabilir: 
 
-1. Sorunun kartınızdan veya operatörünüzden kaynaklanıp kaynaklanmadığından emin olun. Bir arkadaşınızın Sim kartını kullanarak bağlantının düzgün çalışıp çalışmadığını kontrol edin
+1. Sorunun kartınızdan veya operatörünüzden kaynaklanıp kaynaklanmadığından emin olun. Bir arkadaşınızın Sim kartını kullanarak bağlantının düzgün çalışıp çalışmadığını kontrol edin 
 
-2. Çift Sim kart kullanıyorsanız Sim kartları değiştirerek bağlantının düzgün çalışıp çalışmadığını kontrol edin
+2. Çift Sim kart kullanıyorsanız Sim kartları değiştirerek bağlantının düzgün çalışıp çalışmadığını kontrol edin 
 
 3. Sim kartınızın veya Sim kart yuvasının zarar görüp görmediğinden emin olun. Sim kartın cihazınızın Sim kart yuvasına doğru takılıp takılmadığını kontrol edin"</string>
-    <string name="network_route_exception_detail">"Bağlanmış olduğunuz yönlendiricide bir sorun olabilir:
-
- "<b>1. Halka açık wifi ağ sorunları</b>"
-Eğer halka açık bir wifi ağına bağlandıysanız ağa bağlı olan kullanıcı sayısı ağı yavaşlatıyor veya bağlantı sorunları oluşmasına neden oluyor olabilir. Başka bir ağa bağlanın ve ardından tekrar deneyin
-
- "<b>2. İnternet servis sağlayıcısı sorunları</b>"
-İnternet servis sağlayıcısı hesabınızda bir sorun olup olmadığından emin olun
-
- "<b>3. Yönlendirici donanım sorunları</b>"
-Yönlendiricinizin yönetici ayarlarını kontrol edin veya yönlendiricinizi yeniden başlatmayı deneyin
-
- "<b>4. Diğer yönlendirici sorunları</b>"
-Yönlendiriciniz ile birlikte gelen yönergeleri gözden geçirin ve yönlendiricinizi fabrika ayarlarına geri döndürün
-
- "<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>"
+    <string name="network_route_exception_detail">"Bağlanmış olduğunuz yönlendiricide bir sorun olabilir: 
+ 
+ \""<b>1. Halka açık wifi ağ sorunları</b>"\" 
+Eğer halka açık bir wifi ağına bağlandıysanız ağa bağlı olan kullanıcı sayısı ağı yavaşlatıyor veya bağlantı sorunları oluşmasına neden oluyor olabilir. Başka bir ağa bağlanın ve ardından tekrar deneyin 
+ 
+ \""<b>2. İnternet servis sağlayıcısı sorunları</b>"\" 
+İnternet servis sağlayıcısı hesabınızda bir sorun olup olmadığından emin olun 
+ 
+ \""<b>3. Yönlendirici donanım sorunları</b>"\" 
+Yönlendiricinizin yönetici ayarlarını kontrol edin veya yönlendiricinizi yeniden başlatmayı deneyin 
+ 
+ \""<b>4. Diğer yönlendirici sorunları</b>"\" 
+Yönlendiriciniz ile birlikte gelen yönergeleri gözden geçirin ve yönlendiricinizi fabrika ayarlarına geri döndürün 
+ 
+ \""<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>"\" 
 Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu değiştirmeyi deneyin. Eğer ev ağınızda bir sorun olduğundan şüpheleniyorsanız internet servis sağlayıcınızla iletişime geçin"</string>
     <string name="permission_exception_title">Uygulamalar için sınırlı ağ bağlantısı</string>
     <string name="bg_network_exception_title">Sınırlı arka plan ağ bağlantısı</string>
     <string name="networkchanged_exception_title">Bağlantı değişti</string>
     <string name="networkchanged_exception_summary">Ağ bağlantısı değişti. Yeniden test edin</string>
     <string name="network_test_speed">Wifi hızını test et</string>
-    <string name="network_changed_noti_title">Disconnected from WLAN</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Wifi bağlantısı kesildi</string>
+    <string name="network_changed_noti_summary">Mobil verileri kullan</string>
     <string name="network_speed_for_apps_title">Bağlantı</string>
     <string name="network_speed_for_apps_total">Bağlantı hızı</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Bu uygulama durmaya zorlansın mı?</string>
@@ -935,8 +947,8 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="tc_diagnostic_onekey_repair_botton">Onar</string>
     <string name="tc_diagnostic_repair_and_continue">Düzelt ve devam et</string>
     <string name="tc_diagnostic_upload_button">Rapor</string>
-    <string name="tc_diagnostic_fragment_default">"Tanılama hakkında
-1. Cihaz operatörün ağına bağlanır, ücretsiz bir mesaj gönderir ve operatörün cevabını bekler. Bu işlem 5 dk kadar sürebilir
+    <string name="tc_diagnostic_fragment_default">"Tanılama hakkında 
+1. Cihaz operatörün ağına bağlanır, ücretsiz bir mesaj gönderir ve operatörün cevabını bekler. Bu işlem 5 dk kadar sürebilir 
 2. Bu sayfadan tanılama işlemi sırasında ayrılabilirsiniz. İşlem arkaplanda devam edecektir"</string>
     <string name="sim_location_diagnostic">Konum tanılaması</string>
     <string name="operator_diagnostic">Operatör tanılamaları</string>
@@ -992,6 +1004,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="sms_detail_fragment_title_bill">Kalan bakiye</string>
     <string name="menu_report">Hata bildir</string>
     <string name="menu_charge_traffic">Veri satın al</string>
+    <string name="menu_setting_traffic">Manuel olarak ayarla</string>
     <string name="menu_charge_bill">Bakiye yükle</string>
     <string name="privacy_dialog_message">Bu mesaj internete bağlandığınızda, operatör verileri ile birlikte şifrelenecek ve veri kullanımı takip etme özelliğini geliştirmemize yardımcı olmak amacıyla Mi sunucularına yüklenecektir</string>
     <string name="status_bar_network_flow_purchase">"   Satın al >"</string>
@@ -1063,14 +1076,14 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="om_cpu_overload_proc_title">Sorunlar</string>
     <string name="om_media_scan_timeout_proc_name">Medya sunucusu</string>
     <string name="om_media_scan_timeout_proc_detail">Medya sunucusu arkaplanda çalışıyor. Etkinliklerini kısıtlayabilirsiniz</string>
-    <string name="om_media_scan_time_warn_title">"Medya sunucusu arkaplanda çalışıyor
+    <string name="om_media_scan_time_warn_title">"Medya sunucusu arkaplanda çalışıyor 
 Bu durum pil ömrünü kısaltır"</string>
     <string name="om_other_processes">Diğer görevler</string>
     <string name="om_other_processes_cpu_usage_summary">Ortalama işlemci kullanımı %%%s seviyesinden az</string>
     <string name="om_cpu_overload_app_fixed">Tüm sorunlar onarıldı</string>
     <string name="om_memory_clean_cleaning_text">Hız artırılıyor</string>
     <string name="om_formatted_percent_string">%%%s</string>
-    <string name="om_cpu_usage_warn_title_text">"Bu uygulama cihazınızı
+    <string name="om_cpu_usage_warn_title_text">"Bu uygulama cihazınızı 
 yavaşlatabilir"</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">%s kaldırılsın mı?</string>
@@ -1373,7 +1386,7 @@ yavaşlatabilir"</string>
     <string name="sp_settings_info_monitor">Ödeme uygulamaları başlatıldığında sistemi takip edin</string>
     <string name="scan_status_safe">Güvenli</string>
     <string name="scan_status_risk">Riskli</string>
-    <string name="safepay_alert_dialog_button_risk">Onar</string>
+    <string name="safepay_alert_dialog_button_fix">Düzelt</string>
     <string name="safepay_alert_dialog_button_continue">Devam et</string>
     <string name="safe_result_header_info_protecting">Korunuyor</string>
     <string name="safe_result_item_info_system_version">Miui güncel</string>
@@ -1408,10 +1421,10 @@ yavaşlatabilir"</string>
     <string name="sp_monitored_apps_count_zero">Korunan ödeme uygulaması yok</string>
     <string name="monitor_app_more">Daha fazla</string>
     <string name="monitor_app_add">Ekle</string>
+    <string name="sc_system_risk_fix_info_xspace">Bunu ikinci alanda çözemezsiniz. Birinci alanda tekrar deneyin</string>
     <string name="dialog_no_longer_alert">Tekrar gösterme</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Genel wifi uyarı</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Güvensiz olabilecek bir kamu wifi ağına bağlısınız. Ödemenizin tamamlanmadan önce korunduğundan emin olun</string>
-    <string name="sc_system_risk_fix_info_xspace">Bunu ikinci alanda çözemezsiniz. Birinci alanda tekrar deneyin</string>
     <string name="sc_warning_updater_not_found">Güncelleyici uygulaması bulunamadı. Güncelleme yapılamıyor</string>
     <string name="sp_background_risk_dialog_title">Uyarı</string>
     <string name="sp_background_risk_dialog_summary">, ödeme sorunlarını kontrol edin ve düzeltin</string>
@@ -1770,6 +1783,20 @@ yavaşlatabilir"</string>
     <string name="title_garbage_clean">Uygulama önbellek boyutu aşıldı: %s</string>
     <string name="summary_garbage_clean">Cihazınızda yer açmak için önbelleği temizleyin</string>
     <string name="summary_consume_power">Isınma sorunları bulundu. Bu durum pil ömrünü etkileyebilir</string>
+    <string name="title_restrict_data_usage">%s internete bağlanamıyor mu?</string>
+    <string name="summary_restrict_data_usage">Bu uygulama için veri kullanımını kısıtladınız. Düzeltmek için dokunun</string>
+    <string name="title_background_connection">"Arka planda %s kullanamaz mı?"</string>
+    <string name="summary_background_connection">Bu uygulama için arka plan bağlantısını kısıtladınız. Düzeltmek için dokunun</string>
+    <string name="title_block_calls_from_cantacts">Bayan arkadaşlarından gelen aramalar mı?</string>
+    <string name="summary_block_calls_from_cantacts">Engelleme listesini kullanıyorsunuz. Düzeltmek için dokunun</string>
+    <string name="title_block_calls_from_strangers">Önemli aramalar mı?</string>
+    <string name="summary_block_calls_from_strangers">Sadece kişilerden gelen aramalara izin verilir. Düzeltmek için dokunun</string>
+    <string name="title_do_not_disturb">Zil sesini duymuyor musunuz?</string>
+    <string name="summary_do_not_disturb">DND modunu kullanıyorsunuz. Düzeltmek için dokunun</string>
+    <string name="title_eye_shield">Ekran rengi doğru görünmüyor mu?</string>
+    <string name="summary_eye_shield">Okuma modunu kullanıyorsunuz. Düzeltmek için dokunun</string>
+    <string name="dialog_button_ignore">Yoksay</string>
+    <string name="dialog_button_yes">Evet</string>
     <string name="summary_default_app">%s varsayılan sistem uygulaması olarak ayarlı değil</string>
     <string name="notification_summary_cmcc_app_check">Detayları görüntülemek için dokunun</string>
     <string name="title_cmcc_app_check">Doğrulama tamamlanmadı</string>
@@ -1899,6 +1926,15 @@ yavaşlatabilir"</string>
     <string name="card_main_xspace_action">Oluştur</string>
     <string name="card_main_overscroll_tips">Güvenlik en iyi haliyle</string>
     <string name="card_main_gamebooster_title">Oyun hızlandırıcı</string>
+    <string name="exit_dialog_scan_title">Performansı optimize et</string>
+    <string name="exit_dialog_scan_message">Cihazınızın performans puanı 75 puandan düşük. Şimdi optimize edilsin mi?</string>
+    <string name="exit_dialog_scan_positive_button">Optimize et</string>
+    <string name="exit_dialog_garbage_clean_title">Çöpü temizle</string>
+    <string name="exit_dialog_garbage_clean_message">"Cihazınızdaki çöp miktarı %s'den fazla. Çöp temizlensin mi?"</string>
+    <string name="exit_dialog_garbage_clean_positive_button">Temizle</string>
+    <string name="exit_dialog_release_storage_title">Boş alan</string>
+    <string name="exit_dialog_release_storage_message">"Cihazınızdaki depolamanın %80'den fazlası dolu. Hiç kullanmadığınız uygulamaları kaldırarak yer açın"</string>
+    <string name="exit_dialog_release_storage_positive_button">Boş alan</string>
     <string name="skin_change_close_toast">Değişiklikler Güvenlik uygulamasını bir sonraki açışınızda uygulanacaktır</string>
     <string name="password_type">Şifreyi değiştir</string>
     <string name="password_type_underline"><u>Şifreyi değiştir</u></string>
@@ -1909,6 +1945,7 @@ yavaşlatabilir"</string>
     <string name="ac_notification_contentTitle">Uygulamaları uygulama kilidi ile koruyun</string>
     <string name="ac_pre_notification_contentTitle">Uygulama kilidini deneyin</string>
     <string name="ac_post_notification_contentTitle">Uygulama kilidini aç</string>
+    <string name="midrop_post_notification_contentTitle">Dosya aktarımı mı gerekiyor?</string>
     <string name="notification_masked_item">Bildirimleri gizle</string>
     <string name="lock_mode_title">Kilit ayarları</string>
     <string name="after_the_lock_screen">Uygulamaları ekranla birlikte kilitleyin</string>
@@ -1918,6 +1955,7 @@ yavaşlatabilir"</string>
     <string name="ac_notification_contentText">Açmak için dokunun</string>
     <string name="ac_pre_notification_contentText">Kişisel bilgilerinizi koruyun</string>
     <string name="ac_post_notification_contentText">Sistem düzeyinde koruma sağlayın</string>
+    <string name="midrop_post_notification_contentText">"Mi Drop'ı dene. Hızlı ve reklamsız"</string>
     <string name="notification_masked_subtitle">Uygulama kilidi ile korunan uygulamalardan gelen bildirimleri gizle</string>
     <string name="ac_enter_applock">Uygulama kilidi şifrenizi girin</string>
     <string name="ac_mask_all_apps">Tüm uygulamalar için gizle</string>
@@ -1926,8 +1964,8 @@ yavaşlatabilir"</string>
     <string name="ac_summaryOff">Kapatıldı. Uygulamaları açmak için şifre gerekmemektedir</string>
     <string name="lockpattern_tutorial_cancel_label">İptal et et</string>
     <string name="lockpattern_tutorial_continue_label">İleri</string>
-    <string name="lockpattern_tutorial_continue_label_next">"Sonraki öğesine dokunun"</string>
-    <string name="lockpattern_tutorial_continue_label_confirm">"Tamam öğesine dokunun"</string>
+    <string name="lockpattern_tutorial_continue_label_next">Sonraki öğesine dokunun</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Tamam öğesine dokunun</string>
     <string name="lockpattern_retry_button_text">Tekrar çizin</string>
     <string name="numeric_retry_button_text">İptal et</string>
     <string name="mixed_retry_button_text">İptal et</string>
@@ -1955,7 +1993,7 @@ yavaşlatabilir"</string>
     <string name="access_control_need_to_unlock_nofingerprint">Uygulama kilidi şifrenizi girin</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Yeni bir parmak izi kullanmak için kilit açma deseninizi çizin</string>
     <string name="access_control_fingerprint_not_identified_msg">Parmak izi okunamadı</string>
-    <string name="access_control_need_password">"%s başarıyla eklendi
+    <string name="access_control_need_password">"%s başarıyla eklendi 
 "</string>
     <string name="privacy_mode_dialog_title">Misafir modu</string>
     <string name="lockpattern_settings_help_how_to_record">Bir desen çizin</string>
@@ -2101,7 +2139,7 @@ yavaşlatabilir"</string>
     <string name="sponsored_sec_fb">Sponsorlu</string>
     <string name="add_game_notification_summary">Başlatmak &amp; hızı arttırmak için dokunun</string>
     <string name="app_manager_title">Uygulamaları yönet</string>
-    <string name="app_manager_app_lock">Uygulama kilidi</string>
+    <string name="app_manager_uninstall">Kaldır</string>
     <string name="app_manager_bipartition">Çift uygulamalar</string>
     <string name="app_manager_perm">İzinler</string>
     <string name="app_manager_app_update">Güncellemeler</string>
@@ -2172,13 +2210,13 @@ yavaşlatabilir"</string>
     <string name="app_manager_clear_cache">Önbelleği temizle</string>
     <string name="app_manager_reset_app_preferences">Uygulama tercihlerini sıfırla</string>
     <string name="app_manager_reset_app_preferences_title">Uygulama tercihleri sıfırlansın mı?</string>
-    <string name="app_manager_reset_app_preferences_desc">"Aşağıda belirtilen uygulama tercihlerini sıfırlayacaktır:
-
- <li>Devre dışı bırakılan uygulamalar</li>
- <li>Devre dışı bırakılan uygulama bildirimleri</li>
- <li>İşlemler için varsayılan uygulamalar</li>
- <li>Uygulamalar için arkaplan veri kısıtlamaları</li>
-
+    <string name="app_manager_reset_app_preferences_desc">"Aşağıda belirtilen uygulama tercihlerini sıfırlayacaktır: 
+ 
+ "<li>Devre dışı bırakılan uygulamalar</li>" 
+ "<li>Devre dışı bırakılan uygulama bildirimleri</li>" 
+ "<li>İşlemler için varsayılan uygulamalar</li>" 
+ "<li>Uygulamalar için arkaplan veri kısıtlamaları</li>" 
+ 
  Herhangi bir uygulama verisi kaybetmezsiniz"</string>
     <string name="app_manager_reset_app_preferences_button">Sıfırla</string>
     <string name="app_manager_disable_text">Devre dışı bırak</string>
@@ -2235,6 +2273,8 @@ yavaşlatabilir"</string>
     <string name="gs_anto_clean_memory_whitelist">İstisnalar</string>
     <string name="gs_call_handsfree">Eller serbest arama yanıtlama</string>
     <string name="gs_call_handsfree_mute">Sessiz mod</string>
+    <string name="gs_gamebox">Oyun içi kısayollar</string>
+    <string name="gs_gamebox_detail">Oyun içi kısayol panelini göster</string>
     <string name="gs_forbid_autosync">Arka plan senkronizasyonu kısıtla</string>
     <string name="gs_app_back_self_start">Pil tasarrufu</string>
     <string name="gs_only_self_start_for_list">Oyun deneyimi için pil tasarrufu amacıyla arkaplan işlemlerini kısıtlar</string>
@@ -2387,4 +2427,15 @@ yavaşlatabilir"</string>
     <string name="gs_open_game_booster_summary">Ağ hızınızı oyunlar için hızlandırın</string>
     <string name="gb_signed_gift_loading_summary">Yükleniyor</string>
     <string name="gb_signed_gift_loading_fail">Yüklenemedi</string>
+    <string name="gb_msg_completely_shielded">Mesajları gizle</string>
+    <string name="gb_msg_quickly_answer">Hızlı yanıtlara izin ver</string>
+    <string name="gb_msg_transparent_dispaly">Saydam arka plana sahip bildirimler</string>
+    <string name="gb_msg_completely_shielded_summary">Gizle</string>
+    <string name="gb_msg_not_shielded_summary">Göster</string>
+    <string name="gb_msg_quickly_answer_summary">Hızlı cevaplar</string>
+    <string name="gb_msg_transparent_dispaly_summary">Şeffaf</string>
+    <string name="exit_dialog_homepage_optimise_message">Cihazınızın performans puanı 80 puandan düşük. Şimdi optimize edilsin mi?</string>
+    <string name="screenrecord_not_find">Ekran kaydedicinin en son sürümünü yükleyin ve tekrar deneyin</string>
+    <string name="gamebox_qq_not_find">"QQ'yu kurun ve tekrar deneyin"</string>
+    <string name="gamebox_wechat_not_find">"WeChat'i yükleyin ve tekrar deneyin"</string>
 </resources>

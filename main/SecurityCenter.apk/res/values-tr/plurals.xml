@@ -112,6 +112,14 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">%d pil sorunu bulundu. Onarın</item>
         <item quantity="one">%d pil sorunu bulundu. Onarın</item>
     </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d pil sorunu</item>
+        <item quantity="one">%d pil sorunu</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">%d pil sorunu bulundu. Düzeltin</item>
+        <item quantity="one">%d pil sorunu bulundu. Düzeltin</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">%1$d kişi tarafından indirildi</item>
     </plurals>

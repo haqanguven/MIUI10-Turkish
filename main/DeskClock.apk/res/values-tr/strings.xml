@@ -166,11 +166,11 @@
     <string name="timer_continue">Devam et</string>
     <string name="timer_continue_timer">Zamanlayıcıyı devam ettir</string>
     <string name="timer_got_it">Tamam</string>
-    <string name="timer_item_duration_display">%1$d dakika %2$d Saniye</string>
+    <string name="timer_item_duration_display">%1$d dakika %2$d saniye</string>
     <string name="timer_item_label_hint">Adı</string>
-    <string name="timer_item_picker_hour">Saat</string>
-    <string name="timer_item_picker_minute">Dakika</string>
-    <string name="timer_item_picker_second">Saniye</string>
+    <string name="timer_item_picker_hour">sa</string>
+    <string name="timer_item_picker_minute">dk</string>
+    <string name="timer_item_picker_second">sn</string>
     <string name="timer_new_item">Zaman ekle</string>
     <string name="timer_notify_text">Zamanlayıcıyı ertele veya yoksay</string>
     <string name="timer_pause_hint">Duraklat</string>

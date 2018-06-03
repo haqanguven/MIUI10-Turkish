@@ -36,6 +36,14 @@
         <item quantity="other">%d uygulama otomatik başlama iznine sahip</item>
         <item quantity="one">%d uygulama otomatik başlama iznine sahip</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d uygulama ağa bağlanabilir</item>
+        <item quantity="one">%d uygulama ağa bağlanabilir</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d uygulama ağa bağlanamıyor</item>
+        <item quantity="one">%d uygulama ağa bağlanamıyor</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d cihaz</item>
         <item quantity="one">%d cihaz</item>
@@ -83,6 +91,10 @@
     <plurals name="enterprise_privacy_number_packages_lower_bound">
         <item quantity="other">Minimum %d uygulama</item>
         <item quantity="one">Minimum %d uygulama</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">%s uygulama için kısıtlanmış bağlantı</item>
+        <item quantity="one">%s uygulama için kısıtlanmış bağlantı</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d kişi bağlandı</item>
