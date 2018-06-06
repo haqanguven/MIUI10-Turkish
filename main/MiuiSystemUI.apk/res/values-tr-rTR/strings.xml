@@ -1399,8 +1399,8 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_settings_label">Ayarlar</string>
     <string name="quick_settings_sync_label">Senkronize</string>
     <string name="quick_settings_tethering_label">Tethering</string>
-    <string name="quick_settings_tiles">Varsayılan</string>
-    <string name="quick_settings_tiles_default">wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,location</string>
+    <string name="quick_settings_tiles">default</string>
+    <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit</string>
     <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
     <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,midrop</string>
     <string name="quick_settings_time_label">Zaman</string>
