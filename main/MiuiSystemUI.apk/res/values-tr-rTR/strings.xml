@@ -6,7 +6,7 @@
     <string name="China_Unicom">Çin Unicom</string>
     <string name="abbrev_wday_month_day_no_year">EEEEMMMMd</string>
     <string name="abbrev_wday_month_day_no_year_alarm">EEEMMMd</string>
-    <string name="abc_action_bar_home_description">Eve git</string>Daha fazla seçenek
+    <string name="abc_action_bar_home_description">Eve git</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Yukarı git</string>
@@ -1762,7 +1762,7 @@ Telefonunuz çok ısınabilir:
     <string name="usb_ptp_text">Resimler</string>
     <string name="usb_share_net_info">Bilgisayarın internet bağlantısını kullan</string>
     <string name="usb_storage_error_message">Cihazınız USB yığın depolama aygıtı olarak görüntülenmeye çalışırken bir hata oluştu</string>
-    <string name="usb_storage_message">Bilgisayarınıza USB üzerinden bağlısınız. Bilgisayarınız ve Android‘s USB depolama arasında dosya kopyalamak istiyorsanız aşağıdaki butona dokunun</string>
+    <string name="usb_storage_message">Bilgisayarınıza USB üzerinden bağlısınız. Bilgisayarınız ve Android USB depolama arasında dosya kopyalamak istiyorsanız aşağıdaki butona dokunun</string>
     <string name="usb_storage_notification_message">Bilgisayarınızdan kopyalanacak dosyaları seçin</string>
     <string name="usb_storage_notification_title">USB bağlandı</string>
     <string name="usb_storage_stop_message">USB depolamayı kapatmadan önce Android cihazınızın USB depolama alanının bağlantısının bilgisayardan güvenli bir şekilde kaldırıldığından emin olun</string>
@@ -1779,7 +1779,7 @@ Telefonunuz çok ısınabilir:
 Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncelleyebilir"</string>
     <string name="user_add_user_title">Yeni kullanıcı eklensin mi?</string>
     <string name="user_guest">Misafir</string>
-    <string name="user_guide_for_notification">Bildirim çubuğunu görüntülemek için bir parmağınızla dokunup aşağı doğru kaydırın</string>
+    <string name="user_guide_for_notification">Bildirim gölgesini açmak için aşağı kaydırın</string>
     <string name="user_guide_for_toggle">Geçiş listesi yatay olarak görüntülenebilir</string>
     <string name="user_guide_for_toggle_list">Geçişleri yönet</string>
     <string name="user_logout_notification_action">Kullanıcı oturumunu kapat</string>
@@ -1791,7 +1791,7 @@ Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncell
     <string name="user_remove_user_title">Kullanıcı kaldırılsın mı?</string>
     <string name="v7_preference_off">Kapat</string>
     <string name="v7_preference_on">Aç</string>
-    <string name="velocity_tracker_impl">Platform</string>
+    <string name="velocity_tracker_impl">platform</string>
     <string name="verify_apps_over_usb_summary">ADB/ADT üzerinden yüklenen uygulamaları zararlı davranışlara karşı denetle</string>
     <string name="verify_apps_over_usb_title">"USB'den yüklenen uygulamaları doğrula"</string>
     <string name="voice_assist_label">Ses asistanını aç</string>
@@ -1811,7 +1811,7 @@ Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncell
     <string name="volume_stream_suppressed">%1$s sessiz — %2$s</string>
     <string name="volume_stream_vibrate">%s titreşim</string>
     <string name="volume_stream_vibrate_dnd">%s titreşim — Sadece öncelik</string>
-    <string name="volume_up_silent">"Ses seviyesinde DND'den çık"</string>
+    <string name="volume_up_silent">Sesma açma tuşu ile DND modundan çık</string>
     <string name="volume_zen_end_now">Şimdi kapat</string>
     <string name="vpn_footer">Ağ izlenebilir</string>
     <string name="vpn_settings_not_available">Vpn ayarları bu kullanıcı için kullanılamıyor</string>
