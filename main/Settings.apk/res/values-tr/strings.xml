@@ -181,7 +181,7 @@ Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız\""</string
     <string name="add_back_fingerprint_instruction_msg">Parmağınızı sensörün üzerine yerleştirin</string>
     <string name="add_device_admin">Etkinleştir</string>
     <string name="add_device_admin_msg">Cihaz yöneticisi etkinleştirilsin mi?</string>
-    <string name="add_facerecoginition_text">Yüz tanımı</string>
+    <string name="add_facerecoginition_text">Yüz tanımı ekle</string>
     <string name="add_fingerprint_cancel_button_text">Geri</string>
     <string name="add_fingerprint_done_msg">Şimdi cihaz kilidinizi parmak izinizle açabilirsiniz</string>
     <string name="add_fingerprint_done_title">Artık hazırsınız</string>
@@ -2961,7 +2961,7 @@ Bu cihazda başka kullanıcılar da var
     <string name="network_reset_not_available">Bu kullanıcı için ağ ayarlarına sıfırlama işlevi kullanılamıyor</string>
     <string name="network_restrictions">Ağ kısıtlamaları</string>
     <string name="network_scorer_change_active_dialog_text">Ağ bağlantılarınızı yönetmek için %2$s yerine %1$s uygulaması kullanılsın mı?</string>
-    <string name="network_scorer_change_active_dialog_title">Wifi assistant değiştirilsin mi?</string>
+    <string name="network_scorer_change_active_dialog_title">Wifi asistanı değiştirilsin mi?</string>
     <string name="network_scorer_change_active_no_previous_dialog_text">Ağ bağlantılarınızı yönetmek için %s kullanılsın mı?</string>
     <string name="network_scorer_picker_none_preference">Yok</string>
     <string name="network_scorer_picker_title">Ağ derecelendirme sağlayıcısı</string>
@@ -4895,6 +4895,7 @@ Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz
     <string name="toast_need_login">Mi hesabınızda oturum açın</string>
     <string name="total">Rahatsız etme</string>
     <string name="total_info">Alarmlar harici sesleri sustur ve titreşimi kapat</string>
+    <string name="total_info_sub">ve titreşimi kapat</string>
     <string name="total_memory">Toplam bellek</string>
     <string name="total_size">Toplam : %s</string>
     <string name="total_size_label">Toplam</string>
@@ -5518,7 +5519,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_api_test">Wifi API</string>
     <string name="wifi_ask_disable">%s kablosuz özelliğini kapatmak istiyor</string>
     <string name="wifi_ask_enable">%s kablosuz özelliğini açmak istiyor</string>
-    <string name="wifi_assistant">Wifi assistant</string>
+    <string name="wifi_assistant">Wifi asistanı</string>
     <string name="wifi_assistant_auto_confirm_data_message">Bu wifi ağının internete erişimi yoktur. Cihazınız bunun yerine mobil veriyi kullanacaktır. Ayarlardan wifi asistanını kapatabilirsiniz</string>
     <string name="wifi_assistant_confirm_always">Tekrar gösterme</string>
     <string name="wifi_assistant_confirm_connection_title">Onayla</string>

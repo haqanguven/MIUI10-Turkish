@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="activity_not_found">Bu işlemi yapabilecek uygulama bulunamadı</string>
     <string name="back_to_message_list">Mesaj listesine dön</string>
     <string name="confirm_delete_conversation">Tüm konu silinsin mi?</string>
@@ -38,6 +37,8 @@
     <string name="sent_label">"Gönderilen: "</string>
     <string name="smart_messages_network_allow_message">Mi mesaj hizmetlerinin normal çalışması için internete bağlanması gerekmektedir. Şimdi izin verilsin mi?</string>
     <string name="smart_messages_network_allow_title">İnternet bağlantısı gerekiyor</string>
+    <string name="sms_card_partner_label">"Mesaj kartı ortağı: "</string>
+    <string name="sms_card_teddy_mobile">Teddy Mobil</string>
     <string name="text_message">Metin mesajı</string>
     <string name="view_message_details">Detayları görüntüle</string>
     <string name="sim1">Sim 1</string>
