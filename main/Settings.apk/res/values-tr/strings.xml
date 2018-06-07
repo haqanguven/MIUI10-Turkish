@@ -1084,7 +1084,7 @@ Oynatma Kalitesi"</string>
     <string name="close_demo_mode">İptal et</string>
     <string name="close_gesture">Vücut hareketi kullanarak kapat</string>
     <string name="close_miui_optimization_title">Miui optimizasyonu kapat</string>
-    <string name="close_optimization_message">Bu özelliği kapattıktan sonra metin düzeni, hesaplar ve Miui'nin diğer bölümleri etkilenebilir</string>
+    <string name="close_optimization_message">"Bu özelliği kapattıktan sonra metin düzeni, hesaplar ve Miui'nin diğer bölümleri etkilenebilir"</string>
     <string name="close_optimization_option">Kapat</string>
     <string name="cloud_backup_section_title">Mi bulut yedekleme</string>
     <string name="cloud_backup_settings_section_title">Yedekleme ayarları</string>

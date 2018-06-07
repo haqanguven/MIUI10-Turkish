@@ -64,7 +64,7 @@
     <string name="hours">%d saat</string>
     <string name="install_weather_app_error">Uygulama yüklenemedi</string>
     <string name="install_weather_app_loading">Yükleniyor</string>
-    <string name="invalid_time">Invalid time: %3$s %1$d: %2$d</string>
+    <string name="invalid_time">Geçersiz zaman: %3$s %1$d: %2$d</string>
     <string name="keep_screen_on">Ekranı açık tut</string>
     <string name="label">Etiket belirle</string>
     <string name="label_pref_summary">Etiket</string>
@@ -168,9 +168,9 @@
     <string name="timer_got_it">Tamam</string>
     <string name="timer_item_duration_display">%1$d dakika %2$d saniye</string>
     <string name="timer_item_label_hint">Adı</string>
-    <string name="timer_item_picker_hour">sa</string>
-    <string name="timer_item_picker_minute">dk</string>
-    <string name="timer_item_picker_second">sn</string>
+    <string name="timer_item_picker_hour">S</string>
+    <string name="timer_item_picker_minute">D</string>
+    <string name="timer_item_picker_second">S</string>
     <string name="timer_new_item">Zaman ekle</string>
     <string name="timer_notify_text">Zamanlayıcıyı ertele veya yoksay</string>
     <string name="timer_pause_hint">Duraklat</string>
@@ -197,7 +197,7 @@
     <string name="worldcolock_timezone_current">Şimdiki: %1$s</string>
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">Saat</string>
-    <string name="worldcolock_timezone_local">Yerel saatle aynı</string>
+    <string name="worldcolock_timezone_local">yerel saatle aynı</string>
     <string name="worldclock_input_hint_text">Ülke veya şehre girin</string>
     <string name="worldclock_search_city">Şehir seç</string>
     <string name="worldclock_world_time">Zaman dilimleri</string>
