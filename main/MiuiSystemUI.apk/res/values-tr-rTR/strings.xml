@@ -380,16 +380,16 @@
     <string name="bluetooth_sap_profile_summary_connected">"SAP'ye bağlı"</string>
     <string name="bluetooth_sap_profile_summary_use_for">Sim erişimi için kullan</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth ses örnek başına bit sayısı</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Bluetooth ses codec'ini seçin:\u000d
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Bluetooth ses codec'ini seçin:
 Örnek başına bit sayısı"</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth ses kanalı modu</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Bluetooth ses codec'ini seçin:\u000d
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Bluetooth ses codec'ini seçin:
 Kanal modu"</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">"Bluetooth ses LDAC codec'i: Oynatma kalitesi"</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Bluetooth ses LDAC codec'ini seçin:\u000d
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Bluetooth ses LDAC codec'ini seçin:
 Oynatma kalitesi"</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth ses örnek hızı</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth ses codec'ini seçin:\u000d
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth ses codec'ini seçin:
 Örnek hızı"</string>
     <string name="bluetooth_select_a2dp_codec_streaming_label">Akış: %1$s</string>
     <string name="bluetooth_select_a2dp_codec_type">"Bluetooth ses codec'i"</string>
