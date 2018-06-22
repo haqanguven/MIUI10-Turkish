@@ -3,7 +3,8 @@
     <string name="passport_account_label">Mi hesabı</string>
     <string name="passport_notification_title">%1$s hesabı giriş hatası</string>
     <string name="passport_login_prompt">Tek bir Mi hesabı. Tüm Mi hizmetleri</string>
-    <string name="passport_login_using_other_ways"><u>Diğer oturum açma yolları</u></string>
+    <string name="passport_login_using_other_ways">Diğer oturum açma yolları</string>
+    <string name="passport_register_using_other_ways">Diğer kayıt olma yolları</string>
     <string name="passport_login_title">Mi hesabınızda oturum açın</string>
     <string name="passport_login">Oturum aç</string>
     <string name="passport_relogin">Tekrar oturum aç</string>
@@ -26,7 +27,8 @@
     <string name="passport_reg_using_other_phone_number_prompt">"Şunu kullanarak yeni bir hesap oluştur "</string>
     <string name="passport_reg_success_summary">%1$s hesabınız ile bağlantılandı. Hesabınızda oturum açmak veya şifrenizi sıfırlamak için kullanabilirsiniz</string>
     <string name="passport_re_register">Tekrar kayıt olun</string>
-    <string name="passport_register">Bir hesap oluştur</string>
+    <string name="passport_register">Hesap oluştur</string>
+    <string name="passport_new_user_register">Hesap oluştur</string>
     <string name="passport_vcode_sms_send_prompt">%s numarasına doğrulama kodu gönder</string>
     <string name="passport_get_verify_code">Kodu al</string>
     <string name="passport_re_get_verify_code">Kodu tekrar al</string>
@@ -72,6 +74,7 @@ bağlantı adresini kullanın"</string>
     <string name="passport_skip_register">Kaydı atla</string>
     <string name="passport_account_not_activated">Hesap etkinleştirilmedi</string>
     <string name="passport_change_account"><u>Hesabı değiştir</u></string>
+    <string name="passport_btn_change_account">Hesabı değiştir</string>
     <string name="passport_register_account_verified_confirm">Hesap doğrulandı</string>
     <string name="passport_register_account_goto_email">Gelen kutusuna git</string>
     <string name="passport_error_dup_email">Girmiş olduğunuz e-posta adresi başka bir hesapla ilişkilendirilmiş durumda</string>
@@ -91,6 +94,7 @@ bağlantı adresini kullanın"</string>
     <string name="passport_input_password_hint">Şifrenizi girin</string>
     <string name="passport_input_captcha_hint">Kodu girin</string>
     <string name="passport_input_vcode_hint">Doğrulama kodunu girin</string>
+    <string name="passport_input_voice_hint">Ses kodunu girin</string>
     <string name="passport_email">E-posta adresi</string>
     <string name="passport_vcode_prompt_long">Doğrulama kodunu girin</string>
     <string name="passport_input_phone_hint">Telefon numarası girin</string>
@@ -104,6 +108,7 @@ bağlantı adresini kullanın"</string>
     <string name="passport_error_empty_pwd">Şifrenizi girin</string>
     <string name="passport_error_illegal_pwd">Geçersiz şifre</string>
     <string name="passport_error_empty_captcha_code">Güvenlik kodunu girin</string>
+    <string name="passport_error_empty_voice_code">Güvenlik kodunu girin</string>
     <string name="passport_error_empty_vcode">Doğrulama kodunu girin</string>
     <string name="passport_i_know">Anladım</string>
     <string name="passport_retry">Yeniden deneyin</string>
@@ -116,6 +121,7 @@ bağlantı adresini kullanın"</string>
     <string name="passport_yes">Evet</string>
     <string name="passport_no">Hayır</string>
     <string name="passport_continue">Devam et</string>
+    <string name="passport_Resend">Yeniden gönder</string>
     <string name="passport_loading">Yükleniyor</string>
     <string name="passport_reging">Hesap oluşturuluyor</string>
     <string name="passport_checking_account">Şifre kontrol ediliyor</string>
@@ -147,6 +153,7 @@ bağlantı adresini kullanın"</string>
     <string name="passport_error_user_name">Girmiş olduğunuz kullanıcı adı geçersiz</string>
     <string name="passport_access_denied">Erişim engellendi</string>
     <string name="passport_wrong_captcha">Girmiş olduğunuz kod yanlış</string>
+    <string name="passport_wrong_voice">Girdiğiniz kod yanlış</string>
     <string name="passport_wrong_vcode">Girmiş olduğunuz kod yanlış</string>
     <string name="passport_error_device_id">Cihaz kimliği alınamıyor</string>
     <string name="passport_error_invalid_dev_id">Cihaz kimliğiniz geçersiz</string>
@@ -207,6 +214,8 @@ bağlantı adresini kullanın"</string>
     <string name="passport_talkback_voice_captcha">Ses doğrulama kodunu oynat</string>
     <string name="passport_talkback_switch_voice_captcha">Ses doğrulama koduna geç</string>
     <string name="passport_talkback_switch_image_captcha">Resim doğrulama koduna geç</string>
+    <string name="passport_license_info_open">Detaylar</string>
+    <string name="passport_license_info_collapse">Daralt</string>
     <string name="search_app_name">Mi hesabı</string>
     <string name="search_mi_account">Mi hesabı</string>
     <string name="search_mi_account_key_words">Mi bulut,Hesap ayarları,Mi Pay bilgileri,Oturumu kapat</string>
@@ -338,6 +347,7 @@ bağlantı adresini kullanın"</string>
     <string name="account_user_details">Kişisel bilgiler</string>
     <string name="account_security">Hesap güvenliği</string>
     <string name="account_mibi_center">Mi kredi</string>
+    <string name="account_mibi_charge">Mi kredi Ücreti</string>
     <string name="account_mipay_info">Mi ödeme</string>
     <string name="account_xiaomi_service">Hizmetler</string>
     <string name="cloud_service">Mi bulut</string>

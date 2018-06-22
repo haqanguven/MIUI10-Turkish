@@ -1525,6 +1525,10 @@
         <item>polaris</item>
         <item>ysl</item>
     </string-array>
+    <string-array name="device_global_support_face_sensetime">
+        <item>dipper</item>
+        <item>beryllium</item>
+    </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
         <item>polaris</item>
@@ -2316,6 +2320,9 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="poco_device_list">
+        <item>beryllium</item>
+    </string-array>
     <array name="power_click">
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>
@@ -2442,6 +2449,15 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>RU</item>
         <item>HK</item>
         <item>TW</item>
+    </string-array>
+    <string-array name="region_global_support_face_sensetime">
+        <item>IN</item>
+        <item>ID</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>SG</item>
+        <item>VN</item>
+        <item>MY</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Sol el stili</item>

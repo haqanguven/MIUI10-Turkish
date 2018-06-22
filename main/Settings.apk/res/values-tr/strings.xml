@@ -701,8 +701,8 @@ En son %2$s tarihinde çalıştırıldı"</string>
     <string name="bluetooth_connected_summary">%1$s cihazına bağlı</string>
     <string name="bluetooth_connecting">Bağlanıyor</string>
     <string name="bluetooth_connecting_error_message">%1$s cihazına bağlanılamadı</string>
-    <string name="bluetooth_connection_dialog_text">\"%1$s\" cihazına bağlanmak istiyor musunuz?</string>
-    <string name="bluetooth_connection_notif_message">\"%1$s\" cihaza bağlanmak için dokunun</string>
+    <string name="bluetooth_connection_dialog_text">%1$s cihazına bağlanmak istiyor musunuz?</string>
+    <string name="bluetooth_connection_notif_message">%1$s cihaza bağlanmak için dokunun</string>
     <string name="bluetooth_connection_permission_request">Bluetooth bağlantı isteği</string>
     <string name="bluetooth_device">Adsız bluetooth cihazı</string>
     <string name="bluetooth_device_address">Adres:</string>
@@ -914,14 +914,20 @@ Oynatma Kalitesi"</string>
     <string name="bootloader_apply_step_4">Bu işlem veri kaybına, bilgilerinizin açığa çıkmasına veya onarılamaz donanım sorunlarına dahi yol açabilir</string>
     <string name="bootloader_apply_step_5">Fastboot modunu etkinleştirmeden önce modu nasıl kullanacağınızı biliyor olduğunuzdan emin olun</string>
     <string name="bootloader_apply_title">Önemli uyarı</string>
-    <string name="bootloader_device_bind_already">Başarıyla eklendi. Mi hesabı şimdi bu cihaz ile ilişkilendirildi.</string>
+    <string name="bootloader_device_bind_already">Başarıyla eklendi. Mi hesabı şimdi bu cihaz ile ilişkilendirildi</string>
+    <string name="bootloader_device_bind_exceed_sim_limit">Bu Sim karta daha fazla hesap eklenemiyor</string>
     <string name="bootloader_device_bind_fail">Doğrulanamadı. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
     <string name="bootloader_device_bind_msg">Hesap ve cihaz eklemeye hazırlanılıyor</string>
     <string name="bootloader_device_bind_no_account">Öncelikle Mi hesabınızda oturum açın</string>
     <string name="bootloader_device_bind_no_network">Ağa bağlanın ve tekrar deneyin</string>
-    <string name="bootloader_locked_answer_1">Cihazları güvenli olduklarından ve kişisel bilgilerinizin üçüncü şahıslar ile paylaşılmadığından emin olmak için kilitleriz. İhtiyaç duyduğunuzda Fastboot moduna girebilir, sistem yazılımını yükleyebilir ve cihazınızın kilidini açabilirsiniz.</string>
-    <string name="bootloader_locked_answer_1_warning">Unutmayın: Telefonun kilidi açıldıktan sonra \"Cihazı bul\" özelliğini kullanamazsınız.</string>
-    <string name="bootloader_locked_answer_2">Mi hesabınızı bu cihaz ile ilişkilendirmek için aşağıdaki tuşa dokunun ve ardından kilit açma aracını indirmek için Miui internet sitesine gidin ve aracı bilgisayarınıza yükleyin. Adres burada:</string>
+    <string name="bootloader_device_bind_no_sim">Sim kartı takın ve tekrar deneyin</string>
+    <string name="bootloader_device_bind_server_code">Eklenemedi. Hata kodu:</string>
+    <string name="bootloader_device_bind_sim_invalid">Sim kart geçersiz. Değiştirin veya tekrar deneyin</string>
+    <string name="bootloader_locked_answer_1">Cihazları güvenli olduklarından ve kişisel bilgilerinizin üçüncü şahıslar ile paylaşılmadığından emin olmak için kilitleriz. İhtiyaç duyduğunuzda Fastboot moduna girebilir, sistem yazılımını yükleyebilir ve cihazınızın kilidini açabilirsiniz</string>
+    <string name="bootloader_locked_answer_1_warning">Unutmayın: Telefonun kilidi açıldıktan sonra cihazı bul özelliğini kullanamazsınız</string>
+    <string name="bootloader_locked_answer_2">"Mi hesabınızı bu cihaz ile ilişkilendirmek için aşağıdaki tuşa dokunun 
+ve ardından kilit açma aracını indirmek için Miui internet sitesine gidin ve aracı bilgisayarınıza yükleyin
+Adres burada:"</string>
     <string name="bootloader_locked_check_status">Hesap ve cihaz ekle</string>
     <string name="bootloader_locked_question_1">Cihazlar neden kilitli olmalıdır?</string>
     <string name="bootloader_locked_question_2">Tehlikelerin farkındayım, cihazımın kilidini hala açmak istiyorum.</string>
@@ -929,6 +935,11 @@ Oynatma Kalitesi"</string>
     <string name="bootloader_status_locked">Kilitli</string>
     <string name="bootloader_status_locked_info">Cihaz kilitli</string>
     <string name="bootloader_status_locked_summary">Cihaz güvenli</string>
+    <string name="bootloader_status_privacy_dialog_message">Mi kilit açmanın normal çalışması için Mi hesabınıza, işlemci Kimliğinize, Imei ve Imsi numaranıza erişmeye ihtiyaç duyar. Verilerinizi %s ile uyumlu olarak toplar, kullanır ve işleriz. Kabul ediyor musunuz?</string>
+    <string name="bootloader_status_privacy_dialog_no">İptal et</string>
+    <string name="bootloader_status_privacy_dialog_title">İzin gerekli</string>
+    <string name="bootloader_status_privacy_dialog_url_text">Gizlilik politikası</string>
+    <string name="bootloader_status_privacy_dialog_yes">Kabul et</string>
     <string name="bootloader_status_summary">Cihazının kilit durumunu kontrol edin</string>
     <string name="bootloader_status_unlocked">Kilit açıldı</string>
     <string name="bootloader_status_unlocked_info">Bu cihazın kilidi açıldı</string>
@@ -1483,6 +1494,7 @@ Veri kullanımı telefonunuz tarafından ölçülür ve operatörünüzün kulla
     <string name="device_memory">Ram</string>
     <string name="device_miui_more">Daha fazla</string>
     <string name="device_miui_version">Miui sürümü</string>
+    <string name="device_miui_version_for_POCO">Miui sürümü (POCO)</string>
     <string name="device_miui_version_update">Miui güncellemesi mevcut</string>
     <string name="device_name">Cihaz adı</string>
     <string name="device_name_input_error">Cihaz adı kaydedilemedi</string>
@@ -2250,6 +2262,9 @@ Bu seçenek daha fazla pil kullanabilir"</string>
     <string name="key_combination_power_back">Güç + geri</string>
     <string name="key_combination_power_home">Güç + ana ekran</string>
     <string name="key_combination_power_menu">Güç + menü</string>
+    <string name="key_fsg_dialog_message">Navigasyon için tam ekran hareketleri kullanıyorsunuz. Düğmeyle ilgili özellikler artık mevcut değil. Düğmelere geç</string>
+    <string name="key_fsg_dialog_negative">İptal et</string>
+    <string name="key_fsg_dialog_positive">Düğmelere geç</string>
     <string name="key_gesture_function_dialog_message">%1$s, %2$s için bir kısayoldur. %3$s ile değiştirilsin mi?</string>
     <string name="key_gesture_function_dialog_negative">İptal et</string>
     <string name="key_gesture_function_dialog_positive">Değiştir</string>
@@ -2784,6 +2799,9 @@ Bu cihazda başka kullanıcılar da var
     <string name="miui_allow_vibrate">Titreşimler</string>
     <string name="miui_data_usage_menu_metered">Mobil internet bağlantı noktaları</string>
     <string name="miui_experience_optimization">Miui optimizasyonu</string>
+    <string name="miui_lab_ai_cloud_closed">AI ön yükleme henüz mevcut değil</string>
+    <string name="miui_lab_ai_preload_desc">AI ön yükleme uygulaması başlatma hızını artırır</string>
+    <string name="miui_lab_ai_preload_title">AI ön yükleme</string>
     <string name="miui_lab_drive_mode_desc">Ses kontrollerini kullan &amp; WeChat mesajlarını dinle</string>
     <string name="miui_lab_drive_mode_title">Araç modu</string>
     <string name="miui_lab_feature_applied">Uygulandı</string>
@@ -2796,8 +2814,6 @@ Bu cihazda başka kullanıcılar da var
     <string name="miui_lab_slogan">Öğren, araştır ve keşfet</string>
     <string name="miui_lab_super_resolution_desc">Görüntüleri daha canlı hale getirin</string>
     <string name="miui_lab_super_resolution_title">Süper çözünürlük</string>
-    <string name="miui_lab_taplus_desc">İşlem yapmak için öğelere basın ve basılı tutun</string>
-    <string name="miui_lab_taplus_title">Taplus</string>
     <string name="miui_master_clear_summary">Telefon üzerindeki tüm verileri siler</string>
     <string name="miui_touch_filtered_warning">Bir uygulama izin iletişim kutusunu engelliyorsa, çakışan öğeyi uzaklaştırın veya uygulamayı kapatın</string>
     <string name="miui_updater">Sistem güncellemesi</string>
@@ -3409,7 +3425,7 @@ Ayrıca bildirimleri kapatabilecek veya bildirimdeki işlem düğmelerini tetikl
     <string name="preferred_network_type_title">Tercih edilen ağ türü</string>
     <string name="preferred_sms_settings">Bu uygulama metin mesajı okuma ve yazma işlemleri için varsayılan uygulama olarak ayarlanacaktır</string>
     <string name="preferred_sms_title">Varsayılan mesajlaşma uygulaması</string>
-    <string name="preferred_sms_warning_message">\"%1$s\" uygulamasını varsayılan mesajlaşma uygulaması olarak kullanmanız mobil veri kullanımını arttırmakla birlikte kişisel verilerinizi tehlike altına sokar ve RCS hizmetlerinin kullanılamamasına neden olur</string>
+    <string name="preferred_sms_warning_message">%1$s uygulamasını varsayılan mesajlaşma uygulaması olarak kullanmanız mobil veri kullanımını arttırmakla birlikte kişisel verilerinizi tehlike altına sokar ve RCS hizmetlerinin kullanılamamasına neden olur</string>
     <string name="preferred_sms_warning_use_system">Kullanma</string>
     <string name="premium_sms_access">Premium mesaj erişimi</string>
     <string name="premium_sms_none">Yüklü hiçbir uygulama premium mesaj erişimi isteğinde bulunmadı</string>
@@ -4835,7 +4851,8 @@ Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz
     <string name="talkback_title">Talkback</string>
     <string name="tap_to_wake">Hafifçe dokunarak uyandır</string>
     <string name="tap_to_wake_summary">Cihazı uyandırmak için ekranda herhangi bir yere iki kez hafifçe dokunun</string>
-    <string name="telephony_monitor_switch">Telephony Monitor</string>
+    <string name="taplus_title">Taplus</string>
+    <string name="telephony_monitor_switch">Telefon monitörü</string>
     <string name="telephony_monitor_switch_summary">Telefon monitörü, telefon veya modem işleviyle ilgili bir sorun algıladığında günlükleri toplar ve hatayı bildirmesi için kullanıcıya bir bildirim gösterir</string>
     <string name="telephony_monitor_toast">Telephony monitor değişikliğini uygulamak için cihazı yeniden başlatın</string>
     <string name="terms_title">Şartlar ve koşullar</string>
@@ -5559,6 +5576,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_cellular_data_fallback_summary">Kablosuz ağın internet erişimi olmadığında hücresel veri kullanılır. Veri kullanımı söz konusu olabilir</string>
     <string name="wifi_cellular_data_fallback_title">Mobil veriye otomatik olarak geç</string>
     <string name="wifi_certificate">Sertifika</string>
+    <string name="wifi_click_login_wlan">Giriş veya yetkilendirme gerektirir</string>
     <string name="wifi_click_share_wlan">Parolayı paylaşmak için dokunun</string>
     <string name="wifi_config_info">Wifi yapılandırması</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_off">Kablosuz özelliği otomatik olarak tekrar açılmaz</string>
@@ -6070,7 +6088,7 @@ diğer kullanıcıların ağlarınıda kullanabilirsiniz"</string>
     <string name="zen_mode_screen_on_visual_interruptions">Ekran açıkken</string>
     <string name="zen_mode_selected_callers">Seçili arayanlar</string>
     <string name="zen_mode_selected_messages">Seçili iletiler</string>
-    <string name="zen_mode_settings_summary_off">No automatic rules turned on</string>
+    <string name="zen_mode_settings_summary_off">Otomatik kural açık değil</string>
     <string name="zen_mode_settings_title">Rahatsız etme</string>
     <string name="zen_mode_start_time">Başlangıç zamanı</string>
     <string name="zen_mode_summary_alarms_only_by_time">Yalnızca şu saate kadar alarmlara geç: %1$s</string>

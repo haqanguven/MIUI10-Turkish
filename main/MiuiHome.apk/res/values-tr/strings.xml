@@ -181,7 +181,8 @@
     <string name="guide_install_app_title">Uygulama bulunsun ve yüklensin mi?</string>
     <string name="guide_tips_editing_mode">Bir araç seçmek için basın &amp; basılı tutun</string>
     <string name="home_screen">Ana ekran</string>
-    <string name="image_too_small_message">Orijinal imaj yeteri kadar büyük değil</string>
+    <string name="icon_reorganize_channel">Simgeleri düzenle</string>
+    <string name="image_too_small_message">Orijinal fotoğraf yeteri kadar büyük değil</string>
     <string name="install">Yükle</string>
     <string name="invalid_contact_shortcut">Geçersiz kişi</string>
     <string name="is_setting_wallpaper_message">Duvar kağıdı ayarlanıyor</string>
@@ -342,7 +343,6 @@
     <string name="widget_gadget_player">Müzik</string>
     <string name="widget_global_search">Ara</string>
     <string name="widget_quick_function">Hızlı fonksiyonlar</string>
-    <string name="icon_reorganize_channel">Simge düzenleme</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
     <string name="durationformatshort">%2$2d:%5$02d</string>
     <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>

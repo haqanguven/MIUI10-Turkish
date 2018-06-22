@@ -3,6 +3,7 @@
     <string name="camera_setting">Kamera</string>
     <string name="path_settings">Sistem uygulamaları/Kamera/Ayarlar</string>
     <string name="search_settings">Kamera ayarları;Kalite;İmaj kalitesi;İmaj konumu;Resim konumu;Yüz tanıma;Kamera sesi</string>
+    <string name="hibernate_hint">Kamerayı uyandırmak için ekrana dokunun</string>
     <string name="camera_error_title">Kamera hatası</string>
     <string name="cannot_connect_camera_once">Kameraya bağlanılamıyor</string>
     <string name="cannot_connect_camera_twice">Kameraya hala bağlanılamıyor. Cihazınızı yeniden başlatmayı deneyin</string>
@@ -45,6 +46,11 @@
     <string name="pref_video_quality_entry_wvga">WVGA</string>
     <string name="pref_video_quality_entry_vga">VGA</string>
     <string name="pref_video_quality_entry_wqvga">WQVGA</string>
+    <string name="pref_video_encoder_title">Video kodlayıcı</string>
+    <string name="pref_video_encoder_entry_h264">Yüksek uyumluluk: H.264</string>
+    <string name="pref_video_encoder_entry_h265">Yüksek performans: H.265</string>
+    <string name="pref_video_encoder_default">h264</string>
+    <string name="pref_video_hfr_entryvalue_default">5:120</string>
     <string name="pref_video_time_lapse_frame_interval_title">Hızlandırılmış çekim kayıt aralığı</string>
     <string name="pref_video_time_lapse_frame_interval_default">120</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06-ikinci aralık)</string>
@@ -547,6 +553,7 @@
     <string name="dual_camera_lens_covered_toast">Lens kapalı</string>
     <string name="dual_camera_use_hint">Nesnenin 2 metreden uzak mesafede olmadığından emin olun</string>
     <string name="bokeh_use_hint">Derinlik efekti</string>
+    <string name="back_bokeh_use_hint">Nesnenin 1,5 metreden uzak mesafede olmadığından emin olun</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">Lens</string>
@@ -660,11 +667,21 @@ ve parazitin en az seviyede olduğu bir kare oluşturacaktır"</string>
     <string name="config_name_super_resolution">Süper çözünürlük</string>
     <string name="beauty_fragment_tab_name_beauty">Güzellik</string>
     <string name="beauty_fragment_tab_name_makeup">Gelişmiş</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Güzellik</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Modelleme</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_skin_smooth">Pürüzsüz</string>
     <string name="edit_eye_large">Büyük gözler</string>
     <string name="edit_face_slender">İnce</string>
     <string name="edit_face_ruddy">Kırmızı</string>
+    <string name="edit_nose">Burun</string>
+    <string name="edit_risorius">Berberler</string>
+    <string name="edit_lips">Dudaklar</string>
+    <string name="edit_chin">Çene</string>
+    <string name="edit_neck">Boyun</string>
+    <string name="edit_smile">Gülümseme</string>
+    <string name="edit_slim_nose">Burun</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D güzellik</string>
     <string name="sticker_tab1">Şirin</string>
     <string name="sticker_tab2">Komik</string>
     <string name="user_agreement2">Hizmet şartları</string>
@@ -696,4 +713,11 @@ telefonunuzu döndürün"</string>
 ve sahneyi temel alarak resmi optimize edin"</string>
     <string name="pref_camera_asd_popup_title">Flaş gerektiğinde bildir</string>
     <string name="pref_video_captrue_ability_title">Kayıt sırasında görüntü yakalama</string>
+    <string name="face_analyze_info">Yaş: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">Standard: 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Tam ekran: 16:9</string>
+    <string name="lens_dirty_detected_title_back">Arka kamera merceği kirli</string>
+    <string name="lens_dirty_detected_title_front">Ön kamera merceği kirli</string>
+    <string name="lens_dirty_detected_content">"Fotoğraf makinenizin merceği kirli görünüyor
+Daha iyi efekt için lensi temizleyin"</string>
 </resources>

@@ -240,11 +240,12 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="abrupt_weather_settings_summary_type_a">Olağandışı hava uyarısı anahtarı</string>
     <string name="abrupt_weather_settings_summary_type_b">Olağandışı hava uyarısı anahtarı</string>
     <string name="abrupt_weather_settings_title">Olağandışı hava uyarısı</string>
-    <string name="clear_net_mock_success">Net mock clear success</string>
+    <string name="clear_net_mock_success">Başarılı oldu</string>
     <string name="information_settings_title">Hava durumu bilgisi</string>
     <string name="other_settings">Diğer ayarlar</string>
     <string name="receive_net_mock_success">Başarılı oldu</string>
     <string name="missing_required_permission">Gerekli izinleri devre dışı bıraktınız</string>
+    <string name="no_data">Veri yok</string>
     <string name="aqi_detail_co">CO</string>
     <string name="aqi_detail_no2">NO₂</string>
     <string name="aqi_detail_o3">O₃</string>
@@ -260,7 +261,6 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="hour_minute_time_format">HH:mm</string>
     <string name="indices_desc_humidity_without_pic">%1$s%%</string>
     <string name="indices_desc_pressure">%1$smb</string>
-    <string name="no_data">--</string>
     <string name="temperature_unit_default">0</string>
     <string name="twc_logo_title" />
     <string name="wind_power_unit_default">0</string>

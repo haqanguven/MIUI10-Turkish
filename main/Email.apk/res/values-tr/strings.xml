@@ -48,7 +48,6 @@
     <string name="account_settings_notify_summary">Yeni e-posta alındığında bildirim görüntüle</string>
     <string name="account_settings_param">Hesap ayarları</string>
     <string name="account_settings_policies">Güvenlik politikaları</string>
-    <string name="account_settings_preference_add_account">E-posta hesabı ekle</string>
     <string name="account_settings_preference_att_save_path">Eklentiler için varsayılan konum</string>
     <string name="account_settings_preference_head_icon">Profil fotoğrafları</string>
     <string name="account_settings_preference_notify">Bildir</string>
@@ -456,7 +455,7 @@
     <string name="forward_attachment">İlet</string>
     <string name="forward_attribution">---------- İletilen mesaj ----------&lt;br>Kimden: %1$s&lt;br>Tarih: %2$s&lt;br>Konu: %3$s&lt;br>Kime: %4$s&lt;br></string>
     <string name="forward_attribution_no_headers">---------- İletilen mesaj ----------</string>
-    <string name="forward_download_failed_ticker">Bir veya daha fazla ek yönlendirilemedi.</string>
+    <string name="forward_download_failed_ticker">Bir veya daha fazla ek yönlendirilemedi</string>
     <string name="forward_download_failed_title">Ekler yönlendirilemedi</string>
     <string name="free_period_text">Faizsiz dönem</string>
     <string name="from_heading">"Başlangıç: "</string>
@@ -523,7 +522,6 @@
     <string name="mail_header_network_not_available">Ağ bağlantınız yok</string>
     <string name="mailbox_list_account_selector_combined_view">Birleşik hesap</string>
     <string name="mailbox_name_display_ad">Reklamlar</string>
-    <string name="mailbox_name_display_add_account">E-posta hesabı ekle</string>
     <string name="mailbox_name_display_circular">Bildirimler</string>
     <string name="mailbox_name_display_drafts">Taslaklar</string>
     <string name="mailbox_name_display_inbox">Gelen kutusu</string>
@@ -545,11 +543,11 @@
     <string name="maileditor_fontsize_textitem5">16pt</string>
     <string name="maileditor_fontsize_textitem6">18pt</string>
     <string name="manual_sync">Şimdi senkronize et</string>
-    <string name="mark_important">Önemli olarak işaretle</string>
+    <string name="mark_important">Önemli işaretle</string>
     <string name="mark_not_important">Önemli işaretini kaldır</string>
     <string name="mark_not_spam">Spam işaretini kaldır</string>
-    <string name="mark_read">Okundu olarak işaretle</string>
-    <string name="mark_unread">Okunmadı olarak işaretle</string>
+    <string name="mark_read">Okundu işaretle</string>
+    <string name="mark_unread">Okunmadı işaretle</string>
     <string name="me_object_pronun">ben</string>
     <string name="me_subject_pronun">ben</string>
     <string name="meeting_accepted">"
@@ -919,7 +917,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="sending_quick_reply">%s gönderiliyor</string>
     <string name="sent_folder_selection_title">%s için sunucunun gönderilen ögeler klasörünü seçin</string>
     <string name="ser_resp_err_map_certificate_validator_err">"Sunucu sertifikası doğrulanamadı
-\u0009(Otomatik senkronizasyon zamanı ayarını açtığınızdan emin olun)"</string>
+(Otomatik senkronizasyon zamanı ayarını açtığınızdan emin olun)"</string>
     <string name="ser_resp_err_map_landing_more_failure">Çok fazla sayıda başarısız oturum açma girişimi</string>
     <string name="ser_resp_err_map_landing_too_frequently">Çok fazla oturum açma girişimi</string>
     <string name="ser_resp_err_map_mailbox_locked">E-posta hesabı parola korumalıdır</string>
@@ -1021,7 +1019,6 @@ Hesap kaldırılsın mı?"</string>
     <string name="unread_string">okunmamış konuşma</string>
     <string name="unzip_file_failed">Dosya çıkartılamadı</string>
     <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
-    <string name="update_to_wps_mail">WPS mail ile daha fazla özelliğin tadını çıkartın</string>
     <string name="updated_at">%1$s tarihinde yenilendi</string>
     <string name="upload_log">Kayıtları karşıya yükle</string>
     <string name="upload_log_failed">Günlükler gönderilemedi</string>
@@ -1087,6 +1084,7 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="overlays_title">Kayan pencere izinlerini aç</string>
     <string name="permission_tip">Yapılandırma başarısız oldu. Yapılandırma izinleri sırasında lütfen aramalara ve metin mesajlarına izin verin</string>
     <string name="sms_tip">Kimlik doğrulama başarısız oldu. Antivirüs yazılımının mesajları engelleyip engellemediğini kontrol edin</string>
+    <string name="account_setup_failed_auth_required">Kimlik doğrulama yöntemleri sunucu tarafından desteklenmez</string>
     <string name="default_exchange">Exchange</string>
     <string name="default_imap">IMAP</string>
     <string name="default_pop3">POP3</string>
@@ -1094,7 +1092,21 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="load_attachment">@string/load_more</string>
     <string name="more_string">+%1$s</string>
     <string name="no_address_email">noaddressemail@123.com</string>
+    <string name="login_mail">Mail ile oturum aç</string>
+    <string name="need_get_qq_mail">QQ mail ihtiyacınız var</string>
+    <string name="open_notification_kingagent">Mezarlık noktası bildirimini aç</string>
+    <string name="optimization_suggestion">Optimizasyon önerisi</string>
+    <string name="others_mail">Diğerleri</string>
+    <string name="others_mail_des">"(60,0000'den fazla dönüştürme)"</string>
+    <string name="qq_authorization_help_get">Almama yardım et</string>
+    <string name="qq_authorization_know">Yetkilendirme kodunu anlama</string>
+    <string name="qq_authorization_tips">Artık istemiyor</string>
+    <string name="qq_verify_code">(QQ doğrulama kodu gerekir)</string>
     <string name="signature_black_shark">Blackshark telefonumdan gönderildi</string>
+    <string name="title_activity_about">Hakkında</string>
+    <string name="verify_code">Doğrulama kodu</string>
+    <string name="version_string">Sürüm: %s</string>
+    <string name="wps_title">WPS mail</string>
     <string name="account_cache_provider">Hesap ön bellek sağlayıcısı</string>
     <string name="account_manager_type_exchange">com.android.exchange</string>
     <string name="account_manager_type_imap">com.android.email</string>

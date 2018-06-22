@@ -216,12 +216,6 @@
     <string name="save_to_gallery_failure_message">Galeriye kaydedilemedi</string>
     <string name="save_to_gallery_icon_name">Galeriye kaydet</string>
     <string name="save_to_gallery_success_message">Resmi galeriye başarıyla kaydedildi</string>
-    <string name="sina_share_fail">Gönderme başarısız</string>
-    <string name="sina_share_fail_content_repeat">Paylaşılamadı. İçerik zaten mevcut</string>
-    <string name="sina_share_pendding">Gönderiliyor</string>
-    <string name="sina_share_success">Gönderildi</string>
-    <string name="sina_token_expired_warning">Weibo hesabınızın süresi doldu: Lütfen yeniden bağlayın</string>
-    <string name="sina_token_invalid_warning">Weibo hesabı geçersiz: Lütfen yeniden bağlayın</string>
     <string name="snippet_audio_stub">Sesli not</string>
     <string name="toast_refuse_to_record_when_in_call">Aramalar sırasında bu özelliği kullanamazsınız</string>
     <string name="toolbar_text_description">Yazı stili</string>

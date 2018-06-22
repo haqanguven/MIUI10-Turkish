@@ -81,10 +81,10 @@
     <string name="hksar_establishment_day">İdari bölgesi</string>
     <string name="the_first_weekday_after_christmas">Noel günü sonraki ilk iş günü</string>
     <string name="good_friday">Hayırlı cumalar</string>
-    <string name="day_following_good_friday">Good Friday ertesi günü</string>
+    <string name="day_following_good_friday">Hayırlı cumanın ertesi günü</string>
     <string name="easter">Paskalya</string>
     <string name="slight_cold">Osamu</string>
-    <string name="great_cold">The Big Chill</string>
+    <string name="great_cold">Büyük soğuk</string>
     <string name="spring_begins">Baharın başlangıcı</string>
     <string name="the_rains">Yağmur suyu</string>
     <string name="insects_awaken">Böcekleri uyandırma</string>

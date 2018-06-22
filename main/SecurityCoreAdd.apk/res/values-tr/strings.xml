@@ -397,4 +397,5 @@ Güncelleme yapmazsanız çift uygulamalar da düzgün çalışmayabilir"</strin
     <string name="experience_more_features">Tüm özellikleri görmek için cihaz ekle</string>
     <string name="can_not_switch_when_green_kid_active">İkinci alana geçmek aile bekçisi tarafından sınırlandırılmıştır</string>
     <string name="need_network_when_bind">Cihaz eklemeden önce ağa bağlanın</string>
+    <string name="this_function_can_not_use_in_second_space">Bu özellik sadece ilk alanda kullanılabilir</string>
 </resources>

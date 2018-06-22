@@ -385,7 +385,7 @@ Kişi kartları kapatıldı"</string>
     <string name="device_transfer_by_sim_message">"1. Diğer cihazda kayıtlı kişileri Sim karta kopyalayın; 
 
 
-2. Kişiler uygulamasında ayarlar menüsünü açın ve kişileri içe veya dışa aktar -- Sim karttan içe aktar seçeneklerini bulun. Kişiyi seçmek için herhangi bir Sim kişisine basılı tutun. Gerekli tüm kişileri seçin ve ardından içe aktar seçeneğine dokunun"</string>
+2. Kişiler uygulamasında ayarlar menüsünü açın ve kişileri içe veya dışa aktar - Sim karttan içe aktar seçeneklerini bulun. Kişiyi seçmek için herhangi bir Sim kişisine basılı tutun. Gerekli tüm kişileri seçin ve ardından içe aktar seçeneğine dokunun"</string>
     <string name="device_version_header_bluetooth">Bluetooth ile içe aktar</string>
     <string name="device_version_header_no_bluetooth">Sim kart ile içe aktar</string>
     <string name="dial">Çevir</string>
@@ -904,6 +904,7 @@ Kişinin adının yanındaki yıldız simgesine dokunun
     <string name="preference_phone">Telefon</string>
     <string name="preference_phone_more_title">Arama ayarları</string>
     <string name="preference_remove_duplicate">Çoklu kişi kayıtlarını birleştir</string>
+    <string name="preference_show_firewall_calllog">Arama geçmişinde engellenen aramaları göster</string>
     <string name="preference_show_yellowpage_tab_description">Sarı sayfalar bu özellik kapalı olduğunda doğru çalışmayabilir</string>
     <string name="preference_show_yellowpage_tab_title">Sarı sayfaları göster</string>
     <string name="preference_simple_mode_description">Liste görünümünde fotoğrafları ve diğer kişi bilgileri görüntülenir</string>
@@ -1250,9 +1251,9 @@ Lütfen ilgili seçeneklerden birini seçin:"</string>
     <string name="help_url_people_add" />
     <string name="help_url_people_edit" />
     <string name="help_url_people_main" />
-    <string name="lunar_calendar">农历</string>
-    <string name="lunar_leap">闰</string>
-    <string name="lunar_yue">月</string>
-    <string name="solar_calendar">公历</string>
-    <string name="yellowpage_mi_family">小米之家</string>
+    <string name="lunar_calendar">Ay takvimi</string>
+    <string name="lunar_leap">Takvime eklendi</string>
+    <string name="lunar_yue">Ay</string>
+    <string name="solar_calendar">Gregoryen takvimi</string>
+    <string name="yellowpage_mi_family">Mi ev</string>
 </resources>

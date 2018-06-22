@@ -13,6 +13,10 @@
         <item>Telefon</item>
         <item>Tablet</item>
     </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Dikey görünüm</item>
+        <item>Yatay görünüm</item>
+    </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Çok küçük</item>
         <item>Küçük</item>
@@ -263,6 +267,10 @@
         <item>@string/pref_link_prefetch_value_always</item>
     </string-array>
     <string-array name="pref_nav_mode_summary_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_navscreen_layoutstate_values">
         <item>0</item>
         <item>1</item>
     </string-array>

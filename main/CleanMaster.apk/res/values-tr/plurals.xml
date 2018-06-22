@@ -101,6 +101,16 @@
         <item quantity="other">&lt;font color="#ff0000">&lt;Data>%d uygulama uzun zamandır kullanılmadı. Uygulamaları gözden geçirin;&lt;/Data>&lt;/font></item>
         <item quantity="one">&lt;font color="#ff0000">&lt;Data>%d uygulama uzun zamandır kullanılmadı. Uygulamaları gözden geçirin;&lt;/Data>&lt;/font></item>
     </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"%1$d dosya temizleniyor. %2$d tamamlandı
+"</item>
+        <item quantity="one">"%1$d dosya temizleniyor. %2$d tamamlandı
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%%%1$d öğe/saniye kaldı: %2$s</item>
+        <item quantity="one">%%%1$d öğe/saniye kaldı: %2$s</item>
+    </plurals>
     <plurals name="hour">
         <item quantity="other">%1$d saat</item>
         <item quantity="one">%1$d saat</item>

@@ -2201,10 +2201,10 @@ yavaşlatabilir"</string>
     <string name="app_manager_app_info_label">Uygulama bilgisi</string>
     <string name="app_manager_app_info_name">Uygulama adı</string>
     <string name="app_manager_app_ifno_version">Uygulama sürümü</string>
-    <string name="app_manager_app_info_pkg">Apk adı</string>
+    <string name="app_manager_app_info_pkg">Paket adı</string>
     <string name="app_manager_copy_pkg_to_clip">Panoya kopyalandı</string>
     <string name="app_manager_show_all_apps">Tüm uygulamaları göster</string>
-    <string name="app_manager_hide_system_server">Sistem servislerini gizle</string>
+    <string name="app_manager_hide_system_server">Sistem uygulamalarını gizle</string>
     <string name="app_manager_back">Geri</string>
     <string name="app_manager_defaults_setting">Varsayılanlar</string>
     <string name="app_manager_clear_cache">Önbelleği temizle</string>
@@ -2252,6 +2252,7 @@ yavaşlatabilir"</string>
     <string name="app_manager_open_show_all_apps_immediate">Tüm sonuçları göster</string>
     <string name="app_manager_mobile_slot1">Mobil veri (Sim 1)</string>
     <string name="app_manager_mobile_slot2">Mobil veri (Sim 2)</string>
+    <string name="app_manager_details_title">Uygulama bilgisi</string>
     <string name="ad_btn_default_text">Daha fazla bilgi edinin</string>
     <string name="open_activity_err">Uygulama bulunamadı</string>
     <string name="low_memory_warning_dialog_title">Yeterli boş alan yok</string>
@@ -2438,4 +2439,7 @@ yavaşlatabilir"</string>
     <string name="screenrecord_not_find">Ekran kaydedicinin en son sürümünü yükleyin ve tekrar deneyin</string>
     <string name="gamebox_qq_not_find">"QQ'yu kurun ve tekrar deneyin"</string>
     <string name="gamebox_wechat_not_find">"WeChat'i yükleyin ve tekrar deneyin"</string>
+    <string name="gamebox_type_close">Gösterme</string>
+    <string name="gamebox_type_float">Sabit kısayol</string>
+    <string name="gamebox_type_gesture">Göstermek için hızlıca kaydırın</string>
 </resources>

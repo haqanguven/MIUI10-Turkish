@@ -255,6 +255,18 @@
     <array name="car_facet_intent_uris" />
     <array name="car_facet_longpress_intent_uris" />
     <array name="car_facet_package_filters" />
+    <string-array name="carrier_name">
+        <item>Çin Mobil</item>
+        <item>Çin Unicom</item>
+        <item>Çin Telekom</item>
+        <item>SmarToneVodafone</item>
+    </string-array>
+    <string-array name="carrier_simple_name">
+        <item>CM</item>
+        <item>CU</item>
+        <item>CT</item>
+        <item>SMC HK</item>
+    </string-array>
     <string-array name="clock_options">
         <item>Saati, dakikaları ve saniyeleri göster</item>
         <item>Saati ve dakikayı göster (Varsayılan)</item>
@@ -332,10 +344,14 @@
         <item>opengl</item>
         <item>skiagl</item>
     </string-array>
-    <string-array name="device_global_support_face">
+    <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
         <item>polaris</item>
         <item>ysl</item>
+    </string-array>
+    <string-array name="device_global_support_face_sensetime">
+        <item>dipper</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -375,6 +391,7 @@
         <item>dipper</item>
         <item>sirius</item>
         <item>ursa</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Hiçbiri</item>
@@ -632,12 +649,21 @@
         <item>1280x720/213;1920x1080/320</item>
     </string-array>
     <array name="recents_blacklist_array" />
-    <string-array name="region_support_face">
+    <string-array name="region_global_support_face_facejiajia">
         <item>IN</item>
         <item>ID</item>
         <item>RU</item>
         <item>HK</item>
         <item>TW</item>
+    </string-array>
+    <string-array name="region_global_support_face_sensetime">
+        <item>IN</item>
+        <item>ID</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>SG</item>
+        <item>VN</item>
+        <item>MY</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>

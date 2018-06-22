@@ -73,7 +73,7 @@ Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası s
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Cihazınızın kilidini açmak veya diğer uygulama ve hizmetlerde oturum açmak için parmak izinizi kullanın</string>
     <string name="content_description_start">Başlat</string>
-    <string name="start_up_slogan" />
+    <string name="start_up_slogan">Tam ekran deneyimi için tasarlandı</string>
     <string name="content_description_miui_version">Miui 10</string>
     <string name="content_description_complete">Tamamlandı</string>
     <string name="language_picker_other_languages_title">Daha fazla dil</string>

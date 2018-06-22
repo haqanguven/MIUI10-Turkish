@@ -43,9 +43,11 @@
     <string name="action_menu_toolbox">Araçlar</string>
     <string name="action_menu_useful_page">Kısayol ekle</string>
     <string name="action_menu_useful_page_added">Ana sayfaya eklendi</string>
-    <string name="action_menu_user_center">Profile</string>
+    <string name="action_menu_user_center">Profil</string>
     <string name="action_modify_bookmark">Yer işaretini değiştir</string>
+    <string name="action_one_touch">Bildirimleri aç</string>
     <string name="action_put_in_search_box">%s arama kutusuna koy</string>
+    <string name="action_skip">Atla</string>
     <string name="adblock_force_updating_rules_toast">Reklam engelleyici güncelleniyor</string>
     <string name="adblock_notification">%d reklam engellendi</string>
     <string name="adblock_rules_not_updated_toast">Güncellenemedi</string>
@@ -281,6 +283,7 @@ Mi hesabınızda oturum açın"</string>
     <string name="enable_geolocation_confirm_message">Konum hizmetlerini kapatmanız aldığınız önerileri de etkileyecektir</string>
     <string name="enter_developer_mode">Geliştirici moduna gir</string>
     <string name="enter_incongnito_mode">Gizli moda gir</string>
+    <string name="enter_infoflow_guide">Haberleri görmek için yukarı kaydırın</string>
     <string name="enter_the_group_name">Lütfen grup ismini giriniz</string>
     <string name="enter_the_password">Lütfen şifreyi giriniz</string>
     <string name="enter_the_user_name">Lütfen kullanıcı adını giriniz</string>
@@ -338,8 +341,10 @@ Mi hesabınızda oturum açın"</string>
     <string name="homepage_more_sites">Daha fazla internet sitesi</string>
     <string name="homepage_search_hint">Ara</string>
     <string name="homepage_top_card_menu">Üst</string>
+    <string name="hot_words_item_ads_mark">Reklamlar</string>
     <string name="ignore_add_pwa_dialog_today">Bugün gösterme</string>
     <string name="in_secureaccess">Tarıyıcı güvenli moda geçti</string>
+    <string name="info_flow_description">Bilgi kanalı</string>
     <string name="isReplacePage">Dosya zaten mevcut. Değiştirilsin mi?</string>
     <string name="is_first_history_item">Bu tarayıcı geçmişindeki ilk sayfa</string>
     <string name="is_first_tab">Bu ilk sekme</string>
@@ -371,6 +376,7 @@ Mi hesabınızda oturum açın"</string>
     <string name="menu_title_open_file_management">Dosya yöneticisinde aç</string>
     <string name="menu_title_pause_all">Tümünü duraklat</string>
     <string name="menu_title_resume_all">Tümünü başlat</string>
+    <string name="message_notice_push">Son sıcak noktaları artık özledim</string>
     <string name="miui_autologin_bar_error">Oturum açılamıyor</string>
     <string name="miui_autologin_bar_title">Mi hesabınız ile oturum açın</string>
     <string name="miui_bookmark_action_bar_add_group_title">Grup ekle</string>
@@ -886,6 +892,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="pref_nav_mode_summary_pad">Tablet</string>
     <string name="pref_nav_mode_summary_phone">Telefon</string>
     <string name="pref_nav_mode_title">Tarayıcı modu</string>
+    <string name="pref_navscreen_layoutstate_title">Çok pencere yönetimi</string>
     <string name="pref_notifications_hint">Bildirimler</string>
     <string name="pref_notifications_receive">Bildirimler</string>
     <string name="pref_notifications_title">Bildirimler</string>
@@ -964,6 +971,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="readmode_recommend_message">Bu kitabı zaten okudunuz :)</string>
     <string name="readmode_refresh">Yenile</string>
     <string name="readmodelist_bookmarks_to_show">Okuma listesi</string>
+    <string name="refresh_description">Yenile</string>
     <string name="refuse_permissions_request">Kısıtla</string>
     <string name="remember_passwords_confirm_message">Bu özelliği kapatmak kullanılabilirliği etkileyebilir</string>
     <string name="remove_bookmark">Yer imini sil</string>
@@ -991,6 +999,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="save_file">%s dosyayı kaydet</string>
     <string name="save_file_already_exist_alert_message">Aynı isme sahip başka bir dosya mevcut. Dosya değiştirilsin mi?</string>
     <string name="save_file_already_exist_alert_title">Dosya değiştirilsin mi?</string>
+    <string name="save_file_suffix">Dosya</string>
     <string name="save_form_data_confirm_message">Bu özelliği kapatmak kullanılabilirliği etkileyebilir</string>
     <string name="save_image_failed">Resim kaydedilemedi</string>
     <string name="save_image_success">Resim kaydedildi</string>
@@ -1035,10 +1044,12 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="send_comment_title">Yorum</string>
     <string name="senddesktop">Ana ekran</string>
     <string name="sendstartpage">Başlangıç sayfası</string>
-    <string name="sequence_bookmark_description">Press and hold to rearrange bookmarks</string>
+    <string name="sequence_bookmark_description">Yer işaretlerini yeniden düzenlemek için basılı tutun</string>
     <string name="share_image_text">"\@MIUI'de ne paylaştığıma bak"</string>
     <string name="share_page_text">Ne paylaştığıma bak: %1$s @MIUI| %2$s</string>
     <string name="share_video">Video paylaş</string>
+    <string name="short_video_description">Video kanalı</string>
+    <string name="short_video_tip">Bak! Eğlenceli video</string>
     <string name="show_check_security_url_check_tip_dialog_description">"Tarayıcının normal olarak çalışabilmesi için internete bağlanması gerekmektedir
 Güvenlik düzeyini artırmak
 ve daha ilgili öneriler almak için
@@ -1091,7 +1102,7 @@ ve konumunuza erişim izni verin
     <string name="suggest_access_item_app_size">%.2f MB</string>
     <string name="suggest_access_item_app_update">Güncelle: %s</string>
     <string name="suggest_access_item_book_mark">Kitaplar</string>
-    <string name="suggest_access_item_mina_mark">hızlı uygulamalar</string>
+    <string name="suggest_access_item_mina_mark">Hızlı uygulamalar</string>
     <string name="suggest_access_item_music_mark">Müzik</string>
     <string name="suggest_access_item_singer_albums">%d albüm</string>
     <string name="suggest_access_item_singer_pop">%d popüler şarkı</string>
@@ -1102,6 +1113,7 @@ ve konumunuza erişim izni verin
     <string name="suggest_access_music">Mi müzik</string>
     <string name="suggest_item_delete_text">Sil</string>
     <string name="suggest_open_app_failed">Bu uygulama açılamadı</string>
+    <string name="suggestion_clear_record_message">Do you confirm empty input record?</string>
     <string name="suggestion_express_button_query_more">VIEW MORE</string>
     <string name="suggestion_express_button_text_query">CHECK</string>
     <string name="suggestion_express_exception_net">"Couldn't connect to the network. Check your network settings and try again."</string>
@@ -1128,9 +1140,10 @@ ve konumunuza erişim izni verin
     <string name="tabs_description">Sekmeler</string>
     <string name="temp_refuse">Hayır</string>
     <string name="title_bar_loading">Yükleniyor</string>
+    <string name="title_notice_push">Notice reminding</string>
     <string name="too_many_windows_dialog_message">Tarayıcı siz başka bir sekmeyi kapatana kadar yeni bir sekme açamıyor</string>
     <string name="too_many_windows_dialog_title">Daha fazla sekme açılamıyor</string>
-    <string name="transfer_prompt_0">Play video</string>
+    <string name="transfer_prompt_0">Videoyu oynat</string>
     <string name="transfer_restart">Tekrar başlat</string>
     <string name="translation_copy">Kopyala</string>
     <string name="translation_more">Daha fazla göster</string>
@@ -1210,7 +1223,7 @@ ve konumunuza erişim izni verin
     <string name="video_project_button">Durdur</string>
     <string name="video_project_msg">Video şuraya aktarılıyor: %s</string>
     <string name="video_project_title">Video aktarımı</string>
-    <string name="video_push_multi_message">%1$d updates available.</string>
+    <string name="video_push_multi_message">%1$d güncelleme mevcut</string>
     <string name="video_push_multi_title">Güncelleme mevcut</string>
     <string name="video_push_single_message">%1$d güncellemek için dokunun</string>
     <string name="video_service_notification_title">Açılır penceredeki videoyu oynat</string>

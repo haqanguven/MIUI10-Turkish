@@ -704,7 +704,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="lb_playback_controls_pause">Duraklat</string>
     <string name="lb_playback_controls_fast_forward">İleri sar</string>
     <string name="lb_playback_controls_fast_forward_multiplier">%1$dX ileri sar</string>
-    <string name="lb_playback_controls_rewind">Geri Sar</string>
+    <string name="lb_playback_controls_rewind">Geri sar</string>
     <string name="lb_playback_controls_rewind_multiplier">%1$dX geri sar</string>
     <string name="lb_playback_controls_skip_next">Sonrakine atla</string>
     <string name="lb_playback_controls_skip_previous">Öncekine atla</string>

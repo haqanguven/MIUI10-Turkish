@@ -61,6 +61,7 @@
     <string name="already_download">İndiriliyor</string>
     <string name="already_download_btn">İndiriliyor</string>
     <string name="already_favorited">Zaten favoride</string>
+    <string name="always_use_metered">Her zaman mobil veriyi kullan</string>
     <string name="app_label">İndirilenler</string>
     <string name="artist">Sanatçılar</string>
     <string name="artist_album">Albümler</string>
@@ -86,8 +87,6 @@
     <string name="asset_sync_power_alert_message">Şarkıları yedeklemek için şarj cihazını bağlayın</string>
     <string name="asset_sync_power_alert_title">Düşük pil</string>
     <string name="audio_picker_title">Bir şarkı seçin</string>
-    <string name="audio_recognition_setting_summary">Albüm kapaklarını ve şarkı sözlerini otomatik olarak bul</string>
-    <string name="audio_recognition_setting_title">Albüm kapaklarını ve şarkı sözlerini bul</string>
     <string name="auto_payment">Otomatik yenile</string>
     <string name="auto_payment_date">Sonraki ödeme: %s</string>
     <string name="available_playlist_name_format">Yeni çalma listesi %d</string>
@@ -111,6 +110,7 @@
     <string name="cancel">İptal</string>
     <string name="cancel_running_download">İptal et</string>
     <string name="change_download_quality">İndirme kalitesini değiştir</string>
+    <string name="checking_new_version">Güncellemeler kontrol ediliyor</string>
     <string name="choose_download_quality">İndirme kalitesini seçin</string>
     <string name="choose_language">Dil seç</string>
     <string name="choose_stream_quality">Akış kalitesini seç</string>
@@ -132,6 +132,8 @@
     <string name="cloud_welcome_summary">"Şarkılarınızı Mi bulut'a yedekleyin ve diğer cihazlardan dinleyin"</string>
     <string name="comment_format" formatted="false">%s: %s</string>
     <string name="confirm">Tamam</string>
+    <string name="confirm_exit">Değişikler kaydedilsin mi?</string>
+    <string name="connect_now">Bağlan</string>
     <string name="connecting_apk">Bağlanılıyor</string>
     <string name="continue_backup">Devam</string>
     <string name="cp_info_first">"
@@ -167,8 +169,7 @@
     <string name="dialog_cannot_resume">İndirme kesildi. Buna devam edilemez</string>
     <string name="dialog_clear_history">Son çalınan şarkı listesi temizlensin mi?</string>
     <string name="dialog_confirm_delete_checkbox_message">Yanı sıra yerel dosyaları silin</string>
-    <string name="dialog_failed_body">"Daha sonra indirmek
-veya dosyayı sıradan kaldırmak denensin mi?"</string>
+    <string name="dialog_failed_body">Daha sonra indirme veya dosyayı sıradan kaldırma denensin mi?</string>
     <string name="dialog_file_already_exists">İndirilemiyor. Hedef dosya zaten var</string>
     <string name="dialog_file_missing_body">İndirilen dosya bulunamıyor</string>
     <string name="dialog_file_missing_title">Dosya açılamadı</string>
@@ -197,6 +198,7 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="disable_auto_payment_success_message">Otomatik yenileme kapalı. Mevcut abonelik sona erdikten sonra, şarkıları tekrar indirmek için abonelik gerekecek</string>
     <string name="disallow_add_to_fm">FM radyo şarkıları eklenemiyor</string>
     <string name="disallow_add_to_personal_radio">Kişisel radyo şarkıları eklenemiyor</string>
+    <string name="do_not_remind_this_version">Bu sürümü bana hatırlatma</string>
     <string name="download">İndir</string>
     <string name="download_added_to_list">İndirme listesine eklendi</string>
     <string name="download_apk_desktop_installing">Yükleniyor</string>
@@ -219,6 +221,8 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="download_completed">İndirildi</string>
     <string name="download_confirm_button_text">Yükle</string>
     <string name="download_confirm_text">Mi müzik indirilecek ve %s kurulacak</string>
+    <string name="download_connect_wifi_dialog_message">Bu şarkıyı indirmek için wifi ağına ihtiyacınız var. Şimdi bağlanılsın mı?</string>
+    <string name="download_connect_wifi_dialog_title">Wifi ağına bağlan</string>
     <string name="download_done_btn">İndirildi</string>
     <string name="download_error">Başarısız</string>
     <string name="download_error_insufficient_space">Yetersiz alan</string>
@@ -358,8 +362,10 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="global_search_title_movie">Film şarkıları</string>
     <string name="global_search_title_prenatal">Ön müzik</string>
     <string name="global_search_title_radar">Müzik tanımlayıcı</string>
-    <string name="go_to_settings">Ayarlar</string>
     <string name="handle_later">Şimdi değil</string>
+    <string name="headset_and_audio_effect_category">Kulaklık &amp; ses efektleri</string>
+    <string name="headset_and_audio_effect_summary">Kulaklık &amp; ekolayzer</string>
+    <string name="headset_and_audio_effect_title">Kulaklık &amp; ses efektleri</string>
     <string name="hide_album">Albümü gizle</string>
     <string name="hide_lyric">Sözleri gizle</string>
     <string name="higher_quality_music">Yüksek kaliteli müzik</string>
@@ -428,6 +434,8 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="metered_allow">Oynat</string>
     <string name="metered_beyond_alert">Veri kullanımı aşıldı</string>
     <string name="metered_disallow">Şimdi değil</string>
+    <string name="metered_play_and_download_summary">Mobil veri kullanarak şarkı akışını yürütürken ve indirirken veri kullanım uyarılarını gösterme</string>
+    <string name="metered_play_and_download_title">Mobil veri kullanarak şarkı akışını yürütün ve indirin</string>
     <string name="metered_play_toast">Şarkıları dinlemek için mobil veri kullan</string>
     <string name="metered_play_toast_with_beyond_data">Şarkı çalmak için mobil veri kullan. Sınır %s aşıldı</string>
     <string name="metered_play_toast_with_data">Şarkı çalmak için mobil veri kullan, %s kaldı</string>
@@ -447,7 +455,6 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="miuishare_wechat_timeline_title">Wechat anları</string>
     <string name="miuishare_weibo_title">Weibo</string>
     <string name="mobile_recommended_title">Mobil veri kullanımı</string>
-    <string name="modify_info_disable_note">Bilgileri manuel olarak düzenlemek için öncelikle albüm kapaklarını ve şarkı sözlerini bul özelliğini kapatın</string>
     <string name="modify_lyric">Şarkı sözünü düzenle</string>
     <string name="modify_pic">Kapağı değiştir</string>
     <string name="modify_progress">Şarkı sözü akış hızını değiştir</string>
@@ -520,8 +527,6 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="online_switch_setting">Çevrimiçi içerik ayarları</string>
     <string name="open_online_service">Bu özelliği kullanarak çevrimiçi hizmetleri açabilirsiniz. Şimdi açılsın mı?</string>
     <string name="open_service">Aç</string>
-    <string name="optimize_all_until_optimized">Şarkı, albüm ve şarkı sözü bilgilerini optimize edin</string>
-    <string name="optimize_all_until_scanned">Yerel şarkılar aranıyor. Daha sonra tekrar deneyin</string>
     <string name="other_song_in_album">Aynı albümdeki diğer şarkılar</string>
     <string name="paused_by_app">Durduruldu</string>
     <string name="paused_in_power_save_mode">Güç tasarruf modunda durduruldu</string>
@@ -583,21 +588,6 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="radar_support_by">ACRBulut ile güçlendirilmiştir</string>
     <string name="recently_played">Önceden oynatılan</string>
     <string name="recently_played_songs">Önceden oynatılan</string>
-    <string name="recognition_reverted_message">Albüm kapağı ve şarkı sözleri başarıyla silindi. Bu işlemi Ayarlar menüsünde tüm şarkılar için yapabilirsiniz</string>
-    <string name="recognition_reverted_title">Albüm kapakları ve şarkı sözleri</string>
-    <string name="recognize_call">Tamam</string>
-    <string name="recognize_call_summary">Mi müzik bu şarkının şarkı sözlerini ve albüm kapağını bulamadı</string>
-    <string name="recognize_calling">Değişiklikler uygulanıyor</string>
-    <string name="recognize_calling_fail">Bilgi bulunamadı. Daha sonra yeniden denemeyi deneyebilirsiniz</string>
-    <string name="recognize_calling_network_error">Ağa bağlanılamadı. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
-    <string name="recognize_revert">Değişiklikleri yoksay</string>
-    <string name="recognize_revert_summary">Mi Müzik bu şarkının şarkı sözlerini ve albüm kapağını buldu</string>
-    <string name="recognize_reverting">Değişiklikler yoksayılıyor</string>
-    <string name="recognize_switch_off_alert_not_now">Şimdi değil</string>
-    <string name="recognize_switch_off_alert_revert">Sil</string>
-    <string name="recognize_switch_off_alert_title">Albüm kapakları ve şarkı sözleri</string>
-    <string name="recognized_alert_message">Mi Müzik bu şarkının şarkı sözlerini ve albüm kapağını buldu. Bilgileri düzenlemek için \"…\" seçeneğine dokunun</string>
-    <string name="recognized_alert_title">Albüm kapağı ve şarkı sözleri bulundu</string>
     <string name="recommended_file_size_download_in_mobile">"Bu dosyayı indirirken mobil veri %s  kullanılsın mı?"</string>
     <string name="recommended_no_file_size_download_in_mobile">Bu dosyayı indirmek için mobil veri bağlantısı kullanılsın mı?</string>
     <string name="remove">Kaldır</string>
@@ -612,6 +602,7 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="retry_download">Tekrar dene</string>
     <string name="ringtone_not_support">Şarkı biçimi desteklenmiyor</string>
     <string name="root_downloads">İndirilenler</string>
+    <string name="save_changes">Değişiklikleri kaydet</string>
     <string name="search_album_and_lyric">Albüm kapakları ve şarkı sözlerini arayın</string>
     <string name="search_empty">Başka bir sonuç bulunamadı</string>
     <string name="search_for_album">Albüm</string>
@@ -697,6 +688,8 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="tab_track_list">Şarkılar</string>
     <string name="take_effect_afater_restart">Bu ayarın etkili olması için Müzik uygulamasını yeniden başlatmanız gerekir</string>
     <string name="talkback_back">Geri dön</string>
+    <string name="talkback_batch_process">Birden çok öğe</string>
+    <string name="talkback_clear">Temizle</string>
     <string name="talkback_device">Diğer cihazlarda oynat</string>
     <string name="talkback_download">İndir</string>
     <string name="talkback_favorite">Bu şarkıyı beğen</string>
@@ -713,6 +706,7 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="talkback_pre">Önceki şarkı</string>
     <string name="talkback_radar">Müzik tanımlaması</string>
     <string name="talkback_search">Ara</string>
+    <string name="talkback_show_navigation_draw">Çekmeceyi göster</string>
     <string name="terms_of_service">Hizmet şartları</string>
     <string name="ticket_summary">Gösteriler, konserler, tiyatro ve diğer etkinlikler için bilet satınal</string>
     <string name="ticket_title">Biletleri Göster</string>
@@ -737,6 +731,7 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="update_now">Şimdi güncelle</string>
     <string name="upgrade_music">Müzik güncelle</string>
     <string name="upgrade_music_message">Paket hazır. Güncellemek için yeniden başlatın</string>
+    <string name="upgrading_in_backstage">Arka planda güncelleniyor</string>
     <string name="user_agreement">Kullanıcı sözleşmesi</string>
     <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Sürüm</string>
@@ -754,13 +749,6 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
 
 Daha sonraki bir zamanda wifi ağına bağlanırsanız %s dokunarak indirebilirsiniz"</string>
     <string name="wifi_required_title">Bu dosyayı indirmek için bir wifi ağına bağlanmalısınız</string>
-    <string name="font_family">miui</string>
-    <string name="always_use_metered">Her zaman mobil veriyi kullan</string>
-    <string name="confirm_exit">Değişiklikleriniz kaydedilmedi. Değişiklikleri kaydetmek istiyor musunuz?</string>
-    <string name="do_not_remind_this_version">Bu sürümü hatırlatma</string>
-    <string name="metered_play_and_download_summary">Açıksa oynatma ve trafik ile indirirken hatırlatılmaz</string>
-    <string name="metered_play_and_download_title">Her zaman mobil veriyi kullan</string>
-    <string name="save_changes">Değişiklikleri Kaydet</string>
     <string name="api">0.45</string>
     <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
     <string name="app_name">ACTIVITY_ENTRY_NAME</string>
@@ -772,7 +760,7 @@ Daha sonraki bir zamanda wifi ağına bağlanırsanız %s dokunarak indirebilirs
     <string name="btn_more_items_progress">Daha fazla mesaj yükleniyor</string>
     <string name="campaign_refresh_period">600000</string>
     <string name="campaign_server_refresh_period">600000</string>
-    <string name="com.crashlytics.android.build_id">639d8043-a2aa-4a2b-b065-75995331106e</string>
+    <string name="com.crashlytics.android.build_id">6112faa0-67a8-4299-af8c-77aac7d50a3e</string>
     <string name="connection_timeout">30000</string>
     <string name="count_format">%2$1.1fK</string>
     <string name="default_cmsdk_sender_id">XXXXX</string>
@@ -789,6 +777,7 @@ Daha sonraki bir zamanda wifi ağına bağlanırsanız %s dokunarak indirebilirs
     <string name="facebook_app_id">1310336955745219</string>
     <string name="firebase_database_url">https://mi-music-global.firebaseio.com</string>
     <string name="flush_period">120000</string>
+    <string name="font_family">miui</string>
     <string name="format">3.1</string>
     <string name="gcm_defaultSenderId">948829309969</string>
     <string name="google_api_key">AIzaSyDtXevw-xV0_qPieue5APFY-mRmbt3lU8w</string>
@@ -814,7 +803,7 @@ Daha sonraki bir zamanda wifi ağına bağlanırsanız %s dokunarak indirebilirs
     <string name="playlists_max_number">1000</string>
     <string name="project_id">mi-music-global</string>
     <string name="recordForReadIntervalDelaySeconds">60</string>
-    <string name="sdk_ver">1.0.7.1</string>
+    <string name="sdk_ver">1.0.7.5</string>
     <string name="second_symbol">s</string>
     <string name="sender_id">XXXXX</string>
     <string name="server_connection_failed">Bu işlevi kullanmak için çevrimiçi olmalısınız</string>

@@ -72,10 +72,10 @@
     <string name="app_name_camera">Kamera</string>
     <string name="app_name_downloadedrom">Paketler</string>
     <string name="app_name_downloads">İndirilenler</string>
-    <string name="app_name_market">Uygulama Mağazası</string>
+    <string name="app_name_market">Uygulama mağazası</string>
     <string name="app_name_midrop">Mi drop</string>
     <string name="app_name_miui">Miui</string>
-    <string name="app_name_miuimusic">Müzik</string>
+    <string name="app_name_miuimusic">Müzikler</string>
     <string name="app_name_miuiringtone">Zil sesi</string>
     <string name="app_name_miuiwallpaper">Duvar kağıtları</string>
     <string name="app_name_screenshot">Ekran görüntüleri</string>
@@ -102,7 +102,7 @@
     <string name="category_files">Dosyalar</string>
     <string name="category_installed_app">Yüklü uygulamalar</string>
     <string name="category_midrive">Mi sürücü</string>
-    <string name="category_music">Müzik</string>
+    <string name="category_music">Müzikler</string>
     <string name="category_other">Diğer</string>
     <string name="category_photo">Fotoğraflar</string>
     <string name="category_picture">Fotoğraflar</string>
@@ -150,7 +150,7 @@
     <string name="deepclean_list_item_from_download">İndirilenler</string>
     <string name="deepclean_list_item_from_gallery">Galeri</string>
     <string name="deepclean_list_item_from_miui">Miui</string>
-    <string name="deepclean_list_item_from_music">Müzik</string>
+    <string name="deepclean_list_item_from_music">Müzikler</string>
     <string name="deepclean_list_item_from_sdcard">SD kart</string>
     <string name="default_cache_type">Veri dosyaları</string>
     <string name="delete_dialog_button">Sil</string>
@@ -272,7 +272,7 @@
     <string name="menu_item_cleanup">Temizle</string>
     <string name="menu_item_deep_clean">Derin temizlik</string>
     <string name="menu_item_ftp">FTP</string>
-    <string name="menu_item_midrop">Mi Drop</string>
+    <string name="menu_item_midrop">Mi drop</string>
     <string name="menu_item_router">Yönlendirici</string>
     <string name="menu_item_sort">Sırala</string>
     <string name="menu_item_sort_add_time">"Favorilere eklendi "</string>
@@ -283,8 +283,8 @@
     <string name="menu_item_usb">USB</string>
     <string name="menu_view">Görüntüle</string>
     <string name="mi_router_label">Yönlendirici</string>
-    <string name="midrop_msg_1">"Mi Drop'u diğer cihazda açın"</string>
-    <string name="midrop_msg_2">Mi Drop açık olduğunda çevrenizdeki cihazları arayabilir ve dosya gönderebilirsiniz</string>
+    <string name="midrop_msg_1">"Mi drop'u diğer cihazda açın"</string>
+    <string name="midrop_msg_2">Mi drop açık olduğunda çevrenizdeki cihazları arayabilir ve dosya gönderebilirsiniz</string>
     <string name="midrop_send_files">Paylaşılacak dosyaları seçin</string>
     <string name="month_day_format">dd MMM</string>
     <string name="more">Daha fazla</string>
@@ -306,8 +306,8 @@
     <string name="no_file">Boş</string>
     <string name="no_login_btn_text">Oturum aç</string>
     <string name="no_recent_files">Son kullanılan dosya yok</string>
-    <string name="not_installed_documentsui">DocumentsUI yüklü değil</string>
-    <string name="not_support_documentui">DocumentsUI bu cihazda desteklenmiyor</string>
+    <string name="not_installed_documentsui">Belgeler uygulaması yüklü değil</string>
+    <string name="not_support_documentui">Belgeler uygulaması bu cihazda desteklenmiyor</string>
     <string name="notification_dialog_confirm">Tamam</string>
     <string name="notification_dialog_content">%1$s konumuna dosya eklendiğinde veya değiştirildiğinde otomatik olarak bildir ve düzenle</string>
     <string name="notification_dialog_title">Bildirimler</string>
@@ -356,7 +356,7 @@
     <string name="phone">Depolama</string>
     <string name="phone_storage">Depolama</string>
     <string name="phone_storage_apk_title">Uygulamalar: </string>
-    <string name="phone_storage_audio_title">Müzik: </string>
+    <string name="phone_storage_audio_title">Müzikler: </string>
     <string name="phone_storage_cal">Kontrol ediliyor</string>
     <string name="phone_storage_clean">Temizle</string>
     <string name="phone_storage_doc_title">Belgeler: </string>
@@ -450,7 +450,7 @@
     <string name="terabyteShort">TB</string>
     <string name="tip">Uyarı</string>
     <string name="title_app_tags">Uygulamalar</string>
-    <string name="title_enable_documentsui">DocumentsUI aç</string>
+    <string name="title_enable_documentsui">Belgeleri aç</string>
     <string name="title_expire_video">Süresi dolmak üzere</string>
     <string name="title_recent">Son kullanılanlar</string>
     <string name="title_select_volume">Klasör seçin</string>
@@ -536,7 +536,7 @@ Bu videonun tüketmesi bekleniyor"</string>
     <string name="google_app_id">1:599532519894:android:cdc497eda781bcf4</string>
     <string name="google_crash_reporting_api_key">AIzaSyBOhWk2NDbCBnkgtZ7mT4wgmwJvsAFo13Y</string>
     <string name="google_storage_bucket">originfileexplorer.appspot.com</string>
-    <string name="have_lucky_draw">You still have a chance!</string>
+    <string name="have_lucky_draw">Hala bir şansın var</string>
     <string name="junk_syscache_alert_desc">我们不建议清理这个缓存,&lt;font color=#d64438>清理后会影响APP正常运行&lt;/font></string>
     <string name="junk_tag_RF_DalvikCacheLeftovers">软件的系统残留 (Dalvik-Cache)</string>
     <string name="junk_tag_RF_DemoVideo_LG">LG手机演示用视频</string>
@@ -606,9 +606,12 @@ Bu videonun tüketmesi bekleniyor"</string>
     <string name="junk_tag_junk_big_name_tencent_qqfile">QQ接收的文件</string>
     <string name="junk_tag_junk_big_name_thumbnails">手机图片缩略图</string>
     <string name="junk_tag_junk_big_name_whatsapp_media_video">whatsapp视频文件</string>
-    <string name="junk_tag_system_fixed_cache_item_sd_pushLog_title">GDC推送日志</string>
-    <string name="phone_search">Google Search</string>
-    <string name="privacy_appdata_chrome_history_des">Visited websites</string>
+    <string name="junk_tag_system_fixed_cache_item_sd_pushLog_title">GDC itme günlüğü</string>
+    <string name="often_used_folders">Sık kullanılan klasörler</string>
+    <string name="open">Aç</string>
+    <string name="operation_delete_done">Tümü tamamlandı</string>
+    <string name="phone_search">Google arama</string>
+    <string name="privacy_appdata_chrome_history_des">Ziyaret edilen internet siteleri</string>
     <string name="project_id">originfileexplorer</string>
     <string name="remain_item_name_n7p" />
     <string name="remain_item_name_pamp" />

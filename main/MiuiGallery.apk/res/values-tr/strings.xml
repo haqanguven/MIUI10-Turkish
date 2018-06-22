@@ -206,6 +206,8 @@
     <string name="change_to_face_mode">Yalnızca yüzü göster</string>
     <string name="change_to_photo_mode">Tam önizlemeleri göster</string>
     <string name="change_to_visible">Bu kişiyi geri yüklemek istiyor musun?</string>
+    <string name="checked">Seçildi</string>
+    <string name="checked_something">%s seçildi</string>
     <string name="choose_baby_sexy">Cinsiyet</string>
     <string name="choose_owner_relation">İlişki</string>
     <string name="choose_people">Bir kişinin albümünü seçin</string>
@@ -372,6 +374,7 @@
     <string name="enable_face_album_summary">Fotoğraflarınızı otomatik olarak fotoğraflarınızda bulunan kişilere göre sıralayın</string>
     <string name="enable_face_album_title">Kişilere göre sırala</string>
     <string name="enabling_face_feature">Yükleniyor</string>
+    <string name="enter_choice_mode">İletişim kutusunda paylaşılanı girin</string>
     <string name="enter_email_hint">E-posta adresini girin</string>
     <string name="error_album_not_exist">Albüm mevcut değil</string>
     <string name="error_build_thumbnail_action">Orijinal dosyayı indir</string>
@@ -435,6 +438,7 @@
     <string name="error_unknown_msg">Bir hata oluştu. Bize geri bildiriminizi gönderin</string>
     <string name="error_unknown_tip">Bir hata oluştu</string>
     <string name="exit">Çıkış</string>
+    <string name="exit_choice_mode">Sol paylaşım iletişim kutusu</string>
     <string name="exit_share">Albümden çık</string>
     <string name="exit_share_failed">Çıkılamadı: %1$s</string>
     <string name="exit_share_in_process">%s adlı albümden çıkılıyor</string>
@@ -469,6 +473,7 @@ Arkadaşlarınızın daha fazla fotoğraflarını çekin"</string>
     <string name="fancy_color_desc">Renkler</string>
     <string name="fast_share_auto_render">Güzelleştirme</string>
     <string name="fast_share_auto_render_finish">Güzelleştirildi</string>
+    <string name="feature_guidance_photo_effects">Fotoğraf efektleri</string>
     <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Bellek</string>
     <string name="filter_bi_mono">Tek</string>
@@ -573,6 +578,8 @@ erişimine ihtiyaç duyuyor. İzinler menüsüne gitmek için ayarla seçeneğin
     <string name="image_invalid_path">Geçersiz dosya yolu</string>
     <string name="image_not_found">İmaj bulunamadı</string>
     <string name="image_quota_fulfiled">Çok fazla sayıda imaj. Bazı imajları silin ve ardından yeniden deneyin</string>
+    <string name="image_with_time">%s fotoğrafı çekildi</string>
+    <string name="image_with_time_and_location">Fotoğraf %1$s tarihinde çekildi. Konum: %2$s</string>
     <string name="impunity_declaration_settings">İnternet bağlantısı bildirimi</string>
     <string name="impunity_declaration_summary">Galerinin her açılışında internet bağlantısı bildirimi göster</string>
     <string name="initializing_cloud">Başlatılıyor</string>
@@ -1062,6 +1069,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="sticker_words">Kelimeler</string>
     <string name="storage_description_primary">Dahili depolama</string>
     <string name="storage_description_sdcard">SD kart</string>
+    <string name="storage_description_usb">USB depolama</string>
     <string name="storage_description_xspace">Çift uygulama verileri</string>
     <string name="storage_no_space">Yeterli boş alan yok</string>
     <string name="sub_discard_confirm_message">Değişiklikler kaydedilsin mi?</string>
@@ -1122,12 +1130,14 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="too_many_recipients">%2$s kişiden fazla alıcı eklenemiyor (Şu anda %1$s alıcı eklediniz)</string>
     <string name="trash_bin">Çöp kutusu</string>
     <string name="trash_bin_summary">Son zamanlarda silinmiş olan yedeklenmiş fotoğrafları görüntüleyin</string>
-    <string name="try_again_later">Daha sonra tekrar deneyin.</string>
+    <string name="try_again_later">Daha sonra tekrar deneyin</string>
     <string name="try_to_send">Gönder</string>
     <string name="turn_off_and_move">Kapat ve taşı</string>
     <string name="turn_on_and_remove">Aç ve taşı</string>
     <string name="turn_on_sync">Senkronizasyonu aç</string>
-    <string name="unpublish_failed">Yayından kaldırma başarısız</string>
+    <string name="unchecked">Seçim kaldırıldı</string>
+    <string name="unchecked_something">%s seçim kaldırıldı</string>
+    <string name="unpublish_failed">Yayından kaldırılamadı</string>
     <string name="unpublish_succeeded">Albüm yayından kaldırıldı</string>
     <string name="unpublishing">İptal ediliyor</string>
     <string name="user_agree">Kabul et</string>
@@ -1233,6 +1243,8 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="video_editor_watermark">Filigran</string>
     <string name="video_err">Video oynatılamıyor</string>
     <string name="video_not_exist">Video mevcut değil</string>
+    <string name="video_with_time">Video %s tarihinde çekildi</string>
+    <string name="video_with_time_and_location">%1$s tarihinde çekilen video. Konum: %2$s</string>
     <string name="view_by_gallery_tip">Miui galeri</string>
     <string name="view_face_album">Albümü görüntüle</string>
     <string name="view_more_face_desc">Daha fazla kişiyi görüntüle</string>

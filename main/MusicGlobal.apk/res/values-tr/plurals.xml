@@ -16,14 +16,10 @@
         <item quantity="other">Oynatıcı %d dakika içinde durdurulacak</item>
         <item quantity="one">Oynatıcı %d dakika içinde durdurulacak</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Albüm ve lirik için kapanış optimize edildi. %d şarkıya ait bilgi, albüm ve lirik durumunu geri almak istiyor musunuz?</item>
-        <item quantity="one">Albüm ve lirik için kapanış optimize edildi. %d şarkıya ait bilgi, albüm ve lirik durumunu geri almak istiyor musunuz?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">"%1$s cihazında oluşturuldu \u000d
+        <item quantity="other">"%1$s cihazında oluşturuldu
 toplam %2$d şarkı"</item>
-        <item quantity="one">"%1$s cihazında oluşturuldu \u000d
+        <item quantity="one">"%1$s cihazında oluşturuldu
 toplam %2$d şarkı"</item>
     </plurals>
     <plurals name="Nstop_backup_songs_message">

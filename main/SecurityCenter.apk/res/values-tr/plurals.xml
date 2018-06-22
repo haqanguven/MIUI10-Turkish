@@ -92,6 +92,14 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">"%d dakika "</item>
         <item quantity="one">"%d dakika "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">%1$d dakika içerisinde</item>
         <item quantity="one">%1$d dakika içerisinde</item>
@@ -111,14 +119,6 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     <plurals name="quick_optimize_suggest_issue_found">
         <item quantity="other">%d pil sorunu bulundu. Onarın</item>
         <item quantity="one">%d pil sorunu bulundu. Onarın</item>
-    </plurals>
-    <plurals name="quick_optimize_issue_count">
-        <item quantity="other">%d pil sorunu</item>
-        <item quantity="one">%d pil sorunu</item>
-    </plurals>
-    <plurals name="quick_optimize_suggest_issue_found">
-        <item quantity="other">%d pil sorunu bulundu. Düzeltin</item>
-        <item quantity="one">%d pil sorunu bulundu. Düzeltin</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">%1$d kişi tarafından indirildi</item>
@@ -231,7 +231,7 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="one">Tehlikeli uygulama: %d</item>
     </plurals>
     <plurals name="white_list_trojan_header">
-        <item quantity="other">Trojanlar: %d</item>
+        <item quantity="other">Trojan: %d</item>
         <item quantity="one">Trojan: %d</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">

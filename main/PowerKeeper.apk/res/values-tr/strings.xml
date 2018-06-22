@@ -9,10 +9,7 @@
     <string name="power_config_apps">Pil tasarrufu</string>
     <string name="app_list_title">Uygulamaları seçin</string>
     <string name="power_hide_mode_app_list_summary">Arka planda pil tasarrufu</string>
-    <string name="enable_hide_mode">Pil tasarrufunu aç</string>
-    <string name="disable_hide_mode">Pil tasarrufu kapatılsın mı?</string>
     <string name="about_hide_mode">Pil Tasarrufu hakkında</string>
-    <string name="disable_hide_mode_warning">Pil tasarrufunu kapatmak cihazınızın pil tüketimini artırabilir</string>
     <string name="show_system_app">Sistem uygulamalarını göster</string>
     <string name="hide_system_app">Sistem uygulamalarını gizle</string>
     <string name="scenario_policies_title">Akıllı senaryolar</string>
@@ -82,11 +79,11 @@ Pil tasarrufu özelliği önemli uygulamaları özel olarak ele alır ve işlem 
     <string name="base_info">Temel bilgi</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Herhangi bir uygulama bulunamadı</string>
-    <string name="power_consume_abnormal_night">Battery is drained at night</string>
-    <string name="enable_sleep_mode">Turn on Sleep mode to optimize battery usage at night</string>
-    <string name="sleepmode_privacy_title">Sleep mode</string>
-    <string name="sleepmode_privacy_content">"This feature will use your phone's system and device info. It won't be uploaded to our servers."</string>
-    <string name="sleepmode_privacy_link">Learn more about privacy and security</string>
-    <string name="sleepmode_disclaimer_cancel">Cancel</string>
-    <string name="sleepmode_disclaimer_agree">Agree</string>
+    <string name="power_consume_abnormal_night">Pil geceleri boşaltılıyor</string>
+    <string name="enable_sleep_mode">Geceleri pil kullanımını optimize etmek için uyku modunu açın</string>
+    <string name="sleepmode_privacy_title">Uyku modu</string>
+    <string name="sleepmode_privacy_content">Bu özellik telefonunuzun sistem ve cihaz bilgilerini kullanacaktır. Sunucularımıza yüklenmeyecek</string>
+    <string name="sleepmode_privacy_link">Gizlilik ve güvenlik hakkında daha fazla bilgi edinin</string>
+    <string name="sleepmode_disclaimer_cancel">İptal et</string>
+    <string name="sleepmode_disclaimer_agree">Kabul et</string>
 </resources>

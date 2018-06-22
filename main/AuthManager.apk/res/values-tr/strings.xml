@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="static_cache_db_md5">0067cf434879a80963710f81f8c6e279</string>
+    <string name="static_cache_db_md5">65197ff9ad14586a0064c71dec2582d0</string>
     <string name="app_name">İzin yöneticisi</string>
     <string name="HIPS_Action_Accept">İzin ver</string>
     <string name="HIPS_Action_Reject">Reddet</string>

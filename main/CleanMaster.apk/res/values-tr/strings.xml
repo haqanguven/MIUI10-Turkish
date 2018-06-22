@@ -567,8 +567,9 @@
     <string name="tips_low_storage_dialog_ok_storage">Boş alan</string>
     <string name="tips_low_storage_dialog_ok">Temizle</string>
     <string name="tips_low_storage_dialog_cancel">İptal et</string>
-    <string name="clean_long_msg">"%1$d dosya temizlendi, %2$d bitmiş 
-%%%3$d öğe/saniye kaldı:%4$s"</string>
+    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
+    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
     <string name="RF_DalvikCacheLeftovers">Yazılım sistemi kalır (Dalvik-Önbellek)</string>
     <string name="apk_title_alipay_plugin">Alipay eklentisi</string>
     <string name="junk_syscache_alert_desc">"Bu önbelleği temizlemenizi önermiyoruz.&lt;font color=#d64438>Temizlendikten sonra APP'nin normal çalışmasını etkileyecektir&lt;/font>"</string>

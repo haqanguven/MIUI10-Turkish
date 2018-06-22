@@ -476,7 +476,7 @@ Cihazlarınızın tamamında indirme işlemlerini hızlandırın"</string>
     <string name="toast_update_data_limit_fail">Ayarlanamadı</string>
     <string name="ad_download">Yükle</string>
     <string name="speed_entrance">Wifi hızını test et</string>
-    <string name="speed_start">Test</string>
+    <string name="speed_start">Test et</string>
     <string name="speed_stop">İptal et</string>
     <string name="speed_result_broadband_text1">Geçerli indirme hızı</string>
     <string name="speed_result_broadband_text2">%s bant genişliği</string>

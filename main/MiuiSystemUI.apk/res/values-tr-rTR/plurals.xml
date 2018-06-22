@@ -108,6 +108,10 @@
         <item quantity="other">Bu uygulamadan %d bildirim kategorisinden 1 tanesi</item>
         <item quantity="one">Bu uygulamadan %d bildirim kategorisinden 1 tanesi</item>
     </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">Bu uygulamadan %d bildirim kategorilerinden 1 tanesi</item>
+        <item quantity="one">Bu uygulamadan %d bildirim kategorilerinden 1 tanesi</item>
+    </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">%d dakika içerisinde tekrar deneyin</item>
         <item quantity="one">%d dakika içerisinde tekrar deneyin</item>
