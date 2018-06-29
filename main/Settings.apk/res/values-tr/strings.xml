@@ -96,27 +96,27 @@
     <string name="accessibility_screen_magnification_navbar_short_summary">Yakınlaştırmak için bir düğmeye dokunun</string>
     <string name="accessibility_screen_magnification_navbar_summary">"Büyütme açıldığında hızlı bir şekilde büyütmek için ekranın alt kısmındaki erişilebilirlik düğmesini kullanın
 
-\""<b>Yakınlaştırmak için</b>"\" erişilebilirlik düğmesine, ardından ekranda herhangi bir yere dokunun
-\""<li><ul>"Kaydırmak için 2 veya daha fazla parmağınızı sürükleyin\"
-\""<li>Yakınlaştırmayı ayarlamak için 2 veya daha fazla parmağınızı birbirine yaklaştırın</li></ul></li>"\"
+"<b>Yakınlaştırmak için</b>" erişilebilirlik düğmesine, ardından ekranda herhangi bir yere dokunun
+"<li><ul>"Kaydırmak için 2 veya daha fazla parmağınızı sürükleyin
+"<li>Yakınlaştırmayı ayarlamak için 2 veya daha fazla parmağınızı birbirine yaklaştırın</li></ul></li>"
 
-\""<b>Geçici olarak yakınlaştırmak için</b>"\" erişilebilirlik düğmesine dokunun, ardından ekranda herhangi bir yere dokunup basılı tutun
-\""<li><ul>"Ekranda hareket etmek için sürükleyin\"
-\""<li>Uzaklaştırmak için parmağınızı çekin</li></ul></li>"\"
+"<b>Geçici olarak yakınlaştırmak için</b>" erişilebilirlik düğmesine dokunun, ardından ekranda herhangi bir yere dokunup basılı tutun
+"<li><ul>"Ekranda hareket etmek için sürükleyin\"
+"<li>Uzaklaştırmak için parmağınızı çekin</li></ul></li>"
 
 Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız"</string>
     <string name="accessibility_screen_magnification_navbar_title">Düğmeyle büyütme</string>
     <string name="accessibility_screen_magnification_short_summary">Yakınlaştırmak için 3 defa dokunun</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture">Düğmeyle ve üç kez dokunarak büyütme</string>
-    <string name="accessibility_screen_magnification_summary"><b>Yakınlaştırmak için</b>"\" ekrana 3 kez hızlıca dokunun
-\""<li><ul>"Kaydırmak için 2 veya daha fazla parmağınızı sürükleyin\"
-\""<li>Yakınlaştırmayı ayarlamak için 2 veya daha fazla parmağınızı birbirine yaklaştırın</li></ul></li>"\"
+    <string name="accessibility_screen_magnification_summary"><b>Yakınlaştırmak için</b>" ekrana 3 kez hızlıca dokunun
+"<li><ul>"Kaydırmak için 2 veya daha fazla parmağınızı sürükleyin
+"<li>Yakınlaştırmayı ayarlamak için 2 veya daha fazla parmağınızı birbirine yaklaştırın</li></ul></li>"
 
-\""<b>Geçici olarak büyütmek için</b>"\" ekrana 3 kez hızlıca dokunun ve üçüncü dokunuşunuzda parmağınızı basılı tutun
-\""<li><ul>"Ekranda gezinmek için parmağınızı sürükleyin\"
-\""<li>Uzaklaştırmak için parmağınızı kaldırın</li></ul></li>"\"
+"<b>Geçici olarak büyütmek için</b>" ekrana 3 kez hızlıca dokunun ve üçüncü dokunuşunuzda parmağınızı basılı tutun
+"<li><ul>"Ekranda gezinmek için parmağınızı sürükleyin
+"<li>Uzaklaştırmak için parmağınızı kaldırın</li></ul></li>"
 
-Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız\""</string>
+Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız"</string>
     <string name="accessibility_screen_magnification_title">Büyüteç hareketleri</string>
     <string name="accessibility_service_default_description">Hiçbir açıklama sağlanmadı</string>
     <string name="accessibility_settings">Erişilebilirlik</string>
@@ -183,6 +183,7 @@ Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız\""</string
     <string name="add_device_admin_msg">Cihaz yöneticisi etkinleştirilsin mi?</string>
     <string name="add_facerecoginition_text">Yüz tanımı ekle</string>
     <string name="add_fingerprint_cancel_button_text">Geri</string>
+    <string name="add_fingerprint_dirty_fingerprint">Ekranın yüzeyinin temiz olduğundan emin olun. Parmak izinizi tekrar kaydetmeyi deneyin</string>
     <string name="add_fingerprint_done_msg">Şimdi cihaz kilidinizi parmak izinizle açabilirsiniz</string>
     <string name="add_fingerprint_done_title">Artık hazırsınız</string>
     <string name="add_fingerprint_edge_instruction_msg">Sensörün parmak izinizin kenarları da kaydedebilmesi için parmağınızı hareket ettirin</string>
@@ -191,6 +192,7 @@ Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız\""</string
     <string name="add_fingerprint_finished_button_text">Tamamlandı</string>
     <string name="add_fingerprint_instruction_msg">Cihaz kilidini açmak veya ödeme işlemleri yapmak için parmak izinizi kullanın</string>
     <string name="add_fingerprint_instruction_title">Parmak izinizi ekleyin</string>
+    <string name="add_fingerprint_move_fast">Parmağınızı ekranda biraz daha uzun tutun</string>
     <string name="add_fingerprint_name_suggest_text">Parmak izi adı</string>
     <string name="add_fingerprint_put_finger_edge_msg">Parmak izinizin tüm farklı kısımlarını eklemek için parmağınızı hafifçe kaldırın ve tekrar sensör üzerine yerleştirin</string>
     <string name="add_fingerprint_put_finger_msg">Parmağınızı sensör üzerine koyun ve bir titreşim hissettiğinizde kaldırın</string>
@@ -269,11 +271,7 @@ Yöneticiniz bu Kullanıcı ile ilişkilendirilmiş ayarları, erişimi, uygulam
     <string name="another_migration_already_in_progress">Başka bir taşıma işlemi zaten çalışıyor</string>
     <string name="anti_spam">Engelli listesi</string>
     <string name="aod_mode_summary">Ekran kapalıyken daima saati, tarihi ve mesajları gösterir</string>
-    <string name="aod_mode_time_summary">Cihazınızın her zaman açık moduna geçmesi gereken zaman aralığı</string>
-    <string name="aod_mode_time_title">Zaman</string>
     <string name="aod_mode_title">Her zaman açık mod</string>
-    <string name="aod_mode_turn_off">Kapalı</string>
-    <string name="aod_mode_turn_on">Açık</string>
     <string name="apn_apn">APN</string>
     <string name="apn_auth_type">Kimlik doğrulama türü</string>
     <string name="apn_auth_type_chap">CHAP</string>
@@ -957,6 +955,17 @@ Adres burada:"</string>
     <string name="bssid_label">BSSID:</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI araştırması</string>
     <string name="bt_hci_snoop_log_summary">Bir dosyadaki tüm Bluetooth HCI paketlerini yakala</string>
+    <string name="bt_ldac_declaration">"Bluetooth cihazı LDAC'yi desteklediğinde varsayılan olarak bağlanır. LDAC yüksek kaliteli ses deneyimi sağlar ve daha yüksek güç tüketimi sağlar"</string>
+    <string name="bt_ldac_dialog_summary">"LDAC yüksek kaliteli ses deneyimi sağlar ve daha yüksek güç tüketimi sağlar
+Bu özellik ayarlardan kapatılabilir"</string>
+    <string name="bt_ldac_dialog_title">"Geçerli cihaz varsayılan olarak bağlı olan LDAC'ı destekler:"</string>
+    <string name="bt_ldac_open_dialog_summary">LDAC yüksek kaliteli ses deneyimi sağlar ve daha yüksek güç tüketimi sağlar</string>
+    <string name="bt_ldac_open_dialog_title">"LDAC'yi açmak istediğinizden emin misiniz?"</string>
+    <string name="bt_ldac_pre_summary">Yüksek kaliteli bir ses deneyimi sağlayın</string>
+    <string name="bt_ldac_pre_title">LDAC</string>
+    <string name="bt_ldac_property">Öznitellikler</string>
+    <string name="bt_ldac_remember_choice">Seçimi hatırla</string>
+    <string name="bt_ldac_settings">Ayarlar</string>
     <string name="bt_rarely_used_device_title">Nadir kullanılan cihazlar (%d)</string>
     <string name="bt_trace_log">Bluetooth izleme günlüğü</string>
     <string name="bt_trace_log_summary">Bluetooth izleme günlüğü</string>
@@ -992,7 +1001,7 @@ Adres burada:"</string>
     <string name="call_manager_summary">%1$s</string>
     <string name="call_manager_title">Arama yöneticisi</string>
     <string name="call_settings_primary_user_only">Birinci alanda arama ayarlarını değiştirin</string>
-    <string name="call_settings_summary">Sesli mesaj, çağrı yönlendirme ve bekletme, arayan kimliğini ayarla</string>
+    <string name="call_settings_summary">Sesli mesaj, arama yönlendirme ve bekletme arayan kimliğini ayarla</string>
     <string name="call_settings_title">Çağrı ayarları</string>
     <string name="calls_title">Aramalar</string>
     <string name="camera_double_tap_power_gesture_desc">Ekranınızı kilitlemeden kamerayı hızlıca açın</string>
@@ -1014,7 +1023,8 @@ Adres burada:"</string>
     <string name="cancel">İptal et</string>
     <string name="cancel_action">İptal et</string>
     <string name="cancel_alert">Değişiklikler yoksayılsın mı?</string>
-    <string name="cancel_button">İptal</string>
+    <string name="cancel_button">İptal et</string>
+    <string name="cancel_description">İptal et</string>
     <string name="cancel_download_buton_text">İptal et</string>
     <string name="cant_sync_dialog_message">Bu öğe için senkronizasyon şu anda devre dışı bırakılmış durumdadır. Bu ayarı değiştirmek için geçici olarak arka plan verilerini ve otomatik senkronizasyonu açın.</string>
     <string name="cant_sync_dialog_title">El ile senkronize edilemez</string>
@@ -1048,7 +1058,7 @@ Adres burada:"</string>
     <string name="category_personal">Kişisel</string>
     <string name="category_work">İş</string>
     <string name="cdma_security_settings_summary">Konumum, ekran kilidi açma, kimlik bilgileri deposunun kilidi özelliklerini ayarla</string>
-    <string name="cell_broadcast_settings">Acil durum yayınları</string>
+    <string name="cell_broadcast_settings">Acil durum uyarıları</string>
     <string name="cell_data_template">%1$s hücresel veri</string>
     <string name="cell_warning_and_limit">%1$s Veri uyarısı / %2$s Veri sınırı</string>
     <string name="cell_warning_only">%1$s Veri uyarısı</string>
@@ -1163,6 +1173,7 @@ Adres burada:"</string>
     <string name="confirm_action">Tamam</string>
     <string name="confirm_bind_xiaomi_account_dialog_title">Ekle</string>
     <string name="confirm_convert_to_fbe_warning">Kullanıcı verilerinin silinmesini ve dosya şifrelemesine dönüştürülmesini gerçekten istiyor musunuz?</string>
+    <string name="confirm_description">Onayla</string>
     <string name="confirm_download_cancelation_dialog_message">İndirmeyi iptal et?</string>
     <string name="confirm_enable_oem_unlock_text">Uyarı: Bu ayar açıkken cihaz koruma özellikleri bu cihazda çalışmayacaktır</string>
     <string name="confirm_enable_oem_unlock_title">OEM kilit açmaya izin verilsin mi?</string>
@@ -1266,7 +1277,11 @@ Telefonunuz kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama i�
     <string name="cryptkeeper_wrong_password">Yanlış Şifre</string>
     <string name="cryptkeeper_wrong_pattern">Yanlış Desen</string>
     <string name="cryptkeeper_wrong_pin">Yanlış Pin</string>
-    <string name="current_backup_pw_prompt">Buraya, mevcut tam yedekleme şifrenizi yazın</string>
+    <string name="cta_dialog_negative">Çıkış</string>
+    <string name="cta_dialog_positive">kabul et</string>
+    <string name="cta_dialog_text_all">Fotoğraf içinde fotoğraf kullanmak için %1$s kullanıcı sözleşmesi %2$s ve %3$s gizlilik politikası %4$s ile okuyup kabul etmeniz gerekir. Servis ayrıca internet bağlantısı ve konum servislerine erişim gerektirir. Bazı servisler tarafından kullanılan içerik yakalayıcı da internet bağlantısı gerektirir. Kabul ediyor musunuz?</string>
+    <string name="cta_dialog_title">İnternet bağlantısı</string>
+    <string name="current_backup_pw_prompt">Buraya mevcut tam yedekleme şifrenizi yazın</string>
     <string name="current_input_method">Varsayılan klavye</string>
     <string name="current_screen_lock">Mevcut ekran kilidi</string>
     <string name="current_use_ese">Gömülü güvenli elemanı kullan</string>
@@ -1274,7 +1289,7 @@ Telefonunuz kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama i�
     <string name="current_use_hce_wallet">HCE cüzdanını kullanıyorsunuz</string>
     <string name="current_use_uicc_se">Sim karttan güvenli bir öğe kullan</string>
     <string name="current_use_uicc_wallet">Sim kart%1$s cüzdanı kullanıyorsunuz</string>
-    <string name="current_zone">(mevcut)</string>
+    <string name="current_zone">(Mevcut)</string>
     <string name="daltonizer_mode_deuteranomaly">Yeşil renk körlüğü (Kırmızı-yeşil)</string>
     <string name="daltonizer_mode_disabled">Devre dışı</string>
     <string name="daltonizer_mode_monochromacy">Tam renk körlüğü</string>
@@ -1365,10 +1380,10 @@ Veri kullanımı telefonunuz tarafından ölçülür ve operatörünüzün kulla
     <string name="data_usage_restrict_denied_dialog">Arka plan verilerini sınırlama özelliği yalnızca hücresel ağ veri sınırı ayarladığınızda kullanılabilir</string>
     <string name="data_usage_summary_format">%1$s veri kullanıldı</string>
     <string name="data_usage_summary_title">Veri kullanımı</string>
-    <string name="data_usage_sweep_limit"><font size="18">^1</font> <font size="9">^2</font>"\"
-\""<font size="12">sınır</font></string>
-    <string name="data_usage_sweep_warning"><font size="18">^1</font> <font size="9">^2</font>"\"
-\""<font size="12">uyarı</font></string>
+    <string name="data_usage_sweep_limit"><font size="18">^1</font><font size="9"> ^2</font>"
+"<font size="12">sınır</font></string>
+    <string name="data_usage_sweep_warning"><font size="18">^1</font><font size="9"> ^2</font>"
+"<font size="12">uyarı</font></string>
     <string name="data_usage_tab_3g">2G-3G</string>
     <string name="data_usage_tab_4g">4G</string>
     <string name="data_usage_tab_ethernet">Ethernet</string>
@@ -1849,6 +1864,7 @@ Daha ayrıntılı bilgi için kuruluş yöneticinizle iletişime geçin"</string
     <string name="failed_to_open_app_settings_toast">%1$s ayarları açılamadı</string>
     <string name="failed_to_shut_down_find_device_content">Cihaz bul kapatılamadı. Bir veya iki dakika bekleyin ve ardından tekrar deneyin</string>
     <string name="failed_to_shut_down_find_device_title">Devre dışı bırakılamadı</string>
+    <string name="fallback_home_title">Yükleniyor</string>
     <string name="fcc_equipment_id">Cihaz Kimliği</string>
     <string name="file_privacy_password_role_instruction">Özel dosyalarınız burada depolanır</string>
     <string name="filter">Filtre</string>
@@ -1940,6 +1956,8 @@ Daha ayrıntılı bilgi için kuruluş yöneticinizle iletişime geçin"</string
     <string name="firewall_wifi">Wifi</string>
     <string name="firewall_wifi_dialog_message">Yüklü uygulama bu anahtar kapalıyken wifi kullanılarak internete bağlanamayacak</string>
     <string name="firmware_version">Android sürümü</string>
+    <string name="flash_drive_backup_restore">USB yedekleri</string>
+    <string name="flash_drive_backup_restore_summary">USB sürücüyü bağlayın</string>
     <string name="floating_window_switch_label">Kayan pencereleri aç</string>
     <string name="floating_window_switch_label_disable">Kayan pencereleri kapat</string>
     <string name="fluency_mode">Sistem animasyonları</string>
@@ -2527,12 +2545,14 @@ Bu seçenek daha fazla pil kullanabilir"</string>
     <string name="lockpassword_choose_for_second_user">İkinci alan şifresi ayarla</string>
     <string name="lockpassword_choose_lock_generic_header">Ekran kilidi seç</string>
     <string name="lockpassword_choose_your_password_header">Şifrenizi belirleyin</string>
-    <string name="lockpassword_choose_your_password_second_space">"İkinci alan için 
- şifre belirleyin"</string>
+    <string name="lockpassword_choose_your_password_second_space">"İkinci alan için Pin'i ayarlayın
+Bu Pin bir çok basamak içermelidir
+İkinci alan Pin'iniz olacaktır"</string>
     <string name="lockpassword_choose_your_pattern_header">Deseninizi belirleyin</string>
     <string name="lockpassword_choose_your_pin_header">Pin kodunuzu oluşturun</string>
     <string name="lockpassword_choose_your_pin_header_second_space">"İkinci alan için 
  Pin belirleyin"</string>
+    <string name="lockpassword_choose_your_pin_title">4-16 haneli girin</string>
     <string name="lockpassword_confirm_for_second_user">İkinci alan şifrenizi doğrulayın</string>
     <string name="lockpassword_confirm_passwords_dont_match">Şifreler uyuşmuyor</string>
     <string name="lockpassword_confirm_pins_dont_match">Pin kodları eşleşmiyor</string>
@@ -2810,6 +2830,11 @@ Bu cihazda başka kullanıcılar da var
     <string name="miui_lab_features">Miui laboratuvar özellikleri</string>
     <string name="miui_lab_gallery_search_desc">Gelişmiş resim arama</string>
     <string name="miui_lab_gallery_search_title">Fotoğrafları galeride bul</string>
+    <string name="miui_lab_install_drive_mode_error">Yüklenemedi. Tekrar deneyin</string>
+    <string name="miui_lab_install_drive_mode_summary">Araba modu bir sistem uygulamasıdır. Kurulum internet bağlantısı gerektirmez</string>
+    <string name="miui_lab_install_drive_mode_title">Araba modunu yükle</string>
+    <string name="miui_lab_pic_in_pic_desc">Seçilen uygulamalar için yüzen videolara izin ver</string>
+    <string name="miui_lab_pic_in_pic_title">Fotoğraf içinde fotoğraf</string>
     <string name="miui_lab_settings">Miui laboratuvar</string>
     <string name="miui_lab_slogan">Öğren, araştır ve keşfet</string>
     <string name="miui_lab_super_resolution_desc">Görüntüleri daha canlı hale getirin</string>
@@ -2825,7 +2850,7 @@ Bu cihazda başka kullanıcılar da var
     <string name="mobile_data_always_on">Hücresel veriyi her zaman etkinleştirme</string>
     <string name="mobile_data_always_on_summary">Wifi bağlantı etkin bile olsa mobil veri kullanımını her zaman etkin tut (Ağlar arasında hızlı geçiş yapmak içindir)</string>
     <string name="mobile_insert_sim_card">Lütfen Sim kartı takın ve yeniden başlatın</string>
-    <string name="mobile_no_provisioning_url">%1$s için bilinen bir provizyon web sitesi yok</string>
+    <string name="mobile_no_provisioning_url">%1$s için bilinen bir provizyon internet sitesi yok</string>
     <string name="mobile_unknown_sim_operator">Bilinmeyen Sim operatörü</string>
     <string name="mock_location_app">Sahte konum uygulamaları</string>
     <string name="mock_location_app_not_set">Sahte konum uygulaması ayarlanmadı</string>
@@ -4837,7 +4862,7 @@ Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz
     <string name="system_and_device_section_title">Sistem &amp; cihaz</string>
     <string name="system_app">(Sistem)</string>
     <string name="system_app_settings">Uygulamalar</string>
-    <string name="system_apps_updater">Sistem uygulamaları güncelleyici</string>
+    <string name="system_apps_updater">Uygulama güncelleyici</string>
     <string name="system_backup_section_title">Yedekleme</string>
     <string name="system_dashboard_summary">Diller, saat, yedek, güncellemeler</string>
     <string name="system_default_app">(Sistem varsayılanı)</string>
@@ -5303,6 +5328,9 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="vibrate_input_devices_summary">Bağlandığında titreşimi oyun denetleyiciye yönlendir.</string>
     <string name="vibrate_on_touch_title">Dokunulduğunda cihazı titreştir</string>
     <string name="vibrate_when_ringing_title">Aramalarda titret</string>
+    <string name="video_pip_access_title">Erişilebilir uygulamalar</string>
+    <string name="video_pip_enable_title">Videoyu fotoğraf içinde fotoğrafı etkinleştir</string>
+    <string name="video_pip_tips">Fotoğraf içinde fotoğraf moduna girmek için kayan görünümüne tıklayın</string>
     <string name="vip_list">Gelen aramalara izin ver</string>
     <string name="virtual_keyboard_category">Sanal klavye</string>
     <string name="virtual_sim_category_title">Sanal Sim</string>

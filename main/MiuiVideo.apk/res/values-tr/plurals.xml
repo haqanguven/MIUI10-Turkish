@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="subtitle_offset_advance_times">
-        <item quantity="other">Altyazı %.1f saniye ileri alındı</item>
-        <item quantity="one">Altyazı %.1f saniye ileri alındı</item>
-    </plurals>
-    <plurals name="subtitle_offset_delay_times">
-        <item quantity="other">Altyazı %.1f saniye geri alındı</item>
-        <item quantity="one">Altyazı %.1f saniye geri alındı</item>
-    </plurals>
-    <plurals name="subtitle_onlinesub_size_float_kb">
-        <item quantity="other">Boyut: %.2fKB</item>
-        <item quantity="one">Boyut: %.2fKB</item>
-    </plurals>
-    <plurals name="v_video_count">
-        <item quantity="other">%d video</item>
-        <item quantity="one">%d video</item>
-    </plurals>
+    <item type="plurals" name="public_static_final_host_plurals1">padding</item>
     <plurals name="comment_count">
         <item quantity="other">%d yorum</item>
         <item quantity="one">%d yorum</item>
@@ -36,6 +21,10 @@
         <item quantity="other">%1$s öğe seçildi</item>
         <item quantity="one">%1$s  öğe seçildi</item>
     </plurals>
+    <plurals name="finish_item_all_counts">
+        <item quantity="other">%1$s video</item>
+        <item quantity="one">%1$s video</item>
+    </plurals>
     <plurals name="notification_sub_title">
         <item quantity="other">%d dosya başarıyla indirildi</item>
         <item quantity="one">%d dosya başarıyla indirildi</item>
@@ -52,8 +41,32 @@
         <item quantity="other">%d öğe güncellendi</item>
         <item quantity="one">%d  öğe güncellendi</item>
     </plurals>
+    <plurals name="v_cache_videos">
+        <item quantity="other">%d cached videos</item>
+        <item quantity="one">%d cached video</item>
+    </plurals>
+    <plurals name="v_coin_show">
+        <item quantity="other">%d coins</item>
+        <item quantity="one">%d coin</item>
+    </plurals>
+    <plurals name="v_video_count">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
     <plurals name="video_pre_play_tip">
         <item quantity="other">%1$d dakikalık önizleme var. Tam videoyu izlemek için &lt;Data>&lt;font color=#ffa201>şimdi satın alın&lt;/font>&lt;/Data></item>
         <item quantity="one">%1$d dakikalık önizleme var. Tam videoyu izlemek için &lt;Data>&lt;font color=#ffa201>şimdi satın alın&lt;/font>&lt;/Data></item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Altyazı %.1f saniye ileri alındı</item>
+        <item quantity="one">Altyazı %.1f saniye ileri alındı</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Altyazı %.1f saniye geri alındı</item>
+        <item quantity="one">Altyazı %.1f saniye geri alındı</item>
+    </plurals>
+    <plurals name="subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Boyut: %.2fKB</item>
+        <item quantity="one">Boyut: %.2fKB</item>
     </plurals>
 </resources>

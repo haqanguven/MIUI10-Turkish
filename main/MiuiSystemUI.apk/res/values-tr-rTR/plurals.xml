@@ -104,9 +104,9 @@
         <item quantity="other">%s içinde daha fazla bildirim var</item>
         <item quantity="one">%s içinde daha fazla bildirim var</item>
     </plurals>
-    <plurals name="notification_num_channels_desc">
-        <item quantity="other">Bu uygulamadan %d bildirim kategorisinden 1 tanesi</item>
-        <item quantity="one">Bu uygulamadan %d bildirim kategorisinden 1 tanesi</item>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d bildirim kategorisi</item>
+        <item quantity="one">%d bildirim kategorisi</item>
     </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">Bu uygulamadan %d bildirim kategorilerinden 1 tanesi</item>

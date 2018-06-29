@@ -289,6 +289,8 @@
     <string name="warning_field_invalid">Geçerli bir %1$s seçin</string>
     <string name="min_error">%1$s alanı daha uzun olmalıdır</string>
     <string name="max_error">%1$s alanı daha uzun olmalıdır</string>
+    <string name="reply_option_log_hint">İsteğe bağlı</string>
+    <string name="reply_select_log_hint">Günlük dosyasını seç</string>
     <string name="title_mi_family">Yakınlardaki Mi ev mağazaları</string>
     <string name="hint_feedback_main">Sorunu açıklayın</string>
     <string name="goon_feedback_main">Devam et</string>

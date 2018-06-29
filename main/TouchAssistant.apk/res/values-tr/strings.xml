@@ -15,6 +15,7 @@
     <string name="hide_touch_assistant_intro">Hızlı erişimi seçili uygulamalarda gizleyin</string>
     <string name="hide_when_fullscreen">Tam ekran modunda kenara çekil</string>
     <string name="hide_when_fullscreen_intro">Tam ekran moduna girilirken kenara çekil</string>
+    <string name="mi_wallet_summary">Taşıma kartı/Mi ödeme/Anahtar kartı</string>
     <string name="motion_behavior">Tercih edilen hareket</string>
     <string name="name_alipay_payment_code">Alipay ödeme</string>
     <string name="name_alipay_scan">Alipay tarayıcı</string>
@@ -22,6 +23,7 @@
     <string name="name_handy_mode">Tek el modu</string>
     <string name="name_long_press_power_key">Güç düğmesine uzun basın</string>
     <string name="name_memory_clean">Önbelleği temizle</string>
+    <string name="name_mi_wallet">Mi cüzdan</string>
     <string name="name_music_next_song">Sonraki şarkı</string>
     <string name="name_music_prev_song">Önceki şarkı</string>
     <string name="name_music_toggle">Şarkıyı oynat/duraklat</string>

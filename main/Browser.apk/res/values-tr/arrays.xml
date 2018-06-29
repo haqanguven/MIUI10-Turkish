@@ -42,6 +42,10 @@
         <item>Tarayıcıdan mesaj</item>
         <item>Olimpiyatları Mi ile takip edin</item>
     </string-array>
+    <string-array name="suggestion_topic_tips">
+        <item>Odaklı izleme</item>
+        <item>Merkezi sorun</item>
+    </string-array>
     <string-array name="suggestion_weather_condition_message">
         <item>Clear</item>
         <item>Partly cloudy</item>
@@ -334,9 +338,7 @@
     </string-array>
     <string-array name="search_bar_search_engines_default">
         <item>google</item>
-        <item>sm</item>
         <item>bing</item>
-        <item>yahoo</item>
     </string-array>
     <string-array name="search_bar_search_engines_rCN">
         <item>google</item>
@@ -358,15 +360,14 @@
     </string-array>
     <string-array name="search_engines_default">
         <item>google</item>
-        <item>sm</item>
-        <item>bing</item>
         <item>yahoo</item>
+        <item>bing</item>
     </string-array>
     <string-array name="search_engines_rCN">
-        <item>google</item>
+        <item>baidu</item>
+        <item>sogou</item>
         <item>sm</item>
-        <item>bing</item>
-        <item>yahoo</item>
+        <item>google</item>
     </string-array>
     <string-array name="shipin">
         <item>Youku</item>
@@ -382,12 +383,12 @@
         <item>shipin</item>
     </string-array>
     <string-array name="sm">
-        <item>Yandex</item>
-        <item>yandex.ru</item>
-        <item>http://yandex.ru/favicon.ico</item>
-        <item>http://yandex.ru/yandsearch?text={searchTerms}</item>
+        <item>Sm</item>
+        <item>sm.cn</item>
+        <item>http://stlogo.sm.cn/wap/sm/img/favicon.ico</item>
+        <item>http://m.yz.sm.cn/s?q={searchTerms}&amp;from=wy204461</item>
         <item>UTF-8</item>
-        <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
     </string-array>
     <string-array name="sm_in_list">
         <item>search_sm</item>

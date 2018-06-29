@@ -236,6 +236,10 @@
         <item quantity="other">Hata bildiriminden yalnızca %1$d adım uzaklıktasınız</item>
         <item quantity="one">Hata bildiriminden yalnızca %1$d adım uzaklıktasınız</item>
     </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Fabrika ayarlarına sıfırlama işlemini gerçekleştirmek için %1$d adımını tamamlayın</item>
+        <item quantity="one">Fabrika ayarlarına sıfırlama işlemini gerçekleştirmek için %1$d adımını tamamlayın</item>
+    </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d uygulama sınırsız veri kullanabilir</item>
         <item quantity="one">1 uygulama sınırsız veri kullanabilir</item>

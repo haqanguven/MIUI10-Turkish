@@ -451,7 +451,7 @@ Oynatma kalitesi"</string>
     <string name="wifi_security_wapi_cert">WAPI-Cert</string>
     <string name="wifi_security_wapi_psk">WAPI-PSK</string>
     <string name="wifi_security_wapi_psk_ascii">ASCII</string>
-    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">Onaltılık</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>

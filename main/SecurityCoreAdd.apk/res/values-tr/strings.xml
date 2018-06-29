@@ -73,7 +73,7 @@
     <string name="xspace_loading_msg">Uygulamalar yükleniyor</string>
     <string name="xspace_header">Çift uygulamalar</string>
     <string name="xspace_introduce">Tavsiye edilen</string>
-    <string name="xspace_description">"Çift uygulamalar uygulamayı farklı bir hesapla kullanabileceğiniz uygulama kopyalarıdır\u000d
+    <string name="xspace_description">"Çift uygulamalar uygulamayı farklı bir hesapla kullanabileceğiniz uygulama kopyalarıdır
 
 Bazı çift uygulamalar Google hizmet çerçevesine ihtiyaç duyar. Bu gibi durumlarda çift Google hizmet çerçevesi oluşturulur"</string>
     <string name="xspace_chocie">Çift uygulama desteği</string>
@@ -355,7 +355,7 @@ ikinci alan parmak izi kullanın"</string>
     <string name="show_noti_quick_switch_icon_detail">Bildirim çubuğunda alan değiştirme kısayolu göster</string>
     <string name="show_decktop_quick_switch_icon">Ana ekran kısayolu</string>
     <string name="show_decktop_quick_switch_icon_detail">İlk alanın Ana ekranında alan değiştirme kısayolu göster</string>
-    <string name="has_created_second_space">"Şimdi ikinci alan açabilirsiniz\u000d
+    <string name="has_created_second_space">"Şimdi ikinci alan açabilirsiniz
 İki alan. Tek cihaz"</string>
     <string name="privacy_password_fingerprint_dialog_title">Parmak izinizi taratın</string>
     <string name="privacy_password_fingerprint_dialog_message">Parmağınızı sensörün üzerine yerleştirin</string>
@@ -364,7 +364,7 @@ ikinci alan parmak izi kullanın"</string>
     <string name="remove_user_click_message">* İkinci alanda önemli bir öğeniz yoksa, %s</string>
     <string name="remove_user_click_message_action">ikinci alanı silebilir ve şimdi cihazınızı yeniden başlatabilirsiniz</string>
     <string name="sdcradfs_dialog_in_owner_title">İkinci alan</string>
-    <string name="sdcradfs_dialog_in_owner_message">"Miui 9'un yeni bir dosya sistemi var. Eski veriler onunla uyumsuz olabilir. Güncellemek için öğeleri ikinci alana taşıyın, cihazınızı yeniden başlatın ve tekrar ikinci alanı oluşturun
+    <string name="sdcradfs_dialog_in_owner_message">"Miui'nun yeni bir dosya sistemi var. Eski veriler onunla uyumsuz olabilir. Güncellemek için öğeleri ikinci alana taşıyın, cihazınızı yeniden başlatın ve tekrar ikinci alanı oluşturun
 Güncelleme yapmazsanız çift uygulamalar da düzgün çalışmayabilir"</string>
     <string name="sdcradfs_dialog_in_sec_title">Önemli güncelleme</string>
     <string name="sdcradfs_dialog_in_sec_message">"Güncellemek için ikinci alanınızı silmeli ve sonra yeniden oluşturmalısınız. Verileri ikinci alandan birinci alana taşıyın ve güncellemeyi tamamlamak için cihazınızı yeniden başlatın

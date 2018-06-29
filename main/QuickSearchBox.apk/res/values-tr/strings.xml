@@ -16,8 +16,8 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="corpus_label_web">Tavsiyeler</string>
     <string name="corpus_selection_heading">Ara</string>
     <string name="device_settings_category_title">Kısayolları temizle</string>
-    <string name="google_app_label">Google Arama</string>
-    <string name="google_search_description">Google Arama önerileri</string>
+    <string name="google_app_label">Google arama</string>
+    <string name="google_search_description">Google arama önerileri</string>
     <string name="google_search_hint">Google arama</string>
     <string name="google_search_label">Google</string>
     <string name="google_settings_category_title">Google arama</string>
@@ -37,7 +37,7 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="account_prifix">Hesap:</string>
     <string name="app_loaction">Ana ekranda bul</string>
     <string name="app_new_version">Uygulamanın en güncel sürümü zaten yüklü durumda</string>
-    <string name="app_update_install">Güncelleme yüklemeye hazır.</string>
+    <string name="app_update_install">Güncelleme yüklemeye hazır</string>
     <string name="appindex_description">yüklü uygulamaların işlevleri</string>
     <string name="appindex_search_label">Uygulamaların işlevleri</string>
     <string name="application_desc">Uygulama</string>
@@ -133,7 +133,7 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="download_filter_zip">Zip</string>
     <string name="download_no_sdcard_dlg_msg">%s indirme işlemi için bir SD kart gerekmektedir</string>
     <string name="download_no_sdcard_dlg_title">SD kart yok</string>
-    <string name="download_pending">İndirmeye başlanıyor…</string>
+    <string name="download_pending">İndirmeye başlanıyor</string>
     <string name="download_preference_activity_title">Dosyaları indir</string>
     <string name="download_sdcard_busy_dlg_msg">SD kart meşgul. İndirme işlemlerine izin vermek için, SD kartı bildirim çubuğunda kapatın</string>
     <string name="download_sdcard_busy_dlg_title">SD kart yok</string>
@@ -185,12 +185,12 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="item_history_clear">Temizle</string>
     <string name="item_history_more">Arama geçmişi</string>
     <string name="launcher_entrance_prompt_button">Anladım</string>
-    <string name="launcher_entrance_prompt_content">Bu özelliği Ayarlar menüsünde kapatabilirsiniz</string>
-    <string name="launcher_entrance_prompt_title">Global aramayı açmak için Ana ekranda yukarı doğru kaydırın</string>
+    <string name="launcher_entrance_prompt_content">Bu özelliği ayarlar menüsünde kapatabilirsiniz</string>
+    <string name="launcher_entrance_prompt_title">Global aramayı açmak için ana ekranda yukarı doğru kaydırın</string>
     <string name="loading">Yükleniyor</string>
     <string name="local_app">Uygulamalar</string>
     <string name="local_setting">Ayarlar</string>
-    <string name="login_failed_toast">Oturum açılamadı, yenileyin ve ardından tekrar deneyin</string>
+    <string name="login_failed_toast">Oturum açılamadı. Yenileyin ve ardından tekrar deneyin</string>
     <string name="main_setting">Ayarlar</string>
     <string name="main_setting_about">Global arama hakkında</string>
     <string name="main_setting_bookmark">Favoriler</string>
@@ -266,7 +266,7 @@ Bu ayarı Ayarlar > Yüklü uygulamalar > Arama menüsünde değiştirebilirsini
     <string name="secure_download_in_xiaomi_market">Uygulama Mağazasında indir</string>
     <string name="security_back">Güvenliğe geri dön</string>
     <string name="security_continue">Tehlikenin farkındayım ve devam etmek istiyorum</string>
-    <string name="security_risk_info">"Ziyaret etmek üzere olduğunuz internet sitesi güvenli değil.
+    <string name="security_risk_info">"Ziyaret etmek üzere olduğunuz internet sitesi güvenli değil
 Ziyaret etmeden önce tehlikenin farkında olduğunuzdan emin olun"</string>
     <string name="security_warning">Güvenlik uyarısı</string>
     <string name="send_secret_code">Kod gönder</string>

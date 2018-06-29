@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="static_cache_db_md5">65197ff9ad14586a0064c71dec2582d0</string>
+    <string name="static_cache_db_md5">ab1d49b8cd79f9a2df1eb8903dceb7b8</string>
     <string name="app_name">İzin yöneticisi</string>
     <string name="HIPS_Action_Accept">İzin ver</string>
     <string name="HIPS_Action_Reject">Reddet</string>
@@ -55,7 +55,7 @@
     <string name="HIPS_Perm_External_Storage">Dahili depolama alanında dosyalara erişir ve değiştirir</string>
     <string name="HIPS_Perm_External_Storage_Desc">Cihazın dahili depolama alanına dosya ekler ve siler</string>
     <string name="HIPS_Perm_Body_Sensors">Gövde sensörleri</string>
-    <string name="HIPS_Perm_Body_Sensors_Desc">Gövde sensörleri (örn. nabız sensörü)</string>
+    <string name="HIPS_Perm_Body_Sensors_Desc">Gövde sensörleri (Örneğin: Nabız sensörü)</string>
     <string name="HIPS_Perm_get_accounts">Cihazdaki hesaplara erişim</string>
     <string name="HIPS_Perm_get_accounts_Desc">Cihazda depolanan tüm hesaplara erişir</string>
     <string name="HIPS_Perm_add_voicemail">Ses mesajları</string>
@@ -65,7 +65,7 @@
     <string name="HIPS_Perm_process_outgoing_calls">Telefon uygulamasına erişim</string>
     <string name="HIPS_Perm_process_outgoing_calls_Desc">Aramaları takip eder ve sonlandırır</string>
     <string name="HIPS_Perm_process_nfc">Nfc</string>
-    <string name="HIPS_Perm_process_nfc_Desc">Yakın alan iletişim (Nfc) donanımına erişir</string>
+    <string name="HIPS_Perm_process_nfc_Desc">Yakın alan iletişim donanımına erişir</string>
     <string name="HIPS_Perm_install_shortcut">Ana ekran kısayolları</string>
     <string name="HIPS_Perm_install_shortcut_Desc">Ana ekrana kısayollar ekler</string>
     <string name="HIPS_Perm_read_notification_sms">Servis kısa mesajları</string>

@@ -510,7 +510,7 @@ veya dosyayı sıradan kaldırmak denensin mi?"</string>
     <string name="is_scanning">Depolama denetleniyor</string>
     <string name="is_scanning_support_online">"Depolama denetleniyor
 (Bu arada çevrimiçi müzik yayını yapabilir)"</string>
-    <string name="karaoke_message">Bu özelliği kullanabilmek için Karaoke eklentisini indirin ve yükleyin</string>
+    <string name="karaoke_message">Bu özelliği kullanabilmek için karaoke eklentisini indirin ve yükleyin</string>
     <string name="karaoke_my_studio">Stüdyom</string>
     <string name="karaoke_negative_text">Daha sonra</string>
     <string name="karaoke_positive_text">Tamam</string>

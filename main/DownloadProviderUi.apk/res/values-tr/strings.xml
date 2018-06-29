@@ -52,7 +52,7 @@
     <string name="storage_sd_card">SD kart</string>
     <string name="storage_usb">USB depolama</string>
     <string name="dialog_confirm_delete_downloads_message">%d görev silinsin mi?</string>
-    <string name="dialog_confirm_delete_the_download_item_message">Bu görevler silinsin mi</string>
+    <string name="dialog_confirm_delete_the_download_item_message">Görev silinsin mi</string>
     <string name="dialog_confirm_delete_checkbox_message">Yerel dosyaları da sil</string>
     <string name="download_when_network_connected">Mobil veri bağlantısını kullanarak indir</string>
     <string name="show_more">%s adet daha görüntüle</string>

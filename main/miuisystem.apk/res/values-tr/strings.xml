@@ -184,6 +184,8 @@
     <string name="mountainspring">Dağ yayı</string>
     <string name="fieldtrip">Okul gezisi</string>
     <string name="notice_audition">Doğa sesleri</string>
+    <string name="cowboy">Kovboy</string>
+    <string name="icelatte">Buzlu süt</string>
     <string name="cta_permission_delimiter">, </string>
     <string name="cta_permission_and"> ve </string>
     <string name="cta_title">Kullanım şartları</string>
@@ -192,4 +194,8 @@
     <string name="cta_check_reminder">Tekrar gösterme</string>
     <string name="cta_button_quit">Çık</string>
     <string name="cta_button_continue">Kabul et</string>
+    <string name="group_name_contacts">Kişiler</string>
+    <string name="group_name_friends">Arkadaşlar</string>
+    <string name="group_name_family">Aile</string>
+    <string name="group_name_coworkers">Meslektaşlar</string>
 </resources>

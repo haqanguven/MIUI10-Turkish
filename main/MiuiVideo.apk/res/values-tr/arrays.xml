@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="array" name="public_static_final_host_array_1">padding</item>
+    <string-array name="feedback_tag_list">
+        <item>Bug,1</item>
+        <item>Suggestion,2</item>
+        <item>Other issues,0</item>
+    </string-array>
     <string-array name="lang_detect">
         <item>中</item>
         <item>繁</item>
@@ -32,12 +38,12 @@
         <item>挪威</item>
     </string-array>
     <string-array name="lang_fast_internal_language">
-        <item>İngilizce&amp;中</item>
-        <item>中&amp;İngilizce</item>
+        <item>英&amp;中</item>
+        <item>中&amp;英</item>
     </string-array>
     <string-array name="lang_fast_internal_language_codes">
-        <item>Bir sonraki İngilizce</item>
-        <item>Bir sonraki Nakagami</item>
+        <item>英上中下</item>
+        <item>中上英下</item>
     </string-array>
     <integer-array name="subtitle_font_size">
         <item>36</item>

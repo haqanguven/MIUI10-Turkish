@@ -253,6 +253,7 @@ http://www.miliao.com
     <string name="err_filesystem_mount">Yönlendirici depolama alanına ulaşılamıyor</string>
     <string name="err_router_disconnected">Yönlendiricinizin bağlantısını kontrol edin ve yeniden deneyin</string>
     <string name="err_router_files_delete">Yönlendiricideki yedek dosyaları silinemedi</string>
+    <string name="err_acquire_system_service">Sistem hizmeti başlatılamadı</string>
     <string name="err_not_allow">Desteklenmiyor</string>
     <string name="err_bakfile_not_exist">Yedekleme dosyası mevcut değil</string>
     <string name="err_pkg_not_exist">Uygulama bulunamadı</string>
@@ -455,6 +456,12 @@ QR kodunu eski telefonunuzla tarayın"</string>
     <string name="backup_security_tips_message">Bazı uygulamalar yedeklenemeyebilir veya geri yüklenemeyebilir</string>
     <string name="trans_security_tips_title">Mi taşıyıcı uyumluluğu</string>
     <string name="trans_security_tips_message">Bazı uygulamalar Mi taşıyıcıyı desteklemiyor</string>
+    <string name="trans_cancel_selection_title">Mi taşıyıcıda kal</string>
+    <string name="trans_cancel_selection_message">Mi taşıyıcıdan çıkarsanız devam eden aktarım kesintiye uğrayacak. Aktarım tamamlanana kadar bekleyin</string>
+    <string name="trans_select_notification_title">Mi taşıyıcı çalışıyor</string>
+    <string name="trans_select_notification_message">Görüntülemek için dokunun</string>
+    <string name="trans_button_stay">Kal</string>
+    <string name="trans_button_exit">Çıkış</string>
     <string name="trans_wlan_tips_title">"Wifi'yi kapatmayın"</string>
     <string name="trans_wlan_tips_message">"Aktarım sırasında wifi'yi kapatmayın veya ağ değiştirmeyin. Aksi taktirde Mi taşıyıcı veri aktarımı yapamayacaktır"</string>
     <string name="trans_disconnected_tips_title">Uzak cihaz bağlantısı kesildi</string>

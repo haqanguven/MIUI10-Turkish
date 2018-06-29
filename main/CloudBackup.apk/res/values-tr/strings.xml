@@ -165,4 +165,12 @@ Not: Yüklemiş olduğunuz uygulamara ait veriler Mi bulut alanınıza yedeklenm
     <string name="notification_channel_remind">Hatırlatıcı</string>
     <string name="done_remove">Başarıyla kaldırıldı</string>
     <string name="doing_restore_home">Ana ekran ve ayarlar geri yükleniyor</string>
+	<string name="title_alert_cancel_restore">Geri yüklemeyi durdur</string>
+    <string name="msg_alert_cancel_restore">Bulut yedekleme geri yükleniyor. Durdurulsun mu?</string>
+    <string name="btn_restore_cancel">İptal et</string>
+    <string name="btn_restore_resume">Devam et</string>
+    <string name="title_alert_restore_error">Geri yükleme başarısız oldu</string>
+    <string name="msg_alert_restore_error">Bulut yedeklemesini geri yükleme başarısız oldu. Lütfen tekrar deneyin</string>
+    <string name="btn_restore_retry">Tekrar dene</string>
+    <string name="btn_restore_abort">İptal et</string>
 </resources>

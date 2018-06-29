@@ -281,6 +281,8 @@
     <string name="recommend_apps_tips">Bu özelliğin düzgün çalışabilmesi için internete bağlanması gerekmektedir. Bu özelliği kapatmak için klasörün adına dokunun</string>
     <string name="recommend_loading">Yükleniyor</string>
     <string name="refresh">Yenile</string>
+    <string name="reset_description_first_time">"Düzeni 2 saat içinde %1$s'den geri yükleyebilirsiniz"</string>
+    <string name="reset_description_others">"Düzeni %1$s'den geri yükleyebilirsiniz"</string>
     <string name="reset_fail">Sıfırlama başarısız oldu</string>
     <string name="reset_scene_prompt">Ekran varsayılan ekran düzenine sıfırlanacaktır</string>
     <string name="reset_title">Sıfırla</string>

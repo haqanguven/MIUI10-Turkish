@@ -89,10 +89,11 @@ Yeniden etkinleştirme işlemi için yeni Sim kartınız (%s) ile bağlantılı 
 Yeniden etkinleştirme işlemi için yeni Sim kartınız (%s) ile bağlantılı telefon numarasını girin"</string>
     <string name="activate_popup_confirm_all_gateway_failed_query_info">Yeniden deneyin</string>
     <string name="activate_popup_title_error_device_id">Geçersiz İmei</string>
-    <string name="activate_popup_desc_error_device_id">"İmei'yi kontrol etmek için *#06# tuşlayın"</string>
+    <string name="activate_popup_desc_error_device_id">"İmei numarasını kontrol etmek için *#06#'yi tuşlayın"</string>
     <string name="activate_popup_confirm_error_device_id">Yeniden deneyin</string>
     <string name="activate_feature_mx">Mi mesaj</string>
     <string name="activate_feature_mx_and_voip">Mi mesaj ve ses</string>
+    <string name="activate_feature_voip">Mi mesaj sesi</string>
     <string name="activate_feature_mms_sync">Mesajları senkronize et</string>
     <string name="activate_feature_call_log_sync">Arama geçmişini senkronize et</string>
     <string name="activate_feature_find_device">Cihaz bul</string>
@@ -118,4 +119,10 @@ Yeniden etkinleştirme işlemi için yeni Sim kartınız (%s) ile bağlantılı 
     <string name="agree">Kabul et</string>
     <string name="privacy_revoke_tips">Yetkilendirmeyi iptal ettikten sonra mesajlaşma verilerinizi toplamayı durdurur ve tüm verilerinizi sunucularından siler. Mi bulut, Mi mesaj ve diğer mesajlaşma özellikleriyle senkronizasyon artık kullanılamayacak. Yine de yetkilendirmeyi iptal etmek istiyor musunuz?</string>
     <string name="privacy_revoke_failed_msg">Etkinleştirme yapmanız yetkilendirmenin telefon numaranızı alabilmesi için yetkilendirmeyi gerektirir</string>
+    <string name="waiting_sim_in_service">Sim hizmeti bekliyor</string>
+    <string name="checking_client">Kontrol ediliyor</string>
+    <string name="error_sim_not_in_service">Sim hizmeti yok</string>
+    <string name="error_checking_client">Hata oluştu</string>
+    <string name="error_network_io">Ağ hatası</string>
+    <string name="error_no_send_sms_permission">Mesaj izni yok</string>
 </resources>

@@ -23,6 +23,7 @@
     <string name="status_bar_toggle_edit">Sırala</string>
     <string name="status_bar_toggle_battery_saver">Pil tasarrufu</string>
     <string name="status_bar_toggle_nfc">Nfc</string>
+    <string name="status_bar_toggle_drive_mode">Sürücü modu</string>
     <string name="status_bar_toggle_data_action">com.android.phone/.settings.MobileNetworkSettings</string>
     <string name="status_bar_toggle_bluetooth_action">com.android.settings/com.android.settings.Settings$BluetoothSettingsActivity</string>
     <string name="status_bar_toggle_brightness_action">com.android.settings/com.android.settings.display.BrightnessActivity</string>
@@ -94,16 +95,6 @@
     <string name="android_kilobyteShort">@android:string/kilobyteShort</string>
     <string name="config_xiaoaiComponent">com.miui.voiceassist/com.xiaomi.voiceassistant.VoiceService</string>
     <string name="miui">miui</string>
-    <string name="securespaces_extension_accelerometer_name">ACCELEROMETER_EXTENSION</string>
-    <string name="securespaces_extension_accelerometer_serviceName" />
-    <string name="securespaces_extension_delete_userdata_name">DELETE_USERDATA_EXTENSION</string>
-    <string name="securespaces_extension_delete_userdata_serviceName" />
-    <string name="securespaces_extension_encryption_name">ENCRYPTION_EXTENSION</string>
-    <string name="securespaces_extension_encryption_serviceName">spaceencryption</string>
-    <string name="securespaces_extension_hidden_name">HIDDEN_EXTENSION</string>
-    <string name="securespaces_extension_hidden_serviceName" />
-    <string name="securespaces_extension_read_cross_space_contacts_name">READ_CROSS_SPACE_CONTACTS_EXTENSION</string>
-    <string name="securespaces_extension_read_cross_space_contacts_serviceName" />
     <string name="perm_send_push_dspt">Mi itme mesajlarına izin ver</string>
     <string name="perm_send_push_lab">İtme mesajı gönder</string>
     <string name="select">Seç</string>
@@ -119,7 +110,7 @@
     <string name="translation_query_error_network">Ağa bağlanılamıyor. Ayarlarınızı kontrol edin ve tekrar deneyin</string>
     <string name="translation_more">Daha fazla</string>
     <string name="autofill">Otomatik dolgu</string>
-    <string name="auto_start_warning_title">Otomatik başlatma izni ver: %s?</string>
+    <string name="auto_start_warning_title">%s otomatik olarak başlatılsın mı?</string>
     <string name="auto_start_warning_allow">İzin ver</string>
     <string name="auto_start_warning_deny">Reddet</string>
     <string name="call_record_sample_prefix_miui">Arama</string>
@@ -163,7 +154,7 @@
     <string name="handy_mode_title">Tek el modu</string>
     <string name="handy_mode_summary">Kapatmak için karanlık alana dokunun</string>
     <string name="handy_mode_enter_dlg_title">Tek el moduna giriş yap</string>
-    <string name="handy_mode_enter_dlg_msg">Tek el moduna giriş yap?</string>
+    <string name="handy_mode_enter_dlg_msg">Tek el moduna giriş yapılsın mı?</string>
     <string name="screenshot_gesture_detect_alert_title">Üç parmak ekran görüntüsü</string>
     <string name="screenshot_gesture_detect_alert_msg">Ekran görüntüsü almak için üç parmak ile aşağı kaydırma özelliği açılsın mı?</string>
     <string name="screenshot_gesture_detect_alert_button">Ayarlar menüsünde açın</string>
@@ -193,10 +184,6 @@
     <string name="maml_component_customization_title">Ayarlar</string>
     <string name="default_name">Varsayılan</string>
     <string name="resource_select">Seç</string>
-    <string name="group_name_contacts">Kişiler</string>
-    <string name="group_name_friends">Arkadaşlar</string>
-    <string name="group_name_family">Aile</string>
-    <string name="group_name_coworkers">İş arkadaşları</string>
     <string name="fp_nav_center_action_choose_dlg_title">Ana ekran için hızlı dokunma</string>
     <string name="fp_nav_center_action_choose_dlg_msg">Ana ekran tuşuna hafifçe dokunarak ana ekranınıza dönebilirsiniz. Ayarlar > Ek ayarlar > Tuşlar menüsüne gidin ve Ana ekran için dokun özelliğini etkinleştirin</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Kullan</string>
@@ -242,7 +229,6 @@
     <string name="eighthours">8 saat</string>
     <string name="remain">Kalan: %s</string>
     <string name="configure_input_methods">Klavye seçin</string>
-    <string name="miui_upgrading_notification_title">Sistem yükleniyor. Bazı özellikler kullanılamayabilir</string>
     <string name="miui_screen_ratio_hint">En boy oranı sorunları</string>
     <string name="miui_screen_ratio_hint_message">Bu uygulama görüntülenme sorunlarına yol açabilecek olan tam ekran modunda çalışma iznine sahip. Bu ayarı Ayarlar > Ek ayarlar > Tuşlar menüsünde değiştirebilirsiniz</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Tekrar gösterme</string>
@@ -251,10 +237,18 @@
     <string name="switching_tv">Değiştiriliyor</string>
     <string name="switch_desc_tv">İki alan. Tek cihaz</string>
     <string name="switch_brand_desc_tv">Güvenlik hizmetleri Graphite tarafından sağlanmaktadır</string>
+    <string name="miui_upgrading_notification_title">Sistem yükleniyor. Bazı özellikler sınırlı olabilir</string>
+    <string name="voice_button_action_up">Konuşmak için basın</string>
+    <string name="voice_button_action_down">Aramak için bırakın</string>
+    <string name="voice_begin">Ne arıyorsun?</string>
+    <string name="voice_input_error_network">Ağa bağlanılamadı. Ağ ayarlarınızı kontrol edip tekrar deneyin</string>
+    <string name="voice_input_error_other">Bir hata oluştu. Bir ya da iki dakika bekleyin ve tekrar deneyin</string>
     <string name="miui_forbid_poweroff_when_device_locked">Güç kapalı. Cihaz kilitli</string>
-    <string name="super_resolution_maintain_tips">Süper çözünürlük henüz mevcut değil</string>
     <string name="wifi_assistant_wifi_no_internet">Bu wifi ağının internete erişimi yok</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Detayları görmek için dokunun</string>
+    <string name="super_resolution_maintain_tips">Süper çözünürlük henüz mevcut değil</string>
+    <string name="resolver_recommended_app_name">%1$s&lt;font color=#0099ff>&lt;br/>(%2$s)&lt;/font></string>
+    <string name="resolver_app_recommend_flag">Önerilen</string>
     <string name="android_forward_intent_to_owner">@android:string/forward_intent_to_owner</string>
     <string name="android_forward_intent_to_work">@android:string/forward_intent_to_work</string>
     <string name="android_whichApplicationNamed">@android:string/whichApplicationNamed</string>

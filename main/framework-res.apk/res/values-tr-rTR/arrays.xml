@@ -39,8 +39,8 @@
     </string-array>
     <array name="config_keySystemUuidMapping" />
     <string-array name="app_ops_labels">
-        <item>Wifi etkinleştiriliyor</item>
-        <item>Bluetooth etkinleştiriliyor</item>
+        <item>Wifi ağını etkinleştirmeye çalışıyor</item>
+        <item>Bluetooth bağlantısını etkinleştirmeye çalışıyor</item>
     </string-array>
     <array name="carrier_properties" />
     <array name="common_nicknames" />
@@ -167,10 +167,6 @@
         <item>350</item>
     </integer-array>
     <string-array name="config_defaultPinnerServiceFiles">
-        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
-        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
-        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
-        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
         <item>/system/framework/arm64/boot.oat</item>
         <item>/system/framework/arm/boot.oat</item>
         <item>/system/framework/oat/arm64/services.odex</item>
@@ -179,6 +175,13 @@
         <item>/system/framework/arm/boot-framework.oat</item>
         <item>/system/framework/arm64/boot-core-libart.oat</item>
         <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
     </string-array>
     <array name="config_default_vm_number" />
     <array name="config_disabledUntilUsedPreinstalledCarrierApps" />
@@ -243,6 +246,8 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <string-array name="config_locationProviderPackageNames">
+        <item>com.xiaomi.location.fused</item>
+        <item>com.xiaomi.metoknlp</item>
         <item>com.android.location.fused</item>
         <item>com.baidu.map.location</item>
         <item>com.amap.android.location</item>
@@ -257,12 +262,13 @@
         <item>-140</item>
         <item>-128</item>
         <item>-118</item>
-        <item>-108</item>
+        <item>-110</item>
         <item>-98</item>
         <item>-44</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
-        <item>1</item>
+        <item>0</item>
+        <item>15</item>
         <item>30</item>
         <item>60</item>
         <item>128</item>
@@ -270,6 +276,7 @@
         <item>255</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapOut">
+        <item>0</item>
         <item>1</item>
         <item>8</item>
         <item>20</item>
@@ -510,7 +517,49 @@
     <string-array name="no_ems_support_sim_operators">
         <item>20404;suffix;BAE0000000000000</item>
     </string-array>
-    <array name="preloaded_color_state_lists" />
+    <array name="preloaded_color_state_lists">
+        <item>@color/primary_text_dark</item>
+        <item>@color/primary_text_dark_disable_only</item>
+        <item>@color/primary_text_dark_nodisable</item>
+        <item>@color/primary_text_disable_only_holo_dark</item>
+        <item>@color/primary_text_disable_only_holo_light</item>
+        <item>@color/primary_text_holo_dark</item>
+        <item>@color/primary_text_holo_light</item>
+        <item>@color/primary_text_light</item>
+        <item>@color/primary_text_light_disable_only</item>
+        <item>@color/primary_text_light_nodisable</item>
+        <item>@color/primary_text_nodisable_holo_dark</item>
+        <item>@color/primary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_dark</item>
+        <item>@color/secondary_text_dark_nodisable</item>
+        <item>@color/secondary_text_holo_dark</item>
+        <item>@color/secondary_text_holo_light</item>
+        <item>@color/secondary_text_light</item>
+        <item>@color/secondary_text_light_nodisable</item>
+        <item>@color/secondary_text_nodisable_holo_dark</item>
+        <item>@color/secondary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_nofocus</item>
+        <item>@color/hint_foreground_dark</item>
+        <item>@color/hint_foreground_holo_dark</item>
+        <item>@color/hint_foreground_holo_light</item>
+        <item>@color/hint_foreground_light</item>
+        <item>@color/bright_foreground_light</item>
+        <item>@color/bright_foreground_dark</item>
+        <item>@color/tab_indicator_text</item>
+        <item>#ff000000</item>
+        <item>#00000000</item>
+        <item>#ffffffff</item>
+        <item>@color/background_cache_hint_selector_material_dark</item>
+        <item>@color/background_cache_hint_selector_material_light</item>
+        <item>@color/btn_default_material_dark</item>
+        <item>@color/btn_default_material_light</item>
+        <item>@color/primary_text_disable_only_material_dark</item>
+        <item>@color/primary_text_disable_only_material_light</item>
+        <item>@color/primary_text_material_dark</item>
+        <item>@color/primary_text_material_light</item>
+        <item>@color/search_url_text_material_dark</item>
+        <item>@color/search_url_text_material_light</item>
+    </array>
     <array name="preloaded_drawables">
         <item>@drawable/btn_default_pressed_holo_light</item>
         <item>@drawable/btn_default_normal_holo_light</item>
@@ -617,8 +666,6 @@
         <item>@string/unpin_target</item>
         <item>@string/app_info</item>
     </string-array>
-    <array name="securespaces_extension_encryption_userRestrictions" />
-    <array name="securespaces_extension_hidden_userRestrictions" />
     <array name="sim_colors">
         <item>@color/Teal_700</item>
         <item>@color/Blue_700</item>
@@ -1117,7 +1164,7 @@
         <item>zu-ZA</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>"Wifi ağı üzerinden telefon etmek ve ileti göndermek için ilk önce operatörünüzden bu hizmeti ayarlamasını isteyin. Sonra tekrar ayarlardan kablosuz arama özelliğini açın"</item>
+        <item>Kablosuz ağ üzerinden telefon etmek ve ileti göndermek için ilk önce operatörünüzden bu hizmeti ayarlamasını isteyin. Sonra tekrar ayarlardan kablosuz arama özelliğini açın</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Operatörünüze kaydolun</item>

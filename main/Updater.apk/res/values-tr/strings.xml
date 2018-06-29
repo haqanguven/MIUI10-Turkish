@@ -25,7 +25,7 @@
     <string name="check_new_version">Kontrol et</string>
     <string name="download_diff">Farklılıkları indir</string>
     <string name="download_full">Tamamını indir</string>
-    <string name="download_cancel">İptal</string>
+    <string name="download_cancel">İptal et</string>
     <string name="install">Yükle</string>
     <string name="install_local">Yerel yükleme</string>
     <string name="reboot">Yeniden başlat</string>
@@ -338,10 +338,6 @@ Geri bildirim gönderilemedi"</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Fotoğraf</string>
     <string name="accessibility_play">Oynat</string>
-    <string name="security_space_title">Önemli güncelleme</string>
-    <string name="security_space_msg">"Miui 9'un yeni bir dosya sistemi var. Şimdi cihazınızı yeniden başlatırsanız ikinci alanı kullanamayabilirsiniz. Yeniden başlatmadan önce tüm öğeleri ikinci alandan birinci alana taşıyın</string>
-    <string name="security_space_button_pos">Yeniden başlatma</string>
-    <string name="security_space_button_neg">Yeniden başlat</string>
     <string name="privacy_revoke_msg">Güncelleyici Miui ve özelliklerini güncel tutmanıza izin verir. Yetkilendirmeyi iptal ettikten sonra uygulama veri toplamayı durdurur ve ilgili tüm veriler bu cihazdan ve sunuculardan silinir. Cihazınızı güncellemeyi reddetmek güvenlik riskleri doğurabilir. Yine de yetkilendirmeyi iptal etmek ister misiniz?</string>
     <string name="title_tip">Yeni özellikler</string>
     <string name="tip_drag_last_toast">"MIUI 10'daki yeniliklere göz atın"</string>

@@ -53,6 +53,7 @@ Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası s
     <string name="terms_of_use_label_gms">"Gizliliğiniz bizim için çok önemlidir. Hangi bilgileri topladığımızı, topladığımız bilgileri nasıl kullandığımızı ve hangi tercihlerin sizin için uygun olduğunu anlamak için hizmet şartları ve gizlilik politikamızı okuyun
 
 Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası sözleşmelerimizi kabul etmeniz gerekmektedir. Mi hizmetleri, Mi Sim etkinleştirme hizmetleri, Mi bulut, Cihaz bul, Ana ekran, Oyun merkezi, Mab, Miui şeytan ve Msa sistem bileşenleri, İnternet uygulamaları, Akıllı yardımcı, İstatistikler, Akıllı kartlar, Mi bağlantı, Mi hesabı ve Google Play servis bileşenleri internete bağlanacak ve konumunuza erişecektir"</string>
+    <string name="terms_of_use_label_systemhelper">Kendinden kayıtlı servis</string>
     <string name="user_agreement">Hizmet şartları</string>
     <string name="privacy_policy">Gizlilik politikası</string>
     <string name="application_permissions">Uygulama izinleri</string>
@@ -73,7 +74,7 @@ Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası s
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Cihazınızın kilidini açmak veya diğer uygulama ve hizmetlerde oturum açmak için parmak izinizi kullanın</string>
     <string name="content_description_start">Başlat</string>
-    <string name="start_up_slogan">Tam ekran deneyimi için tasarlandı</string>
+    <string name="start_up_slogan">Hoş geldiniz</string>
     <string name="content_description_miui_version">Miui 10</string>
     <string name="content_description_complete">Tamamlandı</string>
     <string name="language_picker_other_languages_title">Daha fazla dil</string>

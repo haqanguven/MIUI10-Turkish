@@ -21,8 +21,8 @@
         <item quantity="one">%d gün</item>
     </plurals>
     <plurals name="duration_days_shortest_future">
-        <item quantity="other">%dg içinde</item>
-        <item quantity="one">%dg içinde</item>
+        <item quantity="other">%d gün içinde</item>
+        <item quantity="one">%d gün içinde</item>
     </plurals>
     <plurals name="duration_hours_relative">
         <item quantity="other">%d saat önce</item>
@@ -37,8 +37,8 @@
         <item quantity="one">%d saat</item>
     </plurals>
     <plurals name="duration_hours_shortest_future">
-        <item quantity="other">%dsa içinde</item>
-        <item quantity="one">%dsa içinde</item>
+        <item quantity="other">%d saat içinde</item>
+        <item quantity="one">%d saat içinde</item>
     </plurals>
     <plurals name="duration_minutes_relative">
         <item quantity="other">%d dakika önce</item>
@@ -53,8 +53,8 @@
         <item quantity="one">%d dakika</item>
     </plurals>
     <plurals name="duration_minutes_shortest_future">
-        <item quantity="other">%ddk içinde</item>
-        <item quantity="one">%ddk içinde</item>
+        <item quantity="other">%d dakika içinde</item>
+        <item quantity="one">%d dakika içinde</item>
     </plurals>
     <plurals name="duration_years_relative">
         <item quantity="other">%d yıl önce</item>
@@ -101,8 +101,8 @@
         <item quantity="one">Kablosuz ağ var</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Kullanılabilir kablosuz ağları aç</item>
-        <item quantity="one">Kullanılabilir kablosuz ağı aç</item>
+        <item quantity="other">Kullanılabilir Kablosuz ağları aç</item>
+        <item quantity="one">Kullanılabilir Kablosuz ağı aç</item>
     </plurals>
     <plurals name="zen_mode_duration_hours">
         <item quantity="other">%d saat için</item>

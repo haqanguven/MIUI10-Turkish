@@ -73,8 +73,8 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="one">%d uygulama bulundu</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"&lt;font color='#ff0000'>%d&lt;/font> uygulamanın ağ erişimi kısıtlandı"</item>
-        <item quantity="one">"&lt;font color='#ff0000'>%d&lt;/font> uygulamanın ağ erişimi kısıtlandı"</item>
+        <item quantity="other">"&lt;font color='#ff0000'>%d uygulamanın ağ erişimi kısıtlandı"</item>
+        <item quantity="one">"&lt;font color='#ff0000'>%d uygulamanın ağ erişimi kısıtlandı"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d uygulama düzgün çalışmıyor ve pil tüketiyor</item>

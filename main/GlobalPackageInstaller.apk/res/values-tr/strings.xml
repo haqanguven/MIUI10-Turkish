@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="perm_privacy_app_finish">Tamam</string>
+    <string name="perm_privacy_app_installed">Uygulama yüklendi</string>
+    <string name="miui_delete">Kaldır</string>
+    <string name="virus_unhandle">Yoksay</string>
+    <string name="virus_app_safe">Bu uygulama güvenli</string>
+    <string name="miui_install_version">Sürüm: %s</string>
+    <string name="miui_virus_scanning">Taranıyor</string>
+    <string name="miui_virus_scanning_0">Taranıyor</string>
+    <string name="miui_virus_scanning_1">Taranıyor.  </string>
+    <string name="miui_virus_scanning_2">Taranıyor.. </string>
+    <string name="miui_virus_scanning_3">Taranıyor...</string>
+    <string name="miui_virus_title">Yüksek risk</string>
+    <string name="miui_please_clear">Virüsleri sil</string>
+    <string name="miui_app_detail">Ayrıntılar</string>
+    <string name="launch">Aç</string>
+    <string name="cancel">İptal et</string>
+    <string name="ok">Tamam</string>
+    <string name="install">Yükle</string>
+    <string name="app_name">Global paket yükleyici</string>
+    <string name="unlike">Hayır. Teşekkürler</string>
+    <string name="ads_summary">%1$s yükleyen kişiler aynı zamanda bunlarıda beğendi</string>
+    <string name="moreapp">Daha fazla uygulama</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="dialog_title_cloud_virus">Bulut virüs taraması cihazınızda kötü amaçlı yazılımları, virüsleri daha hızlı ve daha etkili bir şekilde bulmanızı sağlar. Cihazınıza virüs olup olmadığını her kontrol ettiğinizde ağa bağlanın ve bulut virüs taramasını kullanın</string>
+    <string name="dialog_title_update">Bir güncelleme mevcut. Şimdi güncellensin mi?</string>
+    <string name="dialog_title_stop_scan">Virüs taramalarını kesintiye uğratarak bazı virüsleri fark edilmeden bırakabilirsiniz. Yine de kesmek ister misiniz?</string>
+    <string name="settings_title_virus">Virüs tarama ayarları</string>
+    <string name="settings_item_cloud_virus">Bulut virüsü taraması</string>
+    <string name="settings_item_cloud_virus_text">Cihazınızı virüsler için her kontrol ettiğinizde ağa bağlanın ve bulut virüs taramasını kullanın</string>
+    <string name="settings_title">Ayarlar</string>
+</resources>

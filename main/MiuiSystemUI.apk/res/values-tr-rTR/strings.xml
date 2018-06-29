@@ -124,6 +124,8 @@
     <string name="accessibility_location_active">Konum istekleri etkin</string>
     <string name="accessibility_managed_profile">İş profili</string>
     <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_menu_item_split_disable">Uygulama bölünmüş ekranı desteklemiyor</string>
+    <string name="accessibility_menu_item_split_enable">Uygulama bölünmüş ekranı destekliyor</string>
     <string name="accessibility_multi_user_switch_inactive">Geçerli kullanıcı: %s</string>
     <string name="accessibility_multi_user_switch_quick_contact">Profili göster</string>
     <string name="accessibility_multi_user_switch_switcher">Kullanıcı değiştir</string>
@@ -240,6 +242,8 @@
     <string name="accessibility_settings">Ayarlar</string>
     <string name="accessibility_settings_button">Sistem ayarları</string>
     <string name="accessibility_signal_full">Sinyal tam</string>
+    <string name="accessibility_splite_screen_primary">Bölünmüş ekranı birincil uygulamasına ekle</string>
+    <string name="accessibility_splite_screen_secondary">Bölünmüş ekranı ikincil uygulamasına ekle</string>
     <string name="accessibility_status_bar_headphones">Kulaklık bağlandı</string>
     <string name="accessibility_status_bar_headset">Kulaklık bağlı</string>
     <string name="accessibility_status_bar_hotspot">Bağlantı noktası</string>
@@ -1046,6 +1050,9 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="memory_clear_result_giga">%1$sGB temizlendi</string>
     <string name="memory_clear_result_mega">%1$sMB temizlendi</string>
     <string name="menu_ime">Klavye değiştirici</string>
+    <string name="miui_guide_dialog_button_negative_text">Ayarlar</string>
+    <string name="miui_guide_dialog_button_positive_text">Anladım</string>
+    <string name="miui_guide_dialog_message">Medya sesleri sessiz modda oynatılmaya devam eder. Bunu ayarlardan değiştirebilirsiniz</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Bluetooth cihazı ile kilit açıldı</string>
     <string name="miui_ringer_count_down">Geri sayım</string>
     <string name="miui_ringer_count_down_time">Geri sayım: %s</string>
@@ -1055,8 +1062,10 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="miui_ringer_total_description">Alarm saati dışındaki tüm öğeler için titreşim kapatılır</string>
     <string name="miui_toast_zen_dnd_to_off">Sesler ve titreşim normale döndü</string>
     <string name="miui_toast_zen_standard_to_off">Zil sesleri normale döndü</string>
+    <string name="miui_toast_zen_standard_to_off_when_shield_media">Zil seslerinin yanı sıra bildirim ve medya sesleri de çalınacak</string>
     <string name="miui_toast_zen_to_dnd">Sesler sessiz ve titreşim kapalı</string>
     <string name="miui_toast_zen_to_standard">Aramalar ve bildirimler için zil sesleri susturulur</string>
+    <string name="miui_toast_zen_to_standard_when_shield_media">Zil seslerinin yanı sıra bildirim ve medya sesleri de susturulacak</string>
     <string name="mland">Marshmallow manzara</string>
     <string name="mobile_data">Mobil veri</string>
     <string name="mobile_data_always_on">Hücresel veri her zaman etkin</string>

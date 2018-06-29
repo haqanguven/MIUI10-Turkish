@@ -21,7 +21,7 @@ Lütfen sertifikaların geçerliliğini kontrol edin"</string>
     <string name="wifi_security_wapi_psk">WAPI-PSK</string>
     <string name="wifi_security_wapi_cert">WAPI-Cert</string>
     <string name="wifi_security_wapi_psk_ascii">ASCII</string>
-    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">Onaltılık</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_remembered">Kaydedildi</string>
     <string name="wifi_disabled_generic">Devre dışı</string>
@@ -480,6 +480,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="callFailed_call_rejected">Arama reddedildi</string>
     <string name="callFailed_number_changed">Numara değişti</string>
     <string name="callFailed_preemption">Satın alma hakkı</string>
+    <string name="callFailed_non_selected_user_clearing">Seçilmemiş kullanıcı takası</string>
     <string name="callFailed_destination_out_of_order">Hedef bozuk</string>
     <string name="callFailed_invalid_number_format">Geçersiz numara biçimi (Eksik numara)</string>
     <string name="callFailed_facility_rejected">Tesis reddedildi</string>
@@ -510,11 +511,10 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="callFailed_message_type_not_compatible_with_protocol_state">Mesaj türü protokol durumuyla uyumlu değil</string>
     <string name="callFailed_information_element_non_existent">Bilgi unsuru olmayan, var olmayan veya uygulanmadı</string>
     <string name="callFailed_conditional_IE_error">Koşullu IE hatası</string>
-    <string name="callFailed_message_not_compatible_with_protocol_state">Mesaj, protokol durumuyla uyumlu değil</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Mesaj protokol durumuyla uyumlu değil</string>
     <string name="callFailed_recovery_on_timer_expired">Zamanlayıcı dolumunda kurtar</string>
-    <string name="callFailed_protocol_error_unspecified">Protokol hatası, belirtilmemiş</string>
-    <string name="callFailed_interworking_unspecified">Birlikte çalışıyor, belirtilmemiş</string>
-    <string name="callFailed_non_selected_user_clearing">Seçilmemiş kullanıcı temizleniyor</string>
+    <string name="callFailed_protocol_error_unspecified">Protokol hatası. Belirtilmemiş</string>
+    <string name="callFailed_interworking_unspecified">Birlikte çalışıyor. Belirtilmemiş</string>
     <string name="dialpad_star_number">*</string>
     <string name="dialpad_pound_number">\#</string>
     <string name="dialpad_0_letters">+</string>
@@ -620,8 +620,8 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Puk kilidini açmak istiyor</string>
     <string name="PERSOSUBSTATE_SIM_SIM_PUK_IN_PROGRESS">Puk kilidini açmak istiyor</string>
     <string name="PERSOSUBSTATE_SIM_SIM_IN_PROGRESS">Sim kilidini açmak istiyor</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Ruim network1 kilidini açmak istiyor</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Ruim network2 kilidini açmak istiyor</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Ruim ağ1 kilidini açmak istiyor</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Ruim ağ2 kilidini açmak istiyor</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">Ruim Hrpd kilidini açmak isteniyor</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">Ruim Servis Sağlayıcının kilidini açmak istiyor</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Ruim kurumsal kilidini açma isteği</string>
@@ -640,8 +640,8 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ERROR">Sim servis sağlayıcının kilidini açma isteği başarısız oldu</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ERROR">Sim Kurumsal kilidini açma isteği başarısız oldu</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ERROR">Sim kilidini açma isteği başarısız oldu</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">Ruim Network1 kilidini açma isteği başarısız oldu</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">Ruim Network2 kilidini açma isteği başarısız oldu</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">Ruim ağ1 kilidini açma isteği başarısız oldu</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">Ruim ağ2 kilidini açma isteği başarısız oldu</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_ERROR">Ruim Hrpd kilidini açma isteği başarılı oldu</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">Ruim şirket kilidini açma isteği başarısız oldu</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ERROR">Ruim Servis Sağlayıcının kilidini açma isteği başarısız oldu</string>
@@ -760,7 +760,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="voicemail_settings_with_label">Sesli mesaj (%s)</string>
     <string name="voicemail_abbreviated">VM:</string>
     <string name="voicemail_notifications_key">voicemail_notification_key</string>
-    <string name="voicemail_notifications_preference_title">Notifications</string>
+    <string name="voicemail_notifications_preference_title">Bildirimler</string>
     <string name="networks">Ağ operatörleri</string>
     <string name="cell_broadcast_settings">Acil durum yayını</string>
     <string name="call_settings">Telefon</string>
@@ -1178,9 +1178,9 @@ Bir sonraki dönem %2$d gün içerisinde başlayacaktır (%3$s)"</string>
 
 “Etkinleştir”e bastıktan sonra, telefonunuzun etkinleştirilmesi için gerekli olan talimatları dinleyin"</string>
     <string name="ota_hfa_activation_title">Etkinleştiriliyor</string>
-    <string name="ota_hfa_activation_dialog_message">"Mobil veri hizmetinizi etkinleştirme işlemi 5 dakika kadar sürebilir
-	
-"</string>
+    <string name="ota_hfa_activation_dialog_message">"Mobil veri hizmetiniz etkinleştiriyor
+
+Bu 5 dakika kadar sürebilir"</string>
     <string name="ota_skip_activation_dialog_title">Etkinleştirme atlansın mı?</string>
     <string name="ota_skip_activation_dialog_message">Etkinleştirmeyi atlarsanız arama yapamaz veya mobil veri ağlarına bağlanamazsınız (Kablosuz ağlara bağlanabilirsiniz). Telefonunuzu etkinleştirinceye kadar telefonu her açışınızda ürünü etkinleştirip etkinleştirmeyeceğiniz sorulur</string>
     <string name="ota_skip_activation_dialog_skip_label">Atla</string>
@@ -1567,7 +1567,7 @@ Seçilen ağ yerine tercih edilen ağ kullanılacaktır"</string>
     <string name="msim_pref_title_voice">Çevir</string>
     <string name="msim_pref_title_data">İnternet</string>
     <string name="msim_not_set_summary">Ayarlı değil</string>
-    <string name="msim_select_default_time_left">(%d sn)</string>
+    <string name="msim_select_default_time_left">(%d saniye)</string>
     <string name="msim_switch_data_conn_toast">Sim kart değiştirildi. Ağ tipi değişti. Ek bilgileri ayarlar menüsünde Sim kartlar ve mobil ağlar bölümünde görüntüleyebilirsiniz</string>
     <string name="msim_switch_data_conn_toast_for_h2xct">İkinci Sim yuvası yalnızca GSM şebekelerini destekler. Bu yuva için tercih edilen ağ tipi yalnızca 2G olarak ayarlanmıştır</string>
     <string name="msim_disable_sim_card_title">Sim kart kullanmayı durdur</string>
@@ -1622,7 +1622,7 @@ Seçilen ağ yerine tercih edilen ağ kullanılacaktır"</string>
     <string name="respond_via_sms_menu_reset_default_activity">Varsayılanları geri yükle</string>
     <string name="respond_via_sms_confirmation_format">Mesaj %s numaralı telefona gönderildi</string>
     <string name="sip_add_account_tip_text">İnternet aramasını kullanabilmek için bir SIP hesabı ekleyin</string>
-    <string name="callwait_open_hint">Arama bekletme özelliği operatörünüz tarafından sağlanmaktadır. Eğer bir hata uyarısı alırsanız, operatörünüzün bu özelliği desteklediğinden emin olmak için operatörünüz ile iletişime geçiniz</string>
+    <string name="callwait_open_hint">Arama bekletme özelliği operatörünüz tarafından sağlanmaktadır. Eğer bir hata uyarısı alırsanız operatörünüzün bu özelliği desteklediğinden emin olmak için operatörünüz ile iletişime geçiniz</string>
     <string name="open_miui">Aç</string>
     <string name="preferred_network_restrict_network_changed_incall">Mobil ağ arama sırasında değiştirilemiyor</string>
     <string name="alertdialogtitle">Sonuçlar</string>
@@ -1630,7 +1630,7 @@ Seçilen ağ yerine tercih edilen ağ kullanılacaktır"</string>
     <string name="bad_puk">Girmiş olduğunuz Puk kodu yanlış</string>
     <string name="confirm_pin_label">Yeni Pin kodunu onaylayın</string>
     <string name="fdn_summary">Listelenmiş sabit arama numaralarını veya belirlenmiş ön eki olan numaralara aramaları kısıtla</string>
-    <string name="simFdnContacts_empty">Sabit arama numarası yok.</string>
+    <string name="simFdnContacts_empty">Sabit arama numarası yok</string>
     <string name="internet_phone">İnternet araması</string>
     <string name="invalid_pin">4 ila 8 karakter uzunluğunda bir Pin kodu girin</string>
     <string name="invalid_puk">4 ila 8 karakter uzunluğunda bir Puk kodu girin</string>
@@ -1724,6 +1724,8 @@ Bir sonraki başarısız oldu girişimden sonra Pin2 ile ilgili işlevler kilitl
     <string name="vice_slot_volte_data_switch_title">İkinci Sim kartta VoLTE aramaları yapılırken mobil veri kullan</string>
     <string name="vice_slot_volte_data_switch_summary">VoLTE aramaları sırasında cihaz ikinci Sim kartı kullanarak bir mobil veri ağına bağlanır</string>
     <string name="vice_slot_volte_data_switch_prompt">Cihazınız VoLTE aramları sırasında ikinci Sim kartı kullanarak bir mobil veri ağına bağlanacaktır. Bu özellik ek veri ücretlerine neden olabilir. Tarife detaylarınız için yerel operatörünüzle iletişime geçin</string>
+    <string name="opened_dual_4g_confirm_prompt_with_sim">Sadece Sim %1$s 4G'yi destekliyor. Sim kartınızın normal çalıştığından emin olmak için çift 4G açın</string>
+    <string name="change_data_sim_4g_only_prompt">"Sadece Sim %1$s 4G'yi destekliyor. Sim %2$s mobil veriler için varsayılan Siminiz değilse Sim kartı normal şekilde çalışmayabilir"</string>
     <string name="call_settings_primary_user_only">Arama ayarları yalnızca birincil kullanıcı tarafından değiştirilebilir</string>
     <string name="roaming_notification_title">Dolaşım modu etkinleştirilmiş gibi görünüyor</string>
     <string name="roaming_notification_content">Aramaları daha kolay hale getirmek için ülke kodlarını otomatik olarak ekleyebilirsiniz</string>
@@ -1743,7 +1745,9 @@ Bir sonraki başarısız oldu girişimden sonra Pin2 ile ilgili işlevler kilitl
     <string name="sim_roaming_settings_title">Mi Dolaşım</string>
     <string name="sim_roaming_settings_summary">Dolaşım modundayken mobil veri ağlarına bağlanın</string>
     <string name="lable_network_not_supported">Ağ desteklenmiyor</string>
+    <string name="rcs_not_supported">Rcs desteklenmiyor</string>
     <string name="change_data_preference_4g_only_prompt">Yalnızca 4G uyumlu bir Sim kartına sahipsiniz gibi görünüyor. Sim kartınız mobil veri için varsayılan olarak ayarlansın mı?</string>
+    <string name="opened_dual_4g_confirm_prompt">Yalnızca 4G uyumlu bir Sim kartına sahipsiniz gibi görünüyor. Çift 4G otomatik olarak açıldı</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -1797,19 +1801,8 @@ Bir sonraki başarısız oldu girişimden sonra Pin2 ile ilgili işlevler kilitl
     <string name="vice_card_data_in_use_alert">Ek veri ücreti oluşturulabilir</string>
     <string name="enable_vice_volte_if_dual_ct">"İki Sim kartı takıldığında otomatik olarak ikinci Sim için VoLTE'yi açın"</string>
     <string name="enable_dual_4g_if_dual_ct">"İki Sim kartı takılı olduğunda ikinci Sim'de VoLTE kullanmak için her iki Sim kart için 4G ağları tercih edin"</string>
-    <string name="voice_service_switch_title">VoLTE arama servislerini kullan</string>
-    <string name="voice_service_switch_summary">VoLTE şebekelerinde VoLTE arama işlevini kullanabilmek için açın</string>
-    <string name="voice_service_warning_dialog_title">VoLTE aramalar</string>
-    <string name="voice_service_warning_dialog_body">"Bu tablet 4G ağlarında VoLTE aramalarını desteklemektedir. Bu işlevi desteklemek için cihazınızın bağlı olduğu ağların olduğundan emin olun. VoLTE hizmetleri operatörünüz tarafından sağlanmaktadır. Bölgenizde VoLTE'nin desteklenip desteklenmediğini öğrenmek için yerel operatörünüze başvurun
-
-Durum çubuğunda _ görürseniz VoLTE aramaları mevcut değildir. Arama yapamıyor veya alamıyorsanız veya aramalarınız kesiliyorsa ağınızın VoLTE ile uyumlu olduğundan emin olun
-
-Bu tabletin bir kulaklığı yok. Eller serbest moduna geçebilir veya arama yapmak için kulaklık kullanabilirsiniz"</string>
-    <string name="voice_service_warning_dialog_cancel">İptal et</string>
-    <string name="voice_service_warning_dialog_ok_timer">Anladım (%d)</string>
-    <string name="voice_service_warning_dialog_ok">Anladım</string>
-    <string name="voice_service_cannot_call_notification_title">Mevcut ağda arama yapılamıyor</string>
-    <string name="voice_service_cannot_call_notification_content">Arama yapmaya çalışırken bağlantı sorunları yaşayabilirsiniz</string>
+    <string name="cloud_sim_enabled_preferred_network_summary">Mi dolaşımı kullanırken ağ tercihlerini değiştiremez</string>
+    <string name="cloud_sim_enabled_dual_4g_summary">"Mi dolaşım kullanılırken Çift 4G'i kapatamazsınız"</string>
     <string name="wificall_switch_title">Wifi üzerinden arama</string>
     <string name="wificall_switch_summary">Bağlantı zayıf olduğu zamanlarda cihazınız Wifi ve VoLTE arasında geçiş yapabilir</string>
     <string name="preferred_wificall_title">Ağ tercihi</string>
@@ -1817,8 +1810,6 @@ Bu tabletin bir kulaklığı yok. Eller serbest moduna geçebilir veya arama yap
     <string name="wfcmode_wifi_preferred">Wifi öncelikli</string>
     <string name="wfcmode_mobile_preferred">Mobil veri öncelikli</string>
     <string name="wifi_call_setting">Wifi arama</string>
-    <string name="cloud_sim_enabled_preferred_network_summary">Mi dolaşım kullanılırken ağ tercihleri değiştirilemez</string>
-    <string name="cloud_sim_enabled_dual_4g_summary">"Mi dolaşım kullanılırken çift 4G kapatılamaz"</string>
     <string name="dc_alert_dialog_title">Veri kullanımı uyarısı</string>
     <string name="dc_alert_dialog_message">"Bazı uygulamalar mobil veri bağlantısı gerektirir. Size %s'in neler olduğunu öğrenmek için operatörünüzle iletişime geçebilirsiniz"</string>
     <string name="do_not_show_again">Tekrar gösterme</string>

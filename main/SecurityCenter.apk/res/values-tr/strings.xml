@@ -13,7 +13,6 @@
     <string name="fw_blocked_join">" ve "</string>
     <string name="fw_oversea_content">Yabancı telefon numaralarından gelen aramaları engelle</string>
     <string name="tab_title">Engelli listesi</string>
-    <string name="tab_blacklist">Engelli listesi</string>
     <string name="tab_sms">Mesaj</string>
     <string name="tab_call">Aramalar</string>
     <string name="bl_no_block_call">Engellenen arama yok</string>
@@ -22,10 +21,8 @@
     <string name="wl_no_whitelist">İstisna yok</string>
     <string name="log_count">(%d)</string>
     <string name="tab_block_log_unKnowNumber">Özel numara</string>
-    <string name="user_define_title">Kural ekle</string>
     <string name="blacklist_prefix_add_hint">Bu ön ek ile başlayan numaraların tamamını engelle</string>
     <string name="whitelist_prefix_add_hint">Ön eki olan numaraların tamamını istisnalara ekle</string>
-    <string name="customizer_mode_user_define_name">Kurallarım</string>
     <string name="all_address_choose_hint">Bu bölgedeki bütün numaralar</string>
     <string name="address_choose_hint">%1$s, %2$s ve %3$d diğer konum</string>
     <string name="two_address_choose_hint">%1$s ve %2$s</string>
@@ -37,11 +34,6 @@
     <string name="dlg_white_address_antispam_message">Bu konum istisnalar listesine eklensin mi?</string>
     <string name="dlg_white_antispam_hint">İstisnalar</string>
     <string name="dlg_black_antispam_hint">Engelli listesi</string>
-    <string name="dlg_clear_all_sms">Engelli mesajlar silinsin mi?</string>
-    <string name="dlg_clear_all_call">Engellenmiş aramalar temizlensin mi?</string>
-    <string name="dlg_clear_current_sms">Bu numaradan gönderilen tüm engelli mesajlar silinsin mi?</string>
-    <string name="dlg_clear_current_call">Bu numaradan gelen tüm engellenmiş aramalar temizlensin mi?</string>
-    <string name="dlg_clear_all_ok">Tümünü temizle</string>
     <string name="dlg_clear_current_ok">Temizle</string>
     <string name="dlg_no_block">"Bu numaranın engeli kaldırılsın ve bu numaradan gelen aramalar 
 arama geçmişine geri yüklensin mi?"</string>
@@ -66,10 +58,6 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="toast_keyword_blank">Bir anahtar kelime girmeniz gerekmektedir</string>
     <string name="toast_keyword_exist">Anahtar kelime eklendi</string>
     <string name="toast_keyword_invalid">Geçersiz anahtar kelime</string>
-    <string name="dlg_antispam_mode_delete_title">Kurallar silinsin mi?</string>
-    <string name="dlg_antispam_mode_delete_message">Kuralları sildikten sonra geri yükleyemezsiniz</string>
-    <string name="dlg_antispam_using_mode_delete_message">Şu anda kullanılan kurallar silinsin ve engelli listesinin varsayılan kurallarına geçilsin mi?</string>
-    <string name="dlg_antispam_using_mode_international_delete_message">Şu anda kullanılan kurallar silinsin ve engelli listesinin varsayılan kurallarına geçilsin mi?</string>
     <string name="back_sound_success">Başarılı</string>
     <string name="back_sound_fail">Başarısız oldu</string>
     <string name="back_sound_support">Mevcut ağ operatörü işlemi desteklemiyor</string>
@@ -141,7 +129,6 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="st_antispam_bw_adress_add">Konum ekle</string>
     <string name="st_antispam_black_adress_add">Konum ekle</string>
     <string name="st_antispam_bw_choose_modes">Listeye ekle</string>
-    <string name="hint_antispam_mode_edit">Özel mod</string>
     <string name="st_title_adress">Konum ekle</string>
     <string name="st_title_adress_num">%d seçildi</string>
     <string name="sms_blacklist">Engelli mesaj listesi</string>
@@ -184,49 +171,22 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="report_error">Mesaj bildirilemedi</string>
     <string name="report_warning">"%1$s mesaj Mi'ye bildirilsin mi? Bu mesajlar ve telefon numaraları gözden geçirilmek üzere Mi sunucularına gönderilecektir. Bu mesajlardaki tüm kişisel bilgiler kesinlikle anonim kalacaktır"</string>
     <string name="report_warning_title">Mesaj bildir</string>
-    <string name="st_sub_title_customize_mode_name">Ad</string>
     <string name="read_all_sms">Tümünü oku</string>
     <string name="loding">Veri yükleniyor</string>
     <string name="action_source_sms_title">Engellenen mesajlar</string>
     <string name="action_source_call_title">Engellenen aramalar</string>
     <string name="st_title_open_antispam">Engelli listesi</string>
-    <string name="st_title_antispam_mode">Kurallar</string>
-    <string name="st_sub_title_whiteblack_list_group">Engelli listesi</string>
     <string name="st_title_keywords_blacklist">Anahtar kelime kara listesi</string>
     <string name="st_title_keywords_whitelist">Anahtar kelime beyaz listesi</string>
     <string name="st_title_blacklist_numbers">Engellenen numaralar</string>
     <string name="st_title_whitelist_numbers">İstisnalar</string>
-    <string name="st_title_backsound_group">Sesli uzak bilgi mesajı</string>
     <string name="st_title_anticomintcall_backsound_setting">Engellenen numaralara çalınan mesaj</string>
     <string name="st_title_settings_other_group">Ek ayarlar</string>
     <string name="st_title_show_antispam_notification">Engelli listesi bildirimleri</string>
-    <string name="st_title_mode_choose_group">Profil seçin</string>
-    <string name="st_antispam_mode_smart">Bildirilen numaralar</string>
-    <string name="st_antispam_mode_blacklist">Engellenen numaralar</string>
-    <string name="st_antispam_mode_only_contacts">Yalnızca kişilerime izin ver</string>
-    <string name="st_antispam_mode_only_whitelist">Yalnızca istisnalara izin ver</string>
-    <string name="st_antispam_mode_only_all_deny">Her şeyi engelle</string>
-    <string name="st_antispam_mode_add_new">Kural ekle</string>
-    <string name="st_antispam_title_whitelist">İstisnalar</string>
-    <string name="st_antispam_title_contactandanoy_group">Ayarlar</string>
-    <string name="st_antispam_title_contact_sms">Kişilerimden gelen mesajlar</string>
-    <string name="st_antispam_title_contact_incoming">Kişilerimden gelen aramalar</string>
     <string name="st_antispam_title_anoy_sms">Yabancılardan gelen mesajlar</string>
-    <string name="st_antispam_title_anoy_incoming">Yabancılardan gelen aramalar</string>
-    <string name="st_antispam_title_null_incoming">Özel numaralar</string>
     <string name="st_antispam_title_service_sms">Servis bildirimleri</string>
-    <string name="st_summary_keywords_blacklist">Mesajları engellemek için anahtar kelimeler girin</string>
     <string name="st_summary_blacklist_numbers">Belirli numara ve alanlardan gelen arama ve mesajları engelle</string>
     <string name="st_summary_whitelist_numbers">Özel numara ve alanlardan gelen arama ve mesajlara izin verin</string>
-    <string name="st_summary_blacklist_numbers_international">Belirli numaralardan gelen arama ve mesajları engelle</string>
-    <string name="st_summary_whitelist_numbers_international">Belirli numaralardan gelen arama ve mesajlara izin ver</string>
-    <string name="st_summary_special_numbers">İşaretlenmiş telefon numaralarını engelleyin</string>
-    <string name="st_antispam_mode_smart_sum">Sizin eklediğiniz ve diğer kullanıcılar tarafından bildirilen engelli numaralar</string>
-    <string name="st_antispam_mode_blacklist_sum">Engelli listesine eklediğiniz numaralardan gelen aramaları ve mesajları engelle</string>
-    <string name="st_antispam_mode_only_contacts_sum">Yalnızca kişilerimden gelen arama ve mesajlara izin ver</string>
-    <string name="st_antispam_mode_only_whitelist_sum">Yalnızca istisnalar listesindeki kişilerden gelen arama ve mesajlara izin ver</string>
-    <string name="st_antispam_mode_only_all_deny_sum">Tüm arama ve mesajları engelle</string>
-    <string name="st_antispam_mode_denyownself_sum">Özel kurallar</string>
     <string name="st_antispam_des_anti">Engelle</string>
     <string name="st_antispam_des_smart_anti">Filtre</string>
     <string name="st_antispam_des_permit">İzin ver</string>
@@ -238,14 +198,11 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="info_unantispam_sms">Kısa mesajlara izin ver</string>
     <string name="info_unantispam_phone">Aramalara izin ver</string>
     <string name="info_unantispam_phone_sms">Arama ve kısa mesajlara izin ver</string>
-    <string name="st_antispam_delete">Sil</string>
-    <string name="info_antispam_current_mode">%s</string>
     <string name="note_list_none">Liste boş</string>
     <string name="note_sms_none">Mesaj yok</string>
     <string name="note_call_none">Arama yok</string>
     <string name="block_message_number">Mesajlar: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Aramalar: &lt;font color=#5fab1b>%d&lt;/font></string>
-    <string name="info_antispam_close">Engelli listesi kapalı</string>
     <string name="mark_fraud">Dolandırıcı olarak bildirilenleri engelle</string>
     <string name="mark_agent">Aracı olarak bildirilenleri engelle</string>
     <string name="mark_sell">Tele-pazarlamacı olarak bildirilenleri engelle</string>
@@ -256,8 +213,6 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="button_to_setting">Ayarlar</string>
     <string name="special_number_group">Bildirilen numaraları engelle</string>
     <string name="st_title_markednumber_group">Bildirilen numaraları engelle</string>
-    <string name="st_title_other_group">Diğer</string>
-    <string name="call_transfer_info">Bilinmeyen numaralardan gelen yönlendirilmiş aramaları engelle</string>
     <string name="button_text_delete">Sil</string>
     <string name="repeated_marked_number_title">Bildirilmiş numaralardan gelen tekrarlanan aramaları engelleme</string>
     <string name="repeated_marked_number_summary">Bildirilmiş bir numaradan 3 dakika içerisinde gelen ikinci aramayı engelleme</string>
@@ -294,7 +249,6 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="address">Adres</string>
     <string name="note">Not</string>
     <string name="antispam_xpace_text">Engelli listesini ayarlamak için ilk alana geçin</string>
-    <string name="antispam_mode_details">Engelli listesi ayrıntıları</string>
     <string name="st_share_settings">Sim 1 ayarlarını kullan</string>
     <string name="st_msg_settings">Engelli mesaj listesi</string>
     <string name="st_msg_intercept_contacts">Kişilerden gelen mesajları engelle</string>
@@ -324,13 +278,7 @@ arama geçmişine geri yüklensin mi?"</string>
     <string name="cta_dialog_msg">Güvenlik uygulaması güncellemeleri almak için internet bağlantısına ve normal olarak çalışabilmesi için konum erişimine ihtiyaç duyar</string>
     <string name="cta_settings">İnternet bağlantısına izin ver</string>
     <string name="gdpr_msg"><Data>"Güvenlik uygulamasının temel özelliklerini kullanabilmek için Xiaomi'nin kişisel verilerinizi toplayacağını kabul etmelisiniz. Güvenlik özellikleri cihazınızda belirtilen temel bilgiler ve diğer bilgileri içerir. &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Gizlilik politikamıza&lt;/a> göz atın"</Data></string>
-    <string name="st_antispam_mode_smart_state">11111111</string>
-    <string name="st_antispam_mode_blacklist_state">11112121</string>
-    <string name="st_antispam_mode_only_contacts_state">11110000</string>
-    <string name="st_antispam_mode_only_whitelist_state">11000000</string>
-    <string name="st_antispam_mode_only_all_deny_state">10000000</string>
     <string name="empty_activity_title">" "</string>
-    <string name="later">Daha sonra</string>
     <string name="open_right_now">Kırmızı zarfları derhal tut</string>
     <string name="open_right_now_short">Hemen kap</string>
     <string name="group_have_hongbao">Kırmızı zarf: %2$d (%1$s)</string>
@@ -355,8 +303,8 @@ Hatırlatıcıları engellenen grupları desteklemez ve yazılımın rahatsız e
     <string name="qq_lucky_warning">QQ kırmızı zarf</string>
     <string name="miliao_lucky_warning">Pirinç çantası sohbet</string>
     <string name="business_lucky_warning">Şirketin kırmızı zarfları</string>
-    <string name="lucky_warning_count_title">发来红包最多的人是</string>
-    <string name="lucky_max_chat_title">发来红包最多的群是</string>
+    <string name="lucky_warning_count_title">来自微信</string>
+    <string name="lucky_max_chat_title">来自QQ</string>
     <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
     <string name="weChat_not_found">您的应用版本过低或者未安装</string>
     <string name="hongbao_message_slogon">小米手机就是快!</string>
@@ -445,6 +393,11 @@ Hatırlatıcıları engellenen grupları desteklemez ve yazılımın rahatsız e
     <string name="lucky_sound_mode_lucky">红包来了</string>
     <string name="lucky_str_yuan">%s元</string>
     <string name="lucky_my_luckymoney">我的红包战绩</string>
+    <string name="lucky_alarm_back">返回红包助手</string>
+    <string name="lucky_money_close">关闭</string>
+    <string name="lucky_accessibility_alarm_disable">红包闹钟，已禁用</string>
+    <string name="lucky_accessibility_more_settings_disable">更多设置，已禁用</string>
+    <string name="lucky_accessibility_fast_mode_disable">速抢模式，已禁用</string>
     <string name="app_name_na">Veri kullanımı</string>
     <string name="list_empty_text">Boş</string>
     <string name="dialog_title_attention">Uyarı</string>
@@ -454,6 +407,7 @@ Hatırlatıcıları engellenen grupları desteklemez ve yazılımın rahatsız e
     <string name="megabyteShort">MB</string>
     <string name="kilobyteShort">KB</string>
     <string name="byteShort">B</string>
+    <string name="yuan">CNY</string>
     <string name="percent_text_formatted">%%%s</string>
     <string name="main_toolbar_firewall">Veri kullanımını kısıtla</string>
     <string name="main_toolbar_statistic">Veri kullanım istatistikleri</string>
@@ -504,8 +458,11 @@ bekleniyor"</string>
     <string name="main_tobe_added_desc">Mobil veri ile 0.03¥/MB</string>
     <string name="main_button_mi_sim_close">Mi Sim etkinleştirme</string>
     <string name="main_button_mi_sim_open">Detayları göster</string>
+    <string name="main_dialog_button">立即设置</string>
+    <string name="main_dialog_titile">运营商设置</string>
+    <string name="main_dialog_message">立即设置运营商，系统将为您自动管控流量，防止流量超出扣费。网络助手目前已支持日常套餐、闲时流量、加油包、日租卡、定向流量等多种套餐形式。</string>
     <string name="adjust_sms_cmd"><u>Kalibrasyon mesaj şablonunu ayarla</u></string>
-    <string name="sms_detail_correct_success_text">"Önceki kalibrasyondan veri kullanım istatistikleri (%1$s):"</string>
+    <string name="sms_detail_correct_success_text">Önceki kalibrasyondan veri kullanım istatistikleri (%1$s):</string>
     <string name="tc_send_sms_error">Mesaj gönderilemedi</string>
     <string name="tc_cmd_invalid">Şablon geçersiz</string>
     <string name="tc_receive_timeout">Kalibrasyon zaman aşımına uğradı</string>
@@ -872,15 +829,10 @@ Kalibrasyon işlemi sırasında Miui kalibrasyon şablonunu almak amacıyla bir 
     <string name="see_detail">Ayrıntılar</string>
     <string name="choose">Seç</string>
     <string name="replace_dns">"DNS'i otomatik olarak değiştir"</string>
-    <string name="notify_weekly_traffic_title">Bu hafta %s kullanıldı</string>
-    <string name="notify_weekly_traffic_title_for_slotnum">%1$s bu hafta %2$s veri kullandı</string>
-    <string name="notify_weekly_traffic_body">Veri kullanım limitini otomatik olarak sınırlandırmak için tarife detaylarınızı ayarlayın</string>
     <string name="notify_daily_data_usage_body">Veri kullanımını otomatik olarak sınırlandırmak için tarife detaylarınızı ayarlayın</string>
     <string name="notify_month_traffic_title">Bu ay %s kullanıldı</string>
-    <string name="notify_month_traffic_title_for_slotnum">%1$s bu ay %2$s veri kullandı</string>
     <string name="notify_month_traffic_body">Tarifenizin aylık sınırını aşmamak adına bir veri kullanım limiti ayarlayın</string>
     <string name="notify_daily_limit_title">Bu gün %s kullanıldı</string>
-    <string name="notify_daily_limit_title_for_slotnum">%1$s bugün %2$s veri kullandı</string>
     <string name="notify_daily_limit_body">Veri kullanım limiti ayarlamak için dokunun</string>
     <string name="network_blocked_notification_summary">Ağ testi</string>
     <string name="network_blocked_switch_wifi">Ağları değiştir</string>
@@ -914,19 +866,19 @@ Kalibrasyon işlemi sırasında Miui kalibrasyon şablonunu almak amacıyla bir 
 3. Sim kartınızın veya Sim kart yuvasının zarar görüp görmediğinden emin olun. Sim kartın cihazınızın Sim kart yuvasına doğru takılıp takılmadığını kontrol edin"</string>
     <string name="network_route_exception_detail">"Bağlanmış olduğunuz yönlendiricide bir sorun olabilir: 
  
- \""<b>1. Halka açık wifi ağ sorunları</b>"\" 
+ \"\""<b>1. Halka açık wifi ağ sorunları</b>"\"\" 
 Eğer halka açık bir wifi ağına bağlandıysanız ağa bağlı olan kullanıcı sayısı ağı yavaşlatıyor veya bağlantı sorunları oluşmasına neden oluyor olabilir. Başka bir ağa bağlanın ve ardından tekrar deneyin 
  
- \""<b>2. İnternet servis sağlayıcısı sorunları</b>"\" 
+ \"\""<b>2. İnternet servis sağlayıcısı sorunları</b>"\"\" 
 İnternet servis sağlayıcısı hesabınızda bir sorun olup olmadığından emin olun 
  
- \""<b>3. Yönlendirici donanım sorunları</b>"\" 
+ \"\""<b>3. Yönlendirici donanım sorunları</b>"\"\" 
 Yönlendiricinizin yönetici ayarlarını kontrol edin veya yönlendiricinizi yeniden başlatmayı deneyin 
  
- \""<b>4. Diğer yönlendirici sorunları</b>"\" 
+ \"\""<b>4. Diğer yönlendirici sorunları</b>"\"\" 
 Yönlendiriciniz ile birlikte gelen yönergeleri gözden geçirin ve yönlendiricinizi fabrika ayarlarına geri döndürün 
  
- \""<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>"\" 
+ \"\""<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>"\"\" 
 Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu değiştirmeyi deneyin. Eğer ev ağınızda bir sorun olduğundan şüpheleniyorsanız internet servis sağlayıcınızla iletişime geçin"</string>
     <string name="permission_exception_title">Uygulamalar için sınırlı ağ bağlantısı</string>
     <string name="bg_network_exception_title">Sınırlı arka plan ağ bağlantısı</string>
@@ -1024,29 +976,56 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="tether_over_limit_dialog_title">Veri kullanım uyarısı</string>
     <string name="tether_over_limit_dialog_message">Kişisel bağlantı noktası veri sınırına ulaştınız</string>
     <string name="tether_over_limit_dialog_cancle_btn">Bağlantı noktasını sıfırla</string>
+    <string name="speed_entrance">Test speed</string>
+    <string name="speed_start">Test</string>
+    <string name="speed_stop">Cancel</string>
+    <string name="speed_result_broadband_text1">Current download speed</string>
+    <string name="speed_result_broadband_text2">%s of bandwidth</string>
+    <string name="speed_result_finish">Done</string>
+    <string name="speed_result_restart">Test again</string>
+    <string name="speed_title_result">Test speed</string>
+    <string name="speed_title">Test speed</string>
+    <string name="wlan_detail_title">Current WLAN network</string>
+    <string name="wlan_detail_ap">Network name</string>
+    <string name="wlan_detail_type">Frequency</string>
+    <string name="wlan_detail_db">Signal</string>
+    <string name="wlan_db_good">Strong</string>
+    <string name="wlan_db_soso">Medium</string>
+    <string name="wlan_db_bad">Weak</string>
+    <string name="wlan_5G">5G</string>
+    <string name="wlan_2_4G">2.4G</string>
+    <string name="wlan_detail_change">Switch networks</string>
+    <string name="speed_tip_no_netwrok">"Couldn't connect to the network. Connect and try again."</string>
+    <string name="speed_tip_netwrok_timeout">Connection timed out, try again</string>
+    <string name="speed_tip_netwrok_fail">A network error occurred, try again</string>
+    <string name="dialog_speed_title">Data usage warning</string>
+    <string name="dialog_speed_msg">Using mobile data to test network may consume large amounts of mobile data. Continue anyway?</string>
+    <string name="dialog_speed_cancel">Cancel</string>
+    <string name="dialog_speed_ok">Continue</string>
+    <string name="try_download">Try to download</string>
+    <string name="test_speed_result">Test result</string>
+    <string name="average_speed">Average speed</string>
+    <string name="fastest_speed">Top speed</string>
+    <string name="test_speed_detail">Details</string>
+    <string name="time_consume">Duration</string>
+    <string name="flow_consume">Traffic</string>
+    <string name="speed_result_broadband_text3">Broadband</string>
+    <string name="test_speed_please">Tap to test speed...</string>
+    <string name="test_speed">Test</string>
+    <string name="test_network_speed">Test speed</string>
+    <string name="test_network_speed_summary">Average speed %1$s Top speed %2$s</string>
     <string name="optimize_manage_title">Hızı artır</string>
     <string name="cpu_usage_android_system">Android sistemi</string>
     <string name="cpu_usage_process_run_time_little_time">1 dakikadan az</string>
     <string name="cpu_usage_view_action_btn_text">Görüntülemek için dokunun</string>
-    <string name="cpu_usage_app_bg_restrict_title">Arka plan ayarları</string>
-    <string name="cpu_usage_app_bg_restrict_default">Otomatik (Önerilen)</string>
-    <string name="cpu_usage_app_bg_restrict_no_limit">Kısıtlama</string>
-    <string name="cpu_usage_app_bg_restrict_partly">%s sonra</string>
-    <string name="cpu_usage_app_bg_restrict_full">Arka plan etkinliklerini kısıtla</string>
-    <string name="cpu_usage_app_bg_restrict_partly_short">%s sonra</string>
-    <string name="cpu_usage_app_bg_restrict_default_short">Otomatik</string>
-    <string name="cpu_usage_app_tip_can_not_restrict_system_app">Sistem servisleri kısıtlanamıyor</string>
-    <string name="cpu_usage_app_uninstalled_toast">Uygulama kaldırıldı</string>
     <string name="memory_clean_memory_size_tip">Önbellek</string>
     <string name="memory_clean_click_tip">Hızı arttır</string>
     <string name="memory_clean_running_process_title">İzlenen uygulamalar (%d)</string>
     <string name="memory_clean_cleaning_title">Önbelleği temizle</string>
     <string name="memory_clean_no_need_clean">Her şey yolunda gözüküyor</string>
     <string name="memory_cleaned_memory_up">Hız artırma</string>
-    <string name="memory_cleaned_memory_info">Kullanılabilir bellek</string>
     <string name="memory_clean_no_running_process">Temizlenecek görev yok</string>
     <string name="memory_clean_btn_click_text">Hızı arttır</string>
-    <string name="optimize_result_header_view_summary">Hızı arttır</string>
     <string name="optimize_result_available_memory_info">Kullanılabilir bellek:</string>
     <string name="optimize_result_title_uninstall_apps">Uygulamalar</string>
     <string name="om_settings_title">Optimizasyon ayarları</string>
@@ -1062,7 +1041,6 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="om_settings_memory_occupy_notify_never">Asla</string>
     <string name="om_lock_app_locked_app">Kilitlendi</string>
     <string name="om_lock_app_unlocked_app">Kilit açıldı</string>
-    <string name="om_lock_app_locked_app_occupy_memory">Çok fazla uygulamayı kilitlemeniz telefonunuzun performansını düşürür</string>
     <string name="om_lock_app_tip_msg">Kilitlemek için dokunun</string>
     <string name="om_notify_cpu_load_too_high_title">%s işlemci kullanımı çok yüksek</string>
     <string name="om_notify_cpu_load_too_high_summary">Hızı artırmak için arkaplan etkinliklerini kısıtlayın</string>
@@ -1078,15 +1056,12 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="om_media_scan_timeout_proc_detail">Medya sunucusu arkaplanda çalışıyor. Etkinliklerini kısıtlayabilirsiniz</string>
     <string name="om_media_scan_time_warn_title">"Medya sunucusu arkaplanda çalışıyor 
 Bu durum pil ömrünü kısaltır"</string>
-    <string name="om_other_processes">Diğer görevler</string>
-    <string name="om_other_processes_cpu_usage_summary">Ortalama işlemci kullanımı %%%s seviyesinden az</string>
     <string name="om_cpu_overload_app_fixed">Tüm sorunlar onarıldı</string>
     <string name="om_memory_clean_cleaning_text">Hız artırılıyor</string>
     <string name="om_formatted_percent_string">%%%s</string>
     <string name="om_cpu_usage_warn_title_text">"Bu uygulama cihazınızı 
 yavaşlatabilir"</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
-    <string name="om_ill_proc_handle_unstaill_title">%s kaldırılsın mı?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Pil kullanım sorunlarını düzeltmek için bu uygulamayı kaldırın</string>
     <string name="om_ill_proc_type_wakelock_title">Bu uygulama uyku modunu engelliyor ve pil tüketiyor</string>
     <string name="om_ill_proc_type_wakelock_detail">Uyku modu sorunlarını düzelt</string>
@@ -1421,10 +1396,10 @@ yavaşlatabilir"</string>
     <string name="sp_monitored_apps_count_zero">Korunan ödeme uygulaması yok</string>
     <string name="monitor_app_more">Daha fazla</string>
     <string name="monitor_app_add">Ekle</string>
-    <string name="sc_system_risk_fix_info_xspace">Bunu ikinci alanda çözemezsiniz. Birinci alanda tekrar deneyin</string>
     <string name="dialog_no_longer_alert">Tekrar gösterme</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Genel wifi uyarı</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Güvensiz olabilecek bir kamu wifi ağına bağlısınız. Ödemenizin tamamlanmadan önce korunduğundan emin olun</string>
+    <string name="sc_system_risk_fix_info_xspace">Bunu ikinci alanda çözemezsiniz. Birinci alanda tekrar deneyin</string>
     <string name="sc_warning_updater_not_found">Güncelleyici uygulaması bulunamadı. Güncelleme yapılamıyor</string>
     <string name="sp_background_risk_dialog_title">Uyarı</string>
     <string name="sp_background_risk_dialog_summary">, ödeme sorunlarını kontrol edin ve düzeltin</string>
@@ -1503,6 +1478,7 @@ yavaşlatabilir"</string>
     <string name="preference_category_information_setting">category_information_setting</string>
     <string name="preference_key_information_setting_wlan">key_information_setting_wlan</string>
     <string name="preference_key_information_setting_close">key_information_setting_close</string>
+    <string name="preference_key_optimize_manage">key_module_optimize_manage</string>
     <string name="preference_key_app_permission_install_debug">key_app_permission_install_debug</string>
     <string name="preference_key_category_monitor">key_category_monitor</string>
     <string name="preference_key_settings_monitor">key_settings_monitor</string>
@@ -1512,7 +1488,6 @@ yavaşlatabilir"</string>
     <string name="preference_key_check_item_root">key_check_item_root</string>
     <string name="preference_key_check_item_update">key_check_item_update</string>
     <string name="preference_key_sign_exception">key_sign_exception</string>
-    <string name="preference_key_optimize_manage">key_module_optimize_manage</string>
     <string name="app_name_securitycenter">Güvenlik</string>
     <string name="back_description_securitycenter">Geri</string>
     <string name="ok">Tamam</string>
@@ -1785,7 +1760,7 @@ yavaşlatabilir"</string>
     <string name="summary_consume_power">Isınma sorunları bulundu. Bu durum pil ömrünü etkileyebilir</string>
     <string name="title_restrict_data_usage">%s internete bağlanamıyor mu?</string>
     <string name="summary_restrict_data_usage">Bu uygulama için veri kullanımını kısıtladınız. Düzeltmek için dokunun</string>
-    <string name="title_background_connection">"Arka planda %s kullanamaz mı?"</string>
+    <string name="title_background_connection">Arka planda %s kullanamaz mı?</string>
     <string name="summary_background_connection">Bu uygulama için arka plan bağlantısını kısıtladınız. Düzeltmek için dokunun</string>
     <string name="title_block_calls_from_cantacts">Bayan arkadaşlarından gelen aramalar mı?</string>
     <string name="summary_block_calls_from_cantacts">Engelleme listesini kullanıyorsunuz. Düzeltmek için dokunun</string>
@@ -2038,6 +2013,12 @@ yavaşlatabilir"</string>
     <string name="confirm_fingerprint_msg">Parmak izinizi doğrulayın</string>
     <string name="fingerprint_identify_msg">Parmak izi kilit açmayı etkinleştir</string>
     <string name="fingerprint_not_identified_msg">Parmak izi okunamadı. Parolanızı girin</string>
+    <string name="fod_button_password">Enter password</string>
+    <string name="fod_button_finger">Use fingerprint</string>
+    <string name="fod_finger_notice_title">Place your finger on the screen</string>
+    <string name="fod_finger_windows_tips">Verify your fingerprint</string>
+    <string name="fod_authentication_shift_button">Cancel</string>
+    <string name="fod_tips_split_screen_more_than_half">Enter password</string>
     <string name="lockscreen_access_pattern_start">Desen başlatıldı</string>
     <string name="lockscreen_access_pattern_cleared">Desen temizlendi</string>
     <string name="lockscreen_access_pattern_cell_added">Hücre eklendi</string>
@@ -2168,7 +2149,6 @@ yavaşlatabilir"</string>
     <string name="app_manager_appupdate_remind">Güncellemeleri bildir</string>
     <string name="app_usage_never">Hiç kullanılmadı</string>
     <string name="app_usage_recently">Son kullanılanlar</string>
-    <string name="app_manager_have_not_consume">Yok</string>
     <string name="app_manager_menu_clear_data">Verileri temizle</string>
     <string name="app_manager_clear_data_dlg_title">Uygulama verileri silinsin mi?</string>
     <string name="app_manager_clear_data_dlg_message">Bu uygulamanın tüm verileri kalıcı olarak silinecektir. Bu veriler ayarları, hesapları, tüm dosyaları, veri tabanlarını içerir</string>
@@ -2212,10 +2192,10 @@ yavaşlatabilir"</string>
     <string name="app_manager_reset_app_preferences_title">Uygulama tercihleri sıfırlansın mı?</string>
     <string name="app_manager_reset_app_preferences_desc">"Aşağıda belirtilen uygulama tercihlerini sıfırlayacaktır: 
  
- "<li>Devre dışı bırakılan uygulamalar</li>" 
- "<li>Devre dışı bırakılan uygulama bildirimleri</li>" 
- "<li>İşlemler için varsayılan uygulamalar</li>" 
- "<li>Uygulamalar için arkaplan veri kısıtlamaları</li>" 
+ \""<li>Devre dışı bırakılan uygulamalar</li>"\" 
+ \""<li>Devre dışı bırakılan uygulama bildirimleri</li>"\" 
+ \""<li>İşlemler için varsayılan uygulamalar</li>"\" 
+ \""<li>Uygulamalar için arkaplan veri kısıtlamaları</li>"\" 
  
  Herhangi bir uygulama verisi kaybetmezsiniz"</string>
     <string name="app_manager_reset_app_preferences_button">Sıfırla</string>
@@ -2253,6 +2233,7 @@ yavaşlatabilir"</string>
     <string name="app_manager_mobile_slot1">Mobil veri (Sim 1)</string>
     <string name="app_manager_mobile_slot2">Mobil veri (Sim 2)</string>
     <string name="app_manager_details_title">Uygulama bilgisi</string>
+    <string name="manage_hybrid_permissions">Uygulamaların izinlerini yönet</string>
     <string name="ad_btn_default_text">Daha fazla bilgi edinin</string>
     <string name="open_activity_err">Uygulama bulunamadı</string>
     <string name="low_memory_warning_dialog_title">Yeterli boş alan yok</string>
@@ -2307,21 +2288,9 @@ yavaşlatabilir"</string>
     <string name="no_game">Oyunlar bulunamadı</string>
     <string name="gamebooster_network_dialog_title">Bazı özellikler kullanılabilir durumda değil</string>
     <string name="gamebooster_network_dialog_message">Güvenlik uygulamasına oyun hız arttırmanın tüm özelliklerini kullanmak için ağa bağlanma izni verilsin mi?</string>
-    <string name="game_improve_title">Performansı optimize et</string>
-    <string name="game_net_title">Bağlantı hızını optimize et</string>
-    <string name="save_energy_title">Pili optimize et</string>
-    <string name="dont_bore_title">Rahatsız etme modu</string>
-    <string name="game_improve_text1">Oyun deneyimi için bellek boşaltmak amacıyla arka plan önbelleğini temizleyin</string>
-    <string name="game_improve_text2">İşlemci performansını arttırmak ve oyun deneyimi için bellek boşaltmak amacıyla arka plan ön belleğini temizleyin</string>
-    <string name="game_net_text1">Ağ gecikmesini düşürmek için arka plan indirme hızını sınırlayın</string>
-    <string name="game_net_text2">Ağ gecikmelerini düşürmek için arka plan indirme hızını kısıtlarken oyunun bağlantı hızını hızlandırın</string>
-    <string name="save_energy_text">Cihazınızın pilinden maksimum verimi almak için uygulamaların arkaplanda otomatik başlatılmalarını ve senkronizasyon işlemlerini kısıtlayın</string>
-    <string name="dont_bore_text">Dikkat dağıtıcı öğelerden kaçınmak için bildirimleri ve tuşları kapatın</string>
+    <string name="ask_create_shortcut">Ana ekran kısayolu oluşturulsun mu?</string>
     <string name="create_shortcut">Oyun hızlandırıcı için ana ekrana kısayol oluşturuldu</string>
-    <string name="intro_improve">Oyun deneyiminizi bir sistem seviyesine yükseltir</string>
     <string name="i_know">Anladım</string>
-    <string name="dialog_text">Oyun hızlandırıcı için ana ekran kısayolu oluştur</string>
-    <string name="intro_skip">Atla</string>
     <string name="open_game">Aç</string>
     <string name="try_game">Dene</string>
     <string name="more_game">Daha fazla oyun</string>
@@ -2388,7 +2357,6 @@ yavaşlatabilir"</string>
     <string name="gamebooster_main_activity_back">Geri</string>
     <string name="data_booster_title">Ağ bağlantısını stabilize et</string>
     <string name="data_booster_desc">Bağlantıyı stabil halde tutmak için diğer Sim yuvalarını devre dışı bırakın</string>
-    <string name="international_Ad">Reklam</string>
     <string name="thermal_tips_title">Uyarı</string>
     <string name="thermal_tips_message">Performans modunda oyun oynamak ısınma sorunlarına neden olabilir</string>
     <string name="forbid_autobright_title">Sabit ekran parlaklığı</string>
@@ -2442,4 +2410,5 @@ yavaşlatabilir"</string>
     <string name="gamebox_type_close">Gösterme</string>
     <string name="gamebox_type_float">Sabit kısayol</string>
     <string name="gamebox_type_gesture">Göstermek için hızlıca kaydırın</string>
+    <string name="notify_channel_name_security">Sistem güvenliği</string>
 </resources>

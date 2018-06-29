@@ -373,7 +373,6 @@
     <string name="enable_cloud_for_sharing">Paylaşılan fotoğrafları görüntülemek için Mi bulut albümlerini açın</string>
     <string name="enable_face_album_summary">Fotoğraflarınızı otomatik olarak fotoğraflarınızda bulunan kişilere göre sıralayın</string>
     <string name="enable_face_album_title">Kişilere göre sırala</string>
-    <string name="enabling_face_feature">Yükleniyor</string>
     <string name="enter_choice_mode">İletişim kutusunda paylaşılanı girin</string>
     <string name="enter_email_hint">E-posta adresini girin</string>
     <string name="error_album_not_exist">Albüm mevcut değil</string>
@@ -446,7 +445,6 @@
     <string name="exit_video_play">Çıkış</string>
     <string name="expand_desc">Daha fazla</string>
     <string name="expand_people">Daha fazla kişi görüntüle</string>
-    <string name="face_album_detecting_tip">Yükleniyor</string>
     <string name="face_album_empty">"Kişileri tanımlamak için yeteri kadar fotoğraf yok
 Arkadaşlarınızın daha fazla fotoğraflarını çekin"</string>
     <string name="face_album_empty_syncing">Veriler senkronize ediliyor, kısa bir süre sonra geri gelin</string>
@@ -454,7 +452,6 @@ Arkadaşlarınızın daha fazla fotoğraflarını çekin"</string>
     <string name="face_album_long_tap_tip">Çoklu kişi seçmek veya grup ayarlarını değiştirmek için bir profil resmine basın &amp; basılı tutun</string>
     <string name="face_album_new_name_hint">Yeni isim</string>
     <string name="face_album_not_named">Adsız</string>
-    <string name="face_album_pending_enable_tip">"Cihaz Wifi'ye bağlandığında fotoğraflar sıralanacaktır"</string>
     <string name="face_album_rename_hint">Adı girin</string>
     <string name="face_album_title">%s fotoğrafları</string>
     <string name="face_album_use_tip">Fotoğraflarınızı otomatik olarak fotoğraflarınızda bulunan kişilere göre gruplayın</string>
@@ -607,14 +604,14 @@ erişimine ihtiyaç duyuyor. İzinler menüsüne gitmek için ayarla seçeneğin
     <string name="limit_height">Yükseklik > 0 olmalıdır</string>
     <string name="limit_width">Genişlik > 0 olmalıdır</string>
     <string name="load_complete">Burada daha fazla öge yok</string>
-    <string name="load_failed">Bilgi yüklenemedi, yeniden denemek için dokunun</string>
+    <string name="load_failed">Bilgi yüklenemedi. Yeniden denemek için dokunun</string>
     <string name="load_relations">Yükleniyor</string>
     <string name="loading">Yalnızca bir saniye</string>
     <string name="loading_dots">Yükleniyor</string>
-    <string name="loading_dual_tip">Çift fotoğraf yükleniyor…</string>
+    <string name="loading_dual_tip">Çift fotoğraf yükleniyor</string>
     <string name="loading_fail">İndirilemedi</string>
     <string name="loading_fail_sync_off">İndirmek için Mi bulut ile senkronizasyonu açın</string>
-    <string name="loading_fail_sync_off_message">Fotoğraflar yüklenemiyor, Mi bulut ile senkronizasyon özelliği kapalı</string>
+    <string name="loading_fail_sync_off_message">Fotoğraflar yüklenemiyor. Mi bulut ile senkronizasyon özelliği kapalı</string>
     <string name="loading_fail_sync_without_network">Meta verileri indirmek için ağa bağlanın</string>
     <string name="loading_fail_syncing">Meta verilerin tamamen indirilmesini bekleyin ve tekrar deneyin</string>
     <string name="loading_gif">GIF indiriliyor</string>
@@ -627,7 +624,7 @@ erişimine ihtiyaç duyuyor. İzinler menüsüne gitmek için ayarla seçeneğin
     <string name="loading_video">Video indiriliyor</string>
     <string name="loading_video_fail_sync_without_network">Meta verileri indirmek için ağa bağlanın</string>
     <string name="loading_video_fail_syncing">Meta verilerin tamamen indirilmesini bekleyin ve tekrar deneyin</string>
-    <string name="loading_video_thumbnail">Video kapağı indirliyor…</string>
+    <string name="loading_video_thumbnail">Video kapağı indirliyor</string>
     <string name="login_and_enable_service">Mi Hesabı ile oturum açın</string>
     <string name="long_press_to_refocus">Yeniden odaklamak için basın &amp; basılı tutun</string>
     <string name="main_discard_confirm_message">Kaydedilmemiş değişiklikler mevcut</string>
@@ -966,7 +963,6 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="search_select_network">Ağ seçin</string>
     <string name="search_set_network_connection">Ağ ayarları</string>
     <string name="search_setting_sub_title">Fotoğraflarınızda kişiler, yerler ve nesneler arayın</string>
-    <string name="search_setting_sub_title_open">Uygulandı. Başlamadan önce bir süre bekleyin</string>
     <string name="search_setting_title">Fotoğrafları galeride bul</string>
     <string name="search_syncing">Veriler senkronize ediliyor. Kısa bir süre sonra geri gelin</string>
     <string name="search_title_album">Albüm</string>
@@ -1248,7 +1244,6 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="view_by_gallery_tip">Miui galeri</string>
     <string name="view_face_album">Albümü görüntüle</string>
     <string name="view_more_face_desc">Daha fazla kişiyi görüntüle</string>
-    <string name="view_queuing_status">Durumu kontrol et</string>
     <string name="voice_assistant">Ses girişi</string>
     <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Mi buluta hoşgeldiniz</string>
@@ -1633,6 +1628,21 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="cityname_97">Haidong Prefecture</string>
     <string name="cityname_98">Haikou</string>
     <string name="cityname_99">Hainan Tibetan Autonomous Prefecture</string>
+    <string name="feature_guidance_video_editor_smart_effects">Yeni efektler mevcut</string>
+    <string name="photomovie_audio_default">Bellek</string>
+    <string name="photomovie_audio_kawaii">Romantik</string>
+    <string name="photomovie_audio_light">Türkü</string>
+    <string name="photomovie_audio_linear">Rock</string>
+    <string name="photomovie_audio_soft">Havai kitarası</string>
+    <string name="photomovie_audio_sport">Tekno</string>
+    <string name="photomovie_template_kawaii">Güzellik</string>
+    <string name="photomovie_template_light">Esinti</string>
+    <string name="photomovie_template_linear">Roadtrip</string>
+    <string name="photomovie_template_soft">Gençlik</string>
+    <string name="photomovie_template_sport">Kuvvet</string>
+    <string name="picker_origin_request_progress_message">Orijinal dosyalar hazırlanıyor (%1$d/%2$d)</string>
+    <string name="search_request_requesting">Uygulandı. Başlamadan önce biraz bekleyin</string>
+    <string name="secret_reason_video_not_support">Gizli albüme videolar eklenemiyor</string>
     <string name="camera_path">/DCIM/Camera</string>
     <string name="detail_hms">%1$d:%2$02d:%3$02d</string>
     <string name="detail_ms">%1$02d:%2$02d</string>

@@ -54,6 +54,7 @@
     <string name="dialog_message_agree">Kabul et</string>
     <string name="dialog_message_for_contact_permission">Doğum günü alarmlarını kullanıma sunmak için saatin kişilerinize erişmesi gerekiyor. Kabul ediyor musunuz?</string>
     <string name="dialog_message_negative">Kabul etme</string>
+    <string name="dialog_message_not_remind">Tekrar gösterme</string>
     <string name="done">Tamam</string>
     <string name="dynamic_alarm_speech">Akıllı alarm</string>
     <string name="edit_alarm">Alarmı düzenle</string>
@@ -160,9 +161,9 @@
     <string name="temperature_unit">%1$s°</string>
     <string name="time">Saat</string>
     <string name="time_picker_colon">:</string>
-    <string name="time_picker_label_hour">Saat</string>
-    <string name="time_picker_label_minute">Dakika</string>
-    <string name="time_picker_label_second">Saniye</string>
+    <string name="time_picker_label_hour">saat</string>
+    <string name="time_picker_label_minute">dakika</string>
+    <string name="time_picker_label_second">saniye</string>
     <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Alarmı susturmak için ekrana dokunun</string>
     <string name="timer_alarm_dot_matrix_label">Zamanlayıcı</string>
@@ -180,9 +181,9 @@
     <string name="timer_got_it">Tamam</string>
     <string name="timer_item_duration_display">%1$d dakika %2$d saniye</string>
     <string name="timer_item_label_hint">Adı</string>
-    <string name="timer_item_picker_hour">S</string>
-    <string name="timer_item_picker_minute">D</string>
-    <string name="timer_item_picker_second">S</string>
+    <string name="timer_item_picker_hour">s</string>
+    <string name="timer_item_picker_minute">d</string>
+    <string name="timer_item_picker_second">s</string>
     <string name="timer_new_item">Zaman ekle</string>
     <string name="timer_notify_text">Zamanlayıcıyı ertele veya yoksay</string>
     <string name="timer_pause_hint">Duraklat</string>
@@ -197,7 +198,7 @@
     <string name="tomorrow">Yarın</string>
     <string name="turn_off_a_repeat_alarm">Tekrarlanan alarmı kapat</string>
     <string name="turn_off_this_repeat_alarm">Bu tekrarlanan alarmı kapat</string>
-    <string name="upcoming_alarm">Yaklaşan alarm</string>
+    <string name="upcoming_alarm">Yaklaşan alarm: %s</string>
     <string name="upcoming_alarm_hint">Alarmı zamanından önce kapatabilirsiniz</string>
     <string name="vibrate_pref_summary">Alarm çaldığında titret</string>
     <string name="vibrate_when_ringing">Çalarken titret</string>
@@ -213,7 +214,8 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">Saat</string>
     <string name="worldcolock_timezone_local">yerel saatle aynı</string>
-    <string name="dialog_message_not_remind">Tekrar gösterme</string>
+    <string name="add_clock">Saat ekle</string>
+    <string name="content_desc_keep_screen">Ekranda düğmeyi tut</string>
     <string name="full_wday_month_day_no_year">dd MMMM EEEE</string>
     <string name="elapsed_time_format">+</string>
     <string name="search_alarm_clock">@string/alarm_list_title</string>

@@ -205,5 +205,5 @@
     <string name="dialpad_pqrs">PQRS</string>
     <string name="dialpad_tuv">TUV</string>
     <string name="dialpad_wxyz">WXYZ</string>
-    <string name="prompt_no_volte_when_failed">Arama yapılamaz. Cihazınızın VoLTE desteği ile 4G ağına bağlı olduğundan emin olun</string>
+    <string name="prompt_no_volte_when_failed">Arama yapamazsınız. Cihazınızın VoLTE desteği ile 4G ağa bağlı olduğundan emin olun</string>
 </resources>

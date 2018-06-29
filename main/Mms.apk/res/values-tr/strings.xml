@@ -429,7 +429,7 @@
     <string name="pref_title_manage_sim_messages">Sim kart mesajları</string>
     <string name="pref_title_miui_card">Kart</string>
     <string name="pref_title_mms_auto_retrieval">Multimedya içeriğini otomatik indir</string>
-    <string name="pref_title_mms_delete">Multimedia mesaj limiti</string>
+    <string name="pref_title_mms_delete">Multimedya mesaj limiti</string>
     <string name="pref_title_mms_read_reports">Multimedya okundu raporları</string>
     <string name="pref_title_mms_retrieval_during_international_roaming">Uluslararası dolaşımda multimedya içeriğini indir</string>
     <string name="pref_title_mms_retrieval_during_national_roaming">Ulusal dolaşımda multimedya içeriğini indir</string>
@@ -569,8 +569,6 @@
     <string name="slide_show_part">Bölüm %1$d/%2$d</string>
     <string name="slide_up_to_cancel">İptal etmek için yukarı doğru kaydırın</string>
     <string name="slideshow_activity">Slayt gösterisi</string>
-    <string name="sms_card_partner_label">"Mesaj kart çözüm ortağı: "</string>
-    <string name="sms_card_teddy_mobile">Teddy Mobil</string>
     <string name="sms_content">İçerik:</string>
     <string name="sms_full_body">Gelen mesaj reddedildi: Cihazda yeterli boş alan yok</string>
     <string name="sms_full_title">Metin mesaj hafızası dolu</string>

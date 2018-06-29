@@ -17,6 +17,16 @@
         <item>Adres</item>
         <item>Not</item>
     </string-array>
+    <string-array name="first_guide_contents">
+        <item>Notlara hoş geldiniz</item>
+        <item>Not almak</item>
+        <item>Notlarınızdaki metin, resim ve ses kayıtlarını kullanabilirsiniz. Zengin stiller ve yazı tipi kütüphanesi ile basit karalamalarınızın çarpıcı görünmesini sağlar</item>
+        <item>Bir sonraki seyahatinizi planlamak veya bir bakkal listesi hazırlamak için temel ve etkili araçlara ihtiyaç duyduğunuzda kontrol listeleri ve hatırlatmalar yardımcı olur</item>
+        <item>Notları paylaş</item>
+        <item>Otomatik olarak notlarda kaydırma ekran görüntüleri oluşturabilir ve ardından arkadaşlarınızla paylaşabilirsiniz</item>
+        <item>Oluştur &amp; klasörler arasında geçiş yap</item>
+        <item>Yeni bir klasör oluşturmak veya mevcut olanlar arasında geçiş yapmak için aşağıdaki oka basın</item>
+    </string-array>
     <string-array name="folder_operations">
         <item>Yeniden adlandır</item>
         <item>Sil</item>
@@ -28,22 +38,12 @@
         <item>Çok büyük</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>Oluşturma tarihine göre</item>
-        <item>Değiştirme tarihine göre</item>
-    </string-array>
-    <string-array name="first_guide_contents">
-        <item>Notlara hoş geldiniz</item>
-        <item>Not almak</item>
-        <item>Notlarınızdaki metin, resim ve ses kayıtlarını kullanabilirsiniz. Zengin stiller ve yazı tipi kütüphanesi ile basit karalamalarınızın çarpıcı görünmesini sağlar</item>
-        <item>Bir sonraki seyahatinizi planlamak veya bir bakkal listesi hazırlamak için temel ve etkili araçlara ihtiyaç duyduğunuzda kontrol listeleri ve hatırlatmalar yardımcı olur</item>
-        <item>Notları paylaş</item>
-        <item>Otomatik olarak notlarda kaydırma ekran görüntüleri oluşturabilir ve ardından arkadaşlarınızla paylaşabilirsiniz</item>
-        <item>Oluştur&amp;klasörler arasında geçiş yap</item>
-        <item>Yeni bir klasör oluşturmak veya mevcut olanlar arasında geçiş yapmak için aşağıdaki oka basın</item>
+        <item>Oluşturulma tarihine göre</item>
+        <item>Değiştirilme tarihine göre</item>
     </string-array>
     <string-array name="second_guide_contents">
         <item>Sesli notlar</item>
-        <item>Sesinizin ile notlar oluşturun</item>
+        <item>Sesinizin orijinal kayıtlarını ekledikten sonra dahili konuşmadan metne aktarım motorunu kullanarak notlar oluşturun</item>
     </string-array>
     <string-array name="contact_values">
         <item>vnd.android.cursor.item/name</item>
