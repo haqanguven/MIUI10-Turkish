@@ -56,7 +56,7 @@
     <string name="account_settings_ringtone">Bildirim sesi</string>
     <string name="account_settings_servers">Sunucu ayarları</string>
     <string name="account_settings_summary">Senkronizasyon sıklığı, bildirimler, vb.</string>
-    <string name="account_settings_sync_calendar_enable">Takvimi senkr. et</string>
+    <string name="account_settings_sync_calendar_enable">Takvimi senkronize et</string>
     <string name="account_settings_sync_calendar_summary">Bu hesabın takvim etkinliğini senkronize et</string>
     <string name="account_settings_sync_contacts_enable">Kişileri senkronize et</string>
     <string name="account_settings_sync_contacts_summary">Bu hesapla ilişkili kişileri senkronize et</string>

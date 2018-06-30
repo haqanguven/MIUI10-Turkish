@@ -807,6 +807,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">İptal et</string>
     <string name="navigationbar_rightbutton_actiontext_go">Git</string>
     <string name="navigationbar_rightbutton_actiontext_search">Ara</string>
+    <string name="network_not_available_comment">İnternet bağlantısı yok</string>
     <string name="network_show_wifi_setting_tip_dialog_description">Çevrenizde bir wifi bağlantı noktası bulundu. Bağlanmaya çalışılsın mı?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Wifi ağı kullanılabilir</string>
     <string name="next_button_label">Sonraki</string>
@@ -837,7 +838,9 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="paused_waiting_to_retry">Yeniden denemek için bekleniyor</string>
     <string name="pay_failed_toast">Ödeme tamamlanamadı</string>
     <string name="pay_success_toast">Başarıyla ödendi</string>
+    <string name="permission_alert_window">Özelliği kullanmak için lütfen sistem açılır penceresini görüntüle seçeneğini açın</string>
     <string name="permission_notification">Bildirim gönder</string>
+    <string name="permission_unknown">Bilinmeyen seçenek</string>
     <string name="permissions_prompt_message">%s istiyor</string>
     <string name="play_pause_video">Videoyu oynat veya duraklat</string>
     <string name="play_video">Videoyu oynat</string>
@@ -1267,7 +1270,6 @@ ve konumunuza erişim izni verin
     <string name="voice_title_speech_again">Sizi anlayamadık</string>
     <string name="weather_location_confirm_message">Bu özelliği kapatmak kullanılabilirliği etkileyebilir</string>
     <string name="webpage_title">Yer imleri &amp; geçmiş</string>
-    <string name="network_not_available_comment">İnternet bağlantısı yok</string>
     <string name="alisdk_message_10000_action">请检查对应名称模块的库文件是否包含在当前开发应用的依赖库里面</string>
     <string name="alisdk_message_10000_message">JS Bridge 载入器未找到名称为 {0} 的模块</string>
     <string name="alisdk_message_10000_name">JS_BRIDGE_MODULE_NOT_FOUND</string>
