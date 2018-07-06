@@ -161,6 +161,7 @@
     <string name="accessibility_quick_settings_airplane_off">Uçak modu kapalı</string>
     <string name="accessibility_quick_settings_airplane_on">Uçak modu açık</string>
     <string name="accessibility_quick_settings_alarm">Alarm %s için ayarlandı</string>
+    <string name="accessibility_quick_settings_alarm_on">Alarm açık</string>
     <string name="accessibility_quick_settings_alarm_set">Alarm kuruldu</string>
     <string name="accessibility_quick_settings_battery">Pil: %s</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
@@ -168,6 +169,7 @@
     <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth açık</string>
     <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth bağlandı</string>
     <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth bağlanılıyor</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth cihaz pili: %d</string>
     <string name="accessibility_quick_settings_bluetooth_off">Bluetooth kapalı</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth açık</string>
     <string name="accessibility_quick_settings_close">Paneli kapat</string>
@@ -742,6 +744,7 @@ Telefonunuz soğuduktan sonra normal şekilde çalışır"</string>
     <string name="incorrect_pukcode">Hatalı Puk kodu</string>
     <string name="input_password_after_boot_msg">Cihaz kilidini açmak için parolanızı girin</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Arama sırasında alan değiştirilemiyor</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Ebeveyn denetimleri açıkken alanlar arasında geçiş yapılamıyor</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Cihaz yeniden başlatıldıktan sonra ilk alana girmeniz gerekmektedir</string>
     <string name="input_password_handle_sdcard_fs">İkinci alana girmeden önce Emule SD kart optimizasyonu özelliğini kapat</string>
     <string name="input_password_hint_text">Parolayı girin</string>
@@ -1893,6 +1896,13 @@ Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncell
     <string name="wifi_verbose_logging">Kablosuz ayrıntılı günlük kaydını etkinleştir</string>
     <string name="wifi_verbose_logging_summary">Kablosuz günlük kaydı seviyesini artır. Kablosuz seçicide her bir SSID RSSI için göster</string>
     <string name="window_animation_scale_title">Pencere animasyonu</string>
+    <string name="wireless_change_to_ac_charging">Kablolu şarj bağlı</string>
+    <string name="wireless_charge_current">Şarj oluyor</string>
+    <string name="wireless_charge_dialog_cancel">Anladım</string>
+    <string name="wireless_charge_dialog_title">Cihazınızı şarj üssünün merkezine yerleştirin</string>
+    <string name="wireless_charge_reset_device">Şarj işlemi yavaş. Cihazınızı ayarlayın</string>
+    <string name="wireless_charge_reset_device_detail">Cihazınızın şarj tabanındaki pozisyonunun doğru olduğundan emin olun</string>
+    <string name="wireless_charge_stop">Kablosuz şarj durdu</string>
     <string name="wrong_password">Hatalı şifre</string>
     <string name="zen_alarm_warning">Sonraki alarmınızı %1$s duymayacaksınız</string>
     <string name="zen_alarm_warning_indef">"Bundan önce kapatırsanız %1$s sonraki alarmınızı duymayacaksınız</string>

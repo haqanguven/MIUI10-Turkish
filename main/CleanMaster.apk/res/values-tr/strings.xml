@@ -621,7 +621,7 @@
     <string name="junk_tag_big_file_mergedfile_name_ucbrowser">Romanın çevrimdışı okunması (UC tarayıcı)</string>
     <string name="junk_tag_big_file_mergedfile_name_vk">Ses dosyasını kaydet (VK oynatıcı)</string>
     <string name="junk_tag_big_file_mergedfile_name_yandex">Haritayı indir (Yandex)</string>
-    <string name="junk_tag_big_file_type_apk">Ğaketi yükle: %1$s (Sürüm: %2$s)</string>
+    <string name="junk_tag_big_file_type_apk">Paketi yükle: %1$s (Sürüm: %2$s)</string>
     <string name="junk_tag_big_file_type_font">[Yazı]%1$s</string>
     <string name="junk_tag_big_file_type_gamedata_obb">%1$s paket</string>
     <string name="junk_tag_big_file_type_map_baidu">Çevrimdışı harita: %1$s</string>

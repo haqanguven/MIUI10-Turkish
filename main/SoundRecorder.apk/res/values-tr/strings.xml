@@ -30,7 +30,7 @@
     <string name="duration_format_hour">%s saat</string>
     <string name="duration_format_minute">%s dakika</string>
     <string name="duration_format_second">%s saniye</string>
-    <string name="empty_recognition_tip">Empty</string>
+    <string name="empty_recognition_tip">Boş</string>
     <string name="err_msg_abandon">order abandoned</string>
     <string name="err_msg_complete">complete</string>
     <string name="err_msg_convert_fail">convert fail</string>

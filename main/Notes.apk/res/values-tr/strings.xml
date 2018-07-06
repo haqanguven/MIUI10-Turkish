@@ -31,6 +31,10 @@
     <string name="cloud_service_state_open_reminder">Notları senkronize etmek için Mi bulut ile senkronizasyonu açın</string>
     <string name="cloud_trash_bin_title">Mi buluttan notları sil</string>
     <string name="cta_reminder">Bu uygulama notları Mi bulut alanına yedeklemek ve aynı zamanda aramalarınız sırasında almış olduğunuz notları etiketlemek için kişilerinizi okumaya ihtiyaç duyar</string>
+    <string name="date_time_picker_alarm_reminder">Alarm</string>
+    <string name="date_time_picker_dialog_title">Tarih ve saati ayarla</string>
+    <string name="date_time_picker_has_not_set_alarm">Alarm ayarlanmadı</string>
+    <string name="date_time_picker_has_set_alarm">Alarm ayarlandı</string>
     <string name="db_downgrade_clear_button">Uygulama verilerini temizle</string>
     <string name="db_downgrade_clear_date_reminder">Farklı bir Miui sürümüne geçmek notlar uygulamasının uygulama verilerinin silinmesini gerektirir. Bu işlemi yapmadan önce notlarınızı Mi bulut alanınıza yedeklemiş olduğunuzdan emin olun</string>
     <string name="default_folder_name">Adsız klasör</string>
@@ -219,10 +223,6 @@
     <string name="unknown_source">Bilinmeyen kaynak</string>
     <string name="widget_content_loading">Yükleniyor</string>
     <string name="widget_havenot_content">Bir not oluşturmak için dokunun. Notu yeniden boyutlandırmak için araca basılı tutun</string>
-    <string name="date_time_picker_alarm_reminder">Alarm</string>
-    <string name="date_time_picker_dialog_title">Tarih ve saati ayarla</string>
-    <string name="date_time_picker_has_not_set_alarm">Alarm ayarlanmadı</string>
-    <string name="date_time_picker_has_set_alarm">Alarm ayarlandı</string>
     <string name="search_title_notes">@string/app_name</string>
     <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>

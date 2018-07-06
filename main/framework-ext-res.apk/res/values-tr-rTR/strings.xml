@@ -249,6 +249,11 @@
     <string name="super_resolution_maintain_tips">Süper çözünürlük henüz mevcut değil</string>
     <string name="resolver_recommended_app_name">%1$s&lt;font color=#0099ff>&lt;br/>(%2$s)&lt;/font></string>
     <string name="resolver_app_recommend_flag">Önerilen</string>
+    <string name="miui_enter_inversion_mode_title">Telefonunuzu ters çevirin</string>
+    <string name="miui_enter_inversion_mode_information">Bu kamera cihazınızın üstüne yerleştirecektir</string>
+    <string name="miui_back_and_reenter_title">Bir sayfa daha aç</string>
+    <string name="miui_back_and_reenter_information">Daha iyi bir selfie çekmek için bir sayfa daha açın</string>
+    <string name="miui_dialog_not_show_again">Tekrar gösterme</string>
     <string name="android_forward_intent_to_owner">@android:string/forward_intent_to_owner</string>
     <string name="android_forward_intent_to_work">@android:string/forward_intent_to_work</string>
     <string name="android_whichApplicationNamed">@android:string/whichApplicationNamed</string>

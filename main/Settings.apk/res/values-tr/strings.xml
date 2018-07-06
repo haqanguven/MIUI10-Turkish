@@ -2970,8 +2970,6 @@ Bu cihazda başka kullanıcılar da var
     <string name="navigation_guide_app_title">Uygulama işlevini çalıştır</string>
     <string name="navigation_guide_appswitch_summary">Ekranın kenarından sola veya sağa kaydırın ve bir süre basılı tutun</string>
     <string name="navigation_guide_appswitch_title">Önceki uygulamaya geç</string>
-    <string name="navigation_guide_back_anim_summary">Animasyonlu geri hareketi</string>
-    <string name="navigation_guide_back_anim_title">Geri hareket animasyonu</string>
     <string name="navigation_guide_back_summary">Ekrandan sağa veya sola doğru kaydırın</string>
     <string name="navigation_guide_back_title">Son sayfaya geri dön</string>
     <string name="navigation_guide_dialog_dont_show_again">Tekrar gösterme</string>
@@ -4185,6 +4183,9 @@ Sabitlemeyi kullanmak için:
     <string name="second_space">İkinci alan</string>
     <string name="secondspace_category">İkinci alan</string>
     <string name="secondspace_delete_space_title">İkinci alanı sil</string>
+    <string name="secspace_fod_finger_tips">Doğrulamadı. Tekrar deneyin</string>
+    <string name="secspace_fod_finger_title">Parmak izinizi doğrulayın</string>
+    <string name="secspace_fod_use_password">Parolanı gir</string>
     <string name="secure_keyguard_business_title">Ekran kilidi ayarla</string>
     <string name="secure_lock_encryption_warning">Bir erişilebilirlik hizmetini açtığınız için cihazınız veri şifrelemeyi geliştirmek üzere ekran kilidinizi kullanmayacak.</string>
     <string name="security_dashboard_summary">Ekran kilidi, parmak izi</string>
@@ -4208,6 +4209,8 @@ Sabitlemeyi kullanmak için:
     <string name="security_encryption_progress_dialog_open">Şifreleniyor</string>
     <string name="security_encryption_rejected_via_home_manager">Bu özellik demo sürümde desteklenmiyor</string>
     <string name="security_encryption_title">Cihazı kilit ekranı şifresi kullanarak şifrele</string>
+    <string name="security_input">Güvenlik girişi</string>
+    <string name="security_input_hint">Güvenlik klavyesini kullanarak şifre girin</string>
     <string name="security_keyguard_category_name">Kilit ekranı</string>
     <string name="security_password_category_name">Ekran kilidi</string>
     <string name="security_passwords_title">Şifreler</string>
@@ -4566,6 +4569,7 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_bar_settings_show_flow_info">Akış ayrıntılarını göster</string>
     <string name="status_bar_settings_show_home_message">Uygulama simgesi</string>
     <string name="status_bar_settings_show_keyguard_notification">Kilit ekranı bildirimleri</string>
+    <string name="status_bar_settings_show_keyguard_notification_summary">Kilit ekranında önemli bildirimlere izin ver</string>
     <string name="status_bar_settings_show_network_speed">Bağlantı hızı</string>
     <string name="status_bar_settings_show_notification_icon">Uygulama bildirim simgeleri</string>
     <string name="status_bar_settings_show_wifi_name">Wifi göster</string>

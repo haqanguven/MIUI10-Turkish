@@ -49,7 +49,7 @@ Delta güncelleme boyutu: %2$s"</string>
     <string name="restore_launcher_layout_hit">Başlatıcı ayarlarını geri yükle</string>
     <string name="settings_summary">Telefon ve mesajlaşma ayarları</string>
     <string name="camera_summary">Kamera ayarları (Fotoğrafları içermez)</string>
-    <string name="account_summary">Mi hesabı, Google Hesabı ve diğer kullanıcı verilerini yedekle</string>
+    <string name="account_summary">Mi hesabı, Google hesabı ve diğer kullanıcı verilerini yedekle</string>
     <string name="cloud_app_name">Mi bulut yedekleme</string>
     <string name="cloud_home_title">Mi bulut</string>
     <string name="prompt_reading">Okunuyor</string>

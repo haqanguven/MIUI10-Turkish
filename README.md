@@ -1,3 +1,3 @@
 # Miui Turkish Team
 # Developer
-# Version: 8.6.29
+# Version: 8.7.6

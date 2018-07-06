@@ -33,7 +33,7 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="voice_search_hint_quotation_end">\"</string>
     <string name="voice_search_hint_quotation_start">\"</string>
     <string name="voice_search_hint_title">Şunu söylemeyi deneyin:</string>
-    <string name="about_preference_activity_title">Global arama hakkında</string>
+    <string name="about_preference_activity_title">Arama hakkında</string>
     <string name="account_prifix">Hesap:</string>
     <string name="app_loaction">Ana ekranda bul</string>
     <string name="app_new_version">Uygulamanın en güncel sürümü zaten yüklü durumda</string>
@@ -186,13 +186,13 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="item_history_more">Arama geçmişi</string>
     <string name="launcher_entrance_prompt_button">Anladım</string>
     <string name="launcher_entrance_prompt_content">Bu özelliği ayarlar menüsünde kapatabilirsiniz</string>
-    <string name="launcher_entrance_prompt_title">Global aramayı açmak için ana ekranda yukarı doğru kaydırın</string>
+    <string name="launcher_entrance_prompt_title">Aramayı açmak için ana ekranda yukarı doğru kaydırın</string>
     <string name="loading">Yükleniyor</string>
     <string name="local_app">Uygulamalar</string>
     <string name="local_setting">Ayarlar</string>
     <string name="login_failed_toast">Oturum açılamadı. Yenileyin ve ardından tekrar deneyin</string>
     <string name="main_setting">Ayarlar</string>
-    <string name="main_setting_about">Global arama hakkında</string>
+    <string name="main_setting_about">Arama hakkında</string>
     <string name="main_setting_bookmark">Favoriler</string>
     <string name="main_setting_download">İndirilenler</string>
     <string name="main_setting_feedback">Geri bildirim</string>
@@ -213,7 +213,7 @@ Tarayıcı geçmişinizi temizlemek için, Tarayıcının ayarlarını kullanın
     <string name="open_app_confirm_message">Bu sayfanın %s açmasına izin verilsin mi?</string>
     <string name="permission_prompt_detail">Film, kitap, müzik ve daha fazlasını arayın</string>
     <string name="permission_prompt_start">İzin ver</string>
-    <string name="permission_prompt_started_info">Global aramaya izin verdiniz</string>
+    <string name="permission_prompt_started_info">Aramaya izin verdiniz</string>
     <string name="permission_prompt_title">Daha fazlasını istiyor musunuz?</string>
     <string name="preference_engine_choose">Seç</string>
     <string name="pull_to_exit">Çıkış yapmak için aşağı doğru çekin</string>

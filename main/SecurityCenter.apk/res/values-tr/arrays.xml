@@ -190,12 +190,6 @@
         <item>90</item>
         <item>0</item>
     </integer-array>
-    <integer-array name="om_app_background_restrict">
-        <item>0</item>
-        <item>-1</item>
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
     <integer-array name="pc_time_choice_items">
         <item>1</item>
         <item>5</item>

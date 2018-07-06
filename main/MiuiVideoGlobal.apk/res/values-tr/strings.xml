@@ -165,7 +165,7 @@
     <string name="lv_folder_null">Bilinmeyen klasör</string>
     <string name="lv_fullscreen">Tam ekran</string>
     <string name="lv_hide_folder">Gizli videolar</string>
-    <string name="lv_hide_prompt">Başarıyla ayarlandı. Gizli öğeleri \"Gizli videolar\" klasöründe görüntüleyebilirsiniz</string>
+    <string name="lv_hide_prompt">Başarıyla ayarlandı. Gizli öğeleri gizli videolar klasöründe görüntüleyebilirsiniz</string>
     <string name="lv_history">Geçmiş</string>
     <string name="lv_history_null">Burada öge yok</string>
     <string name="lv_home_favorites">Favoriler</string>
@@ -182,7 +182,7 @@
     <string name="lv_mplayer_error_malformed">Geçersiz medya dosyası</string>
     <string name="lv_mplayer_error_server_died">Medya sunucusu hatası</string>
     <string name="lv_mplayer_error_timed_out">İstek zaman aşımına uğradı</string>
-    <string name="lv_ready_to_install">Mi Video yüklenmeye hazır</string>
+    <string name="lv_ready_to_install">Mi video yüklenmeye hazır</string>
     <string name="lv_screen_shot_failure">Ekran görüntüsü alınamadı. Yeniden deneyin</string>
     <string name="lv_screen_shot_failure_tips">Ekran görüntüsü almak için videoları güncelleyin</string>
     <string name="lv_screen_shot_success">Ekran görüntüsü başarıyla alındı</string>

@@ -93,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Daha fazla</string>
     <string name="default_folder_title_security">Sistem</string>
+    <string name="default_folder_title_services">Hizmetler</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Araçlar</string>
     <string name="default_screen_preview_title">Varsayılan ekranı belirlemek için dokunun</string>
@@ -231,13 +232,12 @@
     <string name="normal_wallpaper">Duvar kağıdı</string>
     <string name="notification_installed">Başarıyla yüklendi</string>
     <string name="notification_open_button">Aç</string>
-    <string name="notification_reset_description">%1$s%1$s başlatıcıyı %2$s değerine sıfırlayabilir</string>
-    <string name="notification_reset_duration">İki saat içinde,</string>
     <string name="notification_reset_title">Otomatik temizleme tamamlandı</string>
     <string name="online_wallpaper">Çevrimiçi</string>
     <string name="open_personal_assistant_dialog_btn_cancel">İptal et</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Kapat</string>
     <string name="open_personal_assistant_dialog_desc">Kapatmak istiyor musunuz?</string>
+    <string name="open_personal_assistant_dialog_desc_international">Akıllı yardımcı kartlarını kullanamayacaksınız. Güncellemeleri almaya devam edeceksiniz</string>
     <string name="open_personal_assistant_dialog_title">Akıllı yardımcıyı kapat</string>
     <string name="open_personal_assistant_title">Akıllı yardımcı</string>
     <string name="out_of_space">Ana ekranda yeterli boş alan yok</string>

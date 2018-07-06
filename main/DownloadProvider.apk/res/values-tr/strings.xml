@@ -59,7 +59,7 @@
     <string name="dialog_tip_limit0">Uyar</string>
     <string name="dialog_content_limit_max">Sınırsız</string>
     <string name="dialog_content_limit0">İndirmeleri kısıtla</string>
-    <string name="app_label">İndirme Yöneticisi</string>
+    <string name="app_label">İndirme yöneticisi</string>
     <string name="permlab_downloadManager">İndirme yöneticisine erişin</string>
     <string name="permdesc_downloadManager">Uygulamaya indirme yöneticisine erişme ve dosya indirmek için indirme yöneticisini kullanma izni verir. Zararlı uygulamalar indirme işlemlerini kesmek ve özel bilgilere erişmek için bunu kullanabilir</string>
     <string name="permlab_downloadManagerAdvanced">Gelişmiş indirme yöneticisi işlevleri.</string>

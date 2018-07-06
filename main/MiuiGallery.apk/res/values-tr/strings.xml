@@ -470,7 +470,8 @@ Arkadaşlarınızın daha fazla fotoğraflarını çekin"</string>
     <string name="fancy_color_desc">Renkler</string>
     <string name="fast_share_auto_render">Güzelleştirme</string>
     <string name="fast_share_auto_render_finish">Güzelleştirildi</string>
-    <string name="feature_guidance_photo_effects">Fotoğraf efektleri</string>
+    <string name="feature_guidance_photo_effects">"Yeni fotoğraf efektleri
+mevcut"</string>
     <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Bellek</string>
     <string name="filter_bi_mono">Tek</string>
@@ -1253,6 +1254,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="yes">Evet</string>
     <string name="yesterday">Dün</string>
     <string name="you_are">Bebek ile ilişkiniz</string>
+    <string name="album_notes">Notlar</string>
     <string name="cityname_1">Aba Tibetan and Qiang Autonomous Prefecture</string>
     <string name="cityname_10">Anshun</string>
     <string name="cityname_100">Haixi Mongolia Tibetan Autonomous Prefecture</string>
