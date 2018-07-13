@@ -39,8 +39,10 @@
     <string name="aqi_publish_time">Son güncelleme: %1$s</string>
     <string name="aqi_quality_ambient_air_quality">Yakınlardaki hava kalitesi</string>
     <string name="aqi_quality_co_desc">Karbonmonoksit</string>
-    <string name="aqi_quality_detail_15_days">15-günlük tahmin</string>
-    <string name="aqi_quality_detail_48_hours">48-saatlik tahmin</string>
+    <string name="aqi_quality_detail_15_days">15 günlük tahmin</string>
+    <string name="aqi_quality_detail_24_hours">24 saatlik tahmin</string>
+    <string name="aqi_quality_detail_48_hours">48 saatlik tahmin</string>
+    <string name="aqi_quality_detail_5_days">5 günlük tahmin</string>
     <string name="aqi_quality_major_pollutants">Tehlikeli kirleticiler</string>
     <string name="aqi_quality_map_title">Hava kalite haritası</string>
     <string name="aqi_quality_no2_desc">Nitrojen dioksit</string>

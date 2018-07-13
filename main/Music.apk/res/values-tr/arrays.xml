@@ -157,4 +157,9 @@
         <item>0xD4EBEBEB</item>
         <item>0xFFF6F6F6</item>
     </integer-array>
+    <string-array name="xiaoai_tips">
+        <item>Hakan</item>
+        <item>Unutulmaz gelecek için arama yapın</item>
+        <item>Yerel şarkıları çal</item>
+    </string-array>
 </resources>

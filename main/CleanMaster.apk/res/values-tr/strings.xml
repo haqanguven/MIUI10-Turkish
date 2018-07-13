@@ -265,7 +265,7 @@
     <string name="hints_scanfinish">Çöp yok</string>
     <string name="hints_storage_clean_size">Dahili depolama alanında %s alan yer açıldı</string>
     <string name="hints_storage_free">Boş</string>
-    <string name="hints_storage_free_size">Toplam: %1$s | Kullanılabilir: %2$s</string>
+    <string name="hints_storage_free_size">"Toplam: %1$s | Kullanılabilir: %2$s"</string>
     <string name="hints_storage_news">Güvenlik haberleri</string>
     <string name="hints_title_garbage">Çöp</string>
     <string name="hints_video_camera">Kaydedilen videolar</string>
@@ -295,7 +295,7 @@
     <string name="low_memory_warning_dialog_ok_button">Temizle</string>
     <string name="low_memory_warning_dialog_title">Yeteri kadar boş alan yok</string>
     <string name="main_title_filesize">%1$s çöp</string>
-    <string name="main_total_garbage">Total_garbage</string>
+    <string name="main_total_garbage">toplam çöp</string>
     <string name="mainbtn_text_no_trash">Atla</string>
     <string name="mainbtn_text_quick_cleanup">Temizle: %s</string>
     <string name="mainbtn_text_quick_cleanup_default">Temizle</string>
@@ -532,6 +532,7 @@
     <string name="whatsapp_content_empty">Temizlenecek dosya yok</string>
     <string name="whatsapp_delete_confirm_message">Silinsin mi?</string>
     <string name="whatsapp_delete_done">Hepsi tamam</string>
+    <string name="whatsapp_file_show_order">Bugün</string>
     <string name="whatsapp_function_summery">WhatsApp önemsiz dosyayı temizle</string>
     <string name="whatsapp_function_title">Whatsapp için temizle</string>
     <string name="whatsapp_group_audio">Ses</string>
@@ -673,5 +674,4 @@
     <string name="sys_cache_on_sdcard_item_name">Ön bellek</string>
     <string name="vungle_ad_name">Vungle reklamcılık</string>
     <string name="wechat_video_time">%1$s:%2$s</string>
-    <string name="whatsapp_file_show_order">Bugün</string>
 </resources>

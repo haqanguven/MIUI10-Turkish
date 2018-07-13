@@ -1449,7 +1449,7 @@ yavaşlatabilir"</string>
     <string name="menu_text_networkassistants_remain">%s kaldı</string>
     <string name="menu_text_networkassistants_danger">%s aşıldı</string>
     <string name="menu_text_antispam">Engelli listesi</string>
-    <string name="menu_summary_antispam">Aramaları ve mesajları engelle</string>
+    <string name="menu_summary_antispam">Aramaları ve mesajları engelleyin</string>
     <string name="menu_summary_antispam_2">Engellenen aramalar ve mesajlar</string>
     <string name="menu_text_license_manager">İzinler</string>
     <string name="menu_text_garbage_cleanup">Temizleyici</string>
@@ -1478,7 +1478,7 @@ yavaşlatabilir"</string>
     <string name="activity_title_license_manager">İzinler</string>
     <string name="activity_title_power_manager">Pil kullanımı</string>
     <string name="activity_title_garbage_cleanup">Temizleyici</string>
-    <string name="menu_summary_app_manager">Uygulamaları güncelle ve kaldır</string>
+    <string name="menu_summary_app_manager">Uygulamaları güncelle veya kaldır</string>
     <string name="menu_summary_app_manager_2">Güncellemeler mevcut</string>
     <string name="memory_check_content">%s temizlendi</string>
     <string name="memory_clear_unused">Önbelleği temizle (%s)</string>

@@ -490,7 +490,7 @@ ve parazitin en az seviyede olduğu bir kare oluşturacaktır"</string>
     <string name="pref_fingerprint_capture_title">Parmak izi deklanşör</string>
     <string name="multi_window_mode_not_supported">Kamera ekran bölme modunda çalışmıyor</string>
     <string name="front_camera_hint_text_rotate">Telefonunuzu döndürün</string>
-    <string name="front_camera_hint_text_place">"Daha kolay özçekim için\u000d
+    <string name="front_camera_hint_text_place">"Daha kolay özçekim için
 telefonunuzu döndürün"</string>
     <string name="pref_camera_mfnr_sat_enable_title">"MFNR'yi aç"</string>
     <string name="pref_camera_optimized_flash_enable_title">Optimize edilmiş flaş</string>
@@ -500,6 +500,19 @@ telefonunuzu döndürün"</string>
     <string name="pref_video_captrue_ability_title">Kayıt sırasında görüntü yakalama</string>
     <string name="lens_dirty_detected_title_back">Arka kamera merceği kirli</string>
     <string name="lens_dirty_detected_title_front">Ön kamera merceği kirli</string>
-    <string name="lens_dirty_detected_content">"Fotoğraf makinenizin merceği kirli görünüyor\u000d
+    <string name="lens_dirty_detected_content">"Fotoğraf makinenizin merceği kirli görünüyor
 Daha iyi efekt için lensi temizleyin"</string>
+    <string name="lighting_hint_title">Stüdyo aydınlatma</string>
+    <string name="lighting_hint_usage">"Portre modunda stüdyo aydınlatma
+efektlerini kullanabilirsiniz"</string>
+    <string name="lighting_hint_needed">Nesnenizi spot ışığa yerleştirin</string>
+    <string name="lighting_hint_too_far">Kamerayı daha yakına getir</string>
+    <string name="lighting_hint_too_close">Kamerayı daha uzaklaştırın</string>
+    <string name="lighting_pattern_nature">Doğal</string>
+    <string name="lighting_pattern_stage">Sahne</string>
+    <string name="lighting_pattern_movie">Film</string>
+    <string name="lighting_pattern_rainbow">Gökkuşağı</string>
+    <string name="lighting_pattern_leaf">Yapraklar</string>
+    <string name="lighting_pattern_dot">Noktalar</string>
+    <string name="lighting_pattern_shutter">Panjur</string>
 </resources>

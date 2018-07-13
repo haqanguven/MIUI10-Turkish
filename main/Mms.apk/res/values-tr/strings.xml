@@ -680,6 +680,7 @@ Son deneme: %s"</string>
     <string name="group_verification_codes_title">OTP mesajları grubu</string>
     <string name="verification_code_icon_name">V</string>
     <string name="yellowpage_recommend_msg">"Miui'nin mesajlaşma özelliklerini kontrol edin"</string>
+    <string name="unsubscribe">Unsubscribe</string>
     <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
     <string name="conversation_style">bubble</string>
     <string name="prefDefault_ringtone_repeat">1</string>

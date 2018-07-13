@@ -484,6 +484,9 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="daltonizer_type_overridden">%1$s tarafından geçersiz kılındı</string>
     <string name="data_connection_no_internet">İnternet yok</string>
     <string name="data_saver">Veri tasarrufu</string>
+    <string name="data_saver_description">Veri kullanımını azaltmaya yardımcı olmak için veri tasarrufu bazı uygulamaların arka planda veri göndermesini veya almasını engeller. Şu anda kullanmakta olduğunuz bir uygulama verilere erişebilir ancak daha az sıklıkta yapabilir. Örneğin: Fotoğraflara dokunana kadar gösterilmeyeceği anlamına gelebilir</string>
+    <string name="data_saver_enable_button">Aç</string>
+    <string name="data_saver_enable_title">Veri tasarrufu açılsın mı?</string>
     <string name="data_usage_disabled_dialog">"Belirlenen mobil veri kullanım limitine ulaştınız
 
 Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep edebilir"</string>
@@ -612,6 +615,7 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="face_data_input_ok_msg_angle">"Ekran açıkken cihazı yüzünüzle açın
 (Gereken tüm açıları içeren yüz bilgilerinizi kaydedin)​"</string>
     <string name="face_data_input_ok_title">Başarıyla eklendi</string>
+    <string name="face_data_input_structure_title">3D yüz tanımı</string>
     <string name="face_data_input_title">Yüz tanımı ekle</string>
     <string name="face_data_introduction_msg">Yüz tanımı cihaz kilidini açmak veya kimliğinizi tanımlamak için kullanılabilir. Yüz tanımanızı eklemeden önce kilit ekranı şifresi ekleyin</string>
     <string name="face_data_introduction_next">İleri</string>
@@ -940,58 +944,6 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="label_view">Görüntüle</string>
     <string name="launch_defaults_none">Hiçbir varsayılan tercih ayarlanmadı</string>
     <string name="launch_defaults_some">Bazı varsayılan tercihler ayarlandı</string>
-    <string name="lb_control_display_fast_forward_multiplier">%1$dX</string>
-    <string name="lb_control_display_rewind_multiplier">%1$dX</string>
-    <string name="lb_date_separator">/</string>
-    <string name="lb_guidedaction_continue_title">Devam et</string>
-    <string name="lb_guidedaction_finish_title">Son</string>
-    <item type="string" name="lb_guidedactions_item_disabled_chevron_alpha">0.5</item>
-    <item type="string" name="lb_guidedactions_item_disabled_description_text_alpha">0.25</item>
-    <item type="string" name="lb_guidedactions_item_disabled_text_alpha">0.25</item>
-    <item type="string" name="lb_guidedactions_item_enabled_chevron_alpha">1.0</item>
-    <item type="string" name="lb_guidedactions_item_unselected_description_text_alpha">0.5</item>
-    <item type="string" name="lb_guidedactions_item_unselected_text_alpha">1.0</item>
-    <item type="string" name="lb_guidedactions_width_weight">0.71428573</item>
-    <item type="string" name="lb_guidedactions_width_weight_two_panels">1.1917808</item>
-    <item type="string" name="lb_guidedbuttonactions_width_weight">0.45</item>
-    <item type="string" name="lb_guidedstep_height_weight">2.0</item>
-    <item type="string" name="lb_guidedstep_height_weight_translucent">1.0</item>
-    <item type="string" name="lb_guidedstep_keyline">40.0</item>
-    <string name="lb_media_player_error">MediaPlayer hata kodu: %1$d Ekstra: %2$d</string>
-    <string name="lb_navigation_menu_contentDescription">Gezinme menüsü</string>
-    <string name="lb_onboarding_accessibility_next">İleri</string>
-    <string name="lb_onboarding_get_started">Başla</string>
-    <string name="lb_playback_controls_closed_captioning_disable">Kapalı alt yazıyı devre dışı bırak</string>
-    <string name="lb_playback_controls_closed_captioning_enable">Kapalı alt yazıyı etkinleştir</string>
-    <string name="lb_playback_controls_fast_forward">Hızlı ileri</string>
-    <string name="lb_playback_controls_fast_forward_multiplier">Hızlı ileri: %1$dX</string>
-    <string name="lb_playback_controls_hidden">Medya kontrolleri gizli. Göstermek için d-pad tuşuna basın</string>
-    <string name="lb_playback_controls_high_quality_disable">Yüksek kaliteyi devre dışı bırak</string>
-    <string name="lb_playback_controls_high_quality_enable">Yüksek kaliteyi etkinleştir</string>
-    <string name="lb_playback_controls_more_actions">Daha fazla hareket</string>
-    <string name="lb_playback_controls_pause">Duraklat</string>
-    <string name="lb_playback_controls_picture_in_picture">Resim modunda resim girin</string>
-    <string name="lb_playback_controls_play">Oynat</string>
-    <string name="lb_playback_controls_repeat_all">Hepsini tekrar et</string>
-    <string name="lb_playback_controls_repeat_none">Hiçbirini yineleme</string>
-    <string name="lb_playback_controls_repeat_one">Bir kez tekrar et</string>
-    <string name="lb_playback_controls_rewind">Geri sar</string>
-    <string name="lb_playback_controls_rewind_multiplier">Geri sar: %1$dX</string>
-    <string name="lb_playback_controls_shown">Medya denetimleri gösteriliyor</string>
-    <string name="lb_playback_controls_shuffle_disable">Karıştırmayı devre dışı bırak</string>
-    <string name="lb_playback_controls_shuffle_enable">Karıştırmayı etkinleştir</string>
-    <string name="lb_playback_controls_skip_next">Sonrakine atla</string>
-    <string name="lb_playback_controls_skip_previous">Öncekine atla</string>
-    <string name="lb_playback_controls_thumb_down">Başparmak aşağı seçimini kaldırın</string>
-    <string name="lb_playback_controls_thumb_down_outline">Başparmak aşağı seç</string>
-    <string name="lb_playback_controls_thumb_up">Başparmak seçimini kaldır</string>
-    <string name="lb_playback_controls_thumb_up_outline">Başparmak seç</string>
-    <string name="lb_playback_time_separator">/</string>
-    <string name="lb_search_bar_hint">Ara</string>
-    <string name="lb_search_bar_hint_speech">Aramak için konuşun</string>
-    <string name="lb_search_bar_hint_with_title">Ara: %1$s</string>
-    <string name="lb_search_bar_hint_with_title_speech">Aramak için konuşun: %1$s</string>
-    <string name="lb_time_separator">:</string>
     <string name="left_icon">Sol simge</string>
     <string name="left_keycode">Sol tuş kodu</string>
     <string name="left_nav_bar_button_type">Ekstra sol düğme türü</string>
@@ -1025,6 +977,7 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="lockscreen_shortcut_left">Sol kısayol</string>
     <string name="lockscreen_shortcut_right">Sağ kısayol</string>
     <string name="lockscreen_sim_error_message_short">Geçersiz kart</string>
+    <string name="lockscreen_storage_locked">Tüm özellikler ve veriler için kilidi aç</string>
     <string name="lockscreen_unlock_left">Sol kısayol da kilidini açar</string>
     <string name="lockscreen_unlock_right">Sağ kısayol da kilidini açar</string>
     <string name="long_screenshot_not_support_msg">Mevcut uygulama uzun ekran görüntülerini desteklemiyor</string>
@@ -1133,27 +1086,6 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="monitoring_title_device_owned">Cihaz yönetimi</string>
     <string name="monitoring_title_profile_owned">Profil izleme</string>
     <string name="mount_storage">Evet</string>
-    <string name="mr_button_content_description">Yayınla düğmesi</string>
-    <string name="mr_cast_button_connected">Yayınla düğmesi. Bağlı</string>
-    <string name="mr_cast_button_connecting">Yayınla düğmesi. Bağlanıyor</string>
-    <string name="mr_cast_button_disconnected">Yayınla düğmesi. Bağlantı kesildi</string>
-    <string name="mr_chooser_searching">Cihazlar bulunuyor</string>
-    <string name="mr_chooser_title">için yayınla</string>
-    <string name="mr_controller_album_art">Albüm sanatı</string>
-    <string name="mr_controller_casting_screen">Ekran yayınlanıyor</string>
-    <string name="mr_controller_close_description">Kapat</string>
-    <string name="mr_controller_collapse_group">Daralt</string>
-    <string name="mr_controller_disconnect">Bağlantıyı kes</string>
-    <string name="mr_controller_expand_group">Genişlet</string>
-    <string name="mr_controller_no_info_available">Bilgi yok</string>
-    <string name="mr_controller_no_media_selected">Medya seçilmedi</string>
-    <string name="mr_controller_pause">Duraklat</string>
-    <string name="mr_controller_play">Oynat</string>
-    <string name="mr_controller_stop">Durdur</string>
-    <string name="mr_controller_stop_casting">Yayını durdur</string>
-    <string name="mr_controller_volume_slider">Sesi kaydır</string>
-    <string name="mr_system_route_name">Sistem</string>
-    <string name="mr_user_route_category_name">Cihazlar</string>
     <string name="mx_mcc">334</string>
     <string name="nav_bar">Gezinti çubuğu</string>
     <string name="nav_bar_default">(Varsayılan)</string>
@@ -1238,7 +1170,6 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="oldman_incall_text">Gelen arama</string>
     <string name="open_camera_hint_text">Kamerayı açmak için sola kaydırın</string>
     <string name="open_remote_center_hint_text">Kısayolları açmak için sağa kaydırın</string>
-    <string name="orb_search_action">Eylemde ara</string>
     <string name="other">Diğer</string>
     <string name="overlay_display_devices_title">İkincil ekranları simüle et</string>
     <string name="overview">Genel bakış</string>
@@ -1273,7 +1204,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="pip_skip_to_next">Sonrakine geç</string>
     <string name="pip_skip_to_prev">Öncekine geç</string>
     <string name="please_slide_agian">Lütfen tekrar kaydırın</string>
-    <string name="plugins">Plugins</string>
+    <string name="plugins">Eklentiler</string>
     <string name="pointer_location">İşaretçi konumu</string>
     <string name="pointer_location_summary">Mevcut dokunmatik verilerini gösteren yer paylaşımı</string>
     <string name="power_charging">%1$s - %2$s</string>
@@ -1481,6 +1412,8 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="retail_demo_reset_next">Sonraki</string>
     <string name="retail_demo_reset_title">Şifre gerekli</string>
     <string name="return_to_incall_screen">Arama ekranına dön</string>
+    <string name="rgb_face_data_introduction_title">2D yüz tanımı ekle</string>
+    <string name="rgb_face_data_manage_delete_msg">2D yüz tanımını sil</string>
     <string name="right_icon">Sağ simgesi</string>
     <string name="right_keycode">Doğru anahtar kodu</string>
     <string name="right_nav_bar_button_type">Ekstra sağ düğme türü</string>
@@ -1654,13 +1587,16 @@ kilitlemek için aşağı doğru kaydırın"</string>
     <string name="structure_face_data_input_ok">Başarılı</string>
     <string name="structure_face_data_input_right">Sağa dön</string>
     <string name="structure_face_data_input_success">Giriş tamamlandı</string>
+    <string name="structure_face_data_input_timeout_msg">Kaydedilemedi. Tekrar deneyin</string>
+    <string name="structure_face_data_input_timeout_title">Tekrar deneyin</string>
     <string name="structure_face_data_input_up">Yukarı bak</string>
     <string name="structure_face_data_introduction_back">Geri dön</string>
     <string name="structure_face_data_introduction_msg">3D yüz tanıma özelliği daha güvenlidir ve telefonunuzun kilidini açmak veya kimliğinizi doğrulamak için kullanılabilir. Lütfen özelliği etkinleştirmek için bir kilit ekranı parolası ayarlayın</string>
     <string name="structure_face_data_introduction_next">Devam et</string>
     <string name="structure_face_data_introduction_settingpassword">Ayarlamaya git</string>
-    <string name="structure_face_data_introduction_title">3D yüz verisi ekle</string>
+    <string name="structure_face_data_introduction_title">3D yüz tanımı ekle</string>
     <string name="structure_face_data_ir_input_face">Biraz kafanızı döndürün</string>
+    <string name="structure_face_data_manage_delete_msg">3D yüz tanımını sil</string>
     <string name="structure_face_data_open_cameraing">Kamera yükleniyor</string>
     <string name="structure_face_data_rgb_input_face">Çerçeveye yüzünüzü koyun</string>
     <string name="structure_face_data_suggestion_text">Giriş yaparken yüzünüzün açık bir şekilde görülebildiğinden emin olun ve şapka, güneş gözlüğü, maske vb. takmamaya dikkat edin. Doğrudan güneş ışığından kaçının</string>
@@ -1668,6 +1604,24 @@ kilitlemek için aşağı doğru kaydırın"</string>
     <string name="structure_face_delete_data_dialog_msg">Kamera yüklenemedi. Önizleme arayüzü alınamadı. Llütfen tekrar deneyin</string>
     <string name="structure_face_delete_data_dialog_msg_retry">Tekrar dene</string>
     <string name="structure_face_delete_data_dialog_title">Kamera yüklenemedi</string>
+    <string name="structure_face_hardware_abnormal_btn">Anladım</string>
+    <string name="structure_face_hardware_abnormal_msg">"Lazer hatası nedeniyle yüz verileri kaydedilemiyor. Yardım almak için müşteri hizmetlerine başvurun"</string>
+    <string name="structure_face_hardware_abnormal_title">Lazer hatası</string>
+    <string name="structure_face_modules_abnormal_btn">Yeniden başlat</string>
+    <string name="structure_face_modules_abnormal_msg">Optik modül hatası nedeniyle yüz verileri kaydedilemiyor. Cihazınızı yeniden başlatın ve tekrar deneyin</string>
+    <string name="structure_face_modules_abnormal_title">Optik modül hatası</string>
+    <string name="structure_face_unlock_model2d_dialog_msg">3D tanıma kapatılacak. 3D yüz verileriniz silinecek. 2D tanıma özelliği açılsın mı?</string>
+    <string name="structure_face_unlock_model2d_dialog_title">2D tanımaya dönülüyor</string>
+    <string name="structure_face_unlock_model3d_dialog_msg">"2D tanıma kapatılacak. 2D yüz verileriniz silinecek. Ayrıca 3D yüz verilerinizi de eklemeniz gerekecek. 3D tanıma özelliği açılsın mı?"</string>
+    <string name="structure_face_unlock_model3d_dialog_title">3d tanıma dönüyor</string>
+    <string name="structure_face_unlock_model_dialog_enable">Aç</string>
+    <string name="structure_face_unlock_model_dialog_notenable">Hayır</string>
+    <string name="structure_face_unlock_model_other">Diğer</string>
+    <string name="structure_face_unlock_model_other_msg_2d">2D tanıma</string>
+    <string name="structure_face_unlock_model_other_msg_3d">3D tanıma</string>
+    <string name="structure_face_unlock_model_other_suggestion_2d">2D yüz tanıma desen, Pin veya şifreden daha az güvenlidir. Özellik açıkken cihazınız fotoğrafınızın yanı sıra size benzeyen kişilerin veya nesnelerle kilit açılabilir</string>
+    <string name="structure_face_unlock_model_other_suggestion_3d">"3D yüz tanıma güvenlidir. Bu özellik açıkken cihazınızın kilidini fotoğrafınızla açmanız pek mümkün değildir. Ancak sizin gibi görünen insanlar veya nesneler tarafından kilit açılabilir</string>
+    <string name="structure_face_unlock_model_other_title">Yüz tanıma</string>
     <string name="switch_bar_off">Kapalı</string>
     <string name="switch_bar_on">Açık</string>
     <string name="symbol_colon">:</string>

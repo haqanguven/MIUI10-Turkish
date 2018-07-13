@@ -2023,6 +2023,10 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="notch_battery_indicator_style_entries">
+        <item>Grafiksel</item>
+        <item>Yüzde</item>
+    </string-array>
     <string-array name="organized_locales">
         <item>dz</item>
         <item>ao</item>
@@ -2370,8 +2374,8 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
         <item>Standart</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
         <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
@@ -2539,6 +2543,14 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir!"</item>
     <string-array name="startup_hips_values">
         <item>2</item>
         <item>0</item>
+    </string-array>
+    <string-array name="status_bar_settings_notification_shade_shortcut_entries">
+        <item>Ara</item>
+        <item>Ayarlar</item>
+    </string-array>
+    <string-array name="status_bar_settings_notification_shade_shortcut_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>

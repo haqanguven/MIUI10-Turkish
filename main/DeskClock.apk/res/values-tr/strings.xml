@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="add_alarm">Alarm ekle</string>
+    <string name="add_clock">Saat ekle</string>
     <string name="add_timezone_title">Zaman dilimi ekle</string>
     <string name="alarm_alert_alert_silenced">Alarm %d dakika sonra susturuldu</string>
     <string name="alarm_alert_snooze_set">Alarm %d dakika ertelendi</string>
@@ -36,6 +37,7 @@
     <string name="close_alarm">Kapat</string>
     <string name="common_settings">Ayarlar</string>
     <string name="confirm_abort">Vazgeç</string>
+    <string name="content_desc_keep_screen">Ekranı açık tut düğmesi</string>
     <string name="control_set_alarm">Alarm ayarla</string>
     <string name="control_set_alarm_with_existing">Alarm ayarlandı: %s</string>
     <string name="day">1 gün</string>
@@ -174,10 +176,14 @@
     <string name="timer_alert_type_rain">Çiseleme</string>
     <string name="timer_alert_type_stove_fire">Soba ateşi</string>
     <string name="timer_alert_type_summer_night">Yaz gecesi</string>
+    <string name="timer_cancel_hint">Durdur</string>
     <string name="timer_cancel_timer">Zamanlayıcıyı iptal et</string>
     <string name="timer_clock_alert_text">Zamanlayıcı ayarla</string>
     <string name="timer_continue">Devam et</string>
     <string name="timer_continue_timer">Zamanlayıcıyı devam ettir</string>
+    <string name="timer_end_time">Zamanlayıcı %s süresinde durur</string>
+    <string name="timer_end_time_format">HH:mm dd MMM</string>
+    <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">Tamam</string>
     <string name="timer_item_duration_display">%1$d dakika %2$d saniye</string>
     <string name="timer_item_label_hint">Adı</string>
@@ -186,10 +192,8 @@
     <string name="timer_item_picker_second">s</string>
     <string name="timer_new_item">Zaman ekle</string>
     <string name="timer_notify_text">Zamanlayıcıyı ertele veya yoksay</string>
-    <string name="timer_pause_hint">Duraklat</string>
     <string name="timer_pause_timer">Saatleri duraklat</string>
     <string name="timer_running">Zamanlayıcı çalışıyor</string>
-    <string name="timer_running_hint">Devam et</string>
     <string name="timer_start_alarm">Zaman doldu</string>
     <string name="timer_start_timer">Zamanlayıcıyı başlat</string>
     <string name="timer_title">Zamanlayıcı</string>
@@ -214,8 +218,6 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">Saat</string>
     <string name="worldcolock_timezone_local">yerel saatle aynı</string>
-    <string name="add_clock">Saat ekle</string>
-    <string name="content_desc_keep_screen">Ekranda düğmeyi tut</string>
     <string name="full_wday_month_day_no_year">dd MMMM EEEE</string>
     <string name="elapsed_time_format">+</string>
     <string name="search_alarm_clock">@string/alarm_list_title</string>

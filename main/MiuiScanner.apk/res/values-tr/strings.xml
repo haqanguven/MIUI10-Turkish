@@ -2,8 +2,8 @@
 <resources>
     <string name="access_sd_fail">SD karta erişilemedi</string>
     <string name="accessibility_shutter_button">Deklanşör</string>
-    <string name="action_search">Ara</string>
     <string name="address">Adres:</string>
+    <string name="amazon_assistant_shopping_title">Amazonda ara</string>
     <string name="app_description_content">Barkod okuyucu QR kodlarını, dökümanları, iş kartlarını ve daha fazlasını taramanıza olanak sağlar. Uygulamayı silmeden önce uygulamaya ihtiyacınız olmadığından emin olun</string>
     <string name="app_description_title">Barkod okuyucu hakkında</string>
     <string name="app_details">Uygulama:</string>
@@ -12,10 +12,9 @@
     <string name="barcode_into_rectangle">Kodu karenin içerisine hizalayın</string>
     <string name="birthday">Doğum günü:</string>
     <string name="camera_error_title">Kamera hatası</string>
-    <string name="cancel">İptal</string>
+    <string name="cancel">İptal et</string>
     <string name="choose_picture">QR kod imajını seçin</string>
     <string name="common_retake_picture">Tekrar çek</string>
-    <string name="common_retry">Yeniden deneyin</string>
     <string name="common_save">Kaydet</string>
     <string name="company">Şirket:</string>
     <string name="connect_wifi">Bu ağa bağlan</string>
@@ -26,7 +25,6 @@
     <string name="copy_text_success">Metin kopyalandı</string>
     <string name="crop_cancel_description">İptal</string>
     <string name="crop_done_description">Tamamlandı</string>
-    <string name="crop_title_study">Fotoğrafı kes</string>
     <string name="crop_title_translation">Tercüme edilecek metni girin</string>
     <string name="document_color_picture">Renk</string>
     <string name="document_color_picture_tip">Renkliye dönüştürülüyor</string>
@@ -50,16 +48,9 @@
     <string name="email">E-posta:</string>
     <string name="error_camera_disabled">Kamera erişimi güvenlik nedenleri dolayısıyla reddedildi</string>
     <string name="error_cannot_connect_camera">Kameraya bağlanılamıyor</string>
-    <string name="error_day_limit">1 gün içerisinde çok fazla deneme yapıldı</string>
-    <string name="error_empty_result">Sonuçlar bulunamadı</string>
     <string name="error_get_image">Resim alınamadı</string>
-    <string name="error_hour_limit">1 saat içerisinde çok fazla deneme yapıldı</string>
-    <string name="error_image_error">Bu fotoğraf tanımlanamıyor</string>
-    <string name="error_invalid_request">Kimlik doğrulama hatası</string>
     <string name="error_media_storage_failure">Fotoğraf kaydedilemedi</string>
-    <string name="error_minute_limit">1 dakika içerisinde çok fazla deneme yapıldı</string>
     <string name="error_permissions">Barkod okuyucu normal olarak çalışabilmesi için gerekli izinlere sahip değil. Devam etmek için ayarlar menüsüne gidin ve izin ayarlarını kontrol edin</string>
-    <string name="error_server_error">Sunucu hatası</string>
     <string name="feed_search_fail">Sonuç yok. Yeniden deneyin</string>
     <string name="feedback_description_camera_access">Barkod okuyucu Kameraya bağlanamıyor</string>
     <string name="feedback_description_save_photo">Fotoğraf veya video kaydedilemedi</string>
@@ -88,7 +79,6 @@
     <string name="module_title_code">QR kodu</string>
     <string name="module_title_document">Belge</string>
     <string name="module_title_shopping">Alışveriş</string>
-    <string name="module_title_study">Çalışma</string>
     <string name="module_title_translation">Tercüme</string>
     <string name="name">İsim:</string>
     <string name="nickname">Kullanıcı adı:</string>
@@ -122,12 +112,6 @@
     <string name="shopping_title">Ürünün bir fotoğrafını çekin</string>
     <string name="shopping_vendor_info">Taobao tarafından sağlanmaktadır</string>
     <string name="spaceIsLow_content">Dahili depolama alanında yeterli boş alan yok. Biraz yer açın</string>
-    <string name="study_report_title">Bildir</string>
-    <string name="study_rotate_picture">Fotoğraf işleniyor</string>
-    <string name="study_scan_result">Sonuç</string>
-    <string name="study_searching">Sonuçlar aranıyor</string>
-    <string name="study_title">Problemin fotoğrafını çekin</string>
-    <string name="study_vendor_info">Master Leaner tarafından sağlanmaktadır</string>
     <string name="switch_open">Aç</string>
     <string name="title">Ünvan:</string>
     <string name="translation_language_chinese">Çince</string>
@@ -150,7 +134,6 @@
     <string name="url_is_unknown">İnternet sitesi güvenliği kontrol edilemiyor</string>
     <string name="url_is_unsafety">Bu internet sitesi güvenli değil</string>
     <string name="vender_info_translation_kingsoft">Kingsoft tarafından sağlanmaktadır</string>
-    <string name="view_study_report">Raporu görüntüle</string>
     <string name="web">İnternet sitesi:</string>
     <string name="website_details">İnternet sitesi:</string>
     <string name="weixin_code_tip">Bu QR kodunu taratmak için WeChat kullanın</string>
@@ -163,7 +146,6 @@
     <string name="keywords_search_document">Tarayıcı;Dokümanı tara;Dokümanları tara;OCR;Metni tara;Tara</string>
     <string name="keywords_search_settings">Tarayıcı;Tarayıcı ağı ayarları</string>
     <string name="keywords_search_shopping">Alışveriş;Tarayıcı;Ürün tara;Ürün tara;Fiyat kontrolü;Ürünler;Taobao;Tmall;Fiyatlar;Online alışveriş</string>
-    <string name="keywords_search_study">Alışveriş;Tarayıcı;Ürün tara;Ürün tara;Fiyat kontrolü;Ürünler;Taobao;Tmall;Fiyatlar;Online alışveriş</string>
     <string name="keywords_search_translation">Sözlük,İngilizce,Yabancı dil,Dil,İngilizce,Çince,İtalyanca,Almanca,Japonca,Korece,İspanyolca,Fransızca;Baidu çeviri;Youdao sözlüğü;Baidu sözlüğü;Google çeviri</string>
     <string name="path_scanner_setting">Sistem uygulamaları/Tarayıcı</string>
     <string name="alisdk_message_10008_action">Lütfen daha sonra mevcut işlemi tekrar deneyin. Hala bir hata alırsanız lütfen foruma, teknik desteğe veya Android SDK geliştirme danışmanlığı grubuna geri bildirim gönderin</string>
@@ -214,7 +196,6 @@
     <string name="alisdk_message_809_message">"Yöntemi çağırmak için Apliay SDK'sı kullanılamadı. Lütfen en son ApliaySDK lib paketini indirin ya da ödeme yapmak için H5 yöntemini kullanın"</string>
     <string name="aliusersdk_network_error">Mobil ağınız çok düzgün değil~</string>
     <string name="aliusersdk_session_error">İşleminiz zaman aşımına uğradı. Lütfen tekrar deneyin</string>
-    <string name="amazon_assistant_shopping_title">Amazonda ara</string>
     <string name="auth_sdk_message_10003_action" />
     <string name="auth_sdk_message_10003_message">Kullanıcı girişi iptal edildi veya giriş başarısız oldu</string>
     <string name="auth_sdk_message_10003_name">USER_CANCEL</string>

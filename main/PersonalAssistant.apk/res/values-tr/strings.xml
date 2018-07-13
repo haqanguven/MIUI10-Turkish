@@ -232,7 +232,6 @@
     <string name="edit_category_dialog_title">Ödeme kategorisini seçin</string>
     <string name="edit_comment_hint">Düşünce</string>
     <string name="edit_delete_dialog_message">Bu geçmiş kaydı silinsin mi?</string>
-    <string name="edit_record_category">"Kategori: "</string>
     <string name="edit_record_label">Detaylar</string>
     <string name="empty_card_btn">Uygulama aç</string>
     <string name="empty_card_tip">Henüz oturum açmamış veya bu kartı kurmamışsınız gibi görünüyor</string>
@@ -508,8 +507,8 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="function_mistore_cart">Alışveriş kartı</string>
     <string name="function_mistore_favorite">Favoriler</string>
     <string name="function_mistore_title">Mi mağaza</string>
-    <string name="function_music_recognize">Şarkıları tanıyın</string>
-    <string name="function_music_title">Müzik</string>
+    <string name="function_music_recognize">Müzikler</string>
+    <string name="function_music_title">Müzikler</string>
     <string name="function_not_support">Bu özellik bu cihazda desteklenmiyor</string>
     <string name="function_open_error_content">Uygulama kaldırıldığından bu kısayol çalışmıyor. Farklı bir kısayol seçin veya uygulamayı tekrar yükleyin</string>
     <string name="function_open_error_content_app">Bu uygulama kaldırıldı. Farklı bir kısayol seçin veya uygulamayı tekrar yükleyin</string>
@@ -526,14 +525,14 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="function_taobao_favorite">Favori ürünler</string>
     <string name="function_taobao_store">Favori mağazalar</string>
     <string name="function_taobao_title">Taobao</string>
-    <string name="function_tencent_video_resume">Devam et</string>
-    <string name="function_tencent_video_title">Tencent video</string>
+    <string name="function_tencent_video_resume">Videolar</string>
+    <string name="function_tencent_video_title">Videolar</string>
     <string name="function_tools_parent">Araçlar</string>
     <string name="function_video_music_title">Müzik &amp; video</string>
     <string name="function_youku_record">Son videolar</string>
     <string name="function_youku_title">Youku</string>
-    <string name="function_zhihu_search">Ara</string>
-    <string name="function_zhihu_title">Zhihu</string>
+    <string name="function_zhihu_search">Alarm ekle</string>
+    <string name="function_zhihu_title">Alarm ekle</string>
     <string name="go_to_school">İşten veya okuldan işe veya okula</string>
     <string name="greeting_open">Günlük selamları etkinleştir</string>
     <string name="greeting_setting_brief">Her sabah ve akşam saatlerinde planlanan olaylar, alarmlar ve doğum günleri hakkında hava durumu ve hatırlatıcıları alın</string>
@@ -757,10 +756,10 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="payment_clear_records_failed">Ödeme geçmişi silinemedi</string>
     <string name="payment_clear_records_success">Ödeme geçmişi temizlendi</string>
     <string name="payment_date_time_picker_dialog_title">Tarihi ve saati ayarla</string>
+    <string name="payment_dialog_notice_message">WeChat ödeme bilgilerini desteklemiyorsa bunu kendiniz akıllı asistana ekleyebilirsiniz. Diğer uygulamalardan ödeme bilgilerini dışa aktarabilirsiniz</string>
+    <string name="payment_dialog_notice_message_inside">WeChat ödeme bilgilerini desteklemiyorsa bunu kendiniz akıllı asistana ekleyebilirsiniz</string>
     <string name="payment_dialog_notice_ok">Anladım</string>
     <string name="payment_dialog_notice_title">Dikkat</string>
-    <string name="payment_dialog_notice_ok">Anladım</string>
-    <string name="payment_dialog_notice_title">Ödeme bilgisi</string>
     <string name="payment_guide_hint">Mesajlaşma ve diğer uygulamalardan ödeme bilgisi toplayın</string>
     <string name="payment_guide_hint_link">Güvenlik &amp; gizlilik</string>
     <string name="payment_method_alipay">Alipay</string>
@@ -795,13 +794,9 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="payment_record_add">Ödeme ekle</string>
     <string name="payment_record_delete">Ödemelerden sil</string>
     <string name="payment_record_empty">Henüz ödeme yok</string>
-    <string name="payment_record_label">Detaylar</string>
     <string name="payment_record_list">Detaylar</string>
     <string name="payment_record_menu_delete">Sil</string>
     <string name="payment_record_menu_select">Seç</string>
-    <string name="payment_record_new_lable">Geçmiş kaydı ekle</string>
-    <string name="payment_record_recent_title">Son ödemeler</string>
-    <string name="payment_record_show_more">Daha fazla göster</string>
     <string name="payment_report_failed_record_dialog_cancel">İptal edilemedi</string>
     <string name="payment_report_failed_record_dialog_message">"Faturalandırma başarınızı iyileştirmemize yardımcı olmak için başarısız sayfadaki bilgileri bize bildirmek için inisiyatif alabiliriz
 "<b>Bildirilen bilgiler yalnızca faturalandırma hatalarını çözmek için kullanılır</b></string>
@@ -848,7 +843,7 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="recharge_title_over">Veri sınırı aşıldı</string>
     <string name="recharge_title_remaining">Kalan veri</string>
     <string name="recharge_title_used">Bugün kullanılan</string>
-    <string name="record_name">Kayıt</string>
+    <string name="record_name">Ses kaydedici</string>
     <string name="record_parent">Ses kaydedici</string>
     <string name="red_dowm_blue_grow">Yeşil - yukarı, kırmızı - aşağı</string>
     <string name="red_grow_blue_dowm">Kırmızı - yukarı, yeşil - aşağı</string>
@@ -1075,8 +1070,8 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="uploads_disabled">"Dosya yüklenemiyor"</string>
     <string name="user_id">Kullanıcı kimliği: %s</string>
     <string name="walk">Yürüme</string>
-    <string name="weibo_name">Yeni posta</string>
-    <string name="weibo_parent">Weibo</string>
+    <string name="weibo_name">Kamera</string>
+    <string name="weibo_parent">Kamera</string>
     <string name="which_transport">Normal olarak varış noktanıza nasıl ulaşıyorsunuz?</string>
     <string name="widget_fav">Favoriler</string>
     <string name="widget_fav_open">En sevdiğin kartı göster</string>
@@ -1087,7 +1082,7 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="widget_no_data">Henüz favori yok</string>
     <string name="widget_title">En son eklendi</string>
     <string name="wx_aa">Hollandacaya git</string>
-    <string name="wx_collectioncode">Ödeme alındı</string>
+    <string name="wx_collectioncode">Görevler</string>
     <string name="wx_name">Kartlarım</string>
     <string name="wx_parent">WeChat</string>
     <string name="wx_paycode">Ödeme</string>
@@ -1274,7 +1269,10 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="book_dep_city">Sonuç</string>
     <string name="cashier_str_null" />
     <string name="didi_app_name">DiDi</string>
+    <string name="express_add">添加</string>
+    <string name="express_add_tel">添加电话</string>
     <string name="express_auth_button_text">添加手机号</string>
+    <string name="express_delete_tel">删除电话</string>
     <string name="express_setting_add_new_number">添加新号码</string>
     <string name="express_setting_add_other_number">其他号码</string>
     <string name="express_setting_network_unavailable">无法连接网络，请检查网络设置</string>
@@ -1285,8 +1283,15 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="express_setting_sim_card_index">卡槽%d</string>
     <string name="keyboard_more_abc">\#+=</string>
     <string name="keyboard_more_num">123</string>
+    <string name="mifare_card">门禁卡</string>
     <string name="mini_str_null">xx</string>
+    <string name="recommend_add_one_card">添加%s</string>
+    <string name="recommend_close">关闭</string>
     <string name="recommend_title">添加更多你感兴趣的卡片</string>
+    <string name="save_to_note">转存至便签</string>
+    <string name="scan_express_num">扫码查询</string>
+    <string name="select_team_close">关闭</string>
+    <string name="select_team_confirm">提交</string>
     <string name="setting_ball_recent">Recently Added</string>
     <string name="setting_world_cup_a">A组</string>
     <string name="setting_world_cup_b">B组</string>
@@ -1296,6 +1301,8 @@ Taobao, Tmall ve Xianyu dışındaki satıcılardan SF Express ile gönderilen b
     <string name="setting_world_cup_f">F组</string>
     <string name="setting_world_cup_g">G组</string>
     <string name="setting_world_cup_h">H组</string>
+    <string name="shopping_search">购物搜索</string>
+    <string name="team_selected">%s,已选中</string>
     <string name="access_change_text" formatted="false">当前选中的是第%d项, 与第%d项交换位置.</string>
     <string name="accessibilty_back_button">返回</string>
     <string name="accessibilty_move_down">下移</string>

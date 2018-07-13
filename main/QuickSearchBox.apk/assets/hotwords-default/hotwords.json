@@ -33,6 +33,14 @@
             "text": "Miui Türkiye",
             "type": "unknown",
             "url": "http://forum.miuiturkiye.net/"
+        },
+        {
+            "min_version": -1,
+            "package": "com.android.quicksearchbox",
+            "style": "text",
+            "text": "Miui TR",
+            "type": "unknown",
+            "url": "https://t.me/miuitr"
         }
     ],
     "status": 0,

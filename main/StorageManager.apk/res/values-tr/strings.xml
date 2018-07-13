@@ -47,7 +47,7 @@
     <string name="allow_mock_location_summary">Sahte konumlara izin ver</string>
     <string name="animator_duration_scale_title">Animatör süre ölçeği</string>
     <string name="apn_settings_not_available">Erişim noktası adı ayarları bu kullanıcı için kullanılamıyor</string>
-    <string name="app_name">Depolama Yöneticisi</string>
+    <string name="app_name">Depolama yöneticisi</string>
     <string name="app_process_limit_title">Arka plan işlem sınırı</string>
     <string name="automatic_storage_manager_activate_button">Aç</string>
     <string name="automatic_storage_manager_activation_warning">Depolama alanınız artık depolama yöneticisi tarafından yönetiliyor</string>

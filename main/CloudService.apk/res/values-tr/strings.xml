@@ -341,6 +341,7 @@ Mi bulut'u tekrar etkinleştirmek için Mi hesabınızda oturum açın"</string>
     <string name="micloud_request_permission_confirm">Anladım</string>
     <string name="short_cut_desc">Mi bulut kısayolu Ana ekrana eklensin mi?</string>
     <string name="add_short_cut">Ekle</string>
+    <string name="close_shortcut">Kapat</string>
     <string name="added_successfully">Başarıyla eklendi</string>
     <string name="network_unconnected">Ağa bağlanılamadı</string>
     <string name="cloud_storage_full">Bulut depolama alanı dolu</string>

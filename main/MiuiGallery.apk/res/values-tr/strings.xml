@@ -22,7 +22,7 @@
     <string name="add_to_share_album_not_delete">Paylaşılan albümden fotoğraf silinemiyor</string>
     <string name="added_to_favorites">Favorilerime eklendi</string>
     <string name="added_to_favorites_tip">Favoriler albümüne eklendi</string>
-    <string name="adding">Ekleniyor…</string>
+    <string name="adding">Ekleniyor</string>
     <string name="adding_recipients">Alıcılar ekleniyor</string>
     <string name="adding_to_album">Fotoğraflar ekleniyor</string>
     <string name="adding_to_favorites">Favorilere ekleniyor</string>
@@ -42,7 +42,7 @@
     <string name="album_camera_name">Kamera</string>
     <string name="album_creative">Düzenlenmiş fotoğraflarım</string>
     <string name="album_detail_page_empty">Fotoğraf veya video yok</string>
-    <string name="album_download">Downloads</string>
+    <string name="album_download">İndirilenler</string>
     <string name="album_faces_name">Kişiler</string>
     <string name="album_favorites_name">Favoriler</string>
     <string name="album_from_format">%s konumundan</string>
@@ -54,6 +54,7 @@
     <string name="album_name_people">Kişiler</string>
     <string name="album_name_recent_discovery">En son</string>
     <string name="album_name_tags">Etiketler</string>
+    <string name="album_notes">Notlar</string>
     <string name="album_others_share_baby_info_format">%s konumundaki bebek albümü</string>
     <string name="album_others_share_info_format">%s konumundan</string>
     <string name="album_owner_share">Paylaşılan</string>
@@ -127,14 +128,14 @@
     <string name="baby_lock_wallpaper_save_settings_msg">Mevcut ayarlar uygulansın mı?</string>
     <string name="baby_lock_wallpaper_title">Bebek fotoğraflarını kilit ekranı duvar kağıdı olarak kullan</string>
     <string name="baby_name_cannot_empty">İsim girin</string>
-    <string name="baby_name_cannot_start_with">"İsim '%s' karakteri ile başlayamaz"</string>
-    <string name="baby_name_contain_invalidate_char">"İsim '%s' karakteri içeremez"</string>
+    <string name="baby_name_cannot_start_with">İsim %s karakteri ile başlayamaz</string>
+    <string name="baby_name_contain_invalidate_char">İsim %s karakteri içeremez</string>
     <string name="baby_name_reserved">Bu isim başka bir albüm için ayrılmıştır</string>
     <string name="baby_nick_name">Takma ad</string>
     <string name="baby_sexy">Cinsiyet</string>
     <string name="baby_suffix">bebek</string>
     <string name="back">Geri</string>
-    <string name="backup_automatically_summary">"Tüm cihazlardaki fotoğrafları ve videoları Mi buluta yedekleyin. Böylece fotoğraf ve videolarınızı tüm cihazlarınızda rahatça görüntüleyebilir, sıralayabilir, düzenleyebilir ve paylaşabilirsiniz"</string>
+    <string name="backup_automatically_summary">Tüm cihazlardaki fotoğrafları ve videoları Mi buluta yedekleyin. Böylece fotoğraf ve videolarınızı tüm cihazlarınızda rahatça görüntüleyebilir, sıralayabilir, düzenleyebilir ve paylaşabilirsiniz</string>
     <string name="backup_automatically_title">Otomatik yedekle</string>
     <string name="backup_battery_low_desc">Öğeleri yine de yedeklemeyi seçebilirsiniz</string>
     <string name="backup_battery_low_title">Yedekleme düşük pil seviyesi nedeniyle duraklatıldı</string>
@@ -254,8 +255,8 @@
     <string name="cloud_storage_warn_title">Yeterli Mi bulut depolama alanı yok</string>
     <string name="cloud_sync_card_description">Fotoğraf ve videolarınıza dilediğiniz cihazdan ulaşabilmek için Mi bulut ile senkronize edin</string>
     <string name="cloud_sync_card_title">Mi bulut ile senkronizasyon özelliğini açın</string>
-    <string name="cloudfolder_cannot_start_with">"Albüm adı '%s' ile başlayamaz"</string>
-    <string name="cloudfolder_contain_invalidate_char">"Albüm adı '%s' karakteri içeremez"</string>
+    <string name="cloudfolder_cannot_start_with">Albüm adı %s ile başlayamaz</string>
+    <string name="cloudfolder_contain_invalidate_char">Albüm adı %s karakteri içeremez</string>
     <string name="cloudfolder_name_cannot_empty">Bir albüm adı girin</string>
     <string name="cloudfolder_name_reserved">Albüm adı başka albümde kullanılmaktadır</string>
     <string name="collage__talkback_effect">%d efekt</string>
@@ -285,13 +286,13 @@
     <string name="confirm_hidden_recommend_group">Tamam</string>
     <string name="confirm_hidden_recommend_group_message">Öneriler kapalı olduğunda benzer daha fazla kişi seçeneğini kullanmaya devam edebiirsiniz</string>
     <string name="confirm_hidden_recommend_group_title">Önerileri gösterme</string>
-    <string name="confirm_merge_face_albums">" "<Data> Albümü %s ile birleştirilsin mi? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Bu albümleri %s ile birleştirilsin mi? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" \""<Data> Albümü %s ile birleştirilsin mi? </Data>"\" "</string>
+    <string name="confirm_merge_many_face_albums">" \""<Data> Bu albümleri %s ile birleştirilsin mi? </Data>"\" "</string>
     <string name="confirm_not_face">Eşleşme yok</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Bu kişinin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olduğuna emin misiniz? Bu kişi %2$s albümüne taşınacaktır </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data> Bu kişinin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olmadığına emin misiniz? </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Bu kişilerin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olduğuna emin misiniz? Bu kişiler %2$s albümüne taşınacaktır </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Bu kişilerin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olmadığına emin misiniz? </Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data>Bu kişinin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olduğuna emin misiniz? Bu kişi %2$s albümüne taşınacaktır</Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data>Bu kişinin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olmadığına emin misiniz?</Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data>Bu kişilerin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olduğuna emin misiniz? Bu kişiler %2$s albümüne taşınacaktır</Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data>Bu kişilerin &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> olmadığına emin misiniz?</Data>" "</string>
     <string name="contact_tip">Kişi</string>
     <string name="context_menu_add_contact">Kişilere ekle</string>
     <string name="context_menu_copy">Kopyala</string>
@@ -350,7 +351,7 @@
     <string name="download_retry_text">Yeniden dene</string>
     <string name="download_retry_title">Dosyalar indirilemedi</string>
     <string name="download_tip">İndir</string>
-    <string name="download_title">Dosyalar hazırlanıyor…</string>
+    <string name="download_title">Dosyalar hazırlanıyor</string>
     <string name="download_type_origin">Orijinal dosya</string>
     <string name="download_type_origin_desc">Orijinal dosya</string>
     <string name="download_type_thumbnail">Yüksek kalite</string>
@@ -470,8 +471,9 @@ Arkadaşlarınızın daha fazla fotoğraflarını çekin"</string>
     <string name="fancy_color_desc">Renkler</string>
     <string name="fast_share_auto_render">Güzelleştirme</string>
     <string name="fast_share_auto_render_finish">Güzelleştirildi</string>
-    <string name="feature_guidance_photo_effects">"Yeni fotoğraf efektleri
-mevcut"</string>
+    <string name="feature_guidance_photo_effects">"Yeni fotoğraf efektleri mevcut
+"</string>
+    <string name="feature_guidance_video_editor_smart_effects">Yeni efektler mevcut</string>
     <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Bellek</string>
     <string name="filter_bi_mono">Tek</string>
@@ -619,7 +621,7 @@ erişimine ihtiyaç duyuyor. İzinler menüsüne gitmek için ayarla seçeneğin
     <string name="loading_gif_thumbnail">GIF küçük resmi indiriliyor</string>
     <string name="loading_image">İmaj indirliyor</string>
     <string name="loading_image_thumbnail">Küçük resim indiriliyor</string>
-    <string name="loading_members">Üyeler yükleniyor026</string>
+    <string name="loading_members">Üyeler yükleniyor</string>
     <string name="loading_processing_tip">Fotoğraf işleniyor</string>
     <string name="loading_suspend">İndirme duraklatıldı. Wifi kullanılabilir olduğunda devam edilecektir</string>
     <string name="loading_video">Video indiriliyor</string>
@@ -634,7 +636,7 @@ erişimine ihtiyaç duyuyor. İzinler menüsüne gitmek için ayarla seçeneğin
     <string name="main_save_error_msg">Değişiklikler bir hata nedeniyle kaydedilemedi</string>
     <string name="mark_myself_default_name">Ben</string>
     <string name="mark_myself_suggestion_load_more">O ben değilim</string>
-    <string name="mark_myself_suggestion_title">"Kişiselleştirmek için 
+    <string name="mark_myself_suggestion_title">"Kişiselleştirmek için
 yüzünüzle fotoğrafları seçin"</string>
     <string name="mark_operation_failed">Eklenemedi</string>
     <string name="mark_operation_processing">İşleniyor</string>
@@ -695,7 +697,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="operation_delete">Sil</string>
     <string name="operation_detail">Ayrıntılar</string>
     <string name="operation_disable_auto_upload">Mi bulut ile senkronizasyon özelliğini kapat</string>
-    <string name="operation_download">Orijinal ögeyi indir (%s)</string>
+    <string name="operation_download">Orijinal öğeyi indir (%s)</string>
     <string name="operation_edit">Düzenle</string>
     <string name="operation_edit_video">Düzenle</string>
     <string name="operation_enable_auto_upload">Mi bulut ile senkronizasyon özelliğini açın</string>
@@ -812,7 +814,13 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="photo_print_package_installing">Eklenti yükleniyor</string>
     <string name="photo_save_to_msg">%s kaydedildi</string>
     <string name="photomovie_audio_custom">Yerel</string>
+    <string name="photomovie_audio_default">Bellek</string>
+    <string name="photomovie_audio_kawaii">Romantik</string>
+    <string name="photomovie_audio_light">Türkü</string>
+    <string name="photomovie_audio_linear">Rock</string>
     <string name="photomovie_audio_none">Yok</string>
+    <string name="photomovie_audio_soft">Havai kitarası</string>
+    <string name="photomovie_audio_sport">Tekno</string>
     <string name="photomovie_cancel_download">İptal et</string>
     <string name="photomovie_delete_disable">Klip oluşturmak için en az 3 fotoğrafa ihtiyacınız vardır</string>
     <string name="photomovie_download">İndir</string>
@@ -834,6 +842,11 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="photomovie_tab_music">Müzik</string>
     <string name="photomovie_tab_template">Şablon</string>
     <string name="photomovie_template_default">Yavaş</string>
+    <string name="photomovie_template_kawaii">Güzellik</string>
+    <string name="photomovie_template_light">Esinti</string>
+    <string name="photomovie_template_linear">Roadtrip</string>
+    <string name="photomovie_template_soft">Gençlik</string>
+    <string name="photomovie_template_sport">Kuvvet</string>
     <string name="pick_from_contact">Kişilerden seç</string>
     <string name="pick_too_many_recipients">Çok fazla alıcı</string>
     <string name="picker_cancel_download">İndirmeyi iptal et</string>
@@ -846,6 +859,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="picker_image_will_download">Seçili fotoğrafların %d adeti cihazda kayıtlı değil. Fotoğraflar indirilecektir</string>
     <string name="picker_no_network_message">İndirmek için ağa bağlanın</string>
     <string name="picker_origin_need_download">Seçili fotoğrafların %1$d adeti (%2$dMB) cihazda kayıtlı değil. Mobil veri kullanılarak indirilsin mi?</string>
+    <string name="picker_origin_request_progress_message">Orijinal dosyalar hazırlanıyor (%1$d/%2$d)</string>
     <string name="picker_title_format">%1$d - %2$d aralığında fotoğraf seçin</string>
     <string name="picker_title_selection_format">Seçili fotoğraflar: %d</string>
     <string name="picker_title_selection_format_multiple">%2$d fotoğraflarına %1$d seçin (%3$d)</string>
@@ -959,6 +973,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="search_net_error">Bir ağ hatası meydana geldi. Farklı bir ağa bağlanın ve tekrar deneyin</string>
     <string name="search_request_applied">Uygulandı</string>
     <string name="search_request_open">Test takımına katıl</string>
+    <string name="search_request_requesting">Uygulandı. Başlamadan önce biraz bekleyin</string>
     <string name="search_result_empty">Sonuç bulunamadı</string>
     <string name="search_retry">Yeniden deneyin</string>
     <string name="search_select_network">Ağ seçin</string>
@@ -996,6 +1011,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="secret_reason_too_large">Dosya çok büyük</string>
     <string name="secret_reason_type_not_support">Bu dosya türü desteklenmemektedir</string>
     <string name="secret_reason_unknow_reasons">Bilinmeyen hata</string>
+    <string name="secret_reason_video_not_support">Gizli albüme videolar eklenemiyor</string>
     <string name="see_ignore_faces">Yok saydığınız kişiler</string>
     <string name="select_item_face">"Bu '%s' adlı kişi mi?"</string>
     <string name="select_origin_tip">Orijinal dosya (%s)</string>
@@ -1237,6 +1253,7 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="video_editor_unsupport_audio_file">Desteklenmeyen ses dosya biçimi</string>
     <string name="video_editor_unzip_file_fail">Video açılamadı</string>
     <string name="video_editor_video_is_short">Bu videoyu düzenleyemiyorum</string>
+    <string name="video_editor_video_loading">Video hazırlanıyor. Bir iki saniye bekleyin ve tekrar deneyin</string>
     <string name="video_editor_watermark">Filigran</string>
     <string name="video_err">Video oynatılamıyor</string>
     <string name="video_not_exist">Video mevcut değil</string>
@@ -1254,7 +1271,6 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="yes">Evet</string>
     <string name="yesterday">Dün</string>
     <string name="you_are">Bebek ile ilişkiniz</string>
-    <string name="album_notes">Notlar</string>
     <string name="cityname_1">Aba Tibetan and Qiang Autonomous Prefecture</string>
     <string name="cityname_10">Anshun</string>
     <string name="cityname_100">Haixi Mongolia Tibetan Autonomous Prefecture</string>
@@ -1630,21 +1646,6 @@ yüzünüzle fotoğrafları seçin"</string>
     <string name="cityname_97">Haidong Prefecture</string>
     <string name="cityname_98">Haikou</string>
     <string name="cityname_99">Hainan Tibetan Autonomous Prefecture</string>
-    <string name="feature_guidance_video_editor_smart_effects">Yeni efektler mevcut</string>
-    <string name="photomovie_audio_default">Bellek</string>
-    <string name="photomovie_audio_kawaii">Romantik</string>
-    <string name="photomovie_audio_light">Türkü</string>
-    <string name="photomovie_audio_linear">Rock</string>
-    <string name="photomovie_audio_soft">Havai kitarası</string>
-    <string name="photomovie_audio_sport">Tekno</string>
-    <string name="photomovie_template_kawaii">Güzellik</string>
-    <string name="photomovie_template_light">Esinti</string>
-    <string name="photomovie_template_linear">Roadtrip</string>
-    <string name="photomovie_template_soft">Gençlik</string>
-    <string name="photomovie_template_sport">Kuvvet</string>
-    <string name="picker_origin_request_progress_message">Orijinal dosyalar hazırlanıyor (%1$d/%2$d)</string>
-    <string name="search_request_requesting">Uygulandı. Başlamadan önce biraz bekleyin</string>
-    <string name="secret_reason_video_not_support">Gizli albüme videolar eklenemiyor</string>
     <string name="camera_path">/DCIM/Camera</string>
     <string name="detail_hms">%1$d:%2$02d:%3$02d</string>
     <string name="detail_ms">%1$02d:%2$02d</string>

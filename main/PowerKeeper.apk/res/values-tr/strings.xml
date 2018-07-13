@@ -9,7 +9,7 @@
     <string name="power_config_apps">Pil tasarrufu</string>
     <string name="app_list_title">Uygulamaları seçin</string>
     <string name="power_hide_mode_app_list_summary">Arka planda pil tasarrufu</string>
-    <string name="about_hide_mode">Pil Tasarrufu hakkında</string>
+    <string name="about_hide_mode">Pil tasarrufu hakkında</string>
     <string name="show_system_app">Sistem uygulamalarını göster</string>
     <string name="hide_system_app">Sistem uygulamalarını gizle</string>
     <string name="scenario_policies_title">Akıllı senaryolar</string>

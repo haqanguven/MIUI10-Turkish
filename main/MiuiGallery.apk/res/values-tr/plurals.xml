@@ -217,8 +217,8 @@
         <item quantity="one">Toplam %d fotoğraf</item>
     </plurals>
     <plurals name="remove_from_secret_failed_with_reason_and_count">
-        <item quantity="other">"%2$d öğe gizli albümden kaldırılamaz. %1$s"</item>
-        <item quantity="one">"%2$d öğe gizli albümden kaldırılamaz. %1$s"</item>
+        <item quantity="other">%2$d öğe gizli albümden kaldırılamaz. %1$s</item>
+        <item quantity="one">%2$d öğe gizli albümden kaldırılamaz. %1$s</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">%2$s klasörüne %1$d fotoğraf eklendi. Ayrıca veri tabanınada eklendi</item>
