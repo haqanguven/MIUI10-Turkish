@@ -161,7 +161,6 @@
     <string name="accessibility_quick_settings_airplane_off">Uçak modu kapalı</string>
     <string name="accessibility_quick_settings_airplane_on">Uçak modu açık</string>
     <string name="accessibility_quick_settings_alarm">Alarm %s için ayarlandı</string>
-    <string name="accessibility_quick_settings_alarm_on">Alarm açık</string>
     <string name="accessibility_quick_settings_alarm_set">Alarm kuruldu</string>
     <string name="accessibility_quick_settings_battery">Pil: %s</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
@@ -169,7 +168,6 @@
     <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth açık</string>
     <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth bağlandı</string>
     <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth bağlanılıyor</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth cihaz pili: %d</string>
     <string name="accessibility_quick_settings_bluetooth_off">Bluetooth kapalı</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth açık</string>
     <string name="accessibility_quick_settings_close">Paneli kapat</string>
@@ -440,7 +438,7 @@ Oynatma kalitesi"</string>
     <string name="chooseUsbActivity">USB aygıtı için uygulama seçin</string>
     <string name="choose_profile">Profil seçin</string>
     <string name="clear_adb_keys">USB hata ayıklama yetkilerini kaldır</string>
-    <string name="clear_all_notifications_text">Clear all</string>
+    <string name="clear_all_notifications_text">Tümünü temizle</string>
     <string name="click_to_enter_text">Görüntülemek için dokunun</string>
     <string name="click_to_return_multi_window">Bölünmüş ekrana dönmek için dokunun</string>
     <string name="click_to_return_multi_window_of_notch">Bölünmüş ekrana dön</string>
@@ -484,9 +482,6 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="daltonizer_type_overridden">%1$s tarafından geçersiz kılındı</string>
     <string name="data_connection_no_internet">İnternet yok</string>
     <string name="data_saver">Veri tasarrufu</string>
-    <string name="data_saver_description">Veri kullanımını azaltmaya yardımcı olmak için veri tasarrufu bazı uygulamaların arka planda veri göndermesini veya almasını engeller. Şu anda kullanmakta olduğunuz bir uygulama verilere erişebilir ancak daha az sıklıkta yapabilir. Örneğin: Fotoğraflara dokunana kadar gösterilmeyeceği anlamına gelebilir</string>
-    <string name="data_saver_enable_button">Aç</string>
-    <string name="data_saver_enable_title">Veri tasarrufu açılsın mı?</string>
     <string name="data_usage_disabled_dialog">"Belirlenen mobil veri kullanım limitine ulaştınız
 
 Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep edebilir"</string>
@@ -748,7 +743,6 @@ Telefonunuz soğuduktan sonra normal şekilde çalışır"</string>
     <string name="incorrect_pukcode">Hatalı Puk kodu</string>
     <string name="input_password_after_boot_msg">Cihaz kilidini açmak için parolanızı girin</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Arama sırasında alan değiştirilemiyor</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Ebeveyn denetimleri açıkken alanlar arasında geçiş yapılamıyor</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Cihaz yeniden başlatıldıktan sonra ilk alana girmeniz gerekmektedir</string>
     <string name="input_password_handle_sdcard_fs">İkinci alana girmeden önce Emule SD kart optimizasyonu özelliğini kapat</string>
     <string name="input_password_hint_text">Parolayı girin</string>
@@ -944,6 +938,58 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="label_view">Görüntüle</string>
     <string name="launch_defaults_none">Hiçbir varsayılan tercih ayarlanmadı</string>
     <string name="launch_defaults_some">Bazı varsayılan tercihler ayarlandı</string>
+    <string name="lb_control_display_fast_forward_multiplier">%1$dX</string>
+    <string name="lb_control_display_rewind_multiplier">%1$dX</string>
+    <string name="lb_date_separator">/</string>
+    <string name="lb_guidedaction_continue_title">Devam</string>
+    <string name="lb_guidedaction_finish_title">Son</string>
+    <item type="string" name="lb_guidedactions_item_disabled_chevron_alpha">0.5</item>
+    <item type="string" name="lb_guidedactions_item_disabled_description_text_alpha">0.25</item>
+    <item type="string" name="lb_guidedactions_item_disabled_text_alpha">0.25</item>
+    <item type="string" name="lb_guidedactions_item_enabled_chevron_alpha">1.0</item>
+    <item type="string" name="lb_guidedactions_item_unselected_description_text_alpha">0.5</item>
+    <item type="string" name="lb_guidedactions_item_unselected_text_alpha">1.0</item>
+    <item type="string" name="lb_guidedactions_width_weight">0.71428573</item>
+    <item type="string" name="lb_guidedactions_width_weight_two_panels">1.1917808</item>
+    <item type="string" name="lb_guidedbuttonactions_width_weight">0.45</item>
+    <item type="string" name="lb_guidedstep_height_weight">2.0</item>
+    <item type="string" name="lb_guidedstep_height_weight_translucent">1.0</item>
+    <item type="string" name="lb_guidedstep_keyline">40.0</item>
+    <string name="lb_media_player_error">Media oynatıcı hata kodu: %1$d Ekstra: %2$d</string>
+    <string name="lb_navigation_menu_contentDescription">Gezinme menüsü</string>
+    <string name="lb_onboarding_accessibility_next">Sonraki</string>
+    <string name="lb_onboarding_get_started">Başla</string>
+    <string name="lb_playback_controls_closed_captioning_disable">Altyazıları devre dışı bırak</string>
+    <string name="lb_playback_controls_closed_captioning_enable">Altyazıları etkinleştir</string>
+    <string name="lb_playback_controls_fast_forward">İleri sar</string>
+    <string name="lb_playback_controls_fast_forward_multiplier">%1$dX ileri sar</string>
+    <string name="lb_playback_controls_hidden">"Medya denetimleri gizli durumda. Görüntülemek için d-pad'e basın"</string>
+    <string name="lb_playback_controls_high_quality_disable">Yüksek kalitede oynatmayı devre dışı bırak</string>
+    <string name="lb_playback_controls_high_quality_enable">Yüksek kalitede oynatmayı etkinleştir</string>
+    <string name="lb_playback_controls_more_actions">Diğer işlemler</string>
+    <string name="lb_playback_controls_pause">Duraklat</string>
+    <string name="lb_playback_controls_picture_in_picture">Resim içinde resim moduna geç</string>
+    <string name="lb_playback_controls_play">Oynat</string>
+    <string name="lb_playback_controls_repeat_all">Tümünü tekrarla</string>
+    <string name="lb_playback_controls_repeat_none">Hiçbirini tekrarlama</string>
+    <string name="lb_playback_controls_repeat_one">Birini tekrarla</string>
+    <string name="lb_playback_controls_rewind">Geri Sar</string>
+    <string name="lb_playback_controls_rewind_multiplier">%1$dX geri sar</string>
+    <string name="lb_playback_controls_shown">Medya denetimleri gösteriliyor</string>
+    <string name="lb_playback_controls_shuffle_disable">Karıştırmayı devre dışı bırak</string>
+    <string name="lb_playback_controls_shuffle_enable">Karıştırmayı etkinleştir</string>
+    <string name="lb_playback_controls_skip_next">Sonrakine atla</string>
+    <string name="lb_playback_controls_skip_previous">Öncekine atla</string>
+    <string name="lb_playback_controls_thumb_down">Beğenmeme seçimini kaldır</string>
+    <string name="lb_playback_controls_thumb_down_outline">Beğenmemeyi seç</string>
+    <string name="lb_playback_controls_thumb_up">Beğenme seçimini kaldır</string>
+    <string name="lb_playback_controls_thumb_up_outline">Beğenmeyi seç</string>
+    <string name="lb_playback_time_separator">.</string>
+    <string name="lb_search_bar_hint">Ara</string>
+    <string name="lb_search_bar_hint_speech">Arama yapmak için konuşun</string>
+    <string name="lb_search_bar_hint_with_title">Ara: %1$s</string>
+    <string name="lb_search_bar_hint_with_title_speech">Konuşarak %1$s araması yapın</string>
+    <string name="lb_time_separator">:</string>
     <string name="left_icon">Sol simge</string>
     <string name="left_keycode">Sol tuş kodu</string>
     <string name="left_nav_bar_button_type">Ekstra sol düğme türü</string>
@@ -1043,7 +1089,7 @@ Daha fazla bilgi için yöneticinize başvurun"</string>
     <string name="monitoring_description_ca_certificate">Bu cihazda bir sertifika yetkilisi yüklü. Güvenli ağınız izleniyor veya değiştirilmiş olabilir</string>
     <string name="monitoring_description_do_body">Yöneticiniz ayarları, kurumsal erişimi, uygulamaları, cihazınızla ilişkili verileri ve cihazınızın konum bilgilerini izleyebilir ve yönetebilir</string>
     <string name="monitoring_description_do_body_vpn">"E-postalar, uygulamalar ve internet siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilecek. %1$s ile bağlısınız"</string>
-    <string name="monitoring_description_do_header_generic">Cihazınız %1$s tarafından yönetiliyor.</string>
+    <string name="monitoring_description_do_header_generic">Cihazınız %1$s tarafından yönetiliyor</string>
     <string name="monitoring_description_do_header_with_name">%1$s, cihazınızı yönetmek için %2$s kullanıyor</string>
     <string name="monitoring_description_do_learn_more">Daha fazla bilgi edin</string>
     <string name="monitoring_description_do_learn_more_separator">" "</string>
@@ -1086,9 +1132,30 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="monitoring_title_device_owned">Cihaz yönetimi</string>
     <string name="monitoring_title_profile_owned">Profil izleme</string>
     <string name="mount_storage">Evet</string>
+    <string name="mr_button_content_description">Yayın düğmesi</string>
+    <string name="mr_cast_button_connected">Yayınla düğmesi. Bağlandı</string>
+    <string name="mr_cast_button_connecting">Yayınla düğmesi. Bağlanıyor</string>
+    <string name="mr_cast_button_disconnected">Yayınla düğmesi. Bağlantı kesildi</string>
+    <string name="mr_chooser_searching">Cihazlar bulunuyor</string>
+    <string name="mr_chooser_title">Şuraya yayınla:</string>
+    <string name="mr_controller_album_art">Albüm kapağı</string>
+    <string name="mr_controller_casting_screen">Ekran yayınlanıyor</string>
+    <string name="mr_controller_close_description">Kapat</string>
+    <string name="mr_controller_collapse_group">Daralt</string>
+    <string name="mr_controller_disconnect">Bağlantıyı kes</string>
+    <string name="mr_controller_expand_group">Genişlet</string>
+    <string name="mr_controller_no_info_available">Bilgi yok</string>
+    <string name="mr_controller_no_media_selected">Medya seçilmedi</string>
+    <string name="mr_controller_pause">Duraklat</string>
+    <string name="mr_controller_play">Oynat</string>
+    <string name="mr_controller_stop">Durdur</string>
+    <string name="mr_controller_stop_casting">Yayını durdur</string>
+    <string name="mr_controller_volume_slider">Ses düzeyi kaydırma çubuğu</string>
+    <string name="mr_system_route_name">Sistem</string>
+    <string name="mr_user_route_category_name">Cihazlar</string>
     <string name="mx_mcc">334</string>
     <string name="nav_bar">Gezinti çubuğu</string>
-    <string name="nav_bar_default">(Varsayılan)</string>
+    <string name="nav_bar_default">(varsayılan)</string>
     <string name="nav_bar_layout">Düzen</string>
     <string name="nav_guide_cancel">Yoksay</string>
     <string name="nav_guide_message">Sanal tuşları gizlemek ve görüntülemek için el hareketlerini kullanın</string>
@@ -1170,6 +1237,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="oldman_incall_text">Gelen arama</string>
     <string name="open_camera_hint_text">Kamerayı açmak için sola kaydırın</string>
     <string name="open_remote_center_hint_text">Kısayolları açmak için sağa kaydırın</string>
+    <string name="orb_search_action">Arama işlemi</string>
     <string name="other">Diğer</string>
     <string name="overlay_display_devices_title">İkincil ekranları simüle et</string>
     <string name="overview">Genel bakış</string>
@@ -1533,7 +1601,7 @@ EEEE"</string>
     <string name="status_bar_notification_inspect_item_title">Uygulama bilgisi</string>
     <string name="status_bar_ongoing_events_title">Devam eden</string>
     <string name="status_bar_recent_guide_all">"Uygulamayı kapatmak için yukarı
-kilitlemek için aşağı doğru kaydırın"</string>
+Kilitlemek için aşağı doğru kaydırın"</string>
     <string name="status_bar_recent_guide_bottom">Kilitlemek için aşağı doğru kaydırın</string>
     <string name="status_bar_recent_guide_top">Kapatmak için yukarı kaldırın</string>
     <string name="status_bar_recent_inspect_item_title">Uygulama bilgisi</string>
@@ -1625,12 +1693,12 @@ kilitlemek için aşağı doğru kaydırın"</string>
     <string name="switch_bar_off">Kapalı</string>
     <string name="switch_bar_on">Açık</string>
     <string name="symbol_colon">:</string>
-    <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+    <string name="system_ui_date_pattern">@android:string/status_bar_cdma_eri</string>
     <string name="system_ui_tuner">Sistem arayüzü aracı</string>
     <string name="task_access_locked_app_msg">Uygulama kilidi açıldı</string>
     <string name="telephony_monitor_switch">Telefon izleme</string>
     <string name="telephony_monitor_switch_summary">Telefon izleme ile telefon veya modem işleviyle ilgili bir sorun algıladığında günlükleri toplar ve hatayı bildirmesi için kullanıcıya bir bildirim gösterir</string>
-    <string name="tether_settings_title_all">Bağlama ve taşnblr bağlantı noktası</string>
+    <string name="tether_settings_title_all">Doğrudan bağlantı &amp; taşınabilir bağlantı noktası</string>
     <string name="tether_settings_title_bluetooth">Bluetooth bağlama</string>
     <string name="tether_settings_title_usb">USB bağlama</string>
     <string name="tether_settings_title_usb_bluetooth">Bağlama</string>

@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="exo_controls_fastforward_description">Hızlı ileri</string>
-    <string name="exo_controls_fullscreen_description">Tam ekran modu</string>
     <string name="exo_controls_next_description">Sonraki parça</string>
     <string name="exo_controls_pause_description">Duraklat</string>
     <string name="exo_controls_play_description">Oynat</string>
     <string name="exo_controls_previous_description">Önceki parça</string>
-    <string name="exo_controls_repeat_all_description">Tekrar et</string>
-    <string name="exo_controls_repeat_off_description">Tekrarlama</string>
-    <string name="exo_controls_repeat_one_description">Birini tekrarla</string>
     <string name="exo_controls_rewind_description">Geri sar</string>
-    <string name="exo_controls_shuffle_description">Karıştır</string>
     <string name="exo_controls_stop_description">Durdur</string>
-    <string name="exo_download_completed">İndirme tamamlandı</string>
-    <string name="exo_download_description">İndir</string>
-    <string name="exo_download_downloading">İndiriliyor</string>
-    <string name="exo_download_failed">Başarısız oldu</string>
-    <string name="exo_download_notification_channel_name">İndirilenler</string>
-    <string name="exo_download_removing">İndirilenler kaldırılıyor</string>
-    <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
-    <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
-    <string name="exo_track_selection_auto">Otomatik</string>
-    <string name="exo_track_selection_none">Hiçbiri</string>
-    <string name="exo_track_selection_title_audio">Ses</string>
-    <string name="exo_track_selection_title_text">Metin</string>
-    <string name="exo_track_selection_title_video">Video</string>
-    <string name="exo_track_stereo">Stereo</string>
-    <string name="exo_track_surround">Surround ses</string>
-    <string name="exo_track_surround_5_point_1">5.1 surround ses</string>
-    <string name="exo_track_surround_7_point_1">7.1 surround ses</string>
-    <string name="exo_track_unknown">Bilinmiyor</string>
     <string name="sina_share_pendding">Gönderiliyor</string>
     <string name="sina_share_success">Gönderildi</string>
     <string name="sina_share_fail">Gönderilemedi</string>
@@ -39,12 +14,12 @@
     <string name="sina_token_invalid_warning">Weibo hesabı geçersiz. Hesabı yeniden ekleyin</string>
     <string name="sina_share_fail_content_repeat">Bunu zaten paylaştınız</string>
     <string name="resource_updater">Miui güncelleme</string>
-    <string name="keywords_updater">"Miui güncelleme;system güncelleme;software güncelleme;ROM;ROM güncelleme;güncelleme;updates;check updates; check for updates;find updates;download updates;upgrade;upgrades;software upgrade;new version;software version; testing;whats new;what's new;log;update log;apk;update package;ROM package;autoupdates;auto-updates; automatic updates;MIUI version;version;updater"</string>
+    <string name="keywords_updater">"Miui güncelleme;sistem güncelleme;yazılım güncelleme;Rom;güncelleme;güncelleme;güncellemeleri;güncellemeleri kontrol et;güncellemeleri bul;güncellemeleri indir;yükselt;yükselt;yazılım güncellemesi;yeni sürüm;yazılım sürümü;test;yeni neler;yeni;günlük;güncelleme günlüğü;apk;güncelleme paketi;Rom paketi;otomatik güncellemeler;otomatik güncellemeler;otomatik güncellemeler;Miui sürümü;sürüm;güncelleyici"</string>
     <string name="resource_auto_setting">Otomatik güncellemeler</string>
-    <string name="keywords_auto_setting">Auto updates;Download automatically;Install automatically;autoupdates;auto-updates; automatic updates</string>
-    <string name="resource_updater_settings">Updater</string>
-    <string name="keywords_updater_settings">"Updater;MIUI güncelleme;system güncelleme;software güncelleme;ROM;ROM güncelleme;güncelleme;updates;check updates; check for updates;find updates;download updates;upgrade;upgrades;software upgrade;new version;software version; testing;whats new;what's new;log;update log;apk;update package;ROM package;autoupdates;auto-updates; automatic updates;MIUI version;version;updater;Updater;Download automatically;Install automatically; Beta Feedback Program;rom"</string>
-    <string name="path_updater_settings">Settings/My device/MIUI version</string>
+    <string name="keywords_auto_setting">Otomatik güncellemeler;Otomatik olarak indir;Otomatik yükle;otomatik güncellemeler;otomatik güncellemeler;otomatik güncellemeler</string>
+    <string name="resource_updater_settings">Güncelleyici</string>
+    <string name="keywords_updater_settings">"Güncelleyici;Miui güncelleme;sistem güncelleme;yazılım güncelleme;Rom;güncelleme;güncelleme;güncelleme;güncellemeleri kontrol et;güncellemeleri bul;güncellemeleri indir;yükselt;yükselt;yazılım güncellemesi;yeni sürüm;yazılım sürümü;test;yeni neler;yeni;günlük;güncelleme günlüğü;apk;güncelleme paketi;Rom paketi;otomatik güncellemeler;otomatik güncellemeler;otomatik güncellemeler;Miui sürümü;sürüm;Güncelleyici;Otomatik olarak indir;Otomatik olarak yükle;Beta geri bildirim programı;rom"</string>
+    <string name="path_updater_settings">Ayarlar/Cihazım/Miui sürümü</string>
     <string name="app_name">Güncelleyici</string>
     <string name="get_current">Mevcut sürümü edin</string>
     <string name="check_new_version">Kontrol et</string>
@@ -180,13 +155,13 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_tab_to_view">Görüntülemek için dokunun</string>
     <string name="notification_express_available">Güncellemeniz indirilmeye hazır (%1$s)</string>
     <string name="notification_express_ready">Güncellemeniz indirilmeye hazır (%1$s)</string>
-    <string name="express_update_reserve_content">"Şu anda bu sürüme güncelleyemezsiniz. Güncelleme için başvurulsun mu? (%1$s) Cihazınız için %1$s kullanılabilir olduğunda bildirimde bulunacağız. O zamana kadar düzenli olarak güncelleme almaya devam edeceksiniz"</string>
-    <string name="express_update_reserve_content2">"Kararlı Rom'a yükselttikten sonra bazı şeyler değişecektir:
-1. Önceden izin vermiş olsanız bile kök erişimi kısıtlı olacaktır
+    <string name="express_update_reserve_content">Şu anda bu sürüme güncelleyemezsiniz. Güncelleme için başvurulsun mu? (%1$s) Cihazınız için %1$s kullanılabilir olduğunda bildirimde bulunacağız. O zamana kadar düzenli olarak güncelleme almaya devam edeceksiniz</string>
+    <string name="express_update_reserve_content2">"Kararlı Rom'a yükselttikten sonra bazı şeyler değişecektir:\u000d
+1. Önceden izin vermiş olsanız bile kök erişimi kısıtlı olacaktır\u000d
 2. Beta Rom'un çeşitli özellikleri kararlı sürümlerinde mevcut olmayacaktır"</string>
     <string name="express_update_reserve_check_text">Rom sürümleri arasındaki farkı anlıyorum</string>
     <string name="express_update_reserve_positive">Güncelleme için başvur (%s)</string>
-    <string name="express_update_reserve_negative">"Başvurma"</string>
+    <string name="express_update_reserve_negative">Başvurma</string>
     <string name="express_update_switch_content_no_erase">Miui yeni bir sürüme güncellenecektir (%s). Bu güncelleme verilerinizi silmeyecektir</string>
     <string name="express_update_switch_content_erase">Miui yeni bir sürüme güncellenecektir (%s). Bu güncelleme verilerinizi silecektir</string>
     <string name="express_update_switch_positive">%s güncellenecek</string>
@@ -308,7 +283,7 @@ Mi hesabınızda yeniden oturum açmayı deneyin"</string>
     <string name="vote_error4">Zaten bir geri bildirim gönderdiniz</string>
     <string name="vote_error5">"Bir şeyler ters gitti
 Geri bildirim gönderilemedi"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">"Miui forum'a git"</a>" "</string>
+    <string name="miui_BBS">" \""<a href="http://bbs.miui.com">"\"Miui forum'a git\""</a>"\" "</string>
     <string name="alpha_cancel">Beta test programından ayrıl</string>
     <string name="alpha_cancel_ok">Tamam</string>
     <string name="alpha_cancel_cancel">İptal et</string>
@@ -363,7 +338,11 @@ Geri bildirim gönderilemedi"</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Fotoğraf</string>
     <string name="accessibility_play">Oynat</string>
+    <string name="security_space_title">Önemli güncelleme</string>
+    <string name="security_space_msg">Miui 9 yeni bir dosya sistemine sahiptir. Cihazınızı yeniden başlatırsanız ikinci alanı kullanamayabilirsiniz. Cihazınızı yeniden başlatmadan önce ikinci alandaki tüm verileri İlk alana taşıyın</string>
+    <string name="security_space_button_pos">Yeniden başlatma</string>
+    <string name="security_space_button_neg">Yeniden başlat</string>
     <string name="privacy_revoke_msg">Güncelleyici Miui ve özelliklerini güncel tutmanıza izin verir. Yetkilendirmeyi iptal ettikten sonra uygulama veri toplamayı durdurur ve ilgili tüm veriler bu cihazdan ve sunuculardan silinir. Cihazınızı güncellemeyi reddetmek güvenlik riskleri doğurabilir. Yine de yetkilendirmeyi iptal etmek ister misiniz?</string>
     <string name="title_tip">Yeni özellikler</string>
-    <string name="tip_drag_last_toast">"MIUI 10'daki yeniliklere göz atın"</string>
+    <string name="tip_drag_last_toast">"Miui 10'daki yeniliklere göz atın"</string>
 </resources>

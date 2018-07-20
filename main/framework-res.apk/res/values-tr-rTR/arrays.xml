@@ -56,25 +56,34 @@
         <item>2</item>
         <item>2</item>
         <item>2</item>
-        <item>3</item>
-        <item>3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>12</item>
-        <item>12</item>
-        <item>20</item>
-        <item>20</item>
-        <item>39</item>
-        <item>39</item>
-        <item>43</item>
-        <item>43</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>13</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>30</item>
+        <item>30</item>
+        <item>40</item>
+        <item>48</item>
+        <item>50</item>
         <item>55</item>
-        <item>55</item>
-        <item>63</item>
-        <item>63</item>
-        <item>84</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>88</item>
         <item>93</item>
-        <item>105</item>
+        <item>96</item>
+        <item>99</item>
+        <item>106</item>
+        <item>120</item>
+        <item>160</item>
         <item>200</item>
         <item>240</item>
         <item>255</item>
@@ -86,22 +95,31 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
         <item>8</item>
-        <item>13</item>
-        <item>17</item>
-        <item>21</item>
-        <item>26</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>18</item>
+        <item>22</item>
         <item>30</item>
-        <item>34</item>
-        <item>140</item>
-        <item>310</item>
+        <item>40</item>
+        <item>50</item>
+        <item>70</item>
+        <item>150</item>
+        <item>300</item>
         <item>400</item>
-        <item>500</item>
+        <item>520</item>
         <item>600</item>
-        <item>1000</item>
+        <item>700</item>
+        <item>900</item>
+        <item>1100</item>
         <item>1200</item>
+        <item>1300</item>
         <item>1500</item>
-        <item>3000</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>2800</item>
         <item>3500</item>
         <item>4000</item>
     </integer-array>
@@ -167,6 +185,10 @@
         <item>350</item>
     </integer-array>
     <string-array name="config_defaultPinnerServiceFiles">
+        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
         <item>/system/framework/arm64/boot.oat</item>
         <item>/system/framework/arm/boot.oat</item>
         <item>/system/framework/oat/arm64/services.odex</item>
@@ -246,11 +268,8 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <string-array name="config_locationProviderPackageNames">
-        <item>com.xiaomi.location.fused</item>
-        <item>com.xiaomi.metoknlp</item>
+        <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
-        <item>com.baidu.map.location</item>
-        <item>com.amap.android.location</item>
     </string-array>
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -267,8 +286,7 @@
         <item>-44</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
-        <item>0</item>
-        <item>15</item>
+        <item>1</item>
         <item>30</item>
         <item>60</item>
         <item>128</item>
@@ -276,7 +294,6 @@
         <item>255</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapOut">
-        <item>0</item>
         <item>1</item>
         <item>8</item>
         <item>20</item>
@@ -429,7 +446,7 @@
     </string-array>
     <string-array name="config_tether_wifi_regexs">
         <item>wigig0</item>
-        <item>softap0</item>
+        <item>wlan0</item>
     </string-array>
     <array name="config_tether_wimax_regexs" />
     <array name="config_twoDigitNumberPattern" />
@@ -517,49 +534,7 @@
     <string-array name="no_ems_support_sim_operators">
         <item>20404;suffix;BAE0000000000000</item>
     </string-array>
-    <array name="preloaded_color_state_lists">
-        <item>@color/primary_text_dark</item>
-        <item>@color/primary_text_dark_disable_only</item>
-        <item>@color/primary_text_dark_nodisable</item>
-        <item>@color/primary_text_disable_only_holo_dark</item>
-        <item>@color/primary_text_disable_only_holo_light</item>
-        <item>@color/primary_text_holo_dark</item>
-        <item>@color/primary_text_holo_light</item>
-        <item>@color/primary_text_light</item>
-        <item>@color/primary_text_light_disable_only</item>
-        <item>@color/primary_text_light_nodisable</item>
-        <item>@color/primary_text_nodisable_holo_dark</item>
-        <item>@color/primary_text_nodisable_holo_light</item>
-        <item>@color/secondary_text_dark</item>
-        <item>@color/secondary_text_dark_nodisable</item>
-        <item>@color/secondary_text_holo_dark</item>
-        <item>@color/secondary_text_holo_light</item>
-        <item>@color/secondary_text_light</item>
-        <item>@color/secondary_text_light_nodisable</item>
-        <item>@color/secondary_text_nodisable_holo_dark</item>
-        <item>@color/secondary_text_nodisable_holo_light</item>
-        <item>@color/secondary_text_nofocus</item>
-        <item>@color/hint_foreground_dark</item>
-        <item>@color/hint_foreground_holo_dark</item>
-        <item>@color/hint_foreground_holo_light</item>
-        <item>@color/hint_foreground_light</item>
-        <item>@color/bright_foreground_light</item>
-        <item>@color/bright_foreground_dark</item>
-        <item>@color/tab_indicator_text</item>
-        <item>#ff000000</item>
-        <item>#00000000</item>
-        <item>#ffffffff</item>
-        <item>@color/background_cache_hint_selector_material_dark</item>
-        <item>@color/background_cache_hint_selector_material_light</item>
-        <item>@color/btn_default_material_dark</item>
-        <item>@color/btn_default_material_light</item>
-        <item>@color/primary_text_disable_only_material_dark</item>
-        <item>@color/primary_text_disable_only_material_light</item>
-        <item>@color/primary_text_material_dark</item>
-        <item>@color/primary_text_material_light</item>
-        <item>@color/search_url_text_material_dark</item>
-        <item>@color/search_url_text_material_light</item>
-    </array>
+    <array name="preloaded_color_state_lists" />
     <array name="preloaded_drawables">
         <item>@drawable/btn_default_pressed_holo_light</item>
         <item>@drawable/btn_default_normal_holo_light</item>

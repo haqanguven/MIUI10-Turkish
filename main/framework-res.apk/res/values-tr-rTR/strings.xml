@@ -293,7 +293,6 @@ Cihazınız şarj olurken pil tasarrufu otomatik olarak kapatılır"</string>
     <string name="config_defaultListenerAccessPackages" />
     <string name="config_defaultNetworkRecommendationProviderPackage" />
     <string name="config_defaultNetworkScorerPackageName" />
-    <string name="config_defaultPictureInPictureBounds">180 200 880 600</string>
     <string name="config_defaultPictureInPictureScreenEdgeInsets">16x16</string>
     <string name="config_default_dns_server">8.8.8.8</string>
     <string name="config_demoModeLauncherComponent">com.android.retaildemo/.DemoPlayer</string>
@@ -309,7 +308,7 @@ Cihazınız şarj olurken pil tasarrufu otomatik olarak kapatılır"</string>
     <string name="config_feedbackIntentNameKey" />
     <string name="config_forceVoiceInteractionServicePackage" />
     <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
-    <string name="config_geocoderProviderPackageName">@null</string>
+    <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
     <string name="config_geofenceProviderPackageName">@null</string>
     <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
     <string name="config_helpIntentExtraKey" />
@@ -326,6 +325,7 @@ Cihazınız şarj olurken pil tasarrufu otomatik olarak kapatılır"</string>
     <string name="config_mobile_hotspot_provision_app_no_ui" />
     <string name="config_mobile_hotspot_provision_response" />
     <string name="config_networkLocationProviderPackageName">com.xiaomi.metoknlp</string>
+    <string name="config_networkLocationProviderPackageNameGms">com.google.android.gms</string>
     <string name="config_networkOverLimitComponent">com.android.systemui/com.android.systemui.net.NetworkOverLimitActivity</string>
     <string name="config_networkPolicyNotificationComponent" />
     <string name="config_ntpServer">time.android.com</string>
@@ -339,7 +339,7 @@ Cihazınız şarj olurken pil tasarrufu otomatik olarak kapatılır"</string>
     <string name="config_wifi_framework_sap_2G_channel_list">1,6,11</string>
     <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
     <string name="config_wifi_random_mac_oui">DA-A1-19</string>
-    <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,5505024</string>
+    <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,4194304</string>
     <string name="config_wifi_tether_enable">com.android.settings/.TetherService</string>
     <string name="config_wimaxManagerClassname" />
     <string name="config_wimaxNativeLibLocation" />
@@ -757,9 +757,16 @@ Bu sayfadan ayrılmak istediğinizden emin misiniz?"</string>
     <string name="locale_replacement" />
     <string name="locale_search_menu">Ara</string>
     <string name="lock_pattern_view_aspect">square</string>
+    <string name="lock_to_app_description">"Ekran sabitleme ile ekranı tek bir görünümde kilitler
+
+Sabitlemek için aynı anda giriş ve güç düğmesine basılı tutun"</string>
+    <string name="lock_to_app_description_accessible">"Ekran sabitleme ile ekranı tek bir görünümde kilitler
+
+Sabitlemek için aynı anda giriş ve güç düğmesine basılı tutun"</string>
     <string name="lock_to_app_exit">Ekran sabitlemesi kaldırıldı</string>
     <string name="lock_to_app_start">Ekran sabitlendi</string>
     <string name="lock_to_app_toast">Bu ekranın iğlemesini kaldırmak için ana ekran ve güç tuşlarına aynı anda basın ve basılı tutun</string>
+    <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
     <string name="lock_to_app_toast_locked">Bu uygulamanın sabitlemesi kaldırılamaz</string>
     <string name="lock_to_app_unlock_password">Sabitlemeyi kaldırmadan önce şifre sor</string>
     <string name="lock_to_app_unlock_pattern">Sabitlemeyi kaldırmadan önce kilit açma desenini sor</string>
@@ -1166,6 +1173,7 @@ Yeni bir Sim kart almak için servis sağlayıcınızla görüşün"</string>
     <string name="permgrouplab_sensors">Vücut Sensörleri</string>
     <string name="permgrouplab_sms">Mesaj</string>
     <string name="permgrouplab_storage">Depolama</string>
+    <string name="permission">İzin</string>
     <string name="permission_request_notification_title">İzin istendi</string>
     <string name="permission_request_notification_with_subtitle">"%s hesabı için
 izin isteğinde bulunuldu"</string>

@@ -992,7 +992,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="toastbar_local_calendar_sync_switch_close">Takvim hatırlatıcıları almak için takvim senkronizasyonunu açın</string>
     <string name="toastbar_local_contacts_sync_swtich_close">Kişilere eklemek için kişi senkronizasyonunu etkinleştirin</string>
     <string name="today_text">Bugün</string>
-    <string name="too_large_to_attach_additional">Maksimum dosya boyutu: %1$s.</string>
+    <string name="too_large_to_attach_additional">Maksimum dosya boyutu: %1$s</string>
     <string name="too_large_to_attach_multiple">Dosya eklenemiyor. Eklenebilecek maksimum dosya boyutu: %1$s</string>
     <string name="too_large_to_attach_single">%1$s boyutundan büyük dosyalar eklenemiyor</string>
     <string name="topic_merge">Görüntüleme ayarları</string>
@@ -1190,7 +1190,7 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="quote_divider_5">----------- Referans için bölüm çizgisi -------------</string>
     <string name="quote_divider_6">---Orijinal---</string>
     <string name="quote_divider_7">Orijinal mesaj</string>
-    <string name="quote_divider_apple">"\u000d
+    <string name="quote_divider_apple">"
 >"</string>
     <string name="quote_divider_huawei_zh">Huawei cep telefonundan</string>
     <string name="quote_divider_ipad_zh">iPad cep telefonundan</string>

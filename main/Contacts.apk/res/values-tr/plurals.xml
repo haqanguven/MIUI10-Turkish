@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="confirm_delete_sim_entry_miui">
-        <item quantity="other">%1$d kişi Sim karttan silinsin mi?</item>
-        <item quantity="one">%1$d kişi Sim karttan silinsin mi?</item>
-    </plurals>
-    <plurals name="export_sim_contacts_dialog_message">
-        <item quantity="other">Sim karta %1$d kişi kaydedilebilir</item>
-        <item quantity="one">Sim karta %1$d kişi kaydedilebilir</item>
-    </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="other">Hemen</item>
     </plurals>
@@ -30,15 +22,15 @@
         <item quantity="other">%1$d kişi veya fotoğraf henüz senkronize edilmedi</item>
         <item quantity="one">%1$d kişi veya fotoğraf henüz senkronize edilmedi</item>
     </plurals>
+    <plurals name="confirm_delete_sim_entry_miui">
+        <item quantity="other">%1$d kişi Sim karttan silinsin mi?</item>
+        <item quantity="one">%1$d kişi Sim karttan silinsin mi?</item>
+    </plurals>
     <plurals name="contacts_count">
         <item quantity="other">%1$d kişi</item>
         <item quantity="one">%1$d kişi</item>
     </plurals>
     <plurals name="device_import_done_toast">
-        <item quantity="other">%1$d kişi içe aktarıldı</item>
-        <item quantity="one">%1$d kişi içe aktarıldı</item>
-    </plurals>
-    <plurals name="device_import_progress_toast">
         <item quantity="other">%1$d kişi içe aktarıldı</item>
         <item quantity="one">%1$d kişi içe aktarıldı</item>
     </plurals>
@@ -50,9 +42,9 @@
         <item quantity="other">%1$d telefon numarasının engeli kaldırılsın mı?</item>
         <item quantity="one">%1$d telefon numarasının engeli kaldırılsın mı?</item>
     </plurals>
-    <plurals name="foundTooManyContacts">
-        <item quantity="other">%d fazla bulundu</item>
-        <item quantity="one">%d fazla bulundu</item>
+    <plurals name="export_sim_contacts_dialog_message">
+        <item quantity="other">Sim karta %1$d kişi kaydedilebilir</item>
+        <item quantity="one">Sim karta %1$d kişi kaydedilebilir</item>
     </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d kişi eklendi</item>
@@ -82,10 +74,6 @@
         <item quantity="other">%1$d numara</item>
         <item quantity="one">%1$d numara</item>
     </plurals>
-    <plurals name="label_duplicate_count">
-        <item quantity="other">(%1$d)</item>
-        <item quantity="one">(%1$d)</item>
-    </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">%d bulundu</item>
         <item quantity="one">1 bulundu</item>
@@ -97,10 +85,6 @@
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">Telefon numarası olan %d kişi</item>
         <item quantity="one">Telefon numarası olan 1 kişi</item>
-    </plurals>
-    <plurals name="merge_contact_message">
-        <item quantity="other">%1$d kişi ile kısmen aynı bilgiler</item>
-        <item quantity="one">%1$d kişi ile kısmen aynı bilgiler</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">%0$d kaynak birleştirildi</item>
@@ -150,14 +134,6 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d bulundu</item>
         <item quantity="one">1 bulundu</item>
-    </plurals>
-    <plurals name="select_all_exceed">
-        <item quantity="other">"%1$d'den daha fazlasını seçmeyin. Tümünü seçemezsiniz"</item>
-        <item quantity="one">"%1$d'den daha fazlasını seçmeyin. Tümünü seçemezsiniz"</item>
-    </plurals>
-    <plurals name="select_exceed">
-        <item quantity="other">"%1$d'dan daha fazlasını seç"</item>
-        <item quantity="one">"%1$d'dan daha fazlasını seç"</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d kişi</item>

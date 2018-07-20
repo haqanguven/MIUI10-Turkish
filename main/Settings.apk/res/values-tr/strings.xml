@@ -271,7 +271,11 @@ Yöneticiniz bu Kullanıcı ile ilişkilendirilmiş ayarları, erişimi, uygulam
     <string name="another_migration_already_in_progress">Başka bir taşıma işlemi zaten çalışıyor</string>
     <string name="anti_spam">Engelli listesi</string>
     <string name="aod_mode_summary">Ekran kapalıyken daima saati, tarihi ve mesajları gösterir</string>
+    <string name="aod_mode_time_summary">Cihazınızın her zaman açık moduna geçmesi gereken zaman aralığı</string>
+    <string name="aod_mode_time_title">zaman aralığı</string>
     <string name="aod_mode_title">Her zaman açık mod</string>
+    <string name="aod_mode_turn_off">Kapalı</string>
+    <string name="aod_mode_turn_on">Açık</string>
     <string name="apn_apn">APN</string>
     <string name="apn_auth_type">Kimlik doğrulama türü</string>
     <string name="apn_auth_type_chap">CHAP</string>
@@ -1277,10 +1281,6 @@ Telefonunuz kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama i�
     <string name="cryptkeeper_wrong_password">Yanlış Şifre</string>
     <string name="cryptkeeper_wrong_pattern">Yanlış Desen</string>
     <string name="cryptkeeper_wrong_pin">Yanlış Pin</string>
-    <string name="cta_dialog_negative">Çıkış</string>
-    <string name="cta_dialog_positive">kabul et</string>
-    <string name="cta_dialog_text_all">Fotoğraf içinde fotoğraf kullanmak için %1$s kullanıcı sözleşmesi %2$s ve %3$s gizlilik politikası %4$s ile okuyup kabul etmeniz gerekir. Servis ayrıca internet bağlantısı ve konum servislerine erişim gerektirir. Bazı servisler tarafından kullanılan içerik yakalayıcı da internet bağlantısı gerektirir. Kabul ediyor musunuz?</string>
-    <string name="cta_dialog_title">İnternet bağlantısı</string>
     <string name="current_backup_pw_prompt">Buraya mevcut tam yedekleme şifrenizi yazın</string>
     <string name="current_input_method">Varsayılan klavye</string>
     <string name="current_screen_lock">Mevcut ekran kilidi</string>
@@ -2697,17 +2697,17 @@ Bu Pin bir çok basamak içermelidir
     <string name="master_clear_apply_title">Uyarı</string>
     <string name="master_clear_button_text">Telefonu sıfırla</string>
     <string name="master_clear_confirm_title">Sıfırlansın mı?</string>
-    <string name="master_clear_desc">Bu işlem telefonunuzun <b>dahili depolama alanından</b>"\"\" aşağıdaki verilerin tümünü siler:
+    <string name="master_clear_desc">Bu işlem telefonunuzun <b>dahili depolama alanından</b>" aşağıdaki verilerin tümünü siler:
 
-\"\""<li>Google hesabınız</li>"\"\"
-\"\""<li>Sistem ve uygulama verileri ile ayarları</li>"\"\"
-\"\""<li>İndirilen uygulamalar</li></string>
-    <string name="master_clear_desc_also_erases_external"><li>Müzik</li>"\"\"
-\"\""<li>Fotoğraflar</li>"\"\"
-\"\""<li>Diğer kullanıcı verileri</li></string>
-    <string name="master_clear_desc_erase_external_storage">"\"
+"<li>Google hesabınız</li>"
+"<li>Sistem ve uygulama verileri ile ayarları</li>"
+"<li>İndirilen uygulamalar</li></string>
+    <string name="master_clear_desc_also_erases_external"><li>Müzik</li>"
+"<li>Fotoğraflar</li>"
+"<li>Diğer kullanıcı verileri</li></string>
+    <string name="master_clear_desc_erase_external_storage">"
 
-\"Müzik, resimler ve diğer kullanıcı verilerinin temizlenmesi için \"\"\""<b>USB belleğin</b>\" silinmesi gerekir</string>
+Müzik, resimler ve diğer kullanıcı verilerinin temizlenmesi için "<b>USB belleğin</b> silinmesi gerekir</string>
     <string name="master_clear_erase_application_progress">Uygulamalar siliniyor</string>
     <string name="master_clear_failed">Sistem Temizleme hizmeti kullanılamadığından sıfırlama yapılmadı</string>
     <string name="master_clear_final_button_text">Her şeyi sil</string>
@@ -2830,11 +2830,6 @@ Bu cihazda başka kullanıcılar da var
     <string name="miui_lab_features">Miui laboratuvar özellikleri</string>
     <string name="miui_lab_gallery_search_desc">Gelişmiş resim arama</string>
     <string name="miui_lab_gallery_search_title">Fotoğrafları galeride bul</string>
-    <string name="miui_lab_install_drive_mode_error">Yüklenemedi. Tekrar deneyin</string>
-    <string name="miui_lab_install_drive_mode_summary">Araba modu bir sistem uygulamasıdır. Kurulum internet bağlantısı gerektirmez</string>
-    <string name="miui_lab_install_drive_mode_title">Araba modunu yükle</string>
-    <string name="miui_lab_pic_in_pic_desc">Seçilen uygulamalar için yüzen videolara izin ver</string>
-    <string name="miui_lab_pic_in_pic_title">Fotoğraf içinde fotoğraf</string>
     <string name="miui_lab_settings">Miui laboratuvar</string>
     <string name="miui_lab_slogan">Öğren, araştır ve keşfet</string>
     <string name="miui_lab_super_resolution_desc">Görüntüleri daha canlı hale getirin</string>
@@ -2963,13 +2958,15 @@ Bu cihazda başka kullanıcılar da var
     <string name="mvno_match_data">MVNO değeri</string>
     <string name="mvno_type">MVNO türü</string>
     <string name="my_device">Cihazım</string>
-    <string name="my_device_disclaimer">Not: İşlemci, pil kapasitesi, ekran boyutu ve çözünürlüğü ve kamera gibi donanım bilgileri xiaomi laboratuarları, tasarımcılar ve tedarikçiler tarafından sağlanır</string>
+    <string name="my_device_disclaimer">Not: İşlemci, pil kapasitesi, ekran boyutu, çözünürlük ve kamera gibi donanım bilgileri xiaomi laboratuarı, tasarımcılar ve tedarikçiler tarafından sağlanmaktadır</string>
     <string name="n_cacrts">%d CA sertifikası</string>
     <string name="nature_color">Varsayılan</string>
     <string name="navigation_guide_app_summary">Üst alanda ekranın sağ veya sol köşesinden kaydırın</string>
     <string name="navigation_guide_app_title">Uygulama işlevini çalıştır</string>
     <string name="navigation_guide_appswitch_summary">Ekranın kenarından sola veya sağa kaydırın ve bir süre basılı tutun</string>
     <string name="navigation_guide_appswitch_title">Önceki uygulamaya geç</string>
+    <string name="navigation_guide_back_anim_summary">Ekranın kenarında kayma animasyonu gösterir</string>
+    <string name="navigation_guide_back_anim_title">Geri git hareketini canlandırın</string>
     <string name="navigation_guide_back_summary">Ekrandan sağa veya sola doğru kaydırın</string>
     <string name="navigation_guide_back_title">Son sayfaya geri dön</string>
     <string name="navigation_guide_dialog_dont_show_again">Tekrar gösterme</string>
@@ -3731,13 +3728,13 @@ UT arayüzü: %5$s"</string>
     <string name="reset_app_preferences_button">Uygulamaları sıfırla</string>
     <string name="reset_app_preferences_desc">"Bu işlem şunlar için tüm tercihleri sıfırlayacaktır:
 
- \"\"\""<li>Devre dışı bırakılan uygulamalar</li>"\"\"
-\" \"\"\""<li>Devre dışı bırakılan uygulama bildirimleri</li>"\"\"
-\" \"\"\""<li>İşlemler için varsayılan uygulamalar</li>"\"\"
-\" \"\"\""<li>Uygulamalar için arka plan veri kısıtlamaları</li>"\"\"
-\" \"\"\""<li>Tüm izin kısıtlamaları</li>"\"\"
+"<li> Devre dışı bırakılan uygulamalar</li>"
+"<li> Devre dışı bırakılan uygulama bildirimleri</li>"
+"<li> İşlemler için varsayılan uygulamalar</li>"
+"<li> Uygulamalar için arka plan veri kısıtlamaları</li>"
+"<li> Tüm izin kısıtlamaları</li>"
 
-\" Hiçbir uygulama verisini kaybetmeyeceksiniz."</string>
+ Hiçbir uygulama verisini kaybetmeyeceksiniz"</string>
     <string name="reset_app_preferences_title">Uygulama tercihleri sıfırlansın mı?</string>
     <string name="reset_dashboard_title">Sıfırla</string>
     <string name="reset_legacy_password_settings_preface_text">Kilit ekranı şifrenizi sıfırlamanız gerekmektedir</string>
@@ -3747,11 +3744,11 @@ UT arayüzü: %5$s"</string>
     <string name="reset_network_complete_toast">Ağ ayarları sıfırlandı</string>
     <string name="reset_network_confirm_title">Sıfırlansın mı?</string>
     <string name="reset_network_data">Mobil veri</string>
-    <string name="reset_network_desc">"\"Bu sıfırlama işlemi aşağıdakiler de dahil olmak üzere tüm ağ ayarlarınızı sıfırlayacaktır:
+    <string name="reset_network_desc">"Bu sıfırlama işlemi aşağıdakiler de dahil olmak üzere tüm ağ ayarlarınızı sıfırlayacaktır:
 
-\""<li>Kablosuz ağ</li>"\"
-\""<li>Mobil veri</li>"\"
-\""<li>Bluetooth</li></string>
+"<li>Kablosuz ağ</li>"
+"<li>Mobil veri</li>"
+"<li>Bluetooth</li></string>
     <string name="reset_network_final_button_text">Ayarları sıfırla</string>
     <string name="reset_network_final_desc">Tüm ağ ayarlarınız sıfırlansın mı? Bu işlemi geri alamazsınız</string>
     <string name="reset_network_title">Ağ ayarlarını sıfırla</string>
@@ -4210,8 +4207,6 @@ Sabitlemeyi kullanmak için:
     <string name="security_encryption_progress_dialog_open">Şifreleniyor</string>
     <string name="security_encryption_rejected_via_home_manager">Bu özellik demo sürümde desteklenmiyor</string>
     <string name="security_encryption_title">Cihazı kilit ekranı şifresi kullanarak şifrele</string>
-    <string name="security_input">Güvenlik girişi</string>
-    <string name="security_input_hint">Güvenlik klavyesini kullanarak şifre girin</string>
     <string name="security_keyguard_category_name">Kilit ekranı</string>
     <string name="security_password_category_name">Ekran kilidi</string>
     <string name="security_passwords_title">Şifreler</string>
@@ -4507,6 +4502,8 @@ Pin yanlış olabilir"</string>
     <string name="sound_settings_summary">Zil sesi seviyesi: %1$s</string>
     <string name="sound_settings_summary_silent">Telefon zili sessize ayarlandı</string>
     <string name="sound_settings_summary_vibrate">Telefon zili titreşime ayarlandı</string>
+    <string name="sound_stereo_mode_summary">Sadece hoparlörle ses çaldığınızda kullanılabilir</string>
+    <string name="sound_stereo_mode_title">Stereo ses</string>
     <string name="sound_vibrate_settings">Ses &amp; titreşim</string>
     <string name="sound_work_settings">İş profili sesleri</string>
     <string name="special_access">Özel erişim</string>
@@ -4560,7 +4557,6 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_bar_settings_notification_led">Bildirim ışığı</string>
     <string name="status_bar_settings_notification_priority">Öncelik</string>
     <string name="status_bar_settings_notification_priority_summary">Bildirimleri listenin en üstünde görüntüle</string>
-    <string name="status_bar_settings_notification_shade_shortcut">Bildirim gölgesi kısayolu</string>
     <string name="status_bar_settings_notification_sound">Ses</string>
     <string name="status_bar_settings_notification_vibrate">Titreşim</string>
     <string name="status_bar_settings_show_carrier">Operatör adı</string>
@@ -4645,32 +4641,32 @@ Bu ^1 birimini kullanmak için önce eklemeniz gerekiyor"</string>
     <string name="storage_format_failure">%1$s biçimlendirilemedi</string>
     <string name="storage_format_success">%1$s biçimlendirildi</string>
     <string name="storage_games">Oyunlar</string>
-    <string name="storage_internal_forget_confirm">Bu ^1 biriminde depolanan tüm uygulamalar, fotoğraflar ve veriler kalıcı olarak silinecek.</string>
+    <string name="storage_internal_forget_confirm">Bu ^1 biriminde depolanan tüm uygulamalar, fotoğraflar ve veriler kalıcı olarak silinecek</string>
     <string name="storage_internal_forget_confirm_title">^1 unutulsun mu?</string>
-    <string name="storage_internal_forget_details">"Bu ^1 içindeki uygulamaları, fotoğrafları ve verileri kullanmak için depolama birimini tekrar yerleştirin. 
+    <string name="storage_internal_forget_details">"Bu ^1 içindeki uygulamaları, fotoğrafları ve verileri kullanmak için depolama birimini tekrar yerleştirin
 
 Cihaz kullanılamıyorsa ayrıca bu depolama birimini unutmayı seçebilirsiniz
 
 Unutmayı seçerseniz cihazdaki tüm veriler kalıcı olarak kaybolur
 
-Uygulamaları daha sonra yeniden yükleyebilirsiniz, ancak uygulamalara ait bu cihazda depolanmış veriler kaybolur"</string>
-    <string name="storage_internal_format_details">"Biçimlendirdikten sonra, bu ^1 birimini başka cihazlarda kullanabilirsiniz. 
+Uygulamaları daha sonra yeniden yükleyebilirsiniz ancak uygulamalara ait bu cihazda depolanmış veriler kaybolur"</string>
+    <string name="storage_internal_format_details">"Biçimlendirdikten sonra bu ^1 birimini başka cihazlarda kullanabilirsiniz
 
 Bu ^1 birimindeki veriler silinecektir. Önce yedeklemeyi düşünün
 
-\"\""<b>\"Fotoğrafları ve diğer medyaları yedekleyin\"</b>"\"\" 
-Medya dosyalarınızı bu cihazdaki alternatif bir depolama birimine taşıyın veya USB kablosu kullanarak bir bilgisayara aktarın. 
+"<b>Fotoğrafları ve diğer medyaları yedekleyin</b>"
+Medya dosyalarınızı bu cihazdaki alternatif bir depolama birimine taşıyın veya USB kablosu kullanarak bir bilgisayara aktarın
 
-\"\""<b>\"Uygulamaları yedekleyin\"</b>"\"\" 
-Bu ^1 biriminde depolanan tüm uygulamaların yüklemesi kaldırılacak ve verileri silinecektir. Bu uygulamaları korumak için bu cihazdaki farklı bir depolama birimine taşıyın."</string>
+"<b>Uygulamaları yedekleyin</b>" 
+Bu ^1 biriminde depolanan tüm uygulamaların yüklemesi kaldırılacak ve verileri silinecektir. Bu uygulamaları korumak için bu cihazdaki farklı bir depolama birimine taşıyın"</string>
     <string name="storage_internal_title">Cihazdaki depolama birimleri</string>
-    <string name="storage_internal_unmount_details"><b>Bu ^1 birimini çıkardığınızda, tekrar takılana kadar birimin içinde depolanmış olan uygulamalar artık çalışmaz ve depolanmış medya dosyaları ise kullanılamaz</b>"\"\"
+    <string name="storage_internal_unmount_details"><b>Bu ^1 birimini çıkardığınızda tekrar takılana kadar birimin içinde depolanmış olan uygulamalar artık çalışmaz ve depolanmış medya dosyaları ise kullanılamaz</b>"
 
-\"Bu ^1 birimi sadece bu cihazda çalışacak şekilde biçimlendirilmiştir. Başka cihazlarda çalışmaz\"\"\""</string>
+Bu ^1 birimi sadece bu cihazda çalışacak şekilde biçimlendirilmiştir. Başka cihazlarda çalışmaz"</string>
     <string name="storage_label">Depolama</string>
     <string name="storage_low_summary">Senkronizasyon gibi bazı sistem işlevleri doğru çalışmayabilir. Uygulamalar ve medya içerikleri gibi bazı öğelerin sabitleme işaretini kaldırarak veya öğeleri silerek yer açmayı deneyin</string>
     <string name="storage_low_title">Depolama alanı bitiyor</string>
-    <string name="storage_manager_indicator">Depolama Yöneticisi: ^1</string>
+    <string name="storage_manager_indicator">Depolama yöneticisi: ^1</string>
     <string name="storage_manager_indicator_off">Kapalı</string>
     <string name="storage_manager_indicator_on">Açık</string>
     <string name="storage_menu_explore">Keşfet</string>
@@ -4714,22 +4710,22 @@ Bu ^1 biriminde depolanan tüm uygulamaların yüklemesi kaldırılacak ve veril
     <string name="storage_volume_total">Toplam %1$s alanın kullanılan kısmı</string>
     <string name="storage_volume_used">%1$s kullanılıyor</string>
     <string name="storage_volume_used_total">kullanılıyor (Toplam: %1$s)</string>
-    <string name="storage_wizard_format_confirm_body">"\"\"Bu, ^1 biriminin güvenli olması için biçimlendirilmesini gerektirir. 
+    <string name="storage_wizard_format_confirm_body">"Bu ^1 biriminin güvenli olması için biçimlendirilmesini gerektirir
 
 Biçimlendirdikten sonra bu ^1 birimi sadece bu cihazda çalışır
 
-\"\""<b>\"Biçimlendirme işlemi ^1 üzerinde depolanmış olan tüm bilgileri siler.</b>\" Verilerin kaybolmaması için yedeklemeyi düşünün.</string>
+"<b>Biçimlendirme işlemi ^1 üzerinde depolanmış olan tüm bilgileri siler.</b> Verilerin kaybolmaması için yedeklemeyi düşünün</string>
     <string name="storage_wizard_format_confirm_next">Sil ve biçimlendir</string>
-    <string name="storage_wizard_format_confirm_public_body">"\"\"Bu işlem ^1 biriminin biçimlendirilmesini gerektiriyor
-\"\""<b>\"Biçimlendirme işlemi şu anda ^1 biriminde depolanmış olan tüm verileri siler.</b>\" Veri kaybını önlemek için birimi yedeklemeniz önerilir</string>
+    <string name="storage_wizard_format_confirm_public_body">"Bu işlem ^1 biriminin biçimlendirilmesini gerektiriyor
+"<b>Biçimlendirme işlemi şu anda ^1 biriminde depolanmış olan tüm verileri siler.</b> Veri kaybını önlemek için birimi yedeklemeniz önerilir</string>
     <string name="storage_wizard_format_confirm_public_title">Taşınabilir depolama olarak biçimlendir</string>
     <string name="storage_wizard_format_confirm_third_body">^1 biçimlendirilecektir</string>
-    <string name="storage_wizard_format_confirm_title">Dahili depolama olarak biçimlen.</string>
+    <string name="storage_wizard_format_confirm_title">Dahili depolama olarak biçimlen</string>
     <string name="storage_wizard_format_progress_body">Biçimlendirilirken ^1 birimini çıkarmayın</string>
     <string name="storage_wizard_format_progress_title">^1 biçimlendiriliyor</string>
-    <string name="storage_wizard_init_external_summary">Fotoğraf ve diğer medya ögelerini cihazlar arasında taşımak için.</string>
+    <string name="storage_wizard_init_external_summary">Fotoğraf ve diğer medya ögelerini cihazlar arasında taşımak için</string>
     <string name="storage_wizard_init_external_title">Taşınabilir depolama birimi olarak kullanma</string>
-    <string name="storage_wizard_init_internal_summary">Yalnızca bu cihaza öğe depolamak içindir (uygulamalar ve fotoğraflar dahil). Başka cihazlarda çalışmasını engelleyecek şekilde biçimlendirme gerekir.</string>
+    <string name="storage_wizard_init_internal_summary">Yalnızca bu cihaza öğe depolamak içindir (uygulamalar ve fotoğraflar dahil). Başka cihazlarda çalışmasını engelleyecek şekilde biçimlendirme gerekir</string>
     <string name="storage_wizard_init_internal_title">Dahili depolama birimi olarak kullanma</string>
     <string name="storage_wizard_init_title">^1 cihazınızı kurun</string>
     <string name="storage_wizard_migrate_body">"Fotoğraflarınızı, dosyalarınızı ve bazı uygulamaları bu yeni ^1 birimine taşıyabilirsiniz
@@ -4754,14 +4750,14 @@ Taşıma işlemi tamamlanana kadar bu cihazdaki
 ^2 uygulaması kullanılamaz"</string>
     <string name="storage_wizard_move_progress_cancel">Taşımayı iptal et</string>
     <string name="storage_wizard_move_progress_title">^1 taşınıyor</string>
-    <string name="storage_wizard_ready_external_body">^1 biriminiz fotoğraflar ve diğer medya ögeleri ile birlikte kullanılacak şekilde kuruldu.</string>
+    <string name="storage_wizard_ready_external_body">^1 biriminiz fotoğraflar ve diğer medya ögeleri ile birlikte kullanılacak şekilde kuruldu</string>
     <string name="storage_wizard_ready_internal_body">"Yeni ^1 biriminiz çalışıyor
 
 Fotoğrafları, dosyaları ve uygulama verilerini bu cihaza taşımak için Ayarlar > Depolama'ya gidin"</string>
     <string name="storage_wizard_ready_title">^1 hazır</string>
     <string name="storage_wizard_slow_body">"Bu ^1 yavaş görünüyor
 
-Devam edebilirsiniz, ancak bu konuma taşınan uygulamalar takılabilir ve veri aktarımları uzun sürebilir. 
+Devam edebilirsiniz ancak bu konuma taşınan uygulamalar takılabilir ve veri aktarımları uzun sürebilir
 
 Daha iyi performans için daha hızlı bir ^1 kullanmayı düşünün"</string>
     <string name="storageuse_settings_summary">Uygulamalar tarafından kullanılan depolama alanını görüntüle</string>
@@ -4854,8 +4850,8 @@ Daha iyi performans için daha hızlı bir ^1 kullanmayı düşünün"</string>
     <string name="sync_now">Senkronize</string>
     <string name="sync_one_time_sync">"Şimdi senkronize etmek için dokunun
 %1$s"</string>
-    <string name="sync_plug"><font fgcolor="#ffffffff">Google senkronizasyona hoş geldiniz</font>"\"
-Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz yerden erişebilmenize olanak vermek için verileri senkronizasyon yaklaşımıdır\""</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Google senkronizasyona hoş geldiniz</font>"
+Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz yerden erişebilmenize olanak vermek için verileri senkronizasyon yaklaşımıdır</string>
     <string name="sync_settings">Senkronizasyon</string>
     <string name="sync_wifi_label">Wifi</string>
     <string name="sync_wifi_only">Yalnızca wifi</string>
@@ -5077,7 +5073,7 @@ Kaydedilen parmak izleriniz ayrıca bu cihazdan kaldırılacak ve parmak izlerin
 
 Kaydedilmiş parmak izleriniz de bu profilden kaldırılacaktır. Profilinizin kilidini açamayacak, satın alma işlemlerine yetki veremeyecek veya onları kullanarak uygulamalarda oturum açamayacaksınız"</string>
     <string name="unlock_disable_frp_warning_content_pin_profile">"Profil koruma özellikleri Pin'iniz olmadan çalışmayacaktır"</string>
-    <string name="unlock_disable_frp_warning_content_profile">Profil koruma özellikleri şifreniz olmadan çalışmaz\"</string>
+    <string name="unlock_disable_frp_warning_content_profile">Profil koruma özellikleri şifreniz olmadan çalışmaz</string>
     <string name="unlock_disable_frp_warning_content_unknown">Cihaz koruma özellikleri ekran kilidi olmadan çalışmayacak</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Cihaz koruma özellikleri ekran kilidi olmadan çalışmayacak
 
@@ -5335,9 +5331,6 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="vibrate_input_devices_summary">Bağlandığında titreşimi oyun denetleyiciye yönlendir.</string>
     <string name="vibrate_on_touch_title">Dokunulduğunda cihazı titreştir</string>
     <string name="vibrate_when_ringing_title">Aramalarda titret</string>
-    <string name="video_pip_access_title">Erişilebilir uygulamalar</string>
-    <string name="video_pip_enable_title">Videoyu fotoğraf içinde fotoğrafı etkinleştir</string>
-    <string name="video_pip_tips">Fotoğraf içinde fotoğraf moduna girmek için kayan görünümüne tıklayın</string>
     <string name="vip_list">Gelen aramalara izin ver</string>
     <string name="virtual_keyboard_category">Sanal klavye</string>
     <string name="virtual_sim_category_title">Sanal Sim</string>
@@ -5841,9 +5834,9 @@ Tarama yapmak isteyen tüm uygulamaların bu işlevi kullanmalarına izin veriyo
     <string name="wifi_setup_back">Geri</string>
     <string name="wifi_setup_cancel">İptal et</string>
     <string name="wifi_setup_connect">Bağlan</string>
-    <string name="wifi_setup_description_connected">Kuruluma devam etmek için \"<b>İleri</b>"\"\"\"'ye dokunun
+    <string name="wifi_setup_description_connected">Kuruluma devam etmek için <b>ileri</b>" düğmesine dokunun
 
-Farklı bir Wifi ağa bağlanmak için \"\"\""<b>Geri</b>"\"\"\"'ye dokunun\"\""</string>
+"Farklı bir wifi ağa bağlanmak için<b>geri</b> düğmesine dokunun</string>
     <string name="wifi_setup_description_connecting">Bağlanma birkaç dakika sürebilir</string>
     <string name="wifi_setup_detail">Ağ ayrıntıları</string>
     <string name="wifi_setup_eap_not_supported">Kurulum sırasında EAP Wifi bağlantısı yapılandıramazsınız. Kurulumdan sonra bunu, Ayarlar > Wifi ve ağlar bölümünde yapabilirsiniz</string>

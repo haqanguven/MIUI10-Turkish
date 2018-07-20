@@ -2,6 +2,10 @@
 <resources>
     <string name="app_name">Nfc hizmeti</string>
     <string name="nfcUserLabel">Nfc</string>
+    <string name="inbound_me_profile_title">Kişiler NFC üzerinden alındı</string>
+    <string name="inbound_me_profile_text">Bu kişiyi kişilerinize eklemek için dokunun</string>
+    <string name="outbound_me_profile_title">NFC etkileşimi tamamlandı</string>
+    <string name="outbound_me_profile_text">Bilgileri vermek için dokunun</string>
     <string name="accessibility_nfc_enabled">Nfc etkinleştirildi</string>
     <string name="tap_to_beam">Işınlamak için dokunun</string>
     <string name="beam_progress">Gelen ışın</string>
@@ -45,8 +49,6 @@
     <string name="permdesc_nfcReceiveEvent">Uygulamanın gerçekleştirilen Nfc işlemi hakkında bilgi almasına izin verir</string>
     <string name="nfc_enabled_dialog">"Nfc şu anda devre dışı
 Nfc hizmetiniz için onu etkinleştirmek istiyor musunuz?"</string>
-    <string name="permgrouplab_NFC">Nfc yakın alan iletişimi</string>
-    <string name="permgroupdesc_NFC">Çeşitli Nfc özelliklerine erişme</string>
     <string name="ok">Tamam</string>
     <string name="no">Hayır</string>
 </resources>

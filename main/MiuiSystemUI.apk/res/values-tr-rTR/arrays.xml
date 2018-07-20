@@ -85,7 +85,7 @@
     </string-array>
     <string-array name="battery_options">
         <item>Her zaman yüzdeyi göster</item>
-        <item>Şarj olurken yüzdeyi göster (varsayılan)</item>
+        <item>Şarj olurken yüzdeyi göster (Varsayılan)</item>
         <item>Bu simgeyi gösterme</item>
     </string-array>
     <integer-array name="batterymeter_bolt_points">
@@ -157,7 +157,7 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Sistem tercihini kullan (Varsayılan)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -369,9 +369,9 @@
         <item>dipper</item>
         <item>sirius</item>
         <item>ursa</item>
-        <item>gemini</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>gemini</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -395,9 +395,9 @@
         <item>ysl</item>
         <item>sakura</item>
         <item>clover</item>
-        <item>gemini</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>gemini</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -520,11 +520,11 @@
         <item>28800</item>
     </integer-array>
     <string-array name="miui_volume_timer_segments_title">
-        <item>Off</item>
-        <item>Half hour</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>8 Hours</item>
+        <item>Kapalı</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>8 saat</item>
     </string-array>
     <string-array name="multi_data_activity">
         <item>array/data_activity_sim1</item>

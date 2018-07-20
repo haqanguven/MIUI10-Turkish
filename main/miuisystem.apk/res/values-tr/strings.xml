@@ -10,9 +10,9 @@
     <string name="def_sms_delivered_sound">/system/media/audio/notifications/MessageSent.ogg</string>
     <string name="def_sms_delivered_sound_slot_1">/system/media/audio/notifications/MessageSent.ogg</string>
     <string name="def_sms_delivered_sound_slot_2">/system/media/audio/notifications/MessageSent.ogg</string>
-    <string name="def_sms_received_sound">/system/media/audio/notifications/IncomingMessage.ogg</string>
-    <string name="def_sms_received_sound_slot_1">/system/media/audio/notifications/IncomingMessage.ogg</string>
-    <string name="def_sms_received_sound_slot_2">/system/media/audio/notifications/IncomingMessage.ogg</string>
+    <string name="def_sms_received_sound">/system/media/audio/ui/notice_audition.ogg</string>
+    <string name="def_sms_received_sound_slot_1">/system/media/audio/ui/notice_audition.ogg</string>
+    <string name="def_sms_received_sound_slot_2">/system/media/audio/ui/notice_audition.ogg</string>
     <string name="presentation_payphone">Ankesörlü telefon</string>
     <string name="presentation_private">Özel numara</string>
     <string name="presentation_unknown">Bilinmeyen numara</string>
@@ -167,7 +167,6 @@
     <string name="mix">Mix</string>
     <string name="breeze">Esinti</string>
     <string name="sunrise">Gün doğumu</string>
-    <string name="newday">Yeni gün</string>
     <string name="orange">Portakal</string>
     <string name="raindrops">Yağmur damlaları</string>
     <string name="toyrobot">Oyuncak robot</string>

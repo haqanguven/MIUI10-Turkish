@@ -283,6 +283,14 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="zero">0 uygulama bulundu</item>
         <item quantity="one">%d uygulama bulundu</item>
     </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d kilitli uygulama temizlenmeyi bekliyor</item>
+        <item quantity="one">%d kilitli uygulama temizlenmeyi bekliyor</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">%d virüs silindi</item>
+        <item quantity="one">%d virüs silindi</item>
+    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
         <item quantity="one">+%d</item>
@@ -298,6 +306,10 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     <plurals name="app_manager_permission_summary_ask">
         <item quantity="other">%d izin iste</item>
         <item quantity="one">%d izin iste</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d kez</item>
+        <item quantity="one">%d kez</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">%d gün önce kullanıldı</item>

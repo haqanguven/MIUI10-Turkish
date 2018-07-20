@@ -9,6 +9,7 @@
     <string name="mibi_license">Mi kredi hizmet şartları</string>
     <string name="license_host_unreachable">"Ağa bağlanılamıyor. Bu bilgiyi görüntülemek için 
 %s adresine gidin"</string>
+    <string name="permdesc_accessDrm">Uygulamanın DRM korumalı içeriğe erişmesine izin verin</string>
     <string name="open_wifi_connect_title">%1$s ağına bağlan</string>
     <string name="open_wifi_connect_summary">Ayrıntıları görüntülemek için dokunun</string>
     <string name="settings_license_activity_title">Açık kaynak lisansları</string>
