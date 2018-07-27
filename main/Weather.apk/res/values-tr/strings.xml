@@ -81,10 +81,10 @@
     <string name="daily_forecast_add_city_message">Daha ayrıntılı bir tahmin için %1$s içinde hava durumunu takip edin</string>
     <string name="daily_forecast_add_city_title">%1$s içindeki hava durumunu takip et</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Hava durumu bilgileri alınamadı
 Yenilemek için aşağı doğru çekin veya ağ ayarlarınızı kontrol edin"</string>
     <string name="data_provided_by">Veri sağlayıcı:</string>
-    <string name="dislike_alert_dialog_title">Bu içeriği neden görmek istemiyorsunuz?</string>
     <string name="edit_city">Şehri yönet</string>
     <string name="empty">" "</string>
     <string name="eu_region_version_first_start_network_msg">"Bu ürünü kullanarak Xiaomi'nin aramış olduğunuz şehirlerin koordinatları ve gizlilik politikamızda belirtilen diğer tür veriler dahil olmak üzere kişisel verilerinizi toplayabileceğini, işleyebileceğini ve kullanabileceğini kabul etmiş sayılıyorsunuz. Bilgileri ne şekilde topladığımızı ve işlediğimizi öğrenmek için gizlilik politikamıza bakın. Kabul et seçeneğine dokunarak Xiaomi'nin %1$s ve %2$s sözleşmelerini kabul etmiş sayılıyorsunuz"</string>

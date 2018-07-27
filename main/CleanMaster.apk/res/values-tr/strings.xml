@@ -588,6 +588,8 @@
     <string name="whatsapp_clean_exit_confirm_msg">Taramayı durdur</string>
     <string name="whatsapp_clean_exit_confirm_cancel">İptal et</string>
     <string name="whatsapp_clean_exit_confirm_ok">Tamam</string>
+    <string name="whatsapp_delete_confirm_ok">Tamam</string>
+    <string name="whatsapp_delete_confirm_cancel">İptal et</string>
     <string name="whatsapp_content_empty">Temizlenecek dosya yok</string>
     <string name="whatsapp_delete_confirm_message">Silinsin mi?</string>
     <string name="whatsapp_delete_done">Hepsi tamam</string>

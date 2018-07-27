@@ -339,12 +339,4 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">Üst üste %d gün içinde kontrol edildi</item>
         <item quantity="one">%d zaman içinde kontrol edildi</item>
     </plurals>
-    <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">%d uygulamasını gizleyebilirsiniz</item>
-        <item quantity="one">%s uygulamasını gizleyebilirsiniz</item>
-    </plurals>
-    <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d uygulama gizlendi</item>
-        <item quantity="one">%d uygulama gizlendi</item>
-    </plurals>
 </resources>

@@ -102,9 +102,9 @@
     <string name="aerr_title" />
     <string name="aerr_wait">Bekle</string>
     <string name="alert_windows_notification_channel_group_name">Diğer uygulamaların üzerinde göster</string>
-    <string name="alert_windows_notification_channel_name">%s, diğer uygulamaların üzerinde görüntüleniyor</string>
+    <string name="alert_windows_notification_channel_name">%s diğer uygulamaların üzerinde görüntüleniyor</string>
     <string name="alert_windows_notification_message">%s uygulamasının bu özelliği kullanmasını istemiyorsanız dokunarak ayarları açın ve özelliği kapatın</string>
-    <string name="alert_windows_notification_title">%s, diğer uygulamaların üzerinde gösteriliyor</string>
+    <string name="alert_windows_notification_title">%s diğer uygulamaların üzerinde gösteriliyor</string>
     <string name="alert_windows_notification_turn_off_action">Kapat</string>
     <string name="allow">İzin ver</string>
     <string name="allow_button">İzin ver</string>
@@ -1743,4 +1743,6 @@ Kapatmak ister misiniz?"</string>
     <string name="zen_mode_forever_dnd">Rahatsız Etmeyin ayarını kapatana kadar</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">Şu saate kadar: %1$s</string>
+    <string name="press_color_to_apply">Seçmek için renge tıklayın</string>
+    <string name="auto_app_launch">Uygulamayı başlat</string>
 </resources>

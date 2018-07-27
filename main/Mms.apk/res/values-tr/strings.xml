@@ -569,6 +569,8 @@
     <string name="slide_show_part">Bölüm %1$d/%2$d</string>
     <string name="slide_up_to_cancel">İptal etmek için yukarı doğru kaydırın</string>
     <string name="slideshow_activity">Slayt gösterisi</string>
+    <string name="sms_card_partner_label">"Mesaj kart ortağı: "</string>
+    <string name="sms_card_teddy_mobile">Teddy Mobil</string>
     <string name="sms_content">İçerik:</string>
     <string name="sms_full_body">Gelen mesaj reddedildi: Cihazda yeterli boş alan yok</string>
     <string name="sms_full_title">Metin mesaj hafızası dolu</string>
@@ -680,7 +682,6 @@ Son deneme: %s"</string>
     <string name="group_verification_codes_title">OTP mesajları grubu</string>
     <string name="verification_code_icon_name">V</string>
     <string name="yellowpage_recommend_msg">"Miui'nin mesajlaşma özelliklerini kontrol edin"</string>
-    <string name="unsubscribe">Unsubscribe</string>
     <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
     <string name="conversation_style">bubble</string>
     <string name="prefDefault_ringtone_repeat">1</string>

@@ -2329,8 +2329,8 @@ yavaşlatabilir"</string>
     <string name="boosting">Hız artırılıyor</string>
     <string name="get_sys_info">Bilgi alınıyor</string>
     <string name="function_close">Kapat</string>
-    <string name="add_done">Başarıyla eklendi</string>
-    <string name="boost_done">Başarıyla hızlandırıldı</string>
+    <string name="add_done">Eklendi</string>
+    <string name="boost_done">Hızlandırıldı</string>
     <string name="boost_stop">Hız artırımını kapat</string>
     <string name="already_close_gamebooster">Oyun hızı artırması kapalı</string>
     <string name="no_game">Oyunlar bulunamadı</string>
@@ -2362,9 +2362,9 @@ yavaşlatabilir"</string>
     <string name="start_game">Başlat</string>
     <string name="scan_installed_games">Yüklü oyunlar kontrol ediliyor</string>
     <string name="boostering">Hız artırılıyor</string>
-    <string name="booster_suc">Başarıyla hızlandırıldı</string>
-    <string name="auto_booster_suc">Başarıyla hızlandırıldı</string>
-    <string name="auto_back_booster">Hızlandırmayı durdur</string>
+    <string name="booster_suc">Hızlandırıldı</string>
+    <string name="auto_booster_suc">Hızlandırıldı</string>
+    <string name="auto_back_booster">Durduruldu</string>
     <string name="support_game_booster_tips">Hızı artırın &amp; oyun deneyiminizi iyileştirin</string>
     <string name="setting">Ayarlar</string>
     <string name="loading">Yükleniyor</string>
@@ -2374,7 +2374,7 @@ yavaşlatabilir"</string>
     <string name="release_memory">Önbelleği temizle</string>
     <string name="start">Başlat</string>
     <string name="net_boosting">Hız artırılıyor</string>
-    <string name="net_overdue">Oturum sona erdi</string>
+    <string name="net_overdue">Sonlandırıldı</string>
     <string name="renew_now">Yenile</string>
     <string name="receive_now">Al</string>
     <string name="net_booster">Ağ hızlandırıcı</string>
@@ -2471,18 +2471,4 @@ yavaşlatabilir"</string>
     <string name="gb_first_window_start">Oyuna başla</string>
     <string name="gb_create_icon_summary">Ana ekran kısayolu oluştur</string>
     <string name="notify_channel_name_security">Sistem güvenliği</string>
-    <string name="privacy_apps_category_title">Gizli uygulamalar</string>
-    <string name="privacy_apps">Gizli uygulamalar</string>
-    <string name="privacy_apps_enable_summary">Uygulamaları gizli bir klasöre taşıyın ve ana ekran kısayollarını kaldırın</string>
-    <string name="privacy_apps_manage">Gizli uygulamaları yönet</string>
-    <string name="privacy_apps_tutorial">Eğitim</string>
-    <string name="privacy_apps_tutorial_prompt_pageone">"Bir uygulamayı gizlediğinizde gizli bir klasöre taşınır. Ana ekran kısayolu gizlidir
-Bu özellik sistem uygulamaları için desteklenmiyor"</string>
-    <string name="privacy_apps_tutorial_prompt_pagetwo">Ekranda iki parmağınızı yayın. Uygulama kilitleme şifrenizi girmenizi isteyen bir mesaj görürsünüz</string>
-    <string name="privacy_apps_tutorial_prompt_pagethree">Şifrenizi girdikten sonra gizli uygulamaların bulunduğu klasör görünecektir</string>
-    <string name="privacy_apps_manage_dialog_title">Gizli uygulamalar hakkında</string>
-    <string name="privacy_apps_manager_dialog_message">Uygulamaların gizlenmesi uygulama ekran kilidini ayarlamanızı gerektirir. Gizli uygulamalar için bildirimler kapatılacak. Bu uygulama gizlensin mi?</string>
-    <string name="privacy_apps_checkbox_remind_choice">Tekrar gösterme</string>
-    <string name="privacy_apps_go_to_use">Başlat</string>
-    <string name="privacy_apps_close">Kapat</string>
 </resources>

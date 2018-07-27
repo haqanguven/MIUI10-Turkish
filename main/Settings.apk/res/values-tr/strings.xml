@@ -2384,7 +2384,7 @@ Bu seçenek daha fazla pil kullanabilir"</string>
     <string name="launch_google_search">Google asistanı başlat</string>
     <string name="launch_recents">Son başlatılan</string>
     <string name="launch_voice_assistant">Sesli yardımcıyı başlat</string>
-    <string name="launcher_title">Ana ekran</string>
+    <string name="launcher_title">Ana ekran &amp; son uygulamalar</string>
     <string name="launching_cit">Donanım testleri başlatılıyor</string>
     <string name="launching_pho">Telefon bilgisi alınıyor. Lütfen bekleyin</string>
     <string name="launching_rep">Bildiriliyor</string>
@@ -4557,6 +4557,7 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_bar_settings_notification_led">Bildirim ışığı</string>
     <string name="status_bar_settings_notification_priority">Öncelik</string>
     <string name="status_bar_settings_notification_priority_summary">Bildirimleri listenin en üstünde görüntüle</string>
+    <string name="status_bar_settings_notification_shade_shortcut">Bildirim gölgesi kısayolu</string>
     <string name="status_bar_settings_notification_sound">Ses</string>
     <string name="status_bar_settings_notification_vibrate">Titreşim</string>
     <string name="status_bar_settings_show_carrier">Operatör adı</string>
@@ -4765,6 +4766,8 @@ Daha iyi performans için daha hızlı bir ^1 kullanmayı düşünün"</string>
     <string name="strict_mode">Yüksek düzey modu</string>
     <string name="strict_mode_summary">Uygulama ana işlem parçasında uzun işlem yapınca ekranı yakıp söndürür</string>
     <string name="structure_add_facerecoginition_text">3D yüz tanımı ekle</string>
+    <string name="structure_face_enroll_not_able_low_electric_itle">Düşük pil nedeniyle bu özelliği kullanamazsınız</string>
+    <string name="structure_face_enroll_not_able_low_electric_msg">Kaydı başlatmak için pil en az %5 şarj edilmelidir</string>
     <string name="structure_manage_facerecoginition_text">3B yüz tanımlarını yönet</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Bu uygulamalar en iyi tam ekran modunda çalışır</string>
     <string name="suggested_fingerprint_lock_settings_summary">Parmak izinizle kilit açın</string>
@@ -4914,7 +4917,7 @@ Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz
     <string name="tether_settings_title_usb">USB internet paylaşımı</string>
     <string name="tether_settings_title_usb_bluetooth">İnternet paylaşımı</string>
     <string name="tether_settings_title_wifi">Taşınabilir erişim noktası</string>
-    <string name="tether_share_qrcode_title">QR kodunu paylaş</string>
+    <string name="tether_share_qrcode_title">QR kodu ile paylaş</string>
     <string name="tethering_footer_info">Mobil veri bağlantınızdan başka cihazlara internet bağlantısı sağlamak için hotspot ve tethering kullanın</string>
     <string name="tethering_help_button_text">Yardım</string>
     <string name="tethering_settings_not_available">Paylaşım ayarları bu kullanıcı için kullanılamıyor</string>
@@ -5510,7 +5513,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wapi_password_hex_format_invalid">Geçersiz onaltılık karakterler</string>
     <string name="wapi_password_hex_length_invalid">Onaltılık karakterlerin sayısı çift sayı olmalıdır</string>
     <string name="wapi_password_length_invalid">Parola şu şekilde olmalıdır: 8-64 karakter</string>
-    <string name="wapi_psk_type">Şifre tipi</string>
+    <string name="wapi_psk_type">Şifre türü</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Onaltılık</string>
     <string name="wapi_yes">Evet</string>
@@ -5696,7 +5699,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_hide_password">Şifreyi gizle</string>
     <string name="wifi_hotspot_checkbox_text">Wifi bağlantı noktası</string>
-    <string name="wifi_hotspot_checkbox_text_summary">Wifi ağ sağlamak için hücresel bağlantı kullanın</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Wifi ağ sağlamak için mobil bağlantı kullanın</string>
     <string name="wifi_hotspot_configure_ap_text">Wifi bağlantı noktası kurulumu</string>
     <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK taşınabilir wifi bağlantı noktası</string>
     <string name="wifi_hotspot_connect">Bağlan</string>
@@ -5704,7 +5707,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_hotspot_off_subtext">Bu telefonun interneti bağlantı noktası üzerinden paylaşılmıyor</string>
     <string name="wifi_hotspot_title">Bağlanmak için oturum açılsın mı?</string>
     <string name="wifi_in_airplane_mode">Uçak modunda</string>
-    <string name="wifi_info_reconnect">Bağlantı başarısız oldu. Lütfen tekrar deneyin</string>
+    <string name="wifi_info_reconnect">Bağlanılamadı. Tekrar deneyin</string>
     <string name="wifi_install_credentials">Sertifika yükle</string>
     <string name="wifi_ip_address">IP adresi</string>
     <string name="wifi_ip_address_hint">192.168.1.128</string>
@@ -5916,13 +5919,13 @@ diğer kullanıcıların ağlarınıda kullanabilirsiniz"</string>
     <string name="wifi_switch_away_when_unvalidated">Wifi bağlantının İnternet erişimi kesilirse hücresel veriye geç</string>
     <string name="wifi_switch_to_gsm_message">Wifi bağlantısı sonlandı. Bunun yerine mobil veri bağlantısı kullanılsın mı?</string>
     <string name="wifi_switch_to_gsm_title">GSM kullanılsın mı?</string>
-    <string name="wifi_tether_checkbox_text">Wifi bağlantı noktası</string>
-    <string name="wifi_tether_configure_ap_text">Wifi bağlantı noktası kurulumu</string>
-    <string name="wifi_tether_configure_ssid_default">Android erişim noktası</string>
-    <string name="wifi_tether_configure_subtext">Ağ adı: %1$s | Güvenlik: %2$s | Kablosuz bağlantı noktası</string>
-    <string name="wifi_tether_enabled_subtext">Kişisel erişim noktası %1$s etkin</string>
+    <string name="wifi_tether_checkbox_text">İnternet paylaşımı</string>
+    <string name="wifi_tether_configure_ap_text">İnternet paylaşım ayarları</string>
+    <string name="wifi_tether_configure_ssid_default">Android ortak erişim noktası</string>
+    <string name="wifi_tether_configure_subtext">"Ağ adı: %1$s | Güvenlik: %2$s"</string>
+    <string name="wifi_tether_enabled_subtext">%1$s etkin</string>
     <string name="wifi_tether_enabled_summary">%1$s etkin</string>
-    <string name="wifi_tether_failed_subtext">Kişisel wifi erişim noktası hatası</string>
+    <string name="wifi_tether_failed_subtext">İnternet paylaşım hatası</string>
     <string name="wifi_tether_setting_title">Ayarlar</string>
     <string name="wifi_tether_settings_title">Kişisel bağlantı noktası</string>
     <string name="wifi_tether_starting">Bağlantı noktası açılıyor</string>
