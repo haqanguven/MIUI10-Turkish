@@ -13,8 +13,8 @@
         <item quantity="one">%d gün önce</item>
     </plurals>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s günlük hava durumu</item>
-        <item quantity="one">%1$s günlük hava durumu</item>
+        <item quantity="other">%1$s günlük hava tahmini</item>
+        <item quantity="one">%1$s günlük hava tahmini</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short">
         <item quantity="other">Geri bildirimden sonra %1$s saniye</item>

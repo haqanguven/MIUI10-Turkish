@@ -25,6 +25,8 @@
     <string name="device_pad">Mi pad</string>
     <string name="device_xiaomi">Mi telefon</string>
     <string name="miui_device_name">Android</string>
+    <string name="device_poco_global">Poco telefon</string>
+    <string name="device_poco_india">Poco telefon</string>
     <string name="solar_calendar">Miladi takvimi</string>
     <string name="lunar_calendar">Ay takvimi</string>
     <string name="lunar_zheng">Pozitif</string>

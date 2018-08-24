@@ -53,7 +53,7 @@
     <string name="birthday_notification_title_today">%1$s adlı kişinin %3$s</string>
     <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_saved">Doğum günü kaydedildi</string>
-    <string name="birthday_term">doğum günü</string>
+    <string name="birthday_term">Doğum günü</string>
     <string name="button_day">Gün</string>
     <string name="button_month">Ay</string>
     <string name="button_week">Hafta</string>
@@ -73,6 +73,7 @@
     <string name="card_manager_no_data">Abonelik yok</string>
     <string name="card_title_change">Daha fazla</string>
     <string name="change_response_title">Yanıtı değiştir</string>
+    <string name="close_alarm">Alarmı kapat</string>
     <string name="countdown_event_title">Geri sayım: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Geri sayım: 3 gün içinde %1$s</string>
     <string name="countdown_notify_title">Geri sayım: %1$s</string>
@@ -113,6 +114,7 @@
     <string name="description_calendar">Sistem uygulamaları/Takvim</string>
     <string name="description_calendar_edit_event">Sistem uygulamaları/Takvim/Ajanda</string>
     <string name="directory_searching_fmt">%s aranıyor</string>
+    <string name="discard_label">İptal et</string>
     <string name="does_not_repeat">Tek seferlik etkinlik</string>
     <string name="edit_date_calculate_days_backward_error_hint">İleriye doğru hesaplanamıyor</string>
     <string name="edit_date_calculate_days_empty_hint">Gün sayısını girin</string>
@@ -184,6 +186,7 @@
     <string name="global_football_final">Final</string>
     <string name="global_football_no_match">Bugüne tarihli futbol maçı yok</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_close">Kapat</string>
     <string name="guide_card_import">İçe aktar</string>
     <string name="guide_card_primary_text">Arkadaş doğum gününü içe aktar</string>
     <string name="guide_card_second_text">Toplu içe aktarma. Arkadaş doğum günü eksik değil</string>
@@ -212,6 +215,7 @@
     <string name="loading">Yükleniyor</string>
     <string name="local_calendar_display_name">Yerel takvim</string>
     <string name="local_owner_account_name">Bu aygıta kaydedildi</string>
+    <string name="login_failed_toast">Oturum açılamadı. Tekrar deneyin</string>
     <string name="lunar_date">Ay takvimi</string>
     <string name="match_select_activity_label">Ligler</string>
     <string name="menu_general_preferences">Genel</string>
@@ -299,9 +303,9 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin"</string>
     <string name="refreshing_hint">Yenileniyor</string>
     <string name="repeat_activity_label">Tekrarla</string>
     <string name="repeat_custom_activity_label">Özel</string>
-    <string name="repeat_custom_prompt">her %1$s %2$s</string>
+    <string name="repeat_custom_prompt">her %1$s - %2$s</string>
     <string name="repeat_custom_prompt_daily">her %1$s</string>
-    <string name="repeat_custom_prompt_sentence">Hatırlatıcı her %1$sde bir tekrarlanacaktır</string>
+    <string name="repeat_custom_prompt_sentence">"Hatırlatıcı her %1$s'de bir tekrarlanacaktır"</string>
     <string name="repeat_custom_prompt_splitter">", "</string>
     <string name="repeat_custom_string_prefix">Özel</string>
     <string name="repeat_custom_string_suffix">" (%1$s)"</string>
@@ -370,6 +374,7 @@ Ayrıca hatırlatıcılar ekleyebilir böylece önemli hiçbir şeyi kaçırmazs
     <string name="tab_title_month">Ay</string>
     <string name="tab_title_week">Hafta</string>
     <string name="talk_back_read_date">Geçerli tarih: %1$s (Ay takvime göre %2$s)</string>
+    <string name="talk_back_setting">Ayarlar</string>
     <string name="template_announce_item_index">Etkinlik %1$s - %2$s</string>
     <string name="template_week_num">%1$s. hafta</string>
     <string name="time_zone">Zaman dilimi</string>
@@ -455,7 +460,6 @@ Ayrıca hatırlatıcılar ekleyebilir böylece önemli hiçbir şeyi kaçırmazs
     <string name="solar_lunar_convert_description" />
     <string name="solar_lunar_convert_tab" />
     <string name="solar_to_lunar" />
-    <string name="discard_label">Cancel</string>
     <string name="ad_card_connecting">Bağlanılıyor</string>
     <string name="ad_card_download_count">%1$s kişi indirdi</string>
     <string name="ad_card_download_count_million">%1$s milyon indirdi</string>
@@ -665,6 +669,7 @@ Ayrıca hatırlatıcılar ekleyebilir böylece önemli hiçbir şeyi kaçırmazs
     <string name="sms_import_description">更好地管理与时间相关的短信事件</string>
     <string name="swipe_up_guide_hint_text">上滑发现更多</string>
     <string name="taishen">胎神</string>
+    <string name="talk_back_month">月</string>
     <string name="text_day">日</string>
     <string name="text_year">年</string>
     <string name="ticket_card_date">%1$s月%2$s日</string>

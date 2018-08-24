@@ -47,19 +47,30 @@ Seçili klavyenin gizlilik politikasını görüntüleyin"</string>
     <string name="ime_privacy_policy">Seçili klavyenin gizlilik politikası</string>
     <string name="ime_privacy_policy_no_network">Ağ bağlantısı yok. Bu klavyenin gizlilik politikasını %s adresinde görüntüleyin</string>
     <string name="terms_of_use">Şartlar ve koşullar</string>
-    <string name="terms_of_use_label">"Gizliliğiniz bizim için çok önemlidir. Hangi bilgileri topladığımızı, topladığımız bilgileri nasıl kullandığımızı ve hangi tercihlerin sizin için uygun olduğunu anlamak için lütfen hizmet şartları ve gizlilik politikamızı okuyun
+    <string name="terms_of_use_label">"Gizliliğiniz bizim için çok önemlidir. Hangi bilgileri topladığımızı, nasıl kullandığımızı ve sizin için hangi seçenekleri kullanabileceğinizi anlamak için hizmet şartları ve gizlilik politikamızı okuyun
 
-Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası sözleşmelerimizi kabul etmeniz gerekmektedir. Etkinleştirme işlemi sırasında; Mi hizmetleri, Mi Sim etkinleştirme servisleri, Mi bulut, Cihaz bul, Ana ekran modülleri, Oyun servisi, MBA ve MSA sistem bileşenleri, Doğrudan servis ve hızlı kart, İstatistik bileşenleri, Mi akıllı kartlar ve Mi hesabı bileşenleri internete bağlanır ve konumunuza erişir"</string>
-    <string name="terms_of_use_label_gms">"Gizliliğiniz bizim için çok önemlidir. Hangi bilgileri topladığımızı, topladığımız bilgileri nasıl kullandığımızı ve hangi tercihlerin sizin için uygun olduğunu anlamak için hizmet şartları ve gizlilik politikamızı okuyun
+Miui'yi kullanabilmeniz için hizmet iartlarımız ve gizlilik politikamızı kabul etmeniz gerekir. %s ve Mi hesap bileşenleri internete bağlanacak ve konumunuzu alacaktır"</string>
+    <string name="terms_of_use_lable_apps">Mi hizmetleri, Mi Sim etkinleştirme hizmetleri, Mi bulut, Cihaz bul, Ana ekran, Oyun merkezi, MAB, Miui daemon ve MSA sistem bileşenleri, Çeviri hizmetleri, Hızlı uygulamalar, Uygulama kasası, İstatistik, Mi bağlantı</string>
+    <string name="terms_of_use_lable_gms">, Google Play hizmetleri</string>
+    <string name="terms_of_use_label_systemhelper">, Kayıtlı servis</string>
+    <string name="terms_of_use_lable_smart_cards">, Akıllı kartlar</string>
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
 
-Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası sözleşmelerimizi kabul etmeniz gerekmektedir. Mi hizmetleri, Mi Sim etkinleştirme hizmetleri, Mi bulut, Cihaz bul, Ana ekran, Oyun merkezi, Mab, Miui şeytan ve Msa sistem bileşenleri, İnternet uygulamaları, Akıllı yardımcı, İstatistikler, Akıllı kartlar, Mi bağlantı, Mi hesabı ve Google Play servis bileşenleri internete bağlanacak ve konumunuza erişecektir"</string>
+Bu özelliği kullanmadan önce facemoji gizlilik politikasını kabul etmeniz gerekir"</string>
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
+Bu özelliği kullanmadan önce kika gizlilik politikasını kabul etmeniz gerekir"</string>
     <string name="user_agreement">Hizmet şartları</string>
     <string name="privacy_policy">Gizlilik politikası</string>
+    <string name="terms_privacy_policy_input_method_kika">Kika gizlilik politikası</string>
+    <string name="terms_privacy_policy_input_method_facemoji">Facemoji gizlilik politikası</string>
     <string name="application_permissions">Uygulama izinleri</string>
     <string name="agree">Kabul et</string>
     <string name="disagree">İptal</string>
     <string name="setting_locale">Bölge ayarlanıyor</string>
     <string name="agree_terms">Hizmet şartları ve gizlilik politikasını okudum ve kabul ediyorum</string>
+    <string name="agree_terms_input_method_facemoji">"Facemoji gizlilik politikasını okudum ve kabul ettim"</string>
+    <string name="agree_terms_input_method_kika">"Kika gizlilik politikasını okudum ve kabul ettim"</string>
     <string name="miui_terms_no_network">İnternet bağlantınız yok. Hizmet koşullarını %s adresinde görüntüleyin</string>
     <string name="miui_privacy_policy_no_network">İnternet bağlantınız yok. Hizmet koşullarını %s adresinde görüntüleyin</string>
     <string name="locale_picker_title">Bölgenizi seçin</string>
@@ -91,4 +102,5 @@ Miui'yi kullanmaya başlamadan önce hizmet şartları ve gizlilik politikası s
     <string name="continue_to_enable_accessibility">Erişilebilirliği etkinleştirmek için iki parmağınızı basılı tutmaya devam edin</string>
     <string name="voice_assist_title">Ses ile uyandır</string>
     <string name="voice_assist_desp">Telefonunuza Mi AI şeklinde seslenin. Mi AI sesinizi tanıyacak ve cihazınızı kontrol edebilecektir</string>
+    <string name="voice_assist_desp_screen_light">Ekran açıldıktan sonra telefonunuzda Mi AI özelliğini deyin. Mi AI sesinizi tanıyacak ve cihazınızı kontrol edebilecek</string>
 </resources>

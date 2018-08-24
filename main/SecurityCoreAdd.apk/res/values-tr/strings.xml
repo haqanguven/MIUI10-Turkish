@@ -68,6 +68,7 @@
     <string name="xspace_setting_label">Çift uygulama ayarları</string>
     <string name="xspace_account">Çift uygulama hesapları</string>
     <string name="declare_dialog_title">Çift uygulamalar hakkında</string>
+    <string name="menu_item_about_privacy_title">Gizlilik politikası</string>
     <string name="stop_xspace_alert_title">Çift uygulama hesaplarını silme</string>
     <string name="stop_xspace_alert_content">Tüm çift uygulamaları sildiniz. Çift uygulama hesaplarını ve uygulama verilerinide silmek ister misiniz?</string>
     <string name="xspace_loading_msg">Uygulamalar yükleniyor</string>
@@ -398,4 +399,37 @@ Güncelleme yapmazsanız çift uygulamalar da düzgün çalışmayabilir"</strin
     <string name="can_not_switch_when_green_kid_active">İkinci alana geçmek aile bekçisi tarafından sınırlandırılmıştır</string>
     <string name="need_network_when_bind">Cihaz eklemeden önce ağa bağlanın</string>
     <string name="this_function_can_not_use_in_second_space">Bu özellik sadece ilk alanda kullanılabilir</string>
+    <string name="enterprise_mode">Şirket mod</string>
+    <string name="ent_app_verified">Cihazınızda yüklü şirket uygulamalar var gibi görünüyor. Şirket mod etkinleştirin mi?</string>
+    <string name="activate_ent_mode">Şirket modu etkinleştir</string>
+    <string name="about_ent_mode">Şirket mod hakkında</string>
+    <string name="ent_mode_activated">Şirket mod etkinleştirildi</string>
+    <string name="ent_activation_hint">Şirket modunu etkinleştirmek için şirket kodunuzu lisans koduyla birlikte girin. Bundan sonra özel şirket hizmetleri etkinleştirilecek</string>
+    <string name="ent_activation_hint_whit_licence">"Şirket hizmetlerini etkinleştirmek için şirket modunu etkinleştirin
+Şirketinizin adı doğru olduğundan emin olun. Etkinleştirmeden önce ilgili gizlilik politikalarını okuyun ve kabul edin"</string>
+    <string name="ent_agency_code">Şirket kodu</string>
+    <string name="ent_agency_code_hint">Şirket kodunu girin</string>
+    <string name="ent_agency_code_invalid">Girdiğiniz şirket kodu geçersiz</string>
+    <string name="ent_licence_code_invalid">Girdiğiniz lisans kodu geçersiz</string>
+    <string name="ent_licence_code">Lisans kodu</string>
+    <string name="ent_licence_code_hint">Lisans kodunu girin</string>
+    <string name="ent_next_step">İleri</string>
+    <string name="ent_get_code_hint">Şirket ve lisans kodlarını amirinizden alabilirsiniz</string>
+    <string name="ent_agree_privacy_policy">Gizlilik politikasını okudum ve kabul ediyorum</string>
+    <string name="ent_activation">Etkinleştir</string>
+    <string name="ent_activating">Etkinleştiriliyor</string>
+    <string name="ent_installing">Yükleniyor</string>
+    <string name="ent_network_error">Ağa bağlanılamadı. Ağ ayarlarınızı kontrol edip tekrar deneyin</string>
+    <string name="ent_invalid_qr">QR kodu geçersiz</string>
+    <string name="ent_invalid_agency">Şirket kodu geçersiz</string>
+    <string name="ent_privacy_policy_notice">* Bu moddaki kişisel veriler kurumunuz tarafından belirlenen politikalara göre toplanır. Xiaomi bu modda kişisel veri toplamaz</string>
+    <string name="ent_confirm_dialog_content">"Şirket modunu etkinleştirdikten sonra sisteminizin şu anki durumuna geri dönemezsiniz. Tüm verileriniz bu cihazda saklanacak. Şirket modunu etkinleştirmek için cihazınızı yeniden başlatmanız gerekecek. Şimdi etkinleştirilsin mi?"</string>
+    <string name="ent_error_dialog_content">Girdiğiniz kodun en az biri yanlıştı. Şirket ve lisans kodlarınızı kontrol edip tekrar girin</string>
+    <string name="ent_download_install_dialog_content">Şirket modunu etkinleştirmek için şirket uygulamalarını yüklemelisiniz. Şimdi yüklensin mi?</string>
+    <string name="ent_download_install_dialog_title">Şirket uygulamalarını indirin</string>
+    <string name="ent_downloading_message">İndiriliyor: %%%d</string>
+    <string name="install">Yükle</string>
+    <string name="install_error">Yüklenemedi. Tekrar deneyin</string>
+    <string name="ent_install_dialog_content">Uygulamaları yükleyin ve cihazınızı şimdi yeniden başlatın</string>
+    <string name="ent_disallow_running">Uygulamanın çalışması yasaktır</string>
 </resources>

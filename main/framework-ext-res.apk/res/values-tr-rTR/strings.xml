@@ -243,6 +243,14 @@
     <string name="wifi_assistant_wifi_no_internet_detail">Detayları görmek için dokunun</string>
     <string name="resolver_recommended_app_name">%1$s&lt;font color=#0099ff>&lt;br/>(%2$s)&lt;/font></string>
     <string name="resolver_app_recommend_flag">Önerilen</string>
+    <string name="voice_button_action_up">Konuşmak için basın</string>
+    <string name="voice_button_action_down">Aramak için bırakın</string>
+    <string name="voice_begin">Ne arıyorsun?</string>
+    <string name="voice_input_error_network">Ağa bağlanılamadı. Ağ ayarlarınızı kontrol edip tekrar deneyin</string>
+    <string name="voice_input_error_other">Bir hata oluştu. Bir ya da iki dakika bekleyin ve tekrar deneyin</string>
+    <string name="miui_warning_button_ok">Tamam</string>
+    <string name="miui_warning_button_cancel">İptal et</string>
+    <string name="miui_warning_tip_info">%1$s içinde bir hata oluştu. Şimdi bu uygulama kapatılsın mı?</string>
     <string name="android_forward_intent_to_owner">@android:string/forward_intent_to_owner</string>
     <string name="android_forward_intent_to_work">@android:string/forward_intent_to_work</string>
     <string name="android_whichApplicationNamed">@android:string/whichApplicationNamed</string>

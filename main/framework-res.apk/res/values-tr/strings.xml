@@ -307,7 +307,7 @@ Cihazınız şarj olurken pil tasarrufu otomatik olarak kapatılır"</string>
     <string name="config_feedbackIntentExtraKey" />
     <string name="config_feedbackIntentNameKey" />
     <string name="config_forceVoiceInteractionServicePackage" />
-    <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
+    <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
     <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
     <string name="config_geofenceProviderPackageName">@null</string>
     <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
@@ -1743,6 +1743,4 @@ Kapatmak ister misiniz?"</string>
     <string name="zen_mode_forever_dnd">Rahatsız Etmeyin ayarını kapatana kadar</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">Şu saate kadar: %1$s</string>
-    <string name="press_color_to_apply">Seçmek için renge tıklayın</string>
-    <string name="auto_app_launch">Uygulamayı başlat</string>
 </resources>

@@ -47,10 +47,12 @@
     <string name="preference_key_information_setting_wlan">key_information_setting_wlan</string>
     <string name="preference_key_information_setting_close">key_information_setting_close</string>
     <string name="preference_key_scan_engine">key_scan_engine</string>
+    <string name="preference_key_about_privacy">key_about_privacy</string>
     <string name="preference_category_auto_clean_up">key_category_auto_clean_up</string>
     <string name="preference_key_information_auto_clean_switch">key_information_auto_clean_switch</string>
     <string name="preference_key_auto_clean_operation">key_auto_clean_operation</string>
     <string name="preference_key_auto_clean_trigger">key_auto_clean_trigger</string>
+    <string name="preference_key_create_onekeyclean_shortcut">key_create_onekeyclean_shortcut</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
@@ -101,6 +103,7 @@
     <string name="pref_category_title_garbage_cleanup_check">Bildirimler</string>
     <string name="pref_summary_garbage_cleanup_check_time">Rutin temizlik zamanı ayarla</string>
     <string name="pref_title_garbage_cleanup_check_time">Takvim</string>
+    <string name="pref_about_privacy_title">Gizlilik politikası</string>
     <string name="pref_summary_garbage_cleanup_check_size">Çöpler belirli bir boyuta ulaştığında otomatik olarak temizle</string>
     <string name="pref_title_garbage_cleanup_check_size">Çöp kutusu boyut limiti</string>
     <string name="pref_title_garbage_cleanup_size">Çöp kutusu limiti</string>
@@ -596,6 +599,16 @@
     <string name="whatsapp_title">Whatsapp için temizle</string>
     <string name="whatsapp_function_title">Whatsapp için temizle</string>
     <string name="whatsapp_function_summery">WhatsApp önemsiz dosyayı temizle</string>
+    <string name="clean_summary">%1$s dosya temizlendi</string>
+    <string name="onekeyclean_boosting_title">Hız arttırılıyor</string>
+    <string name="onekeyclean_boosted_title">Temizlendi</string>
+    <string name="onekeyclean_boost_cleaned">%s temizlendi</string>
+    <string name="onekeyclean_boost_available">%s mevcut</string>
+    <string name="onekeyclean_card_summery">Alanı boşaltmak için çöp kutusunu temizle</string>
+    <string name="onekeyclean_card_btn">Şimdi temizle</string>
+    <string name="memory_clean_icon_text">Hafızayı temizle</string>
+    <string name="pref_title_create_onekeyclean_shortcut">Ana ekran kısayolu</string>
+    <string name="memory_clean_no_trash_tip">Her şey iyi gözüküyor</string>
     <string name="RF_DalvikCacheLeftovers">Yazılım sistemi kalır (Dalvik-Önbellek)</string>
     <string name="apk_title_alipay_plugin">Alipay eklentisi</string>
     <string name="junk_syscache_alert_desc">"Bu önbelleği temizlemenizi önermiyoruz.&lt;font color=#d64438>Temizlendikten sonra APP'nin normal çalışmasını etkileyecektir&lt;/font>"</string>

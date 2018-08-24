@@ -102,6 +102,8 @@ Yenilemek için aşağı doğru çekin veya ağ ayarlarınızı kontrol edin"</s
     <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
     <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
+    <string name="hourly_forecast_title_24_hours_desc">24 saatlik hava tahmini</string>
+    <string name="hourly_forecast_title_hourly_desc">saatlik hava tahmini</string>
     <string name="index_item_experience_now">Şimdi yükle</string>
     <string name="index_item_install_dialog" />
     <string name="index_item_install_dialog_cancel" />
@@ -142,6 +144,7 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="network_unavailable">Ağa bağlanılamıyor</string>
     <string name="night_not_disturb_settings_summary">23:00 ve 07:00 saatleri arasında gelen uyarıları susturur</string>
     <string name="night_not_disturb_settings_title">Gece rahatsız etme</string>
+    <string name="no_data">Veri yok</string>
     <string name="no_network_btn">Yeniden dene</string>
     <string name="no_vote_ratio">Tekrar: %%%1$s</string>
     <string name="open">Aç</string>
@@ -244,8 +247,9 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="information_settings_title">Hava durumu bilgisi</string>
     <string name="other_settings">Diğer ayarlar</string>
     <string name="receive_net_mock_success">Başarılı oldu</string>
+    <string name="aqi_quality_detail_24_hours">24 saatlik hava tahmini</string>
+    <string name="aqi_quality_detail_5_days">5 günlük hava tahmini</string>
     <string name="missing_required_permission">Gerekli izni devre dışı bıraktınız</string>
-    <string name="no_data">Veri yok</string>
     <string name="aqi_detail_co">CO</string>
     <string name="aqi_detail_no2">NO₂</string>
     <string name="aqi_detail_o3">O₃</string>
@@ -261,7 +265,9 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="hour_minute_time_format">HH:mm</string>
     <string name="indices_desc_humidity_without_pic">%%%1$s</string>
     <string name="indices_desc_pressure">%1$smb</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
     <string name="temperature_unit_default">0</string>
     <string name="twc_logo_title" />
+    <string name="user_agreement">Kullanım şartları</string>
     <string name="wind_power_unit_default">0</string>
 </resources>

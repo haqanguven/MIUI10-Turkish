@@ -96,6 +96,7 @@ Bu özellik cihazınızın kimliğini şifreler ve Mi sunucularına gönderir"</
     <string name="micloud_dspt">Mi bulut kullanarak verilerinizi senkronize edin ve cihazınızı bulun,</string>
     <string name="micloud_sec_dspt">ve arkadaşlarınızla paylaşın.</string>
     <string name="micloud_dspt_provision">Mi bulut kullanarak verilerinizi senkronize edin, cihazınızı bulun ve dosyalarınızı arkadaşlarınızla paylaşın</string>
+    <string name="micloud_dspt_provision_xms">Verileri senkronize etmek için Mi bulutu kullanın</string>
     <string name="micloud_proceed">Devam et</string>
     <string name="master_alert_notif_title">Mi bulut ile senkronizasyon özelliğini aç</string>
     <string name="master_alert_notif_content">Senkronize edilemiyor</string>
@@ -166,6 +167,7 @@ Bu özellik cihazınızın kimliğini şifreler ve Mi sunucularına gönderir"</
 Farklı bir hesap kullanın"</string>
     <string name="micloud_main_cancel_sync">Senkronizasyonu iptal et</string>
     <string name="micloud_main_query_again">Başka bir istek gönder</string>
+    <string name="micloud_main_cancel_sync_now">İptal ediliyor</string>
     <string name="micloud_main_wait_wlan">Wifi ağı bekleniyor</string>
     <string name="micloud_main_wait_wlan_charge_sleep">Senkronizasyona devam etmek için wifi ağına bağlanın, ekranı kapatın ve cihazınızı tamamen şarj edin</string>
     <string name="micloud_main_wait_wlan_charge">Senkronizasyonu devam ettirmek için wifi ağına bağlanın ve cihazınızı tamamen şarj edin</string>
@@ -175,6 +177,11 @@ Farklı bir hesap kullanın"</string>
     <string name="micloud_main_button_set_internet">Ayarlar</string>
     <string name="micloud_main_button_activate">Etkinleştir</string>
     <string name="micloud_main_button_authorize">Yetkilendir</string>
+    <string name="micloud_main_simple_synced">Senkronize edildi</string>
+    <string name="micloud_main_simple_syncing">Senkronize ediliyor</string>
+    <string name="micloud_main_simple_pending">Bekleniyor</string>
+    <string name="micloud_main_simple_off">Senkronize kapalı</string>
+    <string name="micloud_main_simple_last_sync_time">Son senkronize zamanı: %s</string>
     <string name="micloud_detail_syncing">Senkronize ediliyor</string>
     <string name="micloud_detail_pending">Bekleniyor</string>
     <string name="micloud_detail_success">Senkronize edildi</string>
@@ -389,12 +396,8 @@ Mi bulut'u tekrar etkinleştirmek için Mi hesabınızda oturum açın"</string>
     <string name="member_menu_vipname_premium">Premium</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_ultra">Ultra</string>
-    <string name="hybrid_check_network">Ağ ayarları</string>
-    <string name="hybrid_try_again">Tekrar deneyin</string>
-    <string name="hybrid_network_unavaliable">Ağa bağlanılamıyor</string>
-    <string name="hybrid_network_access_denied">Ağ erişimi reddedildi</string>
-    <string name="hybrid_service_unavailiable">Hizmet kullanılamıyor</string>
-    <string name="hybrid_data_error">Bir hata oluştu</string>
+    <string name="micloud_storage_unit_mb">%sMB</string>
+    <string name="micloud_storage_unit_gb">%sGB</string>
     <string name="micloud_main_memory_low_title">Telefonun dahili depolama alanı neredeyse dolu</string>
     <string name="micloud_notif_title_memory_low">Mi bulut ile senkronize edilemiyor</string>
     <string name="find_device_service_title">Cihazı bul</string>

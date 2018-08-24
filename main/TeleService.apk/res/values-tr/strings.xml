@@ -1577,6 +1577,8 @@ Seçilen ağ yerine tercih edilen ağ kullanılacaktır"</string>
     <string name="msim_disable_sim_card_btn_text">Tamam</string>
     <string name="msim_has_been_disabled">(Devre dışı)</string>
     <string name="msim_cmcc_dds_switch_not_support">Taşıyıcı kısıtlamaları nedeniyle Sim kartınızı değiştiremezsiniz</string>
+    <string name="dds_switch_warning_message_data_on">Sim %1$s bulunamadı. Sim %2$s artık varsayılan mobil veri kartınız olarak ayarlandı. Gereksiz taşıyıcı ücretlerinden kaçınmak için mobil veri kapatıldı</string>
+    <string name="dds_switch_warning_message_data_off">Sim %1$s bulunamadı. Sim %2$s artık varsayılan mobil veri kartınız olarak ayarlandı. Mobil veri şu anda kapalı</string>
     <string name="international_roaming_setting">Uluslararası dolaşım</string>
     <string name="overseas_roaming_setting">Uluslararası dolaşım</string>
     <string name="add">Ekle</string>
@@ -1724,6 +1726,8 @@ Bir sonraki başarısız oldu girişimden sonra Pin2 ile ilgili işlevler kilitl
     <string name="vice_slot_volte_data_switch_title">İkinci Sim kartta VoLTE aramaları yapılırken mobil veri kullan</string>
     <string name="vice_slot_volte_data_switch_summary">VoLTE aramaları sırasında cihaz ikinci Sim kartı kullanarak bir mobil veri ağına bağlanır</string>
     <string name="vice_slot_volte_data_switch_prompt">Cihazınız VoLTE aramları sırasında ikinci Sim kartı kullanarak bir mobil veri ağına bağlanacaktır. Bu özellik ek veri ücretlerine neden olabilir. Tarife detaylarınız için yerel operatörünüzle iletişime geçin</string>
+    <string name="opened_dual_4g_confirm_prompt_with_sim">"Sim %1$s sadece 4G'yi destekler. Sim kartınızın normal çalıştığından emin olmak için çift 4G özelliğini açın"</string>
+    <string name="change_data_sim_4g_only_prompt">"Sim %1$s sadece 4G'yi destekliyor. Sim %2$s mobil veriler için varsayılan Sim karınız değilse, Sim kartı normal şekilde çalışmayabilir. Şimdi değiştirilsin mi?"</string>
     <string name="call_settings_primary_user_only">Arama ayarları yalnızca birincil kullanıcı tarafından değiştirilebilir</string>
     <string name="roaming_notification_title">Dolaşım modu etkinleştirilmiş gibi görünüyor</string>
     <string name="roaming_notification_content">Aramaları daha kolay hale getirmek için ülke kodlarını otomatik olarak ekleyebilirsiniz</string>
@@ -1744,6 +1748,7 @@ Bir sonraki başarısız oldu girişimden sonra Pin2 ile ilgili işlevler kilitl
     <string name="sim_roaming_settings_summary">Dolaşım modundayken mobil veri ağlarına bağlanın</string>
     <string name="lable_network_not_supported">Ağ desteklenmiyor</string>
     <string name="change_data_preference_4g_only_prompt">Yalnızca 4G uyumlu bir Sim kartına sahipsiniz gibi görünüyor. Sim kartınız mobil veri için varsayılan olarak ayarlansın mı?</string>
+    <string name="opened_dual_4g_confirm_prompt">"Sadece 4G'lik bir Sim kartınız var gibi görünüyor. Çif 4G otomatik olarak açıldı"</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>

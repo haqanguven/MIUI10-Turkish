@@ -86,4 +86,7 @@ Pil tasarrufu özelliği önemli uygulamaları özel olarak ele alır ve işlem 
     <string name="sleepmode_privacy_link">Gizlilik ve güvenlik hakkında daha fazla bilgi edinin</string>
     <string name="sleepmode_disclaimer_cancel">İptal et</string>
     <string name="sleepmode_disclaimer_agree">Kabul et</string>
+    <string name="appconfig_active_app_dialog_title">Etkin uygulamaları yönet</string>
+    <string name="config_classify">Uygulama ayarlarına göre sırala</string>
+    <string name="active_classify">Etkinlik durumuna göre sırala</string>
 </resources>

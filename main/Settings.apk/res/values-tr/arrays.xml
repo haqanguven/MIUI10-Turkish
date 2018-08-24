@@ -1538,6 +1538,10 @@
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
+        <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1556,6 +1560,10 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
+        <item>capricorn</item>
+        <item>equuleus</item>
+        <item>natrium</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -3114,10 +3122,10 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir"</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Yetersiz</item>
+        <item>Kötü</item>
         <item>Yeterli</item>
         <item>İyi</item>
         <item>Mükemmel</item>
-        <item>Excellent</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
         <item>Her zaman</item>

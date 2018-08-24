@@ -168,6 +168,9 @@
     <string name="submit_dialog_content_global">Görüşleriniz, ekler ve günlüklerle birlikte Miui sunucularına gönderilecek. Kayıtlar kişisel bilgi ve konum verilerinizi içerebilir. Karşılık gelen kutunun işaretini kaldırarak günlük göndermemeyi seçebilirsiniz</string>
     <string name="submit_dialog_cancel">İptal et</string>
     <string name="submit_dialog_confirm">Gönder</string>
+    <string name="tab_title_preferences">Ayarlar</string>
+    <string name="privacy_policy_title">Gizlilik politikası</string>
+    <string name="privacy_category_title">Gizlilik</string>
     <string name="mobile_data_note_dialog_title">Veri kullanımı uyarısı</string>
     <string name="mobile_data_note_dialog_content">Kayıtları karşıya yüklemek için mobil veri kullanmanız ek veri ücretlerine neden olabilir</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Kayıtları karşıya yüklemek için mobil veri kullanmanız %s MB veri kullanımı gerektirir</string>

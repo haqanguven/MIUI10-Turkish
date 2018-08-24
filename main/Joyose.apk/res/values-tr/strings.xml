@@ -14,4 +14,9 @@
     <string name="restart_details">Bu özelliği açmak veya kapatmak için cihazınızı yeniden başlatmanız gerekir. Şimdi yeniden başlatılsın mı?</string>
     <string name="restart_later">Daha sonra</string>
     <string name="restart_now">Şimdi yeniden başlat</string>
+    <string name="switch_to_official">Resmi sunucuya geç</string>
+    <string name="switch_to_staging">Test sunucusuna geç</string>
+    <string name="lab_switch_server">Sunucu değiştir</string>
+    <string name="foreground_title">Ön büro hizmeti</string>
+    <string name="foreground_text">Önceliği artırmak için ön büro servisini kullanın</string>
 </resources>

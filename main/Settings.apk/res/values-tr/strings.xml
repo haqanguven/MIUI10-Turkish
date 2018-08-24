@@ -927,9 +927,11 @@ Oynatma Kalitesi"</string>
     <string name="bootloader_device_bind_sim_invalid">Sim kart geçersiz. Değiştirin veya tekrar deneyin</string>
     <string name="bootloader_locked_answer_1">Cihazları güvenli olduklarından ve kişisel bilgilerinizin üçüncü şahıslar ile paylaşılmadığından emin olmak için kilitleriz. İhtiyaç duyduğunuzda Fastboot moduna girebilir, sistem yazılımını yükleyebilir ve cihazınızın kilidini açabilirsiniz</string>
     <string name="bootloader_locked_answer_1_warning">Unutmayın: Telefonun kilidi açıldıktan sonra cihazı bul özelliğini kullanamazsınız</string>
-    <string name="bootloader_locked_answer_2">"Mi hesabınızı bu cihaz ile ilişkilendirmek için aşağıdaki tuşa dokunun 
-ve ardından kilit açma aracını indirmek için Miui internet sitesine gidin ve aracı bilgisayarınıza yükleyin
-Adres burada:"</string>
+    <string name="bootloader_locked_answer_2">"1. Sim kartını cihazınıza taktığınızdan emin olun
+2. Mi hesabınızı bu cihazla ilişkilendirmek için aşağıdaki hesap ekle düğmesine dokunun
+3. Kilit açma aracını internet sitemizden indirin. Bir bilgisayar kullanarak cihazların kilidini açmanız gerektiğini unutmayın. Buradan indirin:"</string>
+    <string name="bootloader_locked_answer_2_no_sim">"1. Mi hesabınızı bu cihazla ilişkilendirmek için aşağıdaki hesap ekle düğmesine dokunun
+2. Kilit açma aracını internet sitemizden indirin. Bir bilgisayar kullanarak cihazların kilidini açmanız gerektiğini unutmayın. Buradan indirin:"</string>
     <string name="bootloader_locked_check_status">Hesap ve cihaz ekle</string>
     <string name="bootloader_locked_question_1">Cihazlar neden kilitli olmalıdır?</string>
     <string name="bootloader_locked_question_2">Tehlikelerin farkındayım, cihazımın kilidini hala açmak istiyorum.</string>
@@ -1028,7 +1030,6 @@ Bu özellik ayarlardan kapatılabilir"</string>
     <string name="cancel_action">İptal et</string>
     <string name="cancel_alert">Değişiklikler yoksayılsın mı?</string>
     <string name="cancel_button">İptal et</string>
-    <string name="cancel_description">İptal et</string>
     <string name="cancel_download_buton_text">İptal et</string>
     <string name="cant_sync_dialog_message">Bu öğe için senkronizasyon şu anda devre dışı bırakılmış durumdadır. Bu ayarı değiştirmek için geçici olarak arka plan verilerini ve otomatik senkronizasyonu açın.</string>
     <string name="cant_sync_dialog_title">El ile senkronize edilemez</string>
@@ -1177,7 +1178,6 @@ Bu özellik ayarlardan kapatılabilir"</string>
     <string name="confirm_action">Tamam</string>
     <string name="confirm_bind_xiaomi_account_dialog_title">Ekle</string>
     <string name="confirm_convert_to_fbe_warning">Kullanıcı verilerinin silinmesini ve dosya şifrelemesine dönüştürülmesini gerçekten istiyor musunuz?</string>
-    <string name="confirm_description">Onayla</string>
     <string name="confirm_download_cancelation_dialog_message">İndirmeyi iptal et?</string>
     <string name="confirm_enable_oem_unlock_text">Uyarı: Bu ayar açıkken cihaz koruma özellikleri bu cihazda çalışmayacaktır</string>
     <string name="confirm_enable_oem_unlock_title">OEM kilit açmaya izin verilsin mi?</string>
@@ -1767,6 +1767,7 @@ Bu özellik, kaybolan veya çalınan cihazlardaki verileri korumaya yardımcı o
     <string name="enter_password">"Android'i başlatmak için şifrenizi girin"</string>
     <string name="enter_pattern">"Android'i başlatmak için deseninizi çizin"</string>
     <string name="enter_pin">"Android'i başlatmak için Pin'inizi girin"</string>
+    <string name="enterprise_mode">Şirket modu</string>
     <string name="enterprise_privacy_always_on_vpn_device">Her zaman açık VPN açılmış</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Her zaman açık VPN kişisel profilinizde açılmış</string>
     <string name="enterprise_privacy_always_on_vpn_work">Her zaman açık VPN iş profilinizde açılmış</string>
@@ -2011,6 +2012,12 @@ At veya başka bir hayvan görünmüyordu; erkekler, önlerinde ittikleri küç�
     <string name="foreground_traffic">%s ön plan</string>
     <string name="forget">Unut</string>
     <string name="forget_password_button_text"><u>Şifremi unuttum</u></string>
+    <string name="forget_password_dialog_button_text">Geri</string>
+    <string name="forget_password_dialog_content_four"><Data>2. &lt;font color=#e6e6e6>[Verileri silin]&lt;/font> ve cihazınız yeniden başlatılıncaya kadar bekleyin</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>"Şifrenizi unutursanız geri yükleyemezsiniz. &lt;font color=#ec2700>Cihazınızdaki tüm verileri&lt;/font> sildikten sonra şifrenizi sıfırlayabilirsiniz. Bundan önce tüm önemli verileri yedekleyin"</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"ı. &lt;font color=#e6e6e6>[Güç]&lt;/font> düğmesi ve &lt;font color=#e6e6e6>[Ses düğmesine+]&lt;/font> aynı anda basın ve &lt;img src=''> simgeyi görene kadar basılı tutun"</Data></string>
+    <string name="forget_password_dialog_content_two">Verileri silmek için şu adımları izleyin:</string>
+    <string name="forget_password_dialog_title">Şifrenizi sıfırlayın</string>
     <string name="forget_pattern"><u>Deseninizi unuttunuz mu?</u></string>
     <string name="forget_privacy_password_setting">Mi hesabı ekle</string>
     <string name="forget_privacy_password_summary">Şifrenizi sıfırlamak için Mi hesabınızı kullanın</string>
@@ -2035,7 +2042,7 @@ At veya başka bir hayvan görünmüyordu; erkekler, önlerinde ittikleri küç�
     <string name="free_wifi_manage_summary">%1$s ağını görüntülemek için dokunun</string>
     <string name="free_wifi_speed_title">Bağlantı yavaş mı?</string>
     <string name="free_wifi_summary">%1$s ağına bağlanmak için dokunun</string>
-    <string name="free_wifi_user_agreement">Bir ağa bağlanmak için WiWide kullandığınızda, telefon numaranız kimliğinizi doğrulamak için kullanılacaktır.</string>
+    <string name="free_wifi_user_agreement">Bir ağa bağlanmak için WiWide kullandığınızda, telefon numaranız kimliğinizi doğrulamak için kullanılacaktır</string>
     <string name="free_wifi_user_agreement_allow">İzin ver</string>
     <string name="free_wifi_user_agreement_title">Gizlilik uyarısı</string>
     <string name="free_wifi_wiwide_provider">WiWide</string>
@@ -2830,6 +2837,9 @@ Bu cihazda başka kullanıcılar da var
     <string name="miui_lab_features">Miui laboratuvar özellikleri</string>
     <string name="miui_lab_gallery_search_desc">Gelişmiş resim arama</string>
     <string name="miui_lab_gallery_search_title">Fotoğrafları galeride bul</string>
+    <string name="miui_lab_install_drive_mode_error">Yüklenemedi. Tekrar deneyin</string>
+    <string name="miui_lab_install_drive_mode_summary">Araba modu bir sistem uygulamasıdır. Kurulum internet bağlantısı gerektirmez</string>
+    <string name="miui_lab_install_drive_mode_title">Araba modunu yükle</string>
     <string name="miui_lab_settings">Miui laboratuvar</string>
     <string name="miui_lab_slogan">Öğren, araştır ve keşfet</string>
     <string name="miui_lab_super_resolution_desc">Görüntüleri daha canlı hale getirin</string>
@@ -2965,8 +2975,6 @@ Bu cihazda başka kullanıcılar da var
     <string name="navigation_guide_app_title">Uygulama işlevini çalıştır</string>
     <string name="navigation_guide_appswitch_summary">Ekranın kenarından sola veya sağa kaydırın ve bir süre basılı tutun</string>
     <string name="navigation_guide_appswitch_title">Önceki uygulamaya geç</string>
-    <string name="navigation_guide_back_anim_summary">Ekranın kenarında kayma animasyonu gösterir</string>
-    <string name="navigation_guide_back_anim_title">Geri git hareketini canlandırın</string>
     <string name="navigation_guide_back_summary">Ekrandan sağa veya sola doğru kaydırın</string>
     <string name="navigation_guide_back_title">Son sayfaya geri dön</string>
     <string name="navigation_guide_dialog_dont_show_again">Tekrar gösterme</string>
@@ -2978,7 +2986,7 @@ Bu cihazda başka kullanıcılar da var
     <string name="navigation_guide_home_title">Ana sayfaya dön</string>
     <string name="navigation_guide_recent_summary">Ekranın altından yukarı doğru kaydırın ve duraklayın</string>
     <string name="navigation_guide_recent_title">Son kullanılanları aç</string>
-    <string name="navigation_guide_settings">Dersler</string>
+    <string name="navigation_guide_settings">İpuçları</string>
     <string name="navigation_type_radio_text_full_screen">Tam ekran hareketleri</string>
     <string name="navigation_type_radio_text_virtual_key">Klasik ekran tuşları</string>
     <string name="navigation_type_settings">Ekran tuşları &amp; hareketleri</string>
@@ -3355,8 +3363,9 @@ Ayrıca bildirimleri kapatabilecek veya bildirimdeki işlem düğmelerini tetikl
     <string name="picture_in_picture_off">Hayır</string>
     <string name="picture_in_picture_on">Evet</string>
     <string name="picture_in_picture_title">Ekran içinde ekran</string>
-    <string name="pin_failed">Sim Pin işlemi başarısız oldu!</string>
+    <string name="pin_failed">Sim Pin işlemi başarısız oldu</string>
     <string name="ping_test_label">Ping testini çalıştır</string>
+    <string name="play_pause_description">Oynat veya duraklat düğmesi</string>
     <string name="please_select_phase2">Aşama 2 için kimlik doğrulaması</string>
     <string name="please_type_passphrase">Şifre</string>
     <string name="pointer_location">İşaretçi konumu</string>
@@ -4207,6 +4216,8 @@ Sabitlemeyi kullanmak için:
     <string name="security_encryption_progress_dialog_open">Şifreleniyor</string>
     <string name="security_encryption_rejected_via_home_manager">Bu özellik demo sürümde desteklenmiyor</string>
     <string name="security_encryption_title">Cihazı kilit ekranı şifresi kullanarak şifrele</string>
+    <string name="security_input">Güvenlik girişi</string>
+    <string name="security_input_hint">Güvenlik klavyesini kullanarak şifre girin</string>
     <string name="security_keyguard_category_name">Kilit ekranı</string>
     <string name="security_password_category_name">Ekran kilidi</string>
     <string name="security_passwords_title">Şifreler</string>
@@ -5790,7 +5801,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_saved_access_points_label">Kayıtlı ağlar</string>
     <string name="wifi_saved_access_points_titlebar">Kayıtlı ağlar</string>
     <string name="wifi_scan_always_available">Tarama her zaman açık</string>
-    <string name="wifi_scan_always_available_summary">Google konum servislerine ve diğer uygulamalarına, wifi kapalı olduğu durumlarda dahi ağ arama izni verin</string>
+    <string name="wifi_scan_always_available_summary">Google konum servislerine ve diğer uygulamalarına wifi kapalı olduğu durumlarda dahi ağ arama izni verin</string>
     <string name="wifi_scan_always_confirm_allow">İzin ver</string>
     <string name="wifi_scan_always_confirm_deny">Reddet</string>
     <string name="wifi_scan_always_turnoff_message">Bu özelliği kapatmak için taşma menüsünde Gelişmiş seçeneğine gidin</string>

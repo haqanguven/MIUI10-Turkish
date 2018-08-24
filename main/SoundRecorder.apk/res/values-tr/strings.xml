@@ -154,4 +154,5 @@
     <string name="head_set_tip_dialog_ok">Anladım</string>
     <string name="rename_fail_tip">Yeniden adlandırılamadı. Aynı isme sahip başka bir öge zaten mevcut</string>
     <string name="dialog_privacy_revoke_tips">Yetkilendirmeyi iptal ettikten sonra uygulama verileri toplamayı durdurur ve ilgili tüm veriler sunuculardan silinir. Bu uygulamayı neredeyse kullanılamaz hale getirebilir. Yetkilendirmeyi yine de iptal edip hesabınızın güvenliğini sağlamak için Mi bulut hizmetlerine ilişkin yetkilendirmeyi iptal etmeden önce i.mi.com adresinde oturum açın</string>
+    <string name="privacy_policy_title">Gizlilik politikası</string>
 </resources>

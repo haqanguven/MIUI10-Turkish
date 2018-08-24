@@ -695,6 +695,7 @@ ve parazitin en az seviyede olduğu bir kare oluşturacaktır"</string>
     <string name="beauty_fragment_tab_name_makeup">Gelişmiş</string>
     <string name="beauty_fragment_tab_name_3d_beauty">Güzellik</string>
     <string name="beauty_fragment_tab_name_3d_remodeling">Modelleme</string>
+    <string name="beauty_fragment_tab_name_3d_makeup">Makyaj</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_skin_smooth">Pürüzsüz</string>
     <string name="edit_eye_large">Büyük gözler</string>
@@ -708,6 +709,10 @@ ve parazitin en az seviyede olduğu bir kare oluşturacaktır"</string>
     <string name="edit_smile">Gülümseme</string>
     <string name="edit_slim_nose">Burun</string>
     <string name="popup_tip_3d_beauty_intro_text">3D güzellik</string>
+    <string name="edit_eyebrow_dye">Kaşlar</string>
+    <string name="edit_pupil_line">Göz altı</string>
+    <string name="edit_jelly_lips">Dudak</string>
+    <string name="edit_blusher">Allık</string>
     <string name="sticker_tab1">Şirin</string>
     <string name="sticker_tab2">Komik</string>
     <string name="user_agreement2">Hizmet şartları</string>

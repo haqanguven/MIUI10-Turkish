@@ -15,8 +15,8 @@
         <item quantity="one">%1$d kişiyi sil</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
-        <item quantity="other">%1$d kez çaldı</item>
-        <item quantity="one">%1$d kez çaldı</item>
+        <item quantity="other">"| %1$d kez çaldı"</item>
+        <item quantity="one">"| %1$d kez çaldı"</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kişi veya fotoğraf henüz senkronize edilmedi</item>
@@ -31,6 +31,10 @@
         <item quantity="one">%1$d kişi</item>
     </plurals>
     <plurals name="device_import_done_toast">
+        <item quantity="other">%1$d kişi içe aktarıldı</item>
+        <item quantity="one">%1$d kişi içe aktarıldı</item>
+    </plurals>
+    <plurals name="device_import_progress_toast_plurals">
         <item quantity="other">%1$d kişi içe aktarıldı</item>
         <item quantity="one">%1$d kişi içe aktarıldı</item>
     </plurals>

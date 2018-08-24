@@ -4,6 +4,14 @@
         <item>Özel</item>
         <item>Pil tasarrufu</item>
     </string-array>
+    <string-array name="hmode_app_classify1">
+        <item>Özel</item>
+        <item>Pil tasarrufu</item>
+    </string-array>
+    <string-array name="hmode_app_classify2">
+        <item>Aktif uygulamalar</item>
+        <item>Uyuyan uygulamalar</item>
+    </string-array>
     <string-array name="thermal_entries">
         <item>Varsayılan sıcaklık kontrol modu</item>
         <item>Performans modu</item>

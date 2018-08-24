@@ -129,6 +129,8 @@
     <string name="select_sim_hint">Sim %1$d kullanımdayken. Sim %2$d kullanılamıyor</string>
     <string name="select_one_sim_title">Yalnızca %1$d Sim kartı kullanılabiliyor</string>
     <string name="can_not_use">Kullanılamıyor</string>
+    <string name="sim1_description">Sim1</string>
+    <string name="sim2_description">Sim2</string>
     <string name="call_description_recording">Kayıt ediliyor</string>
     <string name="call_recording_error_privacy">Ziyaretçi modunda kayıt yapılamıyor</string>
     <string name="call_recording_error_sd_access">SD karta ulaşılamıyor</string>

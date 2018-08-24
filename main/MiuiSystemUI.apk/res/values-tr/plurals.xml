@@ -28,18 +28,6 @@
         <item quantity="other">Yanlış Puk kodu. %d deneme kaldı</item>
         <item quantity="one">Yanlış Puk kodu. %d deneme kaldı</item>
     </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">Tam doluma yaklaşık %d saat kaldı</item>
-        <item quantity="one">Tam doluma yaklaşık %d saat kaldı</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">Tam doluma yaklaşık %d dakika kaldı</item>
-        <item quantity="one">Tam doluma yaklaşık %d dakika kaldı</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">Tam doluma yaklaşık %1$d saat %2$d dakika kaldı</item>
-        <item quantity="one">Tam doluma yaklaşık %1$d saat %2$d dakika kaldı</item>
-    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Yaklaşık %d saat kaldı</item>
         <item quantity="one">Yaklaşık %d saat kaldı</item>

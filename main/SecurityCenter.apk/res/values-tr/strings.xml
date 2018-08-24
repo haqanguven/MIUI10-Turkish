@@ -1015,6 +1015,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="status_bar_network_flow_content">Bugün: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Kalan: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Bugün: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Bu ay: %2$s</string>
     <string name="status_bar_network_flow_today">Bugün: %1$s</string>
+    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Tek seferlik veri sınırı</string>
     <string name="pref_key_tethering_title">Tek seferlik veri sınırı</string>
     <string name="tether_limit_value_custom">Özel</string>
@@ -1483,6 +1484,7 @@ yavaşlatabilir"</string>
     <string name="path_gamebooster">Sistem uygulamaları/Güvenlik/Oyun hız artırıcı</string>
     <string name="preference_key_create_shortcut">key_create_shortcut</string>
     <string name="preference_key_about_version">key_about_version</string>
+    <string name="preference_key_about_privacy">key_about_privacy</string>
     <string name="preference_key_create_permanent_notification">key_create_permanent_notification</string>
     <string name="preference_key_module_garbage_cleanup">key_garbage_cleanup</string>
     <string name="preference_key_module_network_assistant">key_network_assistant</string>
@@ -1619,6 +1621,7 @@ yavaşlatabilir"</string>
     <string name="item_mms">İstenmeyen mesajları filtrele</string>
     <string name="item_dev_mode">Geliştirici seçenekleri</string>
     <string name="menu_item_about_title">Hakkında</string>
+    <string name="menu_item_about_privacy_title">Gizlilik politikası</string>
     <string name="menu_item_about_content">Sürüm: %s</string>
     <string name="menu_item_about_summary">Sürüm: %s</string>
     <string name="menu_item_shortcut_title">Kısayolları yönet</string>
@@ -2094,6 +2097,9 @@ yavaşlatabilir"</string>
     <string name="set_pattern_password_name">Desen ayarla</string>
     <string name="set_numeric_password_name">Pin ayarla</string>
     <string name="set_mixed_password_name">Şifre oluştur</string>
+    <string name="reset_data_title">Şifre geri yüklenemiyor</string>
+    <string name="reset_data_dialog_message">Bu cihaz Mi hesabınızla ilişkilendirilmemiş. Şifre geri yüklenemez veya sıfırlanamaz. Tüm önemsiz öğeleri yedekleyin ve sıfırlama işlemi yapın. Tüm veriler kalıcı olarak silinecek ve fabrika ayarlarına sıfırlama sırasında SD kartınız formatlanacaktır</string>
+    <string name="reset_data_dialog_ok">Fabrika ayarları</string>
     <string name="wakepath_confirm_start_activity">%1$s uygulamasının %2$s uygulamasını açmasına izin verilsin mi?</string>
     <string name="unlike">Hayır. Teşekkürler</string>
     <string name="toast_network_eror">Ağa bağlanılamıyor</string>

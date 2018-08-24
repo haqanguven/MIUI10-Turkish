@@ -283,6 +283,10 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="zero">0 uygulama bulundu</item>
         <item quantity="one">%d uygulama bulundu</item>
     </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Fabrika ayarları (%ds)</item>
+        <item quantity="one">Fabrika ayarları (%ds)</item>
+    </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d kilitli uygulama temizlenmeyi bekliyor</item>
         <item quantity="one">%d kilitli uygulama temizlenmeyi bekliyor</item>
