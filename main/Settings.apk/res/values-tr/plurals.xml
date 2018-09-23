@@ -220,6 +220,10 @@
         <item quantity="other">Bildirim çubuğunda %1$d anahtar görüntülenir</item>
         <item quantity="one">Bildirim çubuğunda %1$d anahtar görüntülenir</item>
     </plurals>
+    <plurals name="show_audio_logcat_countdown">
+        <item quantity="other">Ses kayıtlarını alabilmeniz için %1$d adım kaldı</item>
+        <item quantity="one">Ses kayıtlarını alabilmeniz için %1$d adım kaldı</item>
+    </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Donanım testlerinden %1$d adım uzaklıktasınız</item>
         <item quantity="one">Donanım testlerinden %1$d adım uzaklıktasınız</item>
@@ -227,6 +231,14 @@
     <plurals name="show_dev_countdown">
         <item quantity="other">Geliştirici olmanıza %1$d adım kaldı</item>
         <item quantity="one">Geliştirici olmanıza %1$d adım kaldı</item>
+    </plurals>
+    <plurals name="show_gps_logcat_countdown">
+        <item quantity="other">GPS kayıtlarını alabilmeniz için %1$d adım kaldı</item>
+        <item quantity="one">GPS kayıtlarını alabilmeniz için %1$d adım kaldı</item>
+    </plurals>
+    <plurals name="show_modem_logcat_countdown">
+        <item quantity="other">Modem kayıtlarını alabilmeniz için %1$d adım kaldı</item>
+        <item quantity="one">Modem kayıtlarını alabilmeniz için %1$d adım kaldı</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Telefon bilgisi girişinden yalnızca %1$d adım uzaklıktasınız</item>

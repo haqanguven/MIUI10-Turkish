@@ -5,6 +5,7 @@
     <string name="power_config_select_apps_title">Uygulamalar</string>
     <string name="power_config_event_delete">Sil</string>
     <string name="hide_mode_desc">Bir uygulama arka planda çalışmaya devam ettiğinde uygulama etkinlikleri pil kullanımını azaltmak amacıyla takip edilir</string>
+    <string name="privacy">Gizlilik politikası</string>
     <string name="power_hide_mode_title">Pil &amp; performans</string>
     <string name="power_config_apps">Pil tasarrufu</string>
     <string name="app_list_title">Uygulamaları seçin</string>
@@ -12,6 +13,7 @@
     <string name="about_hide_mode">Pil tasarrufu hakkında</string>
     <string name="show_system_app">Sistem uygulamalarını göster</string>
     <string name="hide_system_app">Sistem uygulamalarını gizle</string>
+    <string name="about_extreme_mode">Aşırı mod</string>
     <string name="scenario_policies_title">Akıllı senaryolar</string>
     <string name="config_scenario_policies_title">Senaryolar</string>
     <string name="scenario_policies_summary">Farklı senaryolar için farklı pil tasarruf stratejileri uygulanır</string>
@@ -89,4 +91,6 @@ Pil tasarrufu özelliği önemli uygulamaları özel olarak ele alır ve işlem 
     <string name="appconfig_active_app_dialog_title">Etkin uygulamaları yönet</string>
     <string name="config_classify">Uygulama ayarlarına göre sırala</string>
     <string name="active_classify">Etkinlik durumuna göre sırala</string>
+    <string name="extreme_mode_max_item_alert">Aşırı modunda arka planda çalışacak en fazla 4 uygulama seçebilirsiniz</string>
+    <string name="message_i_know">Anladım</string>
 </resources>

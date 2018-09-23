@@ -606,8 +606,8 @@
         <item>-1</item>
     </string-array>
     <array name="bytes_picker_sizes">
-        <item>@android:string/meid</item>
-        <item>@android:string/global_action_assist</item>
+        <item>@android:string/megabyteShort</item>
+        <item>@android:string/gigabyteShort</item>
     </array>
     <string-array name="captioning_color_selector_titles">
         <item>@string/color_unspecified</item>
@@ -1470,6 +1470,9 @@
         <item>11</item>
         <item>13</item>
     </string-array>
+    <string-array name="darkcode_device_list">
+        <item>clover</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>Son 30 gün</item>
         <item>Kullanım döngüsünü ayarla</item>
@@ -1542,6 +1545,9 @@
         <item>platina</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>sakura_india</item>
+        <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1564,6 +1570,8 @@
         <item>capricorn</item>
         <item>equuleus</item>
         <item>natrium</item>
+        <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -1576,6 +1584,8 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>perseus</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -1986,7 +1996,7 @@
         <item>Geçerli güvenilir kullanıcı grubundaki kullanıcı izinlerini onaylayın</item>
         <item>Tekrar oturum açın</item>
         <item>Takılan aygıta erişin: mtpfs /media/mtp aygıtına dosya yöneticisi ile yerel depolama gibi erişin</item>
-        <item>"Aygıtı kaldırın: fusermount -u/media/mtp
+        <item>"Aygıtı kaldırın: fusermount -u /media/mtp
 Not: Yalnızca Ubuntu 8.04 için geçerlidir"</item>
     </string-array>
     <string-array name="msd_pc_system_retry_mac">
@@ -2663,6 +2673,44 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir"</item>
         <item>region</item>
         <item>highlight</item>
     </string-array>
+    <string-array name="show_verification_device_list">
+        <item>land</item>
+        <item>markw</item>
+        <item>nikel</item>
+        <item>kenzo</item>
+        <item>kate</item>
+        <item>prada</item>
+        <item>helium</item>
+        <item>hydrogen</item>
+        <item>natrium</item>
+        <item>mido</item>
+        <item>capricorn</item>
+        <item>rolex</item>
+        <item>ugglite</item>
+        <item>santoni</item>
+        <item>ugg</item>
+        <item>oxygen</item>
+        <item>jason</item>
+        <item>rosy</item>
+        <item>riva</item>
+        <item>polaris</item>
+        <item>chiron</item>
+        <item>sagit</item>
+        <item>gemini</item>
+        <item>whyred</item>
+        <item>vince</item>
+        <item>lithium</item>
+        <item>scorpio</item>
+        <item>ysl</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>sakura_india</item>
+        <item>beryllium</item>
+        <item>nitrogen</item>
+        <item>dipper</item>
+        <item>tulip</item>
+        <item>equuleus</item>
+    </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
         <item>@string/total</item>
@@ -3073,7 +3121,7 @@ Not: Yalnızca Ubuntu 8.04 için geçerlidir"</item>
         <item>Kapsama alanı dışında</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Push tuşu</item>
+        <item>İtme tuşu</item>
         <item>Eş cihazın Pin kodu</item>
         <item>Bu cihazın Pin kodu</item>
     </string-array>

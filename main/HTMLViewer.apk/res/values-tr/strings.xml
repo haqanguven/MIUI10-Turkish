@@ -11,6 +11,7 @@
 %s adresine gidin"</string>
     <string name="permdesc_accessDrm">Uygulamanın DRM korumalı içeriğe erişmesine izin verin</string>
     <string name="open_wifi_connect_title">%1$s ağına bağlan</string>
+    <string name="open_wifi_connect_and_use_data_summary">Mobil verileri kullanılıyor. Wifi ağına geçmek için dokunun</string>
     <string name="open_wifi_connect_summary">Ayrıntıları görüntülemek için dokunun</string>
     <string name="settings_license_activity_title">Açık kaynak lisansları</string>
     <string name="settings_license_activity_loading">Yükleniyor</string>
@@ -24,4 +25,5 @@
     <string name="settings_ad_loading">Yükleniyor</string>
     <string name="settings_ad_loading_unavailable">Bilgi yüklenemedi</string>
     <string name="autoconnect">Otomatik bağlan</string>
+    <string name="poco_privacy_policy">POCO başlatıcı gizlilik politikası &amp; POCO başlatıcı kullanıcı sözleşmesi</string>
 </resources>

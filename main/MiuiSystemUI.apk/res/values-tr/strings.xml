@@ -308,6 +308,7 @@
     <string name="available_via_passpoint">%1$s üzerinden kullanılabilir</string>
     <string name="back">Geri</string>
     <string name="battery">Pil</string>
+    <string name="battery_can_use_time">Yaklaşık %s kaldı</string>
     <string name="battery_detail_charging_summary">Şarj sırasında pil tasarrufu yok</string>
     <string name="battery_detail_switch_summary">Performansı ve arka plan verilerini azaltır</string>
     <string name="battery_detail_switch_title">Pil tasarrufu</string>
@@ -426,7 +427,7 @@ Oynatma kalitesi"</string>
     <string name="camera_key_action_setting_title">Mi tuş</string>
     <string name="camera_key_action_shortcut_call">Ara</string>
     <string name="camera_key_action_shortcut_home">Ana ekrana dön</string>
-    <string name="camera_key_action_shortcut_screenshot">Ekran görüntüsü</string>
+    <string name="camera_key_action_shortcut_screenshot">Ekran resmi</string>
     <string name="camera_key_action_shortcut_search">Ara</string>
     <string name="camera_key_action_shortcut_title">Kısayol</string>
     <string name="camera_key_action_shortcut_wake">Cihazı kilitle veya uyandır</string>
@@ -548,10 +549,17 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="divider_menu_close">Kapat</string>
     <string name="divider_menu_select_apps">Seç</string>
     <string name="divider_menu_swap_task">Değiştir</string>
+    <string name="dlg_cancel">İptal et</string>
+    <string name="dlg_confirm">Aç</string>
     <string name="dlg_confirm_kill_storage_users_text">USB depolamayı açarsanız kullandığınız bazı uygulamalar çalışmayı durdurabilir veya USB depolama kapatılana kadar kullanılamayabilir</string>
     <string name="dlg_confirm_kill_storage_users_title">USB depolamayı aç</string>
     <string name="dlg_error_title">USB eylemi başarısız</string>
     <string name="dlg_ok">Tamam</string>
+    <string name="dlg_summary_close_app">Arka plan etkinliği ve bildirimleri kısıtla</string>
+    <string name="dlg_summary_close_theme">Animasyonlu temaları sınırla</string>
+    <string name="dlg_summary_close_wifi">Wifi, nluetooth ve taşınabilir bağlantı noktalarını kapat</string>
+    <string name="dlg_summary_nfc">"NFC'i kapat"</string>
+    <string name="dlg_summary_title">Aşırı pil tasarrufu bir uygulamadan çıktıktan ve ana ekrana geri döndükten sonra tüm arka plan etkinliklerini durdurur. Bir uygulamanın arka planda yayınlanmasını istiyorsanız bunu arka plan istisnalarına ekleyin</string>
     <string name="dnd_is_off">Uyku modu kapalı</string>
     <string name="do_disclosure_generic">Bu cihaz kuruluşunuz tarafından yönetilir</string>
     <string name="do_disclosure_with_name">Bu cihaz %s tarafından yönetiliyor</string>
@@ -576,6 +584,7 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="enable_bluetooth_message">"Klavyeyi tabletinize bağlamak için önce bluetooth'u açın"</string>
     <string name="enable_bluetooth_title">Bluetooth açılsın mı?</string>
     <string name="enable_demo_mode">Demo modunu etkinleştir</string>
+    <string name="enable_extreme_power_save_mode">Aşırı pil tasarrufu</string>
     <string name="enable_freeform_support">Serbest biçimli pencereleri etkinleştir</string>
     <string name="enable_freeform_support_summary">Deneysel serbest biçimli pencere desteğini etkinleştir</string>
     <string name="enable_opengl_traces_title">OpenGL izlerini etkinleştir</string>
@@ -657,6 +666,7 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="face_unlock_rise">Kafanızı eğin</string>
     <string name="face_unlock_rotated_left">Kafanızı sağa çevirin</string>
     <string name="face_unlock_rotated_right">Kafanızı sola çevirin</string>
+    <string name="face_unlock_sc_status">Kamerayı açmak için ekranı aşağı doğru itin</string>
     <string name="face_unlock_stay_away_screen">Ekrandan 25 - 40 santim aralığında uzak durun</string>
     <string name="failed_to_open_app_settings_toast">%1$s ayarları açılamadı</string>
     <string name="fingerprint_add_text">Parmak izi arayüzü güncellendi. Parmak izinizi tekrar ekleyin</string>
@@ -833,6 +843,7 @@ Yalnızca desteklenen şarj cihazlarını kullanın"</string>
     <string name="keyguard_accessibility_sim_puk_area">Sim Puk alanı</string>
     <string name="keyguard_carrier_default">Servis yok</string>
     <string name="keyguard_charged">Şarj oldu</string>
+    <string name="keyguard_charging_back_to_lockscreen">Kilit ekranına geri dön</string>
     <string name="keyguard_charging_info_battery_used_time_text">Pilde kalma süresi:</string>
     <string name="keyguard_charging_info_click_to_detail">Ayrıntıları görüntüle</string>
     <string name="keyguard_charging_info_data_c">%s℃</string>
@@ -859,6 +870,7 @@ Yalnızca desteklenen şarj cihazlarını kullanın"</string>
     <string name="keyguard_left_mi_wallet">Mi cüzdan</string>
     <string name="keyguard_left_remotecentral">Mi kumanda</string>
     <string name="keyguard_left_smarthome">Mi ev</string>
+    <string name="keyguard_left_torch">El feneri</string>
     <string name="keyguard_left_view_lock_wallpaper">Duvar kağıtları</string>
     <string name="keyguard_low_battery">Şarj cihazını bağla</string>
     <string name="keyguard_missing_sim_instructions">Sim kartı takın</string>
@@ -986,8 +998,8 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="long_screenshot_out_of_memory_error">Resim boyutu çok büyük</string>
     <string name="long_screenshot_processing">İşleniyor</string>
     <string name="long_screenshot_stop">Tamamlandı</string>
-    <string name="long_screenshot_top_msg">Ekran görüntüsü oluşturuluyor</string>
-    <string name="long_screenshot_top_msg_manual">Ekran görüntüsünü kesin ve bitirmek için tuşa dokunun</string>
+    <string name="long_screenshot_top_msg">Ekran resmi oluşturuluyor</string>
+    <string name="long_screenshot_top_msg_manual">Ekran resmini kesin ve bitirmek için tuşa dokunun</string>
     <string name="low_temperature_button_ok">Anladım</string>
     <string name="low_temperature_warning_message">Sıcaklık çok düşük. Telefon herhangi bir zamanda kapanabilir. Lütfen verilerinizi kaydedin</string>
     <string name="low_temperature_warning_title">Kapatma uyarısı</string>
@@ -1018,6 +1030,7 @@ Başka bir Sim kart için kablosuz servis sağlayıcınıza başvurun"</string>
     <string name="miui_ringer_standard_description">Gelen aramalar ve bildirimler için sessiz telefon zil sesi</string>
     <string name="miui_ringer_total">Uyku</string>
     <string name="miui_ringer_total_description">Alarm saati dışındaki tüm öğeler için titreşim kapatılır</string>
+    <string name="miui_screen_rotation_freeze_message">Otomatik döndürme devre dışı</string>
     <string name="miui_toast_zen_dnd_to_off">Sesler ve titreşim normale döndü</string>
     <string name="miui_toast_zen_standard_to_off">Zil sesleri normale döndü</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Zil seslerinin yanı sıra bildirim ve medya sesleri de çalınacak</string>
@@ -1171,6 +1184,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="oldman_airplane_mode_text">Uçak</string>
     <string name="oldman_incall_text">Gelen arama</string>
     <string name="open_camera_hint_text">Kamerayı açmak için sola kaydırın</string>
+    <string name="open_extreme_power_save_mode_title">Aşırı pil tasarrufunu aç</string>
     <string name="open_remote_center_hint_text">Kısayolları açmak için sağa kaydırın</string>
     <string name="other">Diğer</string>
     <string name="overlay_display_devices_title">İkincil ekranları simüle et</string>
@@ -1317,7 +1331,8 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_done">Tamamlandı</string>
     <string name="quick_settings_drivemode_label">Araç modu</string>
     <string name="quick_settings_dual_location_label">Konum</string>
-    <string name="quick_settings_edit_label">Düzenle</string>
+    <string name="quick_settings_edit_label">Daha fazla</string>
+    <string name="quick_settings_extreme_batterysaver_label">Aşırı pil tasarrufu</string>
     <string name="quick_settings_flashlight_label">El feneri</string>
     <string name="quick_settings_gps_label">Konum</string>
     <string name="quick_settings_hotspot_label">Bağlantı noktası</string>
@@ -1351,7 +1366,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screenbutton_label">Düğmeler</string>
     <string name="quick_settings_screenlock_label">Ekranı kilitle</string>
-    <string name="quick_settings_screenshot_label">Ekran görüntüsü</string>
+    <string name="quick_settings_screenshot_label">Ekran resmi</string>
     <string name="quick_settings_secondary_label_until">"%s'ye kadar"</string>
     <string name="quick_settings_settings_label">Ayarlar</string>
     <string name="quick_settings_sync_label">Senkronize</string>
@@ -1359,7 +1374,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_tiles">default</string>
     <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit</string>
     <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver</string>
+    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver</string>
     <string name="quick_settings_time_label">Zaman</string>
     <string name="quick_settings_user_label">Ben</string>
     <string name="quick_settings_user_new_user">Yeni kullanıcı</string>
@@ -1441,23 +1456,23 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="screen_zoom_summary_small">Küçük</string>
     <string name="screen_zoom_summary_very_large">Daha büyük</string>
     <string name="screenshot_delete">Sil</string>
-    <string name="screenshot_delete_dlg_msg">Bu ekran görüntüsünü silmek istediğinizden emin misiniz?</string>
+    <string name="screenshot_delete_dlg_msg">Bu ekran resmini silmek istediğinizden emin misiniz?</string>
     <string name="screenshot_delete_dlg_title">Sil</string>
     <string name="screenshot_dlg_cancel">İptal et</string>
     <string name="screenshot_dlg_delete_button">Sil</string>
     <string name="screenshot_edit">Düzenle</string>
-    <string name="screenshot_failed_title">Ekran görüntüsü yakalanamadı</string>
+    <string name="screenshot_failed_title">Ekran resmi yakalanamadı</string>
     <string name="screenshot_failed_to_capture_text">Uygulama veya kuruluşunuz tarafından ekran görüntülerine izin verilmiyor</string>
     <string name="screenshot_failed_to_save_text">Sınırlı depolama alanı nedeniyle ekran görüntüsü kaydedilemiyor</string>
-    <string name="screenshot_failed_to_save_unknown_text">Ekran görüntüsü kaydedilirken bir hata oluştu</string>
+    <string name="screenshot_failed_to_save_unknown_text">Ekran resmi kaydedilirken bir hata oluştu</string>
     <string name="screenshot_feedback_txt">Geri bildirim</string>
-    <string name="screenshot_insert_failed">Ekran görüntüsü yüklenemedi. Yeni bir ekran görüntüsü alın veya galeride resmi görüntüleyin</string>
+    <string name="screenshot_insert_failed">Ekran resmi yüklenemedi. Yeni bir ekran görüntüsü alın veya galeride resmi görüntüleyin</string>
     <string name="screenshot_long_screenshot">Kaydır</string>
-    <string name="screenshot_saved_text">Ekran görüntüsünü görmek için hafifçe dokunun</string>
-    <string name="screenshot_saved_title">Ekran görüntüsü yakalandı</string>
-    <string name="screenshot_saving_text">Ekran görüntüsü kaydedildi</string>
-    <string name="screenshot_saving_ticker">Ekran görüntüsünü kaydediliyor</string>
-    <string name="screenshot_saving_title">Ekran görüntüsünü kaydediliyor</string>
+    <string name="screenshot_saved_text">Ekran resmini görmek için hafifçe dokunun</string>
+    <string name="screenshot_saved_title">Ekran resmi yakalandı</string>
+    <string name="screenshot_saving_text">Ekran resmi kaydedildi</string>
+    <string name="screenshot_saving_ticker">Ekran resmi kaydediliyor</string>
+    <string name="screenshot_saving_title">Ekran resmi kaydediliyor</string>
     <string name="screenshot_send">Gönder</string>
     <string name="search_hint">İnternet siteleri, uygulamalar, kişiler ve videolar arayın</string>
     <string name="search_menu_title">Ara</string>
@@ -1515,6 +1530,8 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="status_bar_clear_all_button">Temizle</string>
     <string name="status_bar_clock_date_format">dd MMMM yyyy EEEE</string>
     <string name="status_bar_clock_date_format_12">dd MMMM yyyy EEEE</string>
+    <string name="status_bar_clock_date_time_format">H:mm d MMMM</string>
+    <string name="status_bar_clock_date_time_format_12">h:mmaa d MMMM</string>
     <string name="status_bar_date_format">"dd MMMM yyyy
 EEEE"</string>
     <string name="status_bar_date_format_12">"dd MMMM yyyy
@@ -1628,6 +1645,7 @@ Kilitlemek için aşağı doğru kaydırın"</string>
     <string name="structure_face_unlock_really_person">Yüzünüzü bir nesneyle değiştirmiş gibisin</string>
     <string name="switch_bar_off">Kapalı</string>
     <string name="switch_bar_on">Açık</string>
+    <string name="switch_system_user">İlk alanı aç</string>
     <string name="symbol_colon">:</string>
     <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
     <string name="system_ui_tuner">Sistem arayüzü aracı</string>
@@ -1733,7 +1751,6 @@ Telefonunuz çok ısınabilir:
     <string name="usb_debugging_title">USB hata ayıklama moduna izin verilsin mi?</string>
     <string name="usb_device_confirm_prompt">Bu USB cihazı bağlandığında %1$s açılsın mı?</string>
     <string name="usb_device_permission_prompt">%1$s uygulamasına USB cihazına erişim izni verilsin mi?</string>
-    <string name="usb_function_charging_text">Şarj modunda bağlandı</string>
     <string name="usb_mode_dont_ask">Bu seçimi hatırla</string>
     <string name="usb_mode_mount_storage_title">USB depolama açılsın mı?</string>
     <string name="usb_mode_notification">USB depolama</string>

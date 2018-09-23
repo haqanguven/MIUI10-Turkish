@@ -159,6 +159,8 @@
     <string name="preference_follow_web_title">Resmi internet sitesi</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
+    <string name="preference_other">Diğer</string>
+    <string name="preference_privacy_title">Gizlilik politikası</string>
     <string name="preference_settings">Ayarlar</string>
     <string name="preference_use_degress_summary">Trigonometrik fonksiyonlarda radyanları açılarla temsil et</string>
     <string name="preference_use_degress_title">Açıları kullan</string>
@@ -256,6 +258,7 @@
     <string name="unit_data_display_currency_bhd">Bahreyn dinarı</string>
     <string name="unit_data_display_currency_bnd">Brunei doları</string>
     <string name="unit_data_display_currency_brl">Brezilya reali</string>
+    <string name="unit_data_display_currency_byn">Belarus rublesi</string>
     <string name="unit_data_display_currency_cad">Kanada doları</string>
     <string name="unit_data_display_currency_chf">İsviçre frangı</string>
     <string name="unit_data_display_currency_clp">Şili pezosu</string>
@@ -551,7 +554,8 @@
     <string name="global_search_key_word_figure">Financial characters</string>
     <string name="golbal_search_calculator_setting">Calculator;Calculator settings;Settings</string>
     <string name="golbal_search_path_calculator_setting">System apps/Calculator/Settings</string>
-    <string name="unit_data_display_currency_byn">Belarusian ruble</string>
+    <string name="tax_thershold_native_new">%s (Yeni)</string>
+    <string name="unit_data_display_currency_byn">Belarus rublesi</string>
     <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">İndirme yöneticisine bağlanma başarısız oldu. Lütfen indirme yöneticinizi kontrol edin</string>
     <string name="xiaomi_external_storage_unavailable">Depolama kullanılamıyor. Lütfen SD kartı kontrol edin</string>

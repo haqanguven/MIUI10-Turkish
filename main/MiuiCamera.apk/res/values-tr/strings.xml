@@ -50,6 +50,10 @@
     <string name="pref_video_quality_entry_wvga">WVGA</string>
     <string name="pref_video_quality_entry_vga">VGA</string>
     <string name="pref_video_quality_entry_wqvga">WQVGA</string>
+    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
+    <string name="pref_new_slow_motion_video_quality_240_720only">Sadece 720p videoları 240fps ile kaydedebilirsiniz</string>
+    <string name="camera_new_slow_motion_quality_default">6</string>
     <string name="pref_video_encoder_title">Video kodlayıcı</string>
     <string name="pref_video_encoder_entry_h264">Yüksek uyumluluk: H.264</string>
     <string name="pref_video_encoder_entry_h265">Yüksek performans: H.265</string>
@@ -291,6 +295,7 @@
     <string name="tap_to_exposure">Pozlamayı elle ayarlamak için dokunun</string>
     <string name="accessibility_shutter_button">Deklanşör düğmesi</string>
     <string name="accessibility_intent_done_apply">Bitti</string>
+    <string name="accessibility_intent_done_retry">Geri al</string>
     <string name="accessibility_audio_shutter_bg">Sesli çekim arka planı</string>
     <string name="accessibility_review_thumbnail">En son fotoğraf</string>
     <string name="accessibility_camera_picker">Ön ve arka kamera geçişi</string>
@@ -605,6 +610,8 @@
     <string name="portrait_mode_use_hint">"Porte modu arka planı bulanıklaştırır
 ve öndeki kişileri ortaya çıkartır"</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
+    <string name="portrait_mode_use_hint_for_bokeh">"Portre modunu dene
+Arka planı bulanıklaştırırken konuyu net tutun"</string>
     <string name="pref_camera_square_mode_title">Square</string>
     <string name="simple_mode_button_text_square">Kare modunu kapat</string>
     <string name="face_beauty_smart">Akıllı</string>
@@ -674,6 +681,7 @@ ve parazitin en az seviyede olduğu bir kare oluşturacaktır"</string>
     <string name="hint_ae_af_lock">Otomatik odaklama ve otomatik pozlama kilitlendi</string>
     <string name="hint_device_water_mark">Cihaz etiketi otomatik olarak eklenecektir</string>
     <string name="module_name_fun">Kısa video</string>
+    <string name="module_name_new_slow_motion">Ağır çekim</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_capture">Fotoğraf</string>
     <string name="module_name_beauty">Güzellik</string>
@@ -740,7 +748,7 @@ telefonunuzu döndürün"</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI kamera kapalı</string>
     <string name="text_ai_scene_selector_text_on">Siluet</string>
     <string name="text_ai_scene_selector_text_off">Ters ışık</string>
-    <string name="ai_scene_mode_use_hint_text">"AI kamera otomatik olarak sahneleri algılar
+    <string name="ai_scene_mode_use_hint_text">"AI kamera otomatik olarak sahneleri algılar\u000d
 ve bu bilgilere dayanarak fotoğraflarınızı optimize eder"</string>
     <string name="pref_camera_asd_popup_title">Flaş gerektiğinde bildir</string>
     <string name="pref_video_captrue_ability_title">Kayıt sırasında görüntü yakalama</string>
@@ -752,7 +760,7 @@ ve bu bilgilere dayanarak fotoğraflarınızı optimize eder"</string>
     <string name="lens_dirty_detected_content">"Fotoğraf makinenizin merceği kirli görünüyor
 Daha iyi efekt için lensi temizleyin"</string>
     <string name="lighting_hint_title">Stüdyo aydınlatma</string>
-    <string name="lighting_hint_usage">"Portre modunda stüdyo aydınlatma
+    <string name="lighting_hint_usage">"Portre modunda stüdyo aydınlatma\u000d
 efektlerini kullanabilirsiniz"</string>
     <string name="lighting_hint_needed">Nesnenizi spot ışığa yerleştirin</string>
     <string name="lighting_hint_too_far">Kamerayı daha yakına getir</string>
@@ -764,4 +772,6 @@ efektlerini kullanabilirsiniz"</string>
     <string name="lighting_pattern_leaf">Yapraklar</string>
     <string name="lighting_pattern_dot">Noktalar</string>
     <string name="lighting_pattern_shutter">Panjur</string>
+    <string name="view_privacy_policy">Gizlilik politikasını görüntüle</string>
+    <string name="fps960_toast">Zamanlayıcı beyaz noktaya ulaştığında yavaş çekim yakalama başlayacaktır</string>
 </resources>

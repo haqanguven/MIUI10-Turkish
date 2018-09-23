@@ -45,6 +45,10 @@
         <item>Sesli notlar</item>
         <item>Sesinizin orijinal kayıtlarını ekledikten sonra dahili konuşmadan metne aktarım motorunu kullanarak notlar oluşturun</item>
     </string-array>
+    <string-array name="second_guide_contents_pad_or_inter">
+        <item>Sesli notlar</item>
+        <item>Şimdi sesli notlar oluşturabilirsiniz. Simgeye dokunun, sesinizi kaydedin ve ses dosyasını notun içine kaydedin</item>
+    </string-array>
     <string-array name="contact_values">
         <item>vnd.android.cursor.item/name</item>
         <item>vnd.android.cursor.item/nickname</item>

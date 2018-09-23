@@ -36,6 +36,7 @@
     <string name="no_file">Dosya yok</string>
     <string name="alert_message_delete_record_title">Kayıt silinsin mi?</string>
     <string name="alert_message_delete_record">Kaydı cihazınızdan silmeniz aynı zamanda kaydın Mi buluttan da silinmesine neden olacaktır. Şimdi silinsin mi?</string>
+    <string name="alert_message_delete_local_record">Kayıt silinsin mi?</string>
     <string name="share">Paylaş</string>
     <string name="rename">Yeniden adlandır</string>
     <string name="delete">Sil</string>

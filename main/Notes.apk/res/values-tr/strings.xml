@@ -3,7 +3,7 @@
     <string name="action_folder_description">Klasörleri görüntüle</string>
     <string name="action_mode_switcher_grid_description">Izgara görünümü</string>
     <string name="action_mode_switcher_list_description">Liste görünümü</string>
-    <string name="action_settings_description">Ayarları aç</string>
+    <string name="action_settings_description">Ayarlar</string>
     <string name="actionbar_close_description">Kapat</string>
     <string name="actionbar_home_description">Geri</string>
     <string name="add_account_desc">Notlarınızı Mi hesabınız ile senkronize etmek istiyor musunuz?</string>
@@ -201,8 +201,9 @@
     <string name="toast_cancel_to_insert_image">Fotoğraf eklenemedi</string>
     <string name="toast_message_add_image_fail">Fotoğraf eklenemedi</string>
     <string name="toast_notes_delete_success">Başarıyla silindi</string>
-    <string name="toast_notes_hidden">Başarıyla gizlendi</string>
     <string name="toast_notes_hidden_count">%1$s başarıyla gizlendi</string>
+    <string name="toast_notes_hidden_edit">Bu not başarıyla gizlendi. Gizli notları görmek için aşağı doğru çekin</string>
+    <string name="toast_notes_hidden_home">Bu not başarıyla gizlendi. Gizli notları görmek için aşağı doğru çekin</string>
     <string name="toast_notes_unhidden">Gizleme başarıyla kaldırıldı</string>
     <string name="toast_notes_unhidden_count">%1$s gizlemesi başarıyla kaldırıldı</string>
     <string name="toast_reach_text_limit_attachment">Not içeriği çok uzun olduğundan yeni eklentiler eklenemiyor</string>

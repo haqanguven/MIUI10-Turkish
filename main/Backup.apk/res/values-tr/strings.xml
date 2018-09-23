@@ -470,6 +470,13 @@ QR kodunu eski telefonunuzla tarayın"</string>
     <string name="trans_success_dialog_market_comment_title">"Yeni cihazınız şimdi ev gibi hissediyor
 Mi taşıyıcıyı sevdin mi?"</string>
     <string name="trans_success_dialog_button_market_favourable_comment">Değerlendir</string>
+    <string name="trans_success_dialog_market_comment_and_survey_title">Taşımaya hazırsın. Mi taşıyıcı hakkında ne düşündüğünü anlat</string>
+    <string name="trans_success_dialog_button_market_comment">Yorum</string>
+    <string name="trans_success_dialog_button_survey">Anket</string>
+    <string name="trans_success_dialog_survey_title">Geri bildirim için teşekkürler</string>
+    <string name="trans_success_survey_hint">İlk önce tüm alanları doldurun</string>
+    <string name="trans_cancel_dialog_survey_title">Aktarımı neden engellediniz?</string>
+    <string name="trans_dialog_survey_finish">Gönder</string>
     <string name="trans_failed_details_page_title">Başarısız transferler</string>
     <string name="close_twice_auth_tutor">Apple kimliği iki faktörlü kimlik doğrulamayı kapat</string>
     <string name="close_twice_auth_steps">Apple kimliği iki faktörlü kimlik doğrulamayı kapatmak için bu adımları izleyin:</string>

@@ -113,6 +113,7 @@
     <string name="description_image_button_dialpad">Tuş takımı</string>
     <string name="description_image_button_tools">Seçenekler</string>
     <string name="description_target_answer">Cevapla</string>
+    <string name="description_message_list_title">Hızlı cevapların listesi</string>
     <string name="ok">Tamam</string>
     <string name="cancel">İptal et</string>
     <string name="wait_prompt_str">"İlgili tonlar gönderilsin mi?

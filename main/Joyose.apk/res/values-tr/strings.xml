@@ -19,4 +19,5 @@
     <string name="lab_switch_server">Sunucu değiştir</string>
     <string name="foreground_title">Ön büro hizmeti</string>
     <string name="foreground_text">Önceliği artırmak için ön büro servisini kullanın</string>
+    <string name="switch_international">Yurtdışı sunucusuna geç</string>
 </resources>

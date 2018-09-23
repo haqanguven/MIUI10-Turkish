@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="time_in_justnow">Şu anda</string>
-    <string name="permission_granted">%1$s izin verildi</string>
     <string name="michat_app_name">Çevrimiçi destek</string>
     <string name="michat_feedback_title_name">Geri bildirim anketi</string>
     <string name="michat_attach_smiley">İfade</string>
@@ -329,7 +327,6 @@
     <string name="toast_pic_not_exists">Önbelleğe alınan imaj dosyası silinmiş</string>
     <string name="toast_screenshot_too_large">10 MB boyutundan büyük dosyalar yüklenemiyor</string>
     <string name="toast_log_too_large">Yüklenemiyor. Dosya çok büyük</string>
-    <string name="title_bbs_feedback_main">Mi telefonları hakkında daha fazla bilgi edinin</string>
     <string name="title_customer_service">Müşteri hizmetleri</string>
     <string name="customer_service_apply">Müşteri hizmetleri talep edin</string>
     <string name="customer_service_complain">Müşteri hizmetlerini bildirin</string>

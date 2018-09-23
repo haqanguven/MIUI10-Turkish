@@ -4,6 +4,11 @@
     <string name="activity_not_found">Bu işlemi yapabilecek uygulama bulunamadı</string>
     <string name="back_to_message_list">Mesaj listesine dön</string>
     <string name="button_close">Kapat</string>
+    <string name="cm_privacy_dialog_allow">İzin ver</string>
+    <string name="cm_privacy_dialog_cancel">İptal et</string>
+    <string name="cm_privacy_dialog_spannable_tips">mobil operatör gizlilik protokolü</string>
+    <string name="cm_privacy_dialog_tips">Akıllı mesaj hizmeti operatör tarafından özelleştirilmiştir. %1s okuyup, hizmeti açmayı kabul ederseniz, hizmeti kullanım sırasında bağlamanız ve bulmanız gerekir. Kabul ediyor musun?</string>
+    <string name="cm_privacy_dialog_title">Dikkat</string>
     <string name="confirm_delete_conversation">Tüm konu silinsin mi?</string>
     <string name="confirm_delete_group_message">Grup mesajları silinsin mi?</string>
     <string name="confirm_delete_locked_message">Bu kilitli mesaj silinsin mi?</string>
@@ -32,7 +37,11 @@
     <string name="message_details_title">Mesaj detayları</string>
     <string name="message_type_label">"Tür: "</string>
     <string name="messaging">Mesajlaşma</string>
+    <string name="more">Daha fazla</string>
+    <string name="mx_message">Mi mesaj</string>
+    <string name="net_sms_unsubscribe">Abonelik başarıyla kaldırıldı</string>
     <string name="packages_select_sim_cards_title">Sim kart seç</string>
+    <string name="rcs_message">Çin mobil mesajlaşma</string>
     <string name="received_label">"Alınan: "</string>
     <string name="repayment_network_error">Ağınızda bir sorun oluştu</string>
     <string name="repayment_title">Ödeme</string>
@@ -40,7 +49,9 @@
     <string name="sent_label">"Gönderilen: "</string>
     <string name="smart_messages_network_allow_message">Mi mesaj hizmetlerinin normal çalışması için internete bağlanması gerekmektedir. Şimdi izin verilsin mi?</string>
     <string name="smart_messages_network_allow_title">İnternet bağlantısı gerekiyor</string>
+    <string name="summary_pref_cm_smart_sms">Kart şablonları, mesaj servis numaraları vb.</string>
     <string name="text_message">Metin mesajı</string>
+    <string name="title_pref_cm_smart_sms">Çin mobil akıllı mesaj</string>
     <string name="view_message_details">Detayları görüntüle</string>
     <string name="sim1">Sim 1</string>
     <string name="sim2">Sim 2</string>

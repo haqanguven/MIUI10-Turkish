@@ -22,6 +22,7 @@
     <string name="cd_back">Geri</string>
     <string name="cd_percent">Yüzde</string>
     <string name="desc_image">İmaj</string>
+    <string name="cd_scanning">taranıyor</string>
     <string name="menu_clear">Temizle</string>
     <string name="menu_view">Klasörde görüntüle</string>
     <string name="menu_install">Bu uygulamayı yükle</string>
@@ -282,10 +283,10 @@
     <string name="privacy_cache_desc">Hesap, şifre, geçmiş, ayarlar ve daha fazlası</string>
     <string name="privacy_cache_scaning">Kontrol ediliyor</string>
     <string name="privacy_cache_empty">Özel veri yok</string>
-    <string name="activity_title_privacy_cache">Gizlilik Önbelleği</string>
+    <string name="activity_title_privacy_cache">Gizlilik ön belleği</string>
     <string name="privacy_clipboard_type">Pano</string>
     <string name="privacy_clipboard_desc">Pano içerikleri</string>
-    <string name="privacy_search_type">Google Arama</string>
+    <string name="privacy_search_type">Google arama</string>
     <string name="privacy_search_desc">Arama geçmişi</string>
     <string name="privacy_app_desc">Hesap ve şifre</string>
     <string name="privacy_app_desc_message">Hesap, şifre ve mesajlar</string>
@@ -609,6 +610,8 @@
     <string name="memory_clean_icon_text">Hafızayı temizle</string>
     <string name="pref_title_create_onekeyclean_shortcut">Ana ekran kısayolu</string>
     <string name="memory_clean_no_trash_tip">Her şey iyi gözüküyor</string>
+    <string name="toast_updater_open_4g_text">Uygulamalar mobil veriler kullanılarak güncellenecektir (4G)</string>
+    <string name="toast_updater_close_4g_text">Uygulamalar mobil veriler kullanılarak güncellenmez (4G)</string>
     <string name="RF_DalvikCacheLeftovers">Yazılım sistemi kalır (Dalvik-Önbellek)</string>
     <string name="apk_title_alipay_plugin">Alipay eklentisi</string>
     <string name="junk_syscache_alert_desc">"Bu önbelleği temizlemenizi önermiyoruz.&lt;font color=#d64438>Temizlendikten sonra APP'nin normal çalışmasını etkileyecektir&lt;/font>"</string>

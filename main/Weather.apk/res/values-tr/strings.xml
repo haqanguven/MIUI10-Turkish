@@ -38,7 +38,9 @@
     <string name="aqi_quality_ambient_air_quality">Yakınlardaki hava kalitesi</string>
     <string name="aqi_quality_co_desc">Karbonmonoksit</string>
     <string name="aqi_quality_detail_15_days">15 günlük tahmin</string>
+    <string name="aqi_quality_detail_24_hours">24 saatlik tahmin</string>
     <string name="aqi_quality_detail_48_hours">48 saatlik tahmin</string>
+    <string name="aqi_quality_detail_5_days">5 günlük tahmin</string>
     <string name="aqi_quality_major_pollutants">Tehlikeli kirleticiler</string>
     <string name="aqi_quality_map_title">Hava kalite haritası</string>
     <string name="aqi_quality_no2_desc">Nitrojen dioksit</string>
@@ -164,6 +166,7 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="privacy_grant_failed">Yetki verilemedi. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
     <string name="privacy_grant_or_revoke_settings">Yetki verme &amp; alma</string>
     <string name="privacy_grant_success">Yetki başarıyla verildi</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
     <string name="privacy_revoke_failed">Yetki geri alınamadı. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
     <string name="privacy_revoke_success">Yetki başarıyla geri alındı</string>
     <string name="privacy_settings">Gizlilik politikası</string>
@@ -227,6 +230,7 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="update_setting_title_text">Hava durumu bilgilerini güncelle</string>
     <string name="updated_a_moment_ago">Bir dakika önce güncellendi</string>
     <string name="updating">Güncelleniyor</string>
+    <string name="user_agreement">Kullanım şartları</string>
     <string name="video_dialog_no_play" />
     <string name="video_dialog_play" />
     <string name="video_dialog_subtitle" />
@@ -247,8 +251,6 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="information_settings_title">Hava durumu bilgisi</string>
     <string name="other_settings">Diğer ayarlar</string>
     <string name="receive_net_mock_success">Başarılı oldu</string>
-    <string name="aqi_quality_detail_24_hours">24 saatlik hava tahmini</string>
-    <string name="aqi_quality_detail_5_days">5 günlük hava tahmini</string>
     <string name="missing_required_permission">Gerekli izni devre dışı bıraktınız</string>
     <string name="aqi_detail_co">CO</string>
     <string name="aqi_detail_no2">NO₂</string>
@@ -265,9 +267,7 @@ Konumu el ile değiştirmek veya şehir seçmek için dokunun"</string>
     <string name="hour_minute_time_format">HH:mm</string>
     <string name="indices_desc_humidity_without_pic">%%%1$s</string>
     <string name="indices_desc_pressure">%1$smb</string>
-    <string name="privacy_policy">Gizlilik politikası</string>
     <string name="temperature_unit_default">0</string>
     <string name="twc_logo_title" />
-    <string name="user_agreement">Kullanım şartları</string>
     <string name="wind_power_unit_default">0</string>
 </resources>

@@ -62,6 +62,7 @@
     <string name="edit_alarm">Alarmı düzenle</string>
     <string name="edit_systemtime">Sistem saatini değiştir</string>
     <string name="every_day">Her gün</string>
+    <string name="expired_timers_dismissed">Zamanlayıcı başarıyla reddedildi</string>
     <string name="force_touch_add_alarm">Alarm ekle</string>
     <string name="force_touch_enter_stopwatch">Kronometre</string>
     <string name="force_touch_enter_timer">Zamanlayıcı</string>
@@ -72,6 +73,7 @@
     <string name="install_weather_app_error">Uygulama yüklenemedi</string>
     <string name="install_weather_app_loading">Yükleniyor</string>
     <string name="invalid_time">Geçersiz zaman: %3$s %1$d: %2$d</string>
+    <string name="invalid_timer_length">Zamanlayıcı süresi geçersiz</string>
     <string name="keep_screen_on">Ekranı açık tut</string>
     <string name="label">Etiket belirle</string>
     <string name="label_pref_summary">Etiket</string>
@@ -129,8 +131,10 @@
     <string name="never">Bir kez</string>
     <string name="oneshot_alarm">Kapandıktan sonra sil</string>
     <string name="open_keep_screen">Ekran devam edecek</string>
+    <string name="other_category_title">Diğer</string>
     <string name="pause">Durdur</string>
     <string name="percentage_sign">%</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
     <string name="remind_ringtone">Zil sesi</string>
     <string name="reset">Sıfırla</string>
     <string name="revert">Geri al</string>
@@ -182,6 +186,7 @@
     <string name="timer_clock_alert_text">Zamanlayıcı ayarla</string>
     <string name="timer_continue">Devam et</string>
     <string name="timer_continue_timer">Zamanlayıcıyı devam ettir</string>
+    <string name="timer_created">Zamanlayıcı başarıyla eklendi</string>
     <string name="timer_end_time">Zamanlayıcı %s süresinde durur</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>

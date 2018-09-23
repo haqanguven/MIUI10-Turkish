@@ -126,6 +126,7 @@ Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız"</string>
     <string name="accessibility_shortcut_service_on_lock_screen_title">Kilit ekranından izin verme</string>
     <string name="accessibility_shortcut_service_title">Kısayol hizmeti</string>
     <string name="accessibility_summary_default_combination">%1$s / %2$s</string>
+    <string name="accessibility_summary_source">%s tarafından sağlandı</string>
     <string name="accessibility_summary_state_disabled">Kapalı</string>
     <string name="accessibility_summary_state_enabled">Açık</string>
     <string name="accessibility_sync_disabled">Senkronizasyon devre dışı</string>
@@ -270,12 +271,15 @@ Yöneticiniz bu Kullanıcı ile ilişkilendirilmiş ayarları, erişimi, uygulam
     <string name="animator_duration_scale_title">Animatör süresi</string>
     <string name="another_migration_already_in_progress">Başka bir taşıma işlemi zaten çalışıyor</string>
     <string name="anti_spam">Engelli listesi</string>
+    <string name="aod_close_color_inversion">Bu özellik renk ters çevirme ile birleştirilemez. Önce renk ters çevirmeyi kapatın</string>
+    <string name="aod_got_it">Anladım</string>
     <string name="aod_mode_summary">Ekran kapalıyken daima saati, tarihi ve mesajları gösterir</string>
     <string name="aod_mode_time_summary">Cihazınızın her zaman açık moduna geçmesi gereken zaman aralığı</string>
     <string name="aod_mode_time_title">zaman aralığı</string>
     <string name="aod_mode_title">Her zaman açık mod</string>
     <string name="aod_mode_turn_off">Kapalı</string>
     <string name="aod_mode_turn_on">Açık</string>
+    <string name="aod_to_close">Kapat</string>
     <string name="apn_apn">APN</string>
     <string name="apn_auth_type">Kimlik doğrulama türü</string>
     <string name="apn_auth_type_chap">CHAP</string>
@@ -921,15 +925,19 @@ Oynatma Kalitesi"</string>
     <string name="bootloader_device_bind_fail">Doğrulanamadı. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
     <string name="bootloader_device_bind_msg">Hesap ve cihaz eklemeye hazırlanılıyor</string>
     <string name="bootloader_device_bind_no_account">Öncelikle Mi hesabınızda oturum açın</string>
+    <string name="bootloader_device_bind_no_data_network">Wifi ağını kapatın ve mobil verileri kullanarak hesabınızı ve cihazınızı ekleyin</string>
     <string name="bootloader_device_bind_no_network">Ağa bağlanın ve tekrar deneyin</string>
     <string name="bootloader_device_bind_no_sim">Sim kartı takın ve tekrar deneyin</string>
     <string name="bootloader_device_bind_server_code">Eklenemedi. Hata kodu:</string>
+    <string name="bootloader_device_bind_server_token_expired_1">Doğrulanamadı. Hesabınızı ve cihazınızı tekrar eklemeyi deneyin</string>
+    <string name="bootloader_device_bind_server_token_expired_2">Doğrulanamadı. Hesabınıza tekrar giriş yapın ve baştan başlayın</string>
     <string name="bootloader_device_bind_sim_invalid">Sim kart geçersiz. Değiştirin veya tekrar deneyin</string>
     <string name="bootloader_locked_answer_1">Cihazları güvenli olduklarından ve kişisel bilgilerinizin üçüncü şahıslar ile paylaşılmadığından emin olmak için kilitleriz. İhtiyaç duyduğunuzda Fastboot moduna girebilir, sistem yazılımını yükleyebilir ve cihazınızın kilidini açabilirsiniz</string>
     <string name="bootloader_locked_answer_1_warning">Unutmayın: Telefonun kilidi açıldıktan sonra cihazı bul özelliğini kullanamazsınız</string>
     <string name="bootloader_locked_answer_2">"1. Sim kartını cihazınıza taktığınızdan emin olun
 2. Mi hesabınızı bu cihazla ilişkilendirmek için aşağıdaki hesap ekle düğmesine dokunun
-3. Kilit açma aracını internet sitemizden indirin. Bir bilgisayar kullanarak cihazların kilidini açmanız gerektiğini unutmayın. Buradan indirin:"</string>
+3. Kilit açma aracını internet sitemizden indirin. Bir bilgisayar kullanarak cihazların kilidini açmanız gerektiğini unutmayın. Buradan indirin:
+"</string>
     <string name="bootloader_locked_answer_2_no_sim">"1. Mi hesabınızı bu cihazla ilişkilendirmek için aşağıdaki hesap ekle düğmesine dokunun
 2. Kilit açma aracını internet sitemizden indirin. Bir bilgisayar kullanarak cihazların kilidini açmanız gerektiğini unutmayın. Buradan indirin:"</string>
     <string name="bootloader_locked_check_status">Hesap ve cihaz ekle</string>
@@ -1081,6 +1089,7 @@ Bu özellik ayarlardan kapatılabilir"</string>
     <string name="charging_sounds_title">Şarj sesi</string>
     <string name="check_find_device_status_failure_confirm">Tamam</string>
     <string name="check_importance">Öncelik</string>
+    <string name="check_importance_dialog_cancel">İptal et</string>
     <string name="check_update">Güncellemeleri kontrol et</string>
     <string name="checkbox_notification_same_as_incoming_call">Bildirimlerde gelen arama ses düzeyini kullan</string>
     <string name="checking_decryption">Kontrol ediliyor</string>
@@ -1106,8 +1115,11 @@ Bu özellik ayarlardan kapatılabilir"</string>
     <string name="clear_instant_app_data">Uygulamayı temizle</string>
     <string name="clear_uri_btn_text">Erişimi temizle</string>
     <string name="clear_user_data_text">Verileri temizle</string>
+    <string name="close_aod">Bu özellik her zaman açık modu ile birlikte kullanılamaz. Önce her zaman açık modunu kapatın</string>
     <string name="close_app">Mevcut uygulamayı kapat</string>
     <string name="close_demo_mode">İptal et</string>
+    <string name="close_fod">Ekran kapalı iken cihazınızın kilidini parmak izinizi kullanarak açamayacaksınız. Parmak iziyle kilit açma yalnızca ekran açık durumdayken çalışır</string>
+    <string name="close_fod_aod">Ekran kapalı iken cihazınızın kilidini parmak izinizi kullanarak açamazsınız. Her zaman açık moduda kullanılamaz. Parmak iziyle kilit açma yalnızca ekran açık durumdayken çalışır</string>
     <string name="close_gesture">Vücut hareketi kullanarak kapat</string>
     <string name="close_miui_optimization_title">Miui optimizasyonu kapat</string>
     <string name="close_optimization_message">"Bu özelliği kapattıktan sonra metin düzeni, hesaplar ve Miui'nin diğer bölümleri etkilenebilir"</string>
@@ -1238,6 +1250,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="credentials_reset_warning_plural">Yanlış şifre. Kimlik bilgileri deposu silinmeden önce %1$d şansınız kaldı</string>
     <string name="credentials_settings_not_available">Bu kullanıcı için kimlik bilgileri kullanılamıyor</string>
     <string name="credentials_title">Kimlik bilgileri deposu</string>
+    <string name="credentials_title_verification">Doğrulama</string>
     <string name="credentials_unlock" />
     <string name="credentials_unlock_hint">Kimlik bilgileri deposu için şifreyi yazın</string>
     <string name="credentials_wrong_password">Yanlış şifre</string>
@@ -1461,6 +1474,7 @@ Veri kullanımı telefonunuz tarafından ölçülür ve operatörünüzün kulla
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Bu parmak izi silinsin mi?</string>
     <string name="delete_rule">Kural kaldır</string>
     <string name="delete_saved_network">Kayıtlı ağları sil</string>
+    <string name="delete_sound_effect">Silme sesi</string>
     <string name="deleted_apps">Silinen uygulamalar</string>
     <string name="deletion_helper_automatic_title">Otomatik</string>
     <string name="deletion_helper_manual_title">Manuel</string>
@@ -1862,6 +1876,8 @@ Daha ayrıntılı bilgi için kuruluş yöneticinizle iletişime geçin"</string
     <string name="factory_reset_summary">Telefonunuzun dahili hafızasındaki tüm verileri sil</string>
     <string name="failed_to_check_find_device_status_content">Cihazı bul durumu kontrolu başarısız oldu, bir veya iki dakika bekleyin ve ardından tekrar deneyin</string>
     <string name="failed_to_check_find_device_status_title">Durum kontrol edilemedi</string>
+    <string name="failed_to_erase_text">1217 kodunu girmeden önce kilit ekranı şifrenizi kapatın</string>
+    <string name="failed_to_erase_title">Bu işlem tamamlanamadı</string>
     <string name="failed_to_open_app_settings_toast">%1$s ayarları açılamadı</string>
     <string name="failed_to_shut_down_find_device_content">Cihaz bul kapatılamadı. Bir veya iki dakika bekleyin ve ardından tekrar deneyin</string>
     <string name="failed_to_shut_down_find_device_title">Devre dışı bırakılamadı</string>
@@ -1963,6 +1979,7 @@ Daha ayrıntılı bilgi için kuruluş yöneticinizle iletişime geçin"</string
     <string name="floating_window_switch_label_disable">Kayan pencereleri kapat</string>
     <string name="fluency_mode">Sistem animasyonları</string>
     <string name="fluency_mode_confirm_and_reboot">Şimdi yeniden başlat</string>
+    <string name="following_us_title">Bizi takip edin</string>
     <string name="font_size_exhuge">Çok büyük</string>
     <string name="font_size_huge">Çok Büyük</string>
     <string name="font_size_large">Daha büyük</string>
@@ -2115,6 +2132,7 @@ Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olar
     <string name="handy_mode_enable">Tek el</string>
     <string name="handy_mode_size">Ekran boyutu</string>
     <string name="handy_mode_tips">Ana ekran tuşundan sağ veya sol tarafa doğru parmağınızı kaydırarak ekranı tek el kullanımında küçültebilirsiniz</string>
+    <string name="handy_mode_tips_full_screen">Tam ekran hareketlerini kullanırken tek el modunu hızlı erişimi kullanarak açabilirsiniz. Aynı zamanda tam ekran hareketleri yerine tuşlara da geçiş yapabilirsiniz</string>
     <string name="haptic_feedback_enable_title">Dokunulduğunda titret</string>
     <string name="haptic_feedback_level">Titreşim</string>
     <string name="hardkeyboard_category">Fiziksel klavye ayarları</string>
@@ -2314,6 +2332,9 @@ Bu seçenek daha fazla pil kullanabilir"</string>
     <string name="keyboard_shortcuts_helper">Klavye kısayol yardımcısı</string>
     <string name="keyboard_shortcuts_helper_summary">Kullanılabilir kısayolları görüntüle</string>
     <string name="keyguard_advance_setting_title">Gelişmiş ayarlar</string>
+    <string name="keyguard_security_setting_others">Diğerleri</string>
+    <string name="keyguard_security_setting_privacy_policy">Gizlilik politikası</string>
+    <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
     <string name="keywords_accounts">hesap</string>
     <string name="keywords_airplane">Uçak;Uçak modu;Tayyare;Tayyare modu;Uçuş;Uçuş modu</string>
     <string name="keywords_all_apps">uygulama indirme uygulamalar sistem</string>
@@ -2699,8 +2720,8 @@ Bu Pin bir çok basamak içermelidir
 Şu anda aşağıdaki hesaplarda oturum açmış durumdasınız:
 "</string>
     <string name="master_clear_all">Telefonunuzun dahili hafızasındaki bütün verileri sil? Bu işlemi geri alamazsınız</string>
-    <string name="master_clear_apply_step_1"><b>"\"\"“Fabrika ayarlarına geri dönme'' işlemi Mi Pad'inizde kayıtlı; fotoğraflarınız, şarkılarınız, notlarınız ve diğer kişisel verilerinizi de içeren verilerin tamamını silecektir\"\""</b> Önemli ögelerinin tümünü bilgisayarınıza yedeklemiş olduğunuzdan emin olun</string>
-    <string name="master_clear_apply_step_2">Tüm önemli ögelerin bilgisayarınıza yedeklenmiş olduğundan emin olun. Cihazdaki verilerin tamamı sıfırlama işlemi dahilinde silinecektir. <b>Yedeklememiş olduğunuz ögeleri geri yükleyemezsiniz</b></string>
+    <string name="master_clear_apply_step_1"><b>"Fabrika ayarlarına geri dönme işlemi cihazınızda kayıtlı fotoğraflarınız, şarkılarınız, notlarınız ve diğer kişisel verilerinizi de içeren verilerin tamamını silecektir."</b> Önemli öğelerinin tümünü bilgisayarınıza yedeklemiş olduğunuzdan emin olun</string>
+    <string name="master_clear_apply_step_2">Tüm önemli öğelerin bilgisayarınıza yedeklenmiş olduğundan emin olun. Cihazdaki verilerin tamamı sıfırlama işlemi dahilinde silinecektir. <b>Yedeklememiş olduğunuz öğeleri geri yükleyemezsiniz</b></string>
     <string name="master_clear_apply_title">Uyarı</string>
     <string name="master_clear_button_text">Telefonu sıfırla</string>
     <string name="master_clear_confirm_title">Sıfırlansın mı?</string>
@@ -2817,6 +2838,7 @@ Bu cihazda başka kullanıcılar da var
     <string name="mi_service_app_detail">Veri kullanım detayları</string>
     <string name="mi_shopping_mall">Mi mağaza</string>
     <string name="mi_upi_settings">Mi ödeme hesabı</string>
+    <string name="mipush_fake_channel_group_name">Mi itme</string>
     <string name="misc_files">Çeşitli dosyalar</string>
     <string name="misc_files_selected_count">toplam %2$d dosyadan %1$d tanesi seçildi</string>
     <string name="misc_files_selected_count_bytes">%1$s / %2$s</string>
@@ -2973,6 +2995,9 @@ Bu cihazda başka kullanıcılar da var
     <string name="nature_color">Varsayılan</string>
     <string name="navigation_guide_app_summary">Üst alanda ekranın sağ veya sol köşesinden kaydırın</string>
     <string name="navigation_guide_app_title">Uygulama işlevini çalıştır</string>
+    <string name="navigation_guide_appswitch_anim_summary">Bir önceki uygulamaya gitmek için ekranın ucundan itibaren kaydırın</string>
+    <string name="navigation_guide_appswitch_anim_title">Önceki uygulamaya geri dön</string>
+    <string name="navigation_guide_appswitch_click">Önce bir önceki uygulamaya dön özelliğini açın</string>
     <string name="navigation_guide_appswitch_summary">Ekranın kenarından sola veya sağa kaydırın ve bir süre basılı tutun</string>
     <string name="navigation_guide_appswitch_title">Önceki uygulamaya geç</string>
     <string name="navigation_guide_back_summary">Ekrandan sağa veya sola doğru kaydırın</string>
@@ -3844,6 +3869,7 @@ Bu ayar bu telefondaki tüm kullanıcıları etkiler"</string>
     <string name="saved_wifi">Kayıtlı ağlar</string>
     <string name="saved_wifi_delete">Sil</string>
     <string name="scan_list_label">Tarama sonuçları:</string>
+    <string name="sccret_code_error">Girmiş olduğunuz kod yanlış</string>
     <string name="screen">Ekran</string>
     <string name="screen_button">Ekran tuşları</string>
     <string name="screen_button_tips">Ekran tuşlarını gizlemek için aşağı doğru kaydırın</string>
@@ -4350,7 +4376,7 @@ Not: Bu cihazın kilidini açmak için parmak izinizi kullanamazsınız. Daha fa
     <string name="setup_lock_settings_picker_title">Telefonunuzu koruyun</string>
     <string name="setup_password_back">Geri</string>
     <string name="setup_password_confirm">Tamam</string>
-    <string name="setup_wifi_nfc_tag">Wifi Nfc Etiketini ayarla</string>
+    <string name="setup_wifi_nfc_tag">Kablosuz Nfc etiketini ayarla</string>
     <string name="severe_threats_summary">Cana ve mala karşı ciddi tehditlerle ilgili uyarıları alın</string>
     <string name="severe_threats_title">Ciddi tehditler</string>
     <string name="share_remote_bugreport_action">Paylaş</string>
@@ -4560,7 +4586,9 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_bar_settings_carrier_sim">"Sim %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Operatör adını düzenle</string>
     <string name="status_bar_settings_custom_wifi_name">Wifi adını düzenle</string>
+    <string name="status_bar_settings_customer_feedback">Geri bildirim</string>
     <string name="status_bar_settings_enable_notification">Bildirimler</string>
+    <string name="status_bar_settings_function_description">Bu özellik hakkında</string>
     <string name="status_bar_settings_long_click_sort">Konumu düzenlemek için basın &amp; basılı tutun</string>
     <string name="status_bar_settings_manage_notification">Uygulama bildirimleri</string>
     <string name="status_bar_settings_no_carrier">Boş</string>
@@ -4588,7 +4616,12 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_bar_settings_toggle_collapse_after_clicked">Dokunmadan sonra kapat</string>
     <string name="status_bar_settings_toggle_position">Konum düzenleme</string>
     <string name="status_bar_settings_user_fold">Bildirimler klasörü</string>
-    <string name="status_bar_settings_user_fold_summary">Önemli olmayan tüm bildirimler ayrı bir klasörde görünür</string>
+    <string name="status_bar_settings_user_fold_description1">Bildirimler klasörü Miui 9 ile kullanıma sunulmuştur. Bu özellik önemsiz bildirimleri filtreler ve bu bildirimleri ayrı bir klasöre yerleştirir</string>
+    <string name="status_bar_settings_user_fold_description2">Miui dokunduğunuz bildirimleri hatırlar ve bu bildirimlerin önemli olup olmadığını belirlemek için birkaç kriter kullanır</string>
+    <string name="status_bar_settings_user_fold_description3">Önemli olduğunu düşündüğünüz bir bildirim halen bildirim klasörüne gidiyorsa bu tarz sorunları bize bildirdiğinizden emin olun. Geri bildiriminiz bizim için önemlidir</string>
+    <string name="status_bar_settings_user_fold_disable">Kapalı</string>
+    <string name="status_bar_settings_user_fold_enable">Açık</string>
+    <string name="status_bar_settings_user_fold_summary">Önemli olmayan tüm bildirimler ayrı bir klasörde görüntülenir</string>
     <string name="status_bar_style_list">Birleşik</string>
     <string name="status_bar_style_page">Ayrı</string>
     <string name="status_bt_address">Bluetooth adresi</string>
@@ -4623,6 +4656,9 @@ Cihazınızda yüklü durumdaki güvenilen bir kimlik bilgisi bunu mümkün kıl
     <string name="status_wimax_mac_address">4G MAC adresi</string>
     <string name="status_write_success">Başarıyla yazıldı</string>
     <string name="statusbar_permission_desc">İzinler yalnızca önemli bildirimler için kullanılabilir</string>
+    <string name="stop_upload_audio_log">Ses kayıtlarını almayı bitir</string>
+    <string name="stop_upload_gps_log">GPS kayıtlarını almayı bitir</string>
+    <string name="stop_upload_modem_log">Modem kayıtlarını almayı bitir</string>
     <string name="storage_detail_apps">Uygulamalar</string>
     <string name="storage_detail_audio">Ses</string>
     <string name="storage_detail_cached">Önbelleğe alınan veriler</string>
@@ -4948,8 +4984,10 @@ Google'ın kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz
     <string name="title_font_current2">Yazı tipi</string>
     <string name="title_font_size">Yazı tipi boyutu</string>
     <string name="title_hdmi_color_calibration">Renk düzeltme ön ayarları</string>
+    <string name="title_jeejen">Jeejen ana ekranı</string>
     <string name="title_layout_current">Yazı tipi boyutu</string>
     <string name="title_layout_current2">Yazı tipi boyutu</string>
+    <string name="to_close">Kapat</string>
     <string name="toast_lockscreen_glogin_empty_password">Şifreyi girin</string>
     <string name="toast_need_login">Mi hesabınızda oturum açın</string>
     <string name="total">Rahatsız etme</string>
@@ -5140,8 +5178,11 @@ Kaydedilmiş parmak izleriniz de bu profilden kaldırılacaktır. Profilinizin k
     <string name="untitled_apn">Başlıksız</string>
     <string name="update_new_version">Güncelleme mevcut</string>
     <string name="update_progress_for_updates">Güncelleniyor (%s)</string>
+    <string name="upload_audio_log">Ses kayıtlarını almaya başla</string>
     <string name="upload_debug_log_summary">Toplamış olduğumuz bilgiler kişisel verilerinizi içerebilir. Veriler sistemdeki problemleri tespit ve analiz etmekte kullanılacak olup hiçbir zaman kimliğinizi tanımlamak için kullanılmayacaktır</string>
     <string name="upload_debug_log_title">Tanı verilerini otomatik olarak gönder</string>
+    <string name="upload_gps_log">GPS kayıtlarını almaya başla</string>
+    <string name="upload_modem_log">Modem kayıtlarını almaya başla</string>
     <string name="usage">Kullanım</string>
     <string name="usage_access">Kullanım erişimi</string>
     <string name="usage_access_description">Kullanım erişimi; bir uygulamanın, başka hangi uygulamaları ne sıklıkta kullandığınızı, ayrıca operatörünüzü, dil ayarlarınızı ve diğer ayrıntıları takip etmesine izin verir.</string>
@@ -5434,7 +5475,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="vpn_disconnect_confirm">"Bu Vpn'nin bağlantısını kes"</string>
     <string name="vpn_disconnected">VPN bağlantısı kesildi</string>
     <string name="vpn_disconnected_summary">Yok</string>
-    <string name="vpn_dns_servers">DNS sunucuları (ör. 8.8.8.8)</string>
+    <string name="vpn_dns_servers">DNS sunucuları (Örnek: 8.8.8.8)</string>
     <string name="vpn_dns_servers_hint">Örnek: 8.8.8.8</string>
     <string name="vpn_done">Kapat</string>
     <string name="vpn_edit">Vpn profilini düzenle</string>
@@ -5457,12 +5498,12 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="vpn_missing_cert">Bir sertifika eksik. Lütfen profili düzenleyin</string>
     <string name="vpn_mppe">PPP şifreleme (MPPE)</string>
     <string name="vpn_name">Ad</string>
-    <string name="vpn_no_ca_cert">(sunucuyu doğrulama)</string>
+    <string name="vpn_no_ca_cert">(Sunucuyu doğrulama)</string>
     <string name="vpn_no_network">Ağ bağlantısı yok. Lütfen daha sonra tekrar deneyin</string>
     <string name="vpn_no_selected">Vpn seçin</string>
-    <string name="vpn_no_server_cert">(sunucudan alınır)</string>
+    <string name="vpn_no_server_cert">(Sunucudan alınır)</string>
     <string name="vpn_no_vpns_added">Vpn eklenmedi</string>
-    <string name="vpn_not_used">(kullanılmıyor)</string>
+    <string name="vpn_not_used">(Kullanılmıyor)</string>
     <string name="vpn_off">Kapalı</string>
     <string name="vpn_on">Açık</string>
     <string name="vpn_password">Şifre</string>
@@ -5603,7 +5644,7 @@ Ekle (+) düğmesini kullanarak kelime ekleyin"</string>
     <string name="wifi_available_title">"Wifi'ye bağlan"</string>
     <string name="wifi_avoid_poor_network_detection_summary">Yalnızca iyi İnternet bağlantısı olan ağları kullanın</string>
     <string name="wifi_badging_thresholds_default">10:3000,20:5000,30:25000</string>
-    <string name="wifi_band_24ghz">2,4 GHz</string>
+    <string name="wifi_band_24ghz">2.4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
     <string name="wifi_calling_mode_dialog_title">Wifi arama modu</string>
     <string name="wifi_calling_mode_title">Arama tercihi</string>

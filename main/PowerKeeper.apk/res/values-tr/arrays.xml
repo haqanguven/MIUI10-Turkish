@@ -20,6 +20,11 @@
         <item>Varsayılan sıcaklık kontrol modu</item>
         <item>Mevcut performans modu</item>
     </string-array>
+    <string-array name="thermal_summaries">
+        <item>Sıcaklık kontrolünü önceliklendirin</item>
+        <item>Performansı önceliklendirin</item>
+        <item>Aşırı modunda çalıştırma</item>
+    </string-array>
     <string-array name="power_mode_entries">
         <item>Performans</item>
         <item>Dengeli</item>

@@ -52,6 +52,18 @@
         <item quantity="other">%1$d saat %2$d dakika</item>
         <item quantity="one">%1$d saat %2$d dakika</item>
     </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">Kalan %d saat</item>
+        <item quantity="one">Kalan %d saat</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">Kalan %d dakika</item>
+        <item quantity="one">Kalan %d dakika</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">Kalan %1$d saat %2$d dakika</item>
+        <item quantity="one">Kalan %1$d saat %2$d dakika</item>
+    </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Sim Pin kodunu girin. %d giriş hakkınız kaldı</item>
         <item quantity="one">Sim Pin kodunu girin. Cihazınızın kilidini açmak için operatörünüze başvurmanız gerekmeden önce %d giriş hakkınız kaldı</item>

@@ -1202,6 +1202,7 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="quote_divider_qq_zh">------------------ Orijinal posta ------------------</string>
     <string name="quoted_text_background_color_string">@android:color/white</string>
     <string name="quoted_text_font_color_string">@color/gray_text_color</string>
+    <string name="remote_no_mail">remote_no_mail</string>
     <string name="reply_subject_label">Konu:</string>
     <string name="report_rendering_improvement">İyi görünüyor</string>
     <string name="report_rendering_improvement_desc">Bu mesaj iyi görünüyor</string>
@@ -1211,6 +1212,7 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="search_title">Birleştirilmiş e-posta</string>
     <string name="senders_elided">..</string>
     <string name="setting_default_lable" />
+    <string name="show_more_attachment">Daha fazla ek</string>
     <string name="special_text_1">Yazılan:</string>
     <string name="special_text_2">Şöyle diyor:</string>
     <string name="special_text_3">Yazılan:</string>

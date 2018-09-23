@@ -50,6 +50,10 @@
         <item quantity="other">Sim karta %1$d kişi kaydedilebilir</item>
         <item quantity="one">Sim karta %1$d kişi kaydedilebilir</item>
     </plurals>
+    <plurals name="foundTooManyContacts_plurals">
+        <item quantity="other">%d kişiden fazlası bulundu</item>
+        <item quantity="one">%d kişiden fazlası bulundu</item>
+    </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d kişi eklendi</item>
         <item quantity="one">%1$d kişi eklendi</item>
@@ -78,6 +82,10 @@
         <item quantity="other">%1$d numara</item>
         <item quantity="one">%1$d numara</item>
     </plurals>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+    </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">%d bulundu</item>
         <item quantity="one">1 bulundu</item>
@@ -89,6 +97,10 @@
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">Telefon numarası olan %d kişi</item>
         <item quantity="one">Telefon numarası olan 1 kişi</item>
+    </plurals>
+    <plurals name="merge_contact_message_plurals">
+        <item quantity="other">%1$d kişi kısmen yinelenen veri içeriyor</item>
+        <item quantity="one">%1$d kişi kısmen yinelenen veri içeriyor</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">%0$d kaynak birleştirildi</item>
@@ -138,6 +150,14 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d bulundu</item>
         <item quantity="one">1 bulundu</item>
+    </plurals>
+    <plurals name="select_all_exceed_plurals">
+        <item quantity="other">En fazla %1$d adet seçebilirsiniz. Tamamı seçilemiyor</item>
+        <item quantity="one">En fazla %1$d adet seçebilirsiniz. Tamamı seçilemiyor</item>
+    </plurals>
+    <plurals name="select_exceed_plurals">
+        <item quantity="other">%1$d seçenekten fazlasını seçme</item>
+        <item quantity="one">%1$d seçenekten fazlasını seçme</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d kişi</item>

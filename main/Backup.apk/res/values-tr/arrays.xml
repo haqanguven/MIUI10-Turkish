@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_scale">
+        <item>0.86</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.21</item>
+    </string-array>
+    <string-array name="mi_stat_success_survey_key">
+        <item>overall_rating</item>
+        <item>duration_of_transfer</item>
+        <item>simplicity_of_the_process</item>
+        <item>clarity_of_instructions</item>
+    </string-array>
+    <string-array name="trans_succeed_survey_title">
+        <item>Genel değerlendirmeg</item>
+        <item>Transfer süresi</item>
+        <item>Sürecin basitliği</item>
+        <item>Talimatların netliği</item>
+    </string-array>
+    <string-array name="trans_succeed_rating_hint">
+        <item>Memnun değilim</item>
+        <item>Biraz memnun değilim</item>
+        <item>Tarafsızım</item>
+        <item>Kısmen memnunum</item>
+        <item>Çok memnunum</item>
+    </string-array>
+    <string-array name="trans_cancel_survey_title">
+        <item>Transfer çok uzun sürüyor</item>
+        <item>Bağlantı kesildi</item>
+        <item>Aktarılacak yanlış öğeler seçtim</item>
+        <item>Çok fazla adım</item>
+        <item>Telefonumun pili zayıf</item>
+        <item>Aktarılan öğeler bozuk</item>
+        <item>Yanlışlıkla transfer başlattım</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="mi_stat_cancel_survey_key">
+        <item>transfer_takes_too_long</item>
+        <item>connection_was_interrupted</item>
+        <item>i_selected_wrong_items_to_transfer</item>
+        <item>too_many_steps</item>
+        <item>my_phone_battery_is_low</item>
+        <item>transferred_items_are_corrupted</item>
+        <item>i_started_the_transfer_accidentally</item>
+        <item>other</item>
+    </string-array>
+</resources>

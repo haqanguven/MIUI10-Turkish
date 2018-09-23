@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_privacy">Gizlilik politikası</string>
     <string name="about_smart_antispam_summary">Bu özellik hakkında</string>
     <string name="about_telephone_fraud">Dolandırıcılığa karşı kendinizi koruyun</string>
     <string name="account_address">Adresler</string>
@@ -94,6 +95,7 @@
     <string name="general_recent_title">En son</string>
     <string name="general_unfollow_hint">%1$s hesabını takip etmeyi bırak?</string>
     <string name="general_yellow_page_title">Genel</string>
+    <string name="global_user_notice_yp_detail_summary_format">"Arayan Kimliği bilginizden bazıları güncel değil. Güncellemek ister misiniz? Bu hizmeti kullanarak %1$s ve %2$s’leri kabul etmiş oluyorsunuz"</string>
     <string name="group_name_banner" />
     <string name="group_name_basic" />
     <string name="group_name_data_source">Kaynak</string>

@@ -287,6 +287,8 @@ ikinci alan parmak izi kullanın"</string>
     <string name="xpsace_guide_button">Oluştur</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Uygulama bulunamadı</string>
+    <string name="confirm_close_password_title">Şifreyi kapat</string>
+    <string name="confirm_close_password_desc">Şifreyi kapattıktan sonra kilit ekranından ikinci alana giremezsiniz. Yine de kapatılsın mı?</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat ödeme</string>
     <string name="weixin_share_sign">Oturum açın ve paylaşın</string>
@@ -399,11 +401,11 @@ Güncelleme yapmazsanız çift uygulamalar da düzgün çalışmayabilir"</strin
     <string name="can_not_switch_when_green_kid_active">İkinci alana geçmek aile bekçisi tarafından sınırlandırılmıştır</string>
     <string name="need_network_when_bind">Cihaz eklemeden önce ağa bağlanın</string>
     <string name="this_function_can_not_use_in_second_space">Bu özellik sadece ilk alanda kullanılabilir</string>
-    <string name="enterprise_mode">Şirket mod</string>
-    <string name="ent_app_verified">Cihazınızda yüklü şirket uygulamalar var gibi görünüyor. Şirket mod etkinleştirin mi?</string>
-    <string name="activate_ent_mode">Şirket modu etkinleştir</string>
-    <string name="about_ent_mode">Şirket mod hakkında</string>
-    <string name="ent_mode_activated">Şirket mod etkinleştirildi</string>
+    <string name="enterprise_mode">Şirket modu</string>
+    <string name="ent_app_verified">Cihazınızda yüklü şirket uygulamalar var gibi görünüyor. Şirket modu etkinleştirin mi?</string>
+    <string name="activate_ent_mode">Etkinleştir</string>
+    <string name="about_ent_mode">Hakkında</string>
+    <string name="ent_mode_activated">Şirket modu etkinleştirildi</string>
     <string name="ent_activation_hint">Şirket modunu etkinleştirmek için şirket kodunuzu lisans koduyla birlikte girin. Bundan sonra özel şirket hizmetleri etkinleştirilecek</string>
     <string name="ent_activation_hint_whit_licence">"Şirket hizmetlerini etkinleştirmek için şirket modunu etkinleştirin
 Şirketinizin adı doğru olduğundan emin olun. Etkinleştirmeden önce ilgili gizlilik politikalarını okuyun ve kabul edin"</string>

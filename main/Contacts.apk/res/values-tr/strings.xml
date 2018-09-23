@@ -56,7 +56,6 @@
     <string name="btn_split_contact">Ayır</string>
     <string name="button_cancel_scan">Durdur</string>
     <string name="button_join_service_number">Servis numarası ekle</string>
-    <string name="button_my_center">Profil</string>
     <string name="button_scan">Yeniden tara</string>
     <string name="caching_vcard_message">vKart telefon önbelleğine alınıyor</string>
     <string name="caching_vcard_title">Ön belleğe alınıyor</string>
@@ -193,6 +192,7 @@
     <string name="composer_failed_to_get_database_infomation">Veri tabanı bilgileri alınamadı</string>
     <string name="composer_has_no_exportable_contact">Dışa aktarabilir kişi bulunmamaktadır. Telefonunuzda kişileriniz varsa bazı veri sağlayıcıları kişilerin telefondan dışa aktarılmasına izin vermiyor olabilir</string>
     <string name="composer_not_initialized">vKart oluşturucu düzgün bir şekilde başlayamadı</string>
+    <string name="conference_call_disable_tip">Arama yapamaz. Cihazınızın VoLTE desteği ile 4G ağa bağlı olduğundan emin olun</string>
     <string name="confirm_delete_contact_all_call_logs">Arama geçmişi silinsin mi?</string>
     <string name="confirm_delete_selected_all_call_logs">Arama geçmişi silinsin mi?</string>
     <string name="confirm_delete_sim_entry_miui_title">Sil</string>
@@ -365,7 +365,6 @@ Kişi kartları kapatıldı"</string>
     <string name="device_import_progress_begin_message">İçe aktarılıyor</string>
     <string name="device_import_progress_end_message">İçe aktarıldı</string>
     <string name="device_import_progress_message">İçe aktarılıyor</string>
-    <string name="device_import_progress_toast">%1$d kişi içe aktarıldı</string>
     <string name="device_import_title">İçe aktar</string>
     <string name="device_list_title">Bir telefon seçin</string>
     <string name="device_other_guide">Diğer telefon Bluetooth destekliyor mu?</string>
@@ -402,6 +401,7 @@ Kişi kartları kapatıldı"</string>
     <string name="dialer_menu_description">Menüyü göster</string>
     <string name="dialer_menu_title">Menü seçenekleri</string>
     <string name="dialer_returnToInCallScreen">Mevcut aramaya geri dön</string>
+    <string name="dialer_title_divider">" ｜ "</string>
     <string name="dialer_useDtmfDialpad">Dokunma tonlu tuş takımı kullan</string>
     <string name="dialog_import">Kişileri içe aktar</string>
     <string name="dialog_import_export">Kişileri içe/dışa aktar</string>
@@ -489,7 +489,6 @@ Neden: %s"</string>
     <string name="firewall_setting">Engelli listesi</string>
     <string name="force_touch_miprofile">Kişi kartı</string>
     <string name="force_touch_new_contact">Yeni kişi</string>
-    <string name="foundTooManyContacts">%d kişiden fazla sonuç bulundu</string>
     <string name="frequentList">Sık kullanılanlar</string>
     <string name="from_account_format">%1$s</string>
     <string name="full_name">Adı</string>
@@ -570,7 +569,6 @@ Neden: %s"</string>
     <string name="keep_local">Senkronize etme</string>
     <string name="keep_local_btn">Telefonun dahili depolama alanını kullan</string>
     <string name="label_custom_type">Özel</string>
-    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Çoklu kişi kaydı yok</string>
     <string name="label_notes">Notlar</string>
     <string name="label_sip_address">İnternet araması</string>
@@ -660,7 +658,6 @@ Neden: %s"</string>
     <string name="menu_splitAggregate">Ayır</string>
     <string name="menu_sync_remove">Senkronize edilen grubu kaldır</string>
     <string name="menu_viewContact">Kişiyi görüntüle</string>
-    <string name="merge_contact_message">%1$d kişi kısmen yinelenen veri içeriyor</string>
     <string name="messageShortcutActivityTitle">Mesaj gönderilecek numarayı seçin</string>
     <string name="miprofile_account_type">Kişi kartları</string>
     <string name="miprofile_alertdialog_edit">İsim girin</string>
@@ -903,6 +900,7 @@ Kişinin adının yanındaki yıldız simgesine dokunun
     <string name="preference_others">Diğerleri</string>
     <string name="preference_phone">Telefon</string>
     <string name="preference_phone_more_title">Arama ayarları</string>
+    <string name="preference_privacy_policy_title">Gizlilik politikası</string>
     <string name="preference_remove_duplicate">Çoklu kişi kayıtlarını birleştir</string>
     <string name="preference_show_firewall_calllog">Arama geçmişinde engellenen aramaları göster</string>
     <string name="preference_show_yellowpage_tab_description">Sarı sayfalar bu özellik kapalı olduğunda doğru çalışmayabilir</string>
@@ -948,6 +946,7 @@ Kişinin adının yanındaki yıldız simgesine dokunun
     <string name="quickcontact_missing_app">Bu işlemi yapabilecek uygulama bulunamadı</string>
     <string name="quit_dialog_confirm_message">Herhangi bir kişi kaydı birleştirmediniz</string>
     <string name="quit_dialog_confirm_title">Kişileri birleştirmeyi iptal et</string>
+    <string name="rcs_app_name">Mini uygulama</string>
     <string name="readOnlyContactDeleteConfirmation">Bu kişi kaydı birden fazla hesaptan bilgiler içermektedir. Salt okunur hesaplardan gelen bilgiler kişi listenizde gizlenecek fakat silinmeyecektir</string>
     <string name="readOnlyContactWarning">Salt okunur hesaplardan kişileri silemezsiniz. Fakat ilgili kayıtları kişi listenizde gizleyebilirsiniz</string>
     <string name="readingSimContacts">Sim kart okunuyor</string>
@@ -1026,8 +1025,6 @@ Başlamak için ekranınızın altındaki birleştir simgesine dokunun"</string>
     <string name="search_wipe_data">Organize et;Kişiler</string>
     <string name="searching_vcard_message">SD karttaki vKart dosyaları aranıyor</string>
     <string name="select_all">Tümünü seç</string>
-    <string name="select_all_exceed">En fazla %1$d adet seçebilirsiniz. Tamamı seçilemiyor</string>
-    <string name="select_exceed">En fazla %1$d adet seçebilirsiniz</string>
     <string name="select_groups">Grupları seçin</string>
     <string name="select_none">Hiçbir öge seçilmedi</string>
     <string name="select_show_contacts">Kişi listesi</string>
@@ -1255,7 +1252,6 @@ Lütfen ilgili seçeneklerden birini seçin:"</string>
     <string name="help_url_people_main" />
     <string name="lunar_calendar">Ay takvimi</string>
     <string name="lunar_leap">Takvime eklendi</string>
-    <string name="lunar_yue">Ay</string>
     <string name="solar_calendar">Gregoryen takvimi</string>
     <string name="yellowpage_mi_family">Mi ev</string>
 </resources>

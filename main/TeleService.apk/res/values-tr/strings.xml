@@ -1828,6 +1828,7 @@ Bu tabletin bir kulaklığı yok. Eller serbest moduna geçebilir veya arama yap
     <string name="dc_alert_dialog_message">"Bazı uygulamalar mobil veri bağlantısı gerektirir. Size %s'in neler olduğunu öğrenmek için operatörünüzle iletişime geçebilirsiniz"</string>
     <string name="do_not_show_again">Tekrar gösterme</string>
     <string name="data_plan">Mobil veri planı</string>
+    <string name="privacy_policy_title">Gizlilik politikası</string>
     <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO</string>
     <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EVDO</string>
     <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
