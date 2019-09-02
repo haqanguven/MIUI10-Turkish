@@ -351,6 +351,8 @@
     <string name="battery_meter_charging_path">M40.571 30.474L40.329 30 33 30 49 13 44.428 25.526 44.671 26 52 26 36 43Z</string>
     <string name="battery_meter_progress_mask_path">M2.5638852 0C1.6723665 0 1.3490802 0.09282561 1.0231543 0.2671327 0.69722837 0.4414398 0.4414398 0.69722837 0.2671327 1.0231543 0.09282561 1.3490802 0 1.6723665 0 2.5638852L0 0 2.5638852 0Zm0 18L0 18 0 15.436115c0 0.891518 0.09282561 1.214805 0.2671327 1.540731 0.1743071 0.325926 0.43009567 0.581714 0.7560216 0.756021C1.3490802 17.907174 1.6723665 18 2.5638852 18Z</string>
     <string name="battery_meter_progress_path">M9 0l38 0c4.986 0 9 4.014 9 9 0 4.986 -4.014 9 -9 9L9 18C4.014 18 0 13.986 0 9 0 4.014 4.014 0 9 0Z</string>
+    <string name="battery_meter_quick_charging_mask_path">M44.4006489,17.7753262 L48.9816895,12.9957275 L56.0631104,12.9957275 L52.5812988,23.0059814 L60.7009725,23.0059814 C60.9562352,23.0059814 61.2018346,23.1035978 61.3874492,23.2788297 C61.7890441,23.6579603 61.8072549,24.2908633 61.4281243,24.6924582 L44.0809326,43.0675049 L36.9777832,43.0675049 L38.6860448,38.1895308 L34.0809326,43.0675049 L26.9777832,43.0675049 L30.5009766,33.006958 L22.2054052,32.9352898 C21.9505261,32.9330878 21.7061075,32.8336414 21.5220923,32.6572707 C21.1233739,32.2751161 21.1099462,31.6420936 21.4921007,31.2433751 L38.9816895,12.9957275 L46.0631104,12.9957275 L44.4006489,17.7753262 Z</string>
+    <string name="battery_meter_quick_charging_path">M40.7647059,26 L53,13 L48.428,25.526 L48.671,26 L56,26 L40,43 L44.571,30.474 L44.329,30 L42.2352941,30 L30,43 L34.571,30.474 L34.329,30 L27,30 L43,13 L38.428,25.526 L38.671,26 L40.7647059,26 Z</string>
     <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="battery_panel_title">Pil kullanımı</string>
     <string name="battery_profiles">Pil profilleri kullan</string>
@@ -364,8 +366,6 @@
     <string name="block_notification_content_text">%1$s bildirimleri tekrar görüntülenmeyecektir. Bu özelliği ayarlar menüsünde değiştirebilirsiniz</string>
     <string name="block_notification_desc">Uygulamanın bildirimleri tekrar gösterilmeyecektir. Bu özelliği ayarlar menüsünde değiştirebilirsiniz</string>
     <string name="block_notification_text">Gizle</string>
-    <string name="block_record_notification_text">%1$s uygulaması bildirimleri gizleniyor</string>
-    <string name="block_record_notification_title">Bildirimler gizlendi</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Medya sesine bağlanıldı</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Medya sesi için kullan</string>
     <string name="bluetooth_active_battery_level">Aktif. %1$s pil</string>
@@ -581,6 +581,7 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="description_direction_left">%s için sola kaydırın</string>
     <string name="description_direction_up">%s için yukarı doğru kaydırın</string>
     <string name="description_image_button_answer">Cevapla</string>
+    <string name="description_image_button_bubble_answer">Hoparlör</string>
     <string name="description_image_button_reject">Reddet</string>
     <string name="description_image_icon_sim_card">Sim %1$d</string>
     <string name="description_target_search">Ara</string>
@@ -595,7 +596,6 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="development_settings_title">Geliştirici seçenekleri</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Not: Yeniden başlatma sonrasında, telefonunuzun kilidi açılıncaya kadar bu uygulama başlatılamaz</string>
-    <string name="disable_notification_summary">Seçilen uygulamaların bildirimlerini asla gösterme</string>
     <string name="disable_notification_title">Bildirimleri gizle</string>
     <string name="disable_overlays">Donanım katmanlarını devre dışı bırak</string>
     <string name="disable_overlays_summary">"Ekran oluştururken her zaman GPU'yu kullan"</string>
@@ -657,7 +657,6 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="enabled_by_admin">Yönetici tarafından etkinleştirildi</string>
     <string name="ethernet_label">Ethernet</string>
     <string name="expand_button_title">Gelişmiş</string>
-    <string name="expanded_confirm_disable_notification">Gizle</string>
     <string name="expanded_header_battery_charged">Şarj oldu</string>
     <string name="expanded_header_battery_charging">şarj oluyor</string>
     <string name="expanded_header_battery_charging_with_time">Tam olarak %s</string>
@@ -821,8 +820,8 @@ Mobil veriyi yeniden etkinleştirmeniz durumunda operatörünüz ek ücret talep
     <string name="hidden_notifications_setup">Ayarla</string>
     <string name="hidden_notifications_text">Kilidi açmadan önce onları görün</string>
     <string name="hidden_notifications_title">Bildirimleri daha hızlı alın</string>
-    <string name="high_temp_dialog_message">"Telefonunuz otomatik olarak soğumaya çalışacaktır. Telefonunuzu kullanmaya devam edebilirsiniz ancak daha yavaş çalışabilir\u000d
-\u000d
+    <string name="high_temp_dialog_message">"Telefonunuz otomatik olarak soğumaya çalışacaktır. Telefonunuzu kullanmaya devam edebilirsiniz ancak daha yavaş çalışabilir
+
 Telefonunuz soğuduktan sonra normal şekilde çalışır"</string>
     <string name="high_temp_notif_message">Telefon soğurken bazı özellikler sınırlıdır</string>
     <string name="high_temp_title">Telefon ısınıyor</string>
@@ -848,6 +847,7 @@ Telefonunuz soğuduktan sonra normal şekilde çalışır"</string>
     <string name="input_password_after_boot_msg">Cihaz kilidini açmak için parolanızı girin</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Arama sırasında alan değiştirilemiyor</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Aile bekçisi açıkken boşluklar arasında geçiş yapamıyorum</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Ultra pil tasarrufu açıkken alanlar arasında geçiş yapamıyorum</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Cihaz yeniden başlatıldıktan sonra ilk alana girmeniz gerekmektedir</string>
     <string name="input_password_hint_text">Parolayı girin</string>
     <string name="input_pattern_hint_text">Kilit açma deseninizi seçin</string>
@@ -1145,11 +1145,11 @@ almak için dokunun"</string>
     <string name="monitoring_button_view_policies">Politikaları görüntüle</string>
     <string name="monitoring_description_app">E-postalar, uygulamalar ve internet siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilecek. %1$s ile bağlısınız</string>
     <string name="monitoring_description_app_personal">E-postalar, uygulamalar ve internet siteleri de dahil olmak üzere kişisel ağ etkinliğinizi izleyebilecek. %1$s ile bağlısınız</string>
-    <string name="monitoring_description_app_personal_work">"İş profiliniz %1$s tarafından yönetiliyor. Profil, e-postalar, uygulamalar ve internet siteleri dahil olmak üzere iş ağı etkinliğinizi izleyebilen. %1$s ile bağlısınız\u000d
-\u000d
+    <string name="monitoring_description_app_personal_work">"İş profiliniz %1$s tarafından yönetiliyor. Profil, e-postalar, uygulamalar ve internet siteleri dahil olmak üzere iş ağı etkinliğinizi izleyebilen. %1$s ile bağlısınız
+
 Kişisel ağ etkinliğinizi izleyebilecek. %3$s'ye de bağlısınız"</string>
-    <string name="monitoring_description_app_work">"İş profiliniz %1$s tarafından yönetiliyor. Profil, e-postalar, uygulamalar ve internet siteleri dahil olmak üzere iş ağı etkinliğinizi izleyebilen %2$s'ye bağlı\u000d
-\u000d
+    <string name="monitoring_description_app_work">"İş profiliniz %1$s tarafından yönetiliyor. Profil, e-postalar, uygulamalar ve internet siteleri dahil olmak üzere iş ağı etkinliğinizi izleyebilen %2$s'ye bağlı
+
 Daha fazla bilgi için yöneticinize başvurun"</string>
     <string name="monitoring_description_ca_cert_settings">Güvenilir kimlik bilgilerini aç</string>
     <string name="monitoring_description_ca_cert_settings_separator">" "</string>
@@ -1201,7 +1201,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="mount_storage">Evet</string>
     <string name="mx_mcc">334</string>
     <string name="nav_bar">Gezinti çubuğu</string>
-    <string name="nav_bar_default">(varsayılan)</string>
+    <string name="nav_bar_default">(Varsayılan)</string>
     <string name="nav_bar_layout">Düzen</string>
     <string name="nav_guide_cancel">Yoksay</string>
     <string name="nav_guide_message">Sanal tuşları gizlemek ve görüntülemek için el hareketlerini kullanın</string>
@@ -1404,6 +1404,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="qs_dnd_replace">Değiştir</string>
     <string name="qs_dnd_until">"%s'ye kadar"</string>
     <string name="qs_edit">Düzenle</string>
+    <string name="qs_open_night_mode_alert_summary">Bazı ekran ayarları karanlık modla uyumlu değil. Karanlık modu kapattığınızda bunlar geri yüklenir</string>
     <string name="qs_paging">Yeni hızlı ayarlarını kullan</string>
     <string name="qs_rearrange">Hızlı ayarları yeniden düzenle</string>
     <string name="quick_settings">Hızlı ayarlar</string>
@@ -1473,6 +1474,7 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_night_secondary_label_on_at">"%s'da"</string>
     <string name="quick_settings_night_secondary_label_on_at_sunset">Gün batımında</string>
     <string name="quick_settings_night_secondary_label_until_sunrise">Gün doğumunda</string>
+    <string name="quick_settings_nightmode_label">Koyu mod</string>
     <string name="quick_settings_notifications_label">Bildirimler</string>
     <string name="quick_settings_papermode_label">Okuma modu</string>
     <string name="quick_settings_powermode_label">Performans modu</string>
@@ -1494,9 +1496,9 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="quick_settings_sync_label">Senkronize</string>
     <string name="quick_settings_tethering_label">Tethering</string>
     <string name="quick_settings_tiles">default</string>
-    <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),drivemode,powermode,vibrate,hotspot,sync,screenbutton,nfc,edit</string>
+    <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
     <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),drivemode,powermode,vibrate,hotspot,sync,screenbutton,nfc,edit</string>
+    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode</string>
     <string name="quick_settings_time_label">Zaman</string>
     <string name="quick_settings_toast_drag_to_enable_custom_tile">Bir öğe eklemek için onu basılı tutun ve ardından panelin üst kısmına sürükleyin</string>
     <string name="quick_settings_user_label">Ben</string>
@@ -1527,11 +1529,13 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="recents_accessibility_split_screen_top">Ekranı en üste böl</string>
     <string name="recents_app_info_button_label">Uygulama bilgisi</string>
     <string name="recents_caption_resize">Yeni görev düzenini seçin</string>
+    <string name="recents_dimiss_task">Temizle</string>
     <string name="recents_drag_hint_message">Ögeleri buraya sürükleyin</string>
     <string name="recents_empty_message">Son kullanılan öğe yok</string>
     <string name="recents_empty_message_dismissed_all">Tüm ögeleri sildiniz</string>
     <string name="recents_empty_message_multi_window">Uygulamaları açmak için ana sayfaya gidin</string>
     <string name="recents_exit_multi_window_mode">Çık</string>
+    <string name="recents_forbid_dock_when_screening_toast_text">Yayın yaparken bölünmüş ekranı kullanamazsınız</string>
     <string name="recents_incompatible_app_message">Bu uygulama ekran bölmeyi desteklemiyor</string>
     <string name="recents_launch_disabled_message">%s güvenli modda durdu</string>
     <string name="recents_launch_error_message">%s başlatılamadı</string>
@@ -1541,7 +1545,8 @@ Ağ etkinliğinizi izleyebilecek bir VPN'ye de bağlısınız"</string>
     <string name="recents_multistack_add_stack_dialog_split_horizontal">Yatay olarak böl</string>
     <string name="recents_multistack_add_stack_dialog_split_vertical">Dikey olarak böl</string>
     <string name="recents_search_bar_label">Ara</string>
-    <string name="recents_stack_action_button_label">Tümünü kaldır</string>
+    <string name="recents_stack_action_button_label">Tümünü temizle</string>
+    <string name="recents_task_screening">Yayınlanıyor</string>
     <string name="recents_title_app_manager">Uygulamaları yönet</string>
     <string name="recents_title_game">Oyunlar</string>
     <string name="recents_title_garbage_cleanup">Temizlik</string>
@@ -1923,8 +1928,8 @@ Telefonunuz çok ısınabilir:
     <string name="use_ptp_button_title">Kamera olarak bağla (PTP)</string>
     <string name="use_system_language_to_select_input_method_subtypes">Sistem dillerini kullan</string>
     <string name="user_add_user">Kullanıcı ekle</string>
-    <string name="user_add_user_message_short">"Yeni bir kullanıcı eklediğinizde bu kişinin alanlarını ayarlaması gerekir\u000d
-\u000d
+    <string name="user_add_user_message_short">"Yeni bir kullanıcı eklediğinizde bu kişinin alanlarını ayarlaması gerekir
+
 Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncelleyebilir"</string>
     <string name="user_add_user_title">Yeni kullanıcı eklensin mi?</string>
     <string name="user_guest">Misafir</string>
@@ -2052,7 +2057,7 @@ Herhangi bir kullanıcı diğer tüm kullanıcılar için uygulamaları güncell
     <string name="wifi_security_wapi_cert">WAPI-Cert</string>
     <string name="wifi_security_wapi_psk">WAPI-PSK</string>
     <string name="wifi_security_wapi_psk_ascii">ASCII</string>
-    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">Onaltılık</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
