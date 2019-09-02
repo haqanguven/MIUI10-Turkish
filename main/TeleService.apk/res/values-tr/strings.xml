@@ -588,6 +588,8 @@ Oynatma kalitesi"</string>
     <string name="choose_network_title">Ağ seç</string>
     <string name="choose_profile">Profil Seçin</string>
     <string name="clear_adb_keys">USB hata ayıklama yetkilerini kaldır</string>
+    <string name="clear_all_set_button">Ayarı temizle</string>
+    <string name="clear_all_set_title">Bu düğme tüm ayarları silmek içindir</string>
     <string name="clh_callFailed_ACM_equal_to_or_greater_than_ACMmax_txt">"ACM, ACMmax'a eşit veya daha büyük"</string>
     <string name="clh_callFailed_access_information_discarded_txt">Erişim bilgileri atıldı</string>
     <string name="clh_callFailed_bearer_capability_not_authorized_txt">Taşıyıcı yeteneği yetkili değil</string>
@@ -908,6 +910,8 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="entertainment_news_settings">Eğlence haberleri</string>
     <string name="eo_disable">İş imkanları kapalı</string>
     <string name="eo_enable">İş imkanları açık</string>
+    <string name="eps_only_set_button">Sadece eps ayarla</string>
+    <string name="eps_only_set_title">Bu düğme sadece eps ayarlamak içindir</string>
     <string name="error_updating_title">Arama ayarları hatası</string>
     <string name="exception_error">Ağ veya Sim kart hatası</string>
     <string name="expand_button_title">Advanced</string>
@@ -969,6 +973,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="force_resizable_activities_summary">Manifest değerlerinden bağımsız olarak tüm etkinlikleri birden fazla pencerede yeniden boyutlandırılabilir yap</string>
     <string name="force_rtl_layout_all_locales">Sağdan sola düzenini zorla</string>
     <string name="force_rtl_layout_all_locales_summary">Tüm yerel ayarlar için sağdan sola ekran düzenini zorlar</string>
+    <string name="frequecy_num">Lte kanal numarası</string>
     <string name="fw_change_failed">"Yönlendirme numarası değiştirilemedi
 Sorunun devam etmesi halinde operatörünüz ile iletişime geçin"</string>
     <string name="fw_get_in_vm_failed">"Mevcut yönlendirme numarası ayarları alınamadı ve kaydedilemedi
@@ -1103,8 +1108,12 @@ Yine de yeni sağlayıcıya geçilsin mi?"</string>
     <string name="local_enable">Yerel haberler açık</string>
     <string name="local_weather_disable">Yerel hava durumu kapalı</string>
     <string name="local_weather_enable">Yerel hava durumu açık</string>
+    <string name="location">Alan</string>
     <string name="lodgings_disable">Konaklama kapalı</string>
     <string name="lodgings_enable">Konaklama açık</string>
+    <string name="lte_band_sel_setting">Band listesi</string>
+    <string name="lte_band_set_status">Lte bandı seç</string>
+    <string name="lte_freq_set_button">Pci ve frekansı ayarla</string>
     <string name="maintenance_disable">Bakım kapalı</string>
     <string name="maintenance_enable">Bakım açık</string>
     <string name="manageConferenceLabel">Konferans aramasını yönet</string>
@@ -1172,6 +1181,10 @@ Yine de yeni sağlayıcıya geçilsin mi?"</string>
     <string name="mock_location_app_set">Sahte konum uygulaması: %1$s</string>
     <string name="modem_dialog_body">Mobil ağ kararsızlığı, kesintileri veya ağ sorunları yaşıyor. Analiz için Mi raporuna hata raporu gönderilsin mi? Bu raporda kişisel tanıtıcı bilgiler bulunabilir. Raporunuz bu hatayı düzeltmek için kullanılacak ve hiçbir zaman ticari bağlamda paylaşılmayacak</string>
     <string name="modem_dialog_title">Mobil şebeke kararsız</string>
+    <string name="modem_set_title">Modem ayarı</string>
+    <string name="modem_setting_button_title">Ayarlar menüsüne gir</string>
+    <string name="modem_setting_info">Modem ayarı bilgisi</string>
+    <string name="modem_setting_text_title">Modem test özelliği ayarı</string>
     <string name="msim_apn_not_set">Ayarlı değil</string>
     <string name="msim_cmcc_dds_switch_not_support">Taşıyıcı kısıtlamaları nedeniyle Sim kartınızı değiştiremezsiniz</string>
     <string name="msim_default_setting">Varsayılan ayarlar</string>
@@ -1296,6 +1309,7 @@ Seçilen ağ yerine tercih edilen ağ kullanılacaktır"</string>
     <string name="open_miui">Aç</string>
     <string name="opened_dual_4g_confirm_prompt">"Sadece 4G'lik bir Sim kartınız var gibi görünüyor. Çif 4G otomatik olarak açıldı"</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">"Sim %1$s sadece 4G'yi destekler. Sim kartınızın normal çalıştığından emin olmak için çift 4G özelliğini açın"</string>
+    <string name="operator">Taşıyıcı</string>
     <string name="optional_summary">&lt;İsteğe bağlı></string>
     <string name="ota_activate">Etkinleştir</string>
     <string name="ota_call_end">Geri</string>
@@ -1371,6 +1385,7 @@ Yeniden deneyin veya daha fazla seçenek için müşteri hizmetlerini arayın"</
 "</string>
     <string name="pause_prompt_yes">Evet</string>
     <string name="payphone">Ankesörlü telefon</string>
+    <string name="pci_num">Lte pci numarası</string>
     <string name="phoneAppLabel">Telefon hizmetleri</string>
     <string name="phoneIconLabel">Telefon</string>
     <string name="phone_account_settings">Hesapları arama</string>
@@ -1484,11 +1499,12 @@ Telefonunuz bir sonraki başarısız oldu girişimden sonra otomatik olarak kili
     <string name="preferred_network_type_cdma">CDMA</string>
     <string name="preferred_network_type_pref_entries_3g_preferred">3G öncelikli</string>
     <string name="preferred_network_type_pref_entries_3g_preferred_cdma">3G öncelikli (CDMA)</string>
-    <string name="preferred_network_type_pref_entries_3g_preferred_lm_cr">WCDMA/GSM auto</string>
+    <string name="preferred_network_type_pref_entries_3g_preferred_lm_cr">Otomatik WCDMA/GSM</string>
     <string name="preferred_network_type_pref_entries_4g_preferred">LTE öncelikli</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_cdma">4G öncelikli (CDMA)</string>
-    <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
-    <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred_custom">4G öncelikli</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">Otomatik LTE/WCDMA/GSM</string>
+    <string name="preferred_network_type_pref_entries_5g_preferred">5G öncelikli</string>
     <string name="preferred_network_type_pref_entries_auto">Otomatik</string>
     <string name="preferred_network_type_pref_entries_global">Küresel</string>
     <string name="preferred_network_type_pref_entries_only_2g">Sadece 2G (Pil tasarrufu sağlar)</string>
@@ -1729,6 +1745,7 @@ Sim kartınız bir sonraki başarısız oldu girişimden sonra kilitlenecektir"<
     <string name="sip_system_decide">Otomatik</string>
     <string name="smart_divert_summary">CFNRc ayarları</string>
     <string name="smart_divert_title">Akıllı yönlendirme</string>
+    <string name="smsc_dialog_message">Girdiğiniz numaranın doğru olduğundan emin olun. Aksi takdirde mesaj gönderemez veya alamazsınız. SMSC numaranızı onaylamak için operatörünüze başvurun</string>
     <string name="speed_label_fast">Hızlı</string>
     <string name="speed_label_medium">Orta</string>
     <string name="speed_label_okay">Tamam</string>

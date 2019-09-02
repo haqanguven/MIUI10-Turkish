@@ -155,9 +155,9 @@
         <item>En iyi sonuç (Uyarlanabilir Bit hızı)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Ses kalitesi (990 kb/saniye / 909 kb/saniye) için optimize edildi</item>
-        <item>Dengeli ses ve bağlantı kalitesi (660 kb/saniye / 606 kb/saniye)</item>
-        <item>Bağlantı kalitesi (330 kb/saniye / 303 kb/saniye) için optimize edildi</item>
+        <item>Ses kalitesi için optimize edildi (990kbps/909kbps)</item>
+        <item>Dengeli ses ve bağlantı kalitesi (660kbps/606kbps)</item>
+        <item>Bağlantı kalitesi için optimize edildi (330kbps/303kbps)</item>
         <item>En iyi sonuç (Uyarlanabilir Bit hızı)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
@@ -191,23 +191,23 @@
         <item>Sistem seçimini kullan (Varsayılan)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ ses</item>
+        <item>Qualcomm® aptX™ HD ses</item>
         <item>LDAC</item>
-        <item>"İsteğe bağlı codec'leri etkinleştir"</item>
-        <item>"İsteğe bağlı codec'leri devre dışı bırak"</item>
-        <item>Disable Optional Codecs</item>
+        <item>Qualcomm® aptX™ uyarlanabilir ses</item>
+        <item>İsteğe bağlı kodekleri etkinleştir</item>
+        <item>İsteğe bağlı kodekleri devre dışı bırak</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Sistem seçimini kullan (Varsayılan)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ ses</item>
+        <item>Qualcomm® aptX™ HD ses</item>
         <item>LDAC</item>
-        <item>"İsteğe bağlı codec'leri etkinleştir"</item>
-        <item>"İsteğe bağlı codec'leri devre dışı bırak"</item>
-        <item>Disable Optional Codecs</item>
+        <item>Qualcomm® aptX™ uyarlanabilir ses</item>
+        <item>İsteğe bağlı kodekleri etkinleştir</item>
+        <item>İsteğe bağlı kodekleri devre dışı bırak</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>

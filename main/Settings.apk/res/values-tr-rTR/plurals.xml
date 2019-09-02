@@ -261,8 +261,8 @@
         <item quantity="one">1 yazdırma hizmeti açık</item>
     </plurals>
     <plurals name="restricted_app_summary">
-        <item quantity="other">Limiting battery usage for %1$d apps</item>
-        <item quantity="one">Limiting battery usage for %1$d app</item>
+        <item quantity="other">%1$d uygulama için pil kullanımını sınırlama</item>
+        <item quantity="one">%1$d uygulama için pil kullanımını sınırlama</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count">
         <item quantity="other">%d ek izin</item>
