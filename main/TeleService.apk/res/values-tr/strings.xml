@@ -2144,5 +2144,5 @@ Kimlik bilgileri depolaması etkinleştirilemeyebilir"</string>
     <string name="zen_mode_duration_settings_title">Süre</string>
     <string name="zen_mode_enable_dialog_turn_on">Aç</string>
     <string name="zen_mode_settings_summary_off">Asla</string>
-    <string name="zen_mode_settings_turn_on_dialog_title">Rahatsız etmeyin özelliğini açın</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Rahatsız etme özelliğini açın</string>
 </resources>

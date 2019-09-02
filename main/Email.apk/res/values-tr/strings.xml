@@ -823,8 +823,8 @@ Farklı bir posta kutusu deneyin"</string>
     <string name="open_external_storage_and_contacts_permission">E-posta uygulamasına Ayarlar menüsünde depolama alanına ve kişilere erişim izni verin</string>
     <string name="open_notification_kingagent">Mezarlık noktası bildirimini aç</string>
     <string name="optimization_suggestion">Optimizasyon önerisi</string>
-    <string name="others_mail">Diğerleri</string>
-    <string name="others_mail_des">Bu diğer e-posta servisi veya kurumsal e-posta servisi için</string>
+    <string name="others_mail">Diğer</string>
+    <string name="others_mail_des">Bu diğer e-posta veya kurumsal e-posta servisleri içindir</string>
     <string name="outbox_alert_button_no_resend">Gönderilemedi</string>
     <string name="outbox_alert_button_resend">Tekrar gönder</string>
     <string name="outbox_alert_certificate_error">Sertifikanızı güncellemek için e-posta sunucunuzun sistem yöneticiyle iletişime geçin</string>
@@ -1294,7 +1294,7 @@ Postayı bir kez senkronize etmek için <b>Şimdi senkronize et</b> veya bu hesa
     <string name="webview_sslerror_handle_hitmessage">Bir sertifika hatası meydana geldi. Yine de devam edilsin mi?</string>
     <string name="widget_all_mail">Tüm postalar</string>
     <string name="widget_large_unread_count">%d+</string>
-    <string name="widget_other_views">Diğerleri</string>
+    <string name="widget_other_views">Diğer</string>
     <string name="widget_provider">com.kingsoft.email.provider.WidgetProvider</string>
     <string name="wipe_account_fail_description">İzin ver</string>
     <string name="wipe_account_fail_description_remind">Veri kullanımı kısıtlamalarından sebebiyle hesabı sildikten sonra takvim ve kişiler uygulamasında artık veri kalabilir. Bu öğeleri bizzat silin</string>
