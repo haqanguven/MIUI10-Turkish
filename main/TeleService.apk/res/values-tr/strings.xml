@@ -114,8 +114,8 @@
     <string name="abc_action_mode_done">Bitti</string>
     <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
     <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
-    <string name="abc_capital_off">Kapat</string>
-    <string name="abc_capital_on">Aç</string>
+    <string name="abc_capital_off">Kapalı</string>
+    <string name="abc_capital_on">Açık</string>
     <string name="abc_font_family_body_1_material">sans-serif</string>
     <string name="abc_font_family_body_2_material">sans-serif-medium</string>
     <string name="abc_font_family_button_material">sans-serif-medium</string>
@@ -198,7 +198,7 @@
     <string name="always_enable_mms">Her zaman multimedya mesajlarını al</string>
     <string name="always_enable_mms_summary">Mobil veri kapalıyken dahi multimedya mesajını alır</string>
     <string name="animator_duration_scale_title">Animatör süresi</string>
-    <string name="answer_features_setting_category">Cevap</string>
+    <string name="answer_features_setting_category">Cevaplama ve aramalar</string>
     <string name="answer_state_setting_summary">Gelen arama ek seçenekleri</string>
     <string name="answer_state_setting_title">Gelen arama ayarları</string>
     <string name="antispam_notification_title">Bilinmeyen numara</string>
@@ -770,7 +770,7 @@ Devam etmek için sil ve dönüştür seçeneğine basın"</string>
     <string name="dial_emergency_calling_not_available">Acil arama yapılamıyor</string>
     <string name="dial_emergency_empty_error">Girmiş olduğunuz numara bir acil durum numarası değil. Bir acil durum numarası arayın</string>
     <string name="dial_emergency_error">Arama yapılamadı. %s bir acil durum numarası değil</string>
-    <string name="dial_related_setting_catory">Çevir</string>
+    <string name="dial_related_setting_catory">Çevirici</string>
     <string name="dialerKeyboardHintText">Çevirmek için klavyeyi kullanın</string>
     <string name="dialer_default_class">com.android.dialer.DialtactsActivity</string>
     <string name="dialog_alert_title">Uyarı</string>
@@ -1086,8 +1086,8 @@ Yine de yeni sağlayıcıya geçilsin mi?"</string>
     <string name="lable_all_outgoing">Tüm giden aramalar</string>
     <string name="lable_all_outgoing_international">Uluslararası giden aramalar</string>
     <string name="lable_call_barring">Arama engelleme</string>
-    <string name="lable_disable">Kapat</string>
-    <string name="lable_enable">Aç</string>
+    <string name="lable_disable">Kapalı</string>
+    <string name="lable_enable">Açık</string>
     <string name="lable_incoming_calls_except">Dolaşımdayken gelen aramalar</string>
     <string name="lable_network_not_supported">Ağ desteklenmiyor</string>
     <string name="lafs_disable">Yerel hava limanı uçuş takvimi kapalı</string>
