@@ -51,7 +51,6 @@
     <string name="storage_internal">Dahili depolama</string>
     <string name="storage_sd_card">SD kart</string>
     <string name="storage_usb">USB depolama</string>
-    <string name="dialog_confirm_delete_downloads_message">%d görev silinsin mi?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Görev silinsin mi</string>
     <string name="dialog_confirm_delete_checkbox_message">Yerel dosyaları da sil</string>
     <string name="download_when_network_connected">Mobil veri bağlantısını kullanarak indir</string>
@@ -61,7 +60,6 @@
     <string name="download_wait_connect">Bağlantı bekleniyor</string>
     <string name="download_filesize_unknown">Bilinmiyor</string>
     <string name="download_info_start_deleted_tasks">İndirilenleri sil</string>
-    <string name="download_info_count_deleted_tasks">%s indirme kaldırıldı</string>
     <string name="menu_preferences">İndirme ayarları</string>
     <string name="menu_all_task_pause">Tümünü duraklat</string>
     <string name="menu_all_task_start">Tümünü başlat</string>
@@ -288,10 +286,8 @@ Cihazlarınızın tamamında indirme işlemlerini hızlandırın"</string>
     <string name="sniff_terms_check_text">Hizmet şartlarını kabul et</string>
     <string name="sniff_terms_msg_bold_new">Hizmet şartları</string>
     <string name="sniff_terms_agree_new">Kabul et</string>
-    <string name="sniff_result_website_intro">Toplam &lt;font color=\"#6699ff\">%1$d&lt;/font> öğe | Kaynak: %2$s</string>
     <string name="sniff_result_num_prefix">Bulunan</string>
     <string name="sniff_result_num_video_suffix">öğe</string>
-    <string name="sniff_result_num_website_suffix">internet sitesi</string>
     <string name="sniff_btn_text">Kaynak</string>
     <string name="sniff_sniffing_btn_text">Kaynak aranıyor</string>
     <string name="sniff_result_empty_prompt">İnternet araması sonuçları</string>
@@ -516,5 +512,9 @@ Cihazlarınızın tamamında indirme işlemlerini hızlandırın"</string>
     <string name="test_speed">Test</string>
     <string name="everyone_test">Herkes test ediyor</string>
     <string name="privacy_policy">Gizlilik politikası</string>
+    <string name="ad">Reklam</string>
+    <string name="close_ad">Reklamları kapat</string>
+    <string name="close">Kapat</string>
+    <string name="path_no_available">Bu yol mevcut değil</string>
     <string name="download_title">İndirilenler</string>
 </resources>

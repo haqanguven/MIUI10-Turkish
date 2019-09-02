@@ -21,4 +21,7 @@
     <string name="debug_tool_email_sender_picker">Dosyanızı göndermek için bir uygulama seçin</string>
     <string name="debug_tool_email_subject">Takvim hata ayıklama aracı ektedir</string>
     <string name="debug_tool_email_body">Mesaj ekinde tüm randevularımı ve kişisel bilgilerimi içeren takvim veritabanım eklidir. Dikkatli kullanınız</string>
+    <string name="channel_name">Takvim hatırlatıcıları</string>
+    <string name="channel_description" />
+    <string name="cta_notice">Takvimi açın ve önce internete bağlanmasına izin verin</string>
 </resources>

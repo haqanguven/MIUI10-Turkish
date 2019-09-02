@@ -70,7 +70,6 @@
         <item>Harare</item>
         <item>Johannesburg</item>
         <item>Kampala</item>
-        <item>Hartum</item>
         <item>Kigali</item>
         <item>Kinşasa</item>
         <item>Lagos</item>
@@ -83,29 +82,27 @@
         <item>Tunus</item>
         <item>Anchorage</item>
         <item>Mendoza</item>
-        <item>Aruba</item>
         <item>Asunción</item>
-        <item>Barbados</item>
+        <item>Bridgetown</item>
         <item>Belize</item>
         <item>Bogota</item>
         <item>Buenos Aires</item>
         <item>Cancun</item>
         <item>Caracas</item>
-        <item>Cayman</item>
+        <item>George Town</item>
         <item>Şikago</item>
-        <item>Costa Rica</item>
-        <item>Curaçao</item>
+        <item>San Jose</item>
+        <item>Willemstad</item>
         <item>Dawson Creek</item>
         <item>Denver</item>
         <item>Detroit</item>
-        <item>Dominik</item>
+        <item>Santo Domingo</item>
         <item>Edmonton</item>
         <item>El Salvador</item>
         <item>Fortaleza</item>
-        <item>Grand Turk Adası</item>
-        <item>Grenada</item>
+        <item>St. Georges</item>
         <item>Guatemala</item>
-        <item>Guyan</item>
+        <item>Georgetown</item>
         <item>Halifaks</item>
         <item>Havana</item>
         <item>Indianapolis</item>
@@ -122,7 +119,7 @@
         <item>Los Angeles</item>
         <item>Louisville</item>
         <item>Managua</item>
-        <item>Martinik</item>
+        <item>Fort-de-France</item>
         <item>Metlakatla</item>
         <item>Meksiko</item>
         <item>Monterrey</item>
@@ -137,25 +134,22 @@
         <item>Phoenix</item>
         <item>Port of Spain</item>
         <item>Port-au-Prince</item>
-        <item>Porto Riko</item>
-        <item>Santo Domingo</item>
         <item>Sao Paulo</item>
         <item>St. Johns</item>
         <item>St. Kitts</item>
-        <item>St. Lucia</item>
+        <item>Castries</item>
         <item>St Thomas</item>
         <item>Tijuana</item>
         <item>Toronto</item>
         <item>Vancouver</item>
         <item>Winnipeg</item>
-        <item>Güney Kutbu</item>
         <item>Longyearbyen</item>
         <item>Almati</item>
         <item>Amman</item>
         <item>Anadır</item>
         <item>Aktav</item>
         <item>Bağdat</item>
-        <item>Bahreyn</item>
+        <item>Manama</item>
         <item>Bakü</item>
         <item>Bangkok</item>
         <item>Beyrut</item>
@@ -176,13 +170,12 @@
         <item>Kuveyt</item>
         <item>Macau</item>
         <item>Manila</item>
-        <item>Muscat</item>
+        <item>Muskat</item>
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
-        <item>Katar</item>
-        <item>Yangon</item>
+        <item>Doha</item>
+        <item>Rangoon</item>
         <item>Riyad</item>
-        <item>Ho Chi Minh</item>
         <item>Seul</item>
         <item>Şangay</item>
         <item>Singapur</item>
@@ -191,9 +184,9 @@
         <item>Tel Aviv</item>
         <item>Tokyo</item>
         <item>Ulan Batur</item>
-        <item>Bermuda</item>
+        <item>Hamilton</item>
         <item>Kanarya Adaları</item>
-        <item>Yeşil Burun Adaları</item>
+        <item>Praia</item>
         <item>Reykjavik</item>
         <item>Stanley</item>
         <item>Adelaide</item>
@@ -210,7 +203,7 @@
         <item>Saskatchewan</item>
         <item>Paskalya Adası</item>
         <item>Amsterdam</item>
-        <item>Andorra</item>
+        <item>Andorra la Vella</item>
         <item>Atina</item>
         <item>Belfast</item>
         <item>Belgrad</item>
@@ -230,7 +223,7 @@
         <item>Londra</item>
         <item>Lüksemburg</item>
         <item>Madrid</item>
-        <item>Malta</item>
+        <item>Valletta</item>
         <item>Minsk</item>
         <item>Monako</item>
         <item>Moskova</item>
@@ -253,17 +246,14 @@
         <item>Zagreb</item>
         <item>Zürih</item>
         <item>Antananarivo</item>
-        <item>Maldivler</item>
-        <item>Mauritius</item>
+        <item>Male</item>
+        <item>Port Louis</item>
         <item>Auckland</item>
-        <item>Fiji</item>
+        <item>Suva</item>
         <item>Guam</item>
         <item>Honolulu</item>
-        <item>Kiritimati</item>
         <item>Noumea</item>
-        <item>Samoa</item>
         <item>Tahiti</item>
-        <item>Antigua</item>
         <item>Austin</item>
         <item>Boston</item>
         <item>Calgary</item>
@@ -308,10 +298,10 @@
         <item>Pekin</item>
         <item>Bombay</item>
         <item>Delhi</item>
-        <item>New Delhi</item>
+        <item>Yeni Delhi</item>
         <item>Osaka</item>
         <item>Lahor</item>
-        <item>"Sana'a"</item>
+        <item>Sana</item>
         <item>Barselona</item>
         <item>Münih</item>
         <item>Milan</item>
@@ -319,9 +309,9 @@
         <item>Hanoi</item>
         <item>Ankara</item>
         <item>Bangalore</item>
-        <item>Brasília</item>
+        <item>Brasilya</item>
         <item>Cape Town</item>
-        <item>Islamabad</item>
+        <item>İslamabad</item>
         <item>Rio de Janeiro</item>
         <item>Ann Arbor</item>
         <item>Boulder</item>
@@ -329,7 +319,7 @@
         <item>Kirkland</item>
         <item>Madison</item>
         <item>Guangzhou</item>
-        <item>Hyderabad</item>
+        <item>Haydarabad</item>
         <item>Reston</item>
         <item>Belo Horizonte</item>
         <item>Santiago</item>
@@ -350,6 +340,11 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <string-array name="clock_bg_setting_entries">
+        <item>Beyaz</item>
+        <item>Siyah</item>
+        <item>Otomatik</item>
+    </string-array>
     <string-array name="countries_names_miui">
         <item>Fildişi Sahilleri</item>
         <item>Gana</item>
@@ -362,13 +357,12 @@
         <item>Gine</item>
         <item>Senegal</item>
         <item>Tanzanya</item>
-        <item>Cibuti Cumhuriyeti</item>
+        <item>Cibuti</item>
         <item>Sierra Leone</item>
         <item>Botsvana</item>
         <item>Zimbabve</item>
         <item>Güney Afrika</item>
         <item>Uganda</item>
-        <item>Sudan Cumhuriyeti</item>
         <item>Ruanda</item>
         <item>Kongo Demokratik Cumhuriyeti</item>
         <item>Nijerya</item>
@@ -381,7 +375,6 @@
         <item>Tunus</item>
         <item>Amerika Birleşik Devletleri</item>
         <item>Arjantin</item>
-        <item>Aruba</item>
         <item>Paraguay</item>
         <item>Barbados</item>
         <item>Belize</item>
@@ -391,7 +384,7 @@
         <item>Venezüela</item>
         <item>Cayman Adaları</item>
         <item>Amerika Birleşik Devletleri</item>
-        <item>Costa Rica</item>
+        <item>Kosta Rika</item>
         <item>Curaçao</item>
         <item>Kanada</item>
         <item>Amerika Birleşik Devletleri</item>
@@ -400,7 +393,6 @@
         <item>Kanada</item>
         <item>El Salvador</item>
         <item>Brezilya</item>
-        <item>Turks ve Caicos Adaları</item>
         <item>Grenada</item>
         <item>Guatemala</item>
         <item>Guyan</item>
@@ -435,8 +427,6 @@
         <item>Amerika Birleşik Devletleri</item>
         <item>Trinidad ve Tobago</item>
         <item>Haiti</item>
-        <item>Porto Riko</item>
-        <item>Dominik Cumhuriyeti</item>
         <item>Brezilya</item>
         <item>Kanada</item>
         <item>Saint Kitts ve Nevis</item>
@@ -446,7 +436,6 @@
         <item>Kanada</item>
         <item>Kanada</item>
         <item>Kanada</item>
-        <item>Antarktika</item>
         <item>Svalbard ve Jan Mayen</item>
         <item>Kazakistan</item>
         <item>Ürdün</item>
@@ -466,7 +455,7 @@
         <item>Vietnam</item>
         <item>Çin</item>
         <item>Endonezya</item>
-        <item>İsrail</item>
+        <item></item>
         <item>Afganistan</item>
         <item>Pakistan</item>
         <item>Nepal</item>
@@ -480,7 +469,6 @@
         <item>Katar</item>
         <item>Myanmar</item>
         <item>Suudi Arabistan</item>
-        <item>Çin</item>
         <item>Güney Kore</item>
         <item>Çin</item>
         <item>Singapur</item>
@@ -508,7 +496,7 @@
         <item>Kanada</item>
         <item>Şili</item>
         <item>Hollanda</item>
-        <item>Andorra</item>
+        <item>Andora</item>
         <item>Yunanistan</item>
         <item>Birleşik Krallık</item>
         <item>Sırbistan</item>
@@ -537,14 +525,14 @@
         <item>Çekya</item>
         <item>Letonya</item>
         <item>İtalya</item>
-        <item>San Marino</item>
+        <item></item>
         <item>Bosna Hersek</item>
-        <item>Ukrayna</item>
+        <item></item>
         <item>Makedonya</item>
         <item>Bulgaristan</item>
         <item>İsveç</item>
         <item>Estonya</item>
-        <item>Vatikan</item>
+        <item></item>
         <item>Avusturya</item>
         <item>Litvanya</item>
         <item>Polonya</item>
@@ -557,11 +545,8 @@
         <item>Fiji</item>
         <item>Guam</item>
         <item>Amerika Birleşik Devletleri</item>
-        <item>Avustralya</item>
         <item>Yeni Kaledonya</item>
-        <item>Samoa</item>
         <item>Fransız Polinezyası</item>
-        <item>Antigua ve Barbuda</item>
         <item>Amerika Birleşik Devletleri</item>
         <item>Amerika Birleşik Devletleri</item>
         <item>Kanada</item>
@@ -630,7 +615,7 @@
         <item>Hindistan</item>
         <item>Amerika Birleşik Devletleri</item>
         <item>Brezilya</item>
-        <item>Amerika Birleşik Devletleri</item>
+        <item>Şili</item>
         <item>Liberya</item>
         <item>Sri Lanka</item>
         <item>Meksika</item>
@@ -694,17 +679,10 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="weather_tips_value">
-        <item>Açık alan etkinliklerini azaltın</item>
-        <item>Bugün yollar kaygan</item>
-        <item>Hava fırtınalı. Dikkatli olun</item>
-        <item>Bugün hava sisli. Dikkatli sürün</item>
-        <item>Hava kirli. Maske takın</item>
-        <item>Dışarı çıkarken yanınıza şemsiye alın</item>
-        <item>Yollarda dikkatli olun</item>
-        <item>Bugün yağmur yağıyor. Dikkatli olun</item>
-        <item>Kum fırtınası geliyor. Maske takın</item>
-        <item>İyi günler</item>
+    <string-array name="clock_bg_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
     </string-array>
     <integer-array name="alarm_repeat_type_no_workdays_values">
         <item>0</item>
@@ -748,7 +726,6 @@
         <item>C15</item>
         <item>C16</item>
         <item>C17</item>
-        <item>C18</item>
         <item>C19</item>
         <item>C20</item>
         <item>C21</item>
@@ -761,7 +738,6 @@
         <item>C28</item>
         <item>C29</item>
         <item>C30</item>
-        <item>C31</item>
         <item>C32</item>
         <item>C33</item>
         <item>C34</item>
@@ -780,7 +756,6 @@
         <item>C47</item>
         <item>C48</item>
         <item>C49</item>
-        <item>C50</item>
         <item>C51</item>
         <item>C52</item>
         <item>C53</item>
@@ -815,8 +790,6 @@
         <item>C83</item>
         <item>C84</item>
         <item>C85</item>
-        <item>C86</item>
-        <item>C87</item>
         <item>C88</item>
         <item>C89</item>
         <item>C90</item>
@@ -826,7 +799,6 @@
         <item>C94</item>
         <item>C95</item>
         <item>C96</item>
-        <item>C97</item>
         <item>C98</item>
         <item>C99</item>
         <item>C100</item>
@@ -860,7 +832,6 @@
         <item>C129</item>
         <item>C130</item>
         <item>C131</item>
-        <item>C132</item>
         <item>C133</item>
         <item>C134</item>
         <item>C135</item>
@@ -937,11 +908,8 @@
         <item>C207</item>
         <item>C208</item>
         <item>C209</item>
-        <item>C210</item>
         <item>C211</item>
-        <item>C212</item>
         <item>C213</item>
-        <item>C214</item>
         <item>C215</item>
         <item>C216</item>
         <item>C217</item>
@@ -986,6 +954,7 @@
         <item>C256</item>
         <item>C257</item>
         <item>C258</item>
+        <item>C300</item>
         <item>C259</item>
         <item>C260</item>
         <item>C261</item>
@@ -1045,7 +1014,6 @@
         <item>Africa/Harare</item>
         <item>Africa/Johannesburg</item>
         <item>Africa/Kampala</item>
-        <item>Africa/Khartoum</item>
         <item>Africa/Kigali</item>
         <item>Africa/Kinshasa</item>
         <item>Africa/Lagos</item>
@@ -1058,7 +1026,6 @@
         <item>Africa/Tunis</item>
         <item>America/Anchorage</item>
         <item>America/Argentina/Mendoza</item>
-        <item>America/Aruba</item>
         <item>America/Asuncion</item>
         <item>America/Barbados</item>
         <item>America/Belize</item>
@@ -1077,7 +1044,6 @@
         <item>America/Edmonton</item>
         <item>America/El_Salvador</item>
         <item>America/Fortaleza</item>
-        <item>America/Grand_Turk</item>
         <item>America/Grenada</item>
         <item>America/Guatemala</item>
         <item>America/Guyana</item>
@@ -1112,8 +1078,6 @@
         <item>America/Phoenix</item>
         <item>America/Port_of_Spain</item>
         <item>America/Port-au-Prince</item>
-        <item>America/Puerto_Rico</item>
-        <item>America/Santo_Domingo</item>
         <item>America/Sao_Paulo</item>
         <item>America/St_Johns</item>
         <item>America/St_Kitts</item>
@@ -1123,7 +1087,6 @@
         <item>America/Toronto</item>
         <item>America/Vancouver</item>
         <item>America/Winnipeg</item>
-        <item>Antarctica/South_Pole</item>
         <item>Arctic/Longyearbyen</item>
         <item>Asia/Almaty</item>
         <item>Asia/Amman</item>
@@ -1157,7 +1120,6 @@
         <item>Asia/Qatar</item>
         <item>Asia/Rangoon</item>
         <item>Asia/Riyadh</item>
-        <item>Asia/Hong_Kong</item>
         <item>Asia/Seoul</item>
         <item>Asia/Shanghai</item>
         <item>Asia/Singapore</item>
@@ -1234,11 +1196,8 @@
         <item>Pacific/Fiji</item>
         <item>Pacific/Guam</item>
         <item>Pacific/Honolulu</item>
-        <item>Australia/Kiritimati</item>
         <item>Pacific/Noumea</item>
-        <item>Pacific/Samoa</item>
         <item>Pacific/Tahiti</item>
-        <item>America/Antigua</item>
         <item>America/Chicago</item>
         <item>America/New_York</item>
         <item>America/Denver</item>
@@ -1320,7 +1279,7 @@
         <item>Europe/Berlin</item>
         <item>Europe/Bucharest</item>
         <item>Asia/Jerusalem</item>
-        <item>America/Puerto Rico</item>
+        <item>America/Puerto_Rico</item>
         <item>America/Tegucigalpa</item>
         <item>America/Paramaribo</item>
         <item>America/Panama</item>
@@ -1328,7 +1287,7 @@
     <string-array name="stat_volume_button_behaviors">
         <item>Hayır</item>
         <item>Daha sonra çaldır</item>
-        <item>Kapat</item>>
+        <item>Kapat</item>
     </string-array>
     <string-array name="timezone_alphabet_table">
         <item>A</item>

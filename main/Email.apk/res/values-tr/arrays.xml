@@ -1,78 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="all_month_str">
-        <item>Ocak</item>
-        <item>Şubat</item>
-        <item>Mart</item>
-        <item>Nisan</item>
-        <item>Mayıs</item>
-        <item>Haziran</item>
-        <item>Temmuz</item>
-        <item>Ağustos</item>
-        <item>Eylül</item>
-        <item>Ekim</item>
-        <item>Kasım</item>
-        <item>Aralık</item>
-    </string-array>
-    <string-array name="calendar_remind_string_array">
-        <item>Bu gece</item>
-        <item>Yarın</item>
-        <item>Hafta sonu</item>
-        <item>Gelecek hafta</item>
-        <item>Gelecek ay</item>
-        <item>Tarih seçin</item>
-    </string-array>
-    <string-array name="compose_modes">
-        <item>Yanıtla</item>
-        <item>Tümünü yanıtla</item>
-        <item>İlet</item>
-    </string-array>
-    <string-array name="general_preference_text_zoom_summary_array">
-        <item>Çok küçük</item>
-        <item>Küçük</item>
-        <item>Normal</item>
-        <item>Büyük</item>
-        <item>Çok büyük</item>
-    </string-array>
-    <string-array name="menu_att_mgr_sort_string_array">
-        <item>Yakınlarda görüntülenen</item>
-        <item>Biçim</item>
-        <item>İsim</item>
-        <item>Gönderen</item>
-        <item>Alınma tarihi</item>
-    </string-array>
-    <string-array name="moveto_folder_sections">
-        <item>Sistem</item>
-        <item>Sık kullanılan</item>
-        <item>Tüm klasörler</item>
-    </string-array>
-    <string-array name="prefEntries_autoAdvance">
-        <item>Yeni mesajlar</item>
-        <item>Eski mesajlar</item>
-        <item>Gelen kutusu</item>
-    </string-array>
-    <string-array name="signature_normal_string_array_next">
-        <item>Adres:</item>
-        <item>Telefon:</item>
-        <item>İsim:</item>
-        <item>E-posta:</item>
-        <item>Mobil:</item>
-        <item>WeChat:</item>
-        <item>Faks:</item>
-        <item>Posta kodu:</item>
-    </string-array>
-    <string-array name="signature_special_string_array_next">
-        <item>Teşekkürler</item>
-        <item>Saygılarımla</item>
-        <item>Gönderildi</item>
-        <item>Orijinal e-posta</item>
-        <item>Gönderildi</item>
-        <item>Gönderildi</item>
-        <item>Gönderen</item>
-        <item>Bu e-posta</item>
-        <item>Yasal uyarı</item>
-        <item>E-posta yasal uyarısı</item>
-    </string-array>
     <string-array name="account_providers">
         <item>content://com.android.email.provider/uiaccts</item>
     </string-array>
@@ -205,6 +132,20 @@
         <item>1</item>
         <item>4</item>
     </string-array>
+    <string-array name="all_month_str">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
     <string-array name="alphabet_chars">
         <item>★</item>
         <item>A</item>
@@ -236,6 +177,14 @@
         <item>\#</item>
         <item>∅</item>
     </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Bu gece</item>
+        <item>Yarın</item>
+        <item>Hafta sonu</item>
+        <item>Gelecek hafta</item>
+        <item>Gelecek ay</item>
+        <item>Tarih seçin</item>
+    </string-array>
     <array name="combined_view_account_colors">
         <item>@color/combined_view_account_color_1</item>
         <item>@color/combined_view_account_color_2</item>
@@ -247,6 +196,11 @@
         <item>@color/combined_view_account_color_8</item>
         <item>@color/combined_view_account_color_9</item>
     </array>
+    <string-array name="compose_modes">
+        <item>Yanıtla</item>
+        <item>Tümünü yanıtla</item>
+        <item>İlet</item>
+    </string-array>
     <string-array name="default_quick_responses">
         <item>@string/quick_1</item>
         <item>@string/quick_2</item>
@@ -294,6 +248,13 @@
         <item>@string/general_preference_text_zoom_large</item>
         <item>@string/general_preference_text_zoom_huge</item>
     </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Çok küçük</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Çok büyük</item>
+    </string-array>
     <string-array name="general_preference_text_zoom_values">
         <item>tiny</item>
         <item>small</item>
@@ -315,10 +276,35 @@
         <item>30</item>
         <item>-1</item>
     </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Yakınlarda görüntülenen</item>
+        <item>Biçim</item>
+        <item>İsim</item>
+        <item>Gönderen</item>
+        <item>Alınma tarihi</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Sistem</item>
+        <item>Sık kullanılan</item>
+        <item>Tüm klasörler</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Yeni mesajlar</item>
+        <item>Eski mesajlar</item>
+        <item>Gelen kutusu</item>
+    </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Tümü</item>
+        <item>Sadece alıcılar</item>
+    </string-array>
     <string-array name="prefValues_autoAdvance">
         <item>newer</item>
         <item>older</item>
         <item>list</item>
+    </string-array>
+    <string-array name="prefValues_contact_add">
+        <item>contact_add</item>
+        <item>receiver_add</item>
     </string-array>
     <string-array name="quote_devider_text_array">
         <item>@string/quote_divider_apple</item>
@@ -375,6 +361,16 @@
         <item>QQ:</item>
         <item>MSN:</item>
     </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Adres:</item>
+        <item>Telefon:</item>
+        <item>İsim:</item>
+        <item>E-posta:</item>
+        <item>Mobil:</item>
+        <item>WeChat:</item>
+        <item>Faks:</item>
+        <item>Posta kodu:</item>
+    </string-array>
     <string-array name="signature_special_string_array">
         <item>Yasal name:</item>
         <item>E-posta bildirimi</item>
@@ -383,6 +379,18 @@
         <item>ile gönderildi</item>
         <item>Teşekkürler,</item>
         <item>Saygılarımla</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Teşekkürler</item>
+        <item>Saygılarımla</item>
+        <item>Gönderildi</item>
+        <item>Orijinal e-posta</item>
+        <item>Gönderildi</item>
+        <item>Gönderildi</item>
+        <item>Gönderen</item>
+        <item>Bu e-posta</item>
+        <item>Yasal uyarı</item>
+        <item>E-posta yasal uyarısı</item>
     </string-array>
     <string-array name="smtp_host_prefixes">
         <item>pop3</item>

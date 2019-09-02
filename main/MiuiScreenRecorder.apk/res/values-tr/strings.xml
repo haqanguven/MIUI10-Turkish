@@ -56,6 +56,8 @@
     <string name="no_sound">Sessiz</string>
     <string name="operation_delete">Sil</string>
     <string name="operation_send">Gönder</string>
+    <string name="permission_intro_microphone">Ses kaynağı mikrofona ayarlandığında sesleri kaydetmek için</string>
+    <string name="permission_intro_storage">Ekran kayıtlarını kaydetmek için</string>
     <string name="quit_recording">Ekran kaydediciden çık</string>
     <string name="recording_failure">Son kayıt başarısız oldu. Lütfen kaydı yeniden başlatın</string>
     <string name="recording_max_size">Kayıt maksimum video boyutu nedeniyle durduruldu ve otomatik olarak kaydedildi. Kayıt yapmaya devam etmek istiyorsanız yeni bir kayıt başlatabilirsiniz</string>
@@ -72,8 +74,13 @@
     <string name="show_hard_key_summary">Ana ekran, menü ve geri tuşlarına basıldığında uyarı görüntüle</string>
     <string name="show_screen_touch">Dokunma hareketlerini göster</string>
     <string name="show_screen_touch_summary">Hareketleri beyaz nokta kullanarak görselleştir</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Ses kaynağı</string>
     <string name="sound_source_summary">Sistem sesleri veya mikrofon</string>
+    <string name="sound_source_summary_without_system_sounds">Mikrofon kullan veya sesi sustur</string>
     <string name="start">Başla</string>
     <string name="start_recording">Kaydı başlat</string>
     <string name="stop_by_second_space">Alan değiştirme kaydı durduracaktır</string>
@@ -86,4 +93,5 @@
     <string name="unchecked">Seçilmedi</string>
     <string name="using_record_confirm_cancel">Reddet</string>
     <string name="using_record_confirm_ok">Kabul et</string>
+    <string name="warning_recording_when_a2dp_connect">Cihazınız bluetooth kulaklık kullanılırken sistem seslerinin kaydedilmesini desteklemiyor</string>
 </resources>

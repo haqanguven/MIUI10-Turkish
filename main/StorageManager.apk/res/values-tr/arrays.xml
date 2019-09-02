@@ -180,6 +180,7 @@
         <item>LDAC</item>
         <item>İsteğe bağlı kodekleri etkinleştir</item>
         <item>İsteğe Bağlı kodekleri devre dışı bırak</item>
+        <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Sistem seçimini kullan (Varsayılan)</item>
@@ -190,6 +191,7 @@
         <item>LDAC</item>
         <item>İsteğe bağlı kodekleri etkinleştir</item>
         <item>İsteğe Bağlı kodekleri devre dışı bırak</item>
+        <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
@@ -200,15 +202,24 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktif</item>
+        <item>, aktif (Medya)</item>
+        <item>, aktif (Telefon)</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
         <item>avrcp15</item>
         <item>avrcp16</item>
+        <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (Varsayılan)</item>
         <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="color_mode_descriptions">
@@ -235,14 +246,6 @@
         <item>false</item>
         <item>show</item>
         <item>show_deuteranomaly</item>
-    </string-array>
-    <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (Varsayılan)</item>
-        <item>OpenGL (Skia)</item>
-    </string-array>
-    <string-array name="debug_hw_renderer_values">
-        <item>opengl</item>
-        <item>skiagl</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Hiçbiri</item>

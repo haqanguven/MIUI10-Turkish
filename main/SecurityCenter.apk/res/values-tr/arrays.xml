@@ -114,6 +114,11 @@
         <item>Kapat ve bildir</item>
         <item>Yalnızca bildir</item>
     </string-array>
+    <string-array name="traffic_package_type">
+        <item>Aylık veri planı</item>
+        <item>Günlük veri planı</item>
+        <item>Sınırsız veri planı</item>
+    </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
         <item>@string/st_antispam_mode_blacklist</item>

@@ -48,7 +48,8 @@ Delta güncelleme boyutu: %2$s"</string>
     <string name="restore_telephony_hit">Geri yükleme işlemi telefonu uygulamasını yeniden başlatacaktır</string>
     <string name="restore_launcher_layout_hit">Başlatıcı ayarlarını geri yükle</string>
     <string name="settings_summary">Telefon ve mesajlaşma ayarları</string>
-    <string name="camera_summary">Kamera ayarları (Fotoğrafları içermez)</string>
+    <string name="camera_summary">Kamera ayarları (Fotoğraflar dahil değil)</string>
+    <string name="gallery_summary">Galeri ayarları (fotoğraflar dahil değil)</string>
     <string name="account_summary">Mi hesabı, Google hesabı ve diğer kullanıcı verilerini yedekle</string>
     <string name="cloud_app_name">Mi bulut yedekleme</string>
     <string name="cloud_home_title">Mi bulut</string>
@@ -76,6 +77,7 @@ Delta güncelleme boyutu: %2$s"</string>
     <string name="sms_title">Mesajlaşma</string>
     <string name="mms_title">Multimedya mesajları</string>
     <string name="wifi_title">Wifi ayarları</string>
+    <string name="phone_title">Telefon ayarları</string>
     <string name="note_title">Notlar</string>
     <string name="compute_backup_info">Yedekleme bilgileri alınıyor</string>
     <string name="compute_delete_contact_info">Bilgi toplanıyor</string>
@@ -102,8 +104,8 @@ Delta güncelleme boyutu: %2$s"</string>
     <string name="task_running_dialog">"Yedekleme ve geri yükleme işlemleri sürüyor. Görüntülemek için Tamam'a dokunun"</string>
     <string name="task_running_backup_hint">Görev halihazırda arka planda yürütülüyor</string>
     <string name="task_running_restore_hint">Görev halihazırda arka planda yürütülüyor</string>
-    <string name="task_running_backup_dialog">"Yedekleme çalışıyor. Görüntülemek için Tamam'a dokunun"</string>
-    <string name="task_running_restore_dialog">"Geri yükleniyor. Görüntülemek için Tamam'a dokunun"</string>
+    <string name="task_running_backup_dialog">"Yedekleme çalışıyor. Görüntülemek için tamam'a dokunun"</string>
+    <string name="task_running_restore_dialog">"Geri yükleniyor. Görüntülemek için tamam'a dokunun"</string>
     <string name="task_service_not_launched">Görev henüz başlamadı</string>
     <string name="task_local_backup_cancel_dialog">Yedekleme işlemi bitmedi. Yinede durdurulsun mu?</string>
     <string name="task_cloud_backup_cancel_dialog">Yedekleme işlemi bitmedi. Yinede durdurulsun mu?</string>
@@ -238,6 +240,7 @@ http://www.miliao.com
     <string name="feature_title_contacts">Kişiler</string>
     <string name="feature_title_sms">Mesajlar</string>
     <string name="feature_title_mms">Multimedya</string>
+    <string name="feature_title_mms_setting">Mesaj ayarları</string>
     <string name="feature_title_account">Mi hesabı</string>
     <string name="feature_title_antispam">Engelli listesi</string>
     <string name="summary_err_backup_encrypting">Mi hesabınızda oturum açın</string>
@@ -259,6 +262,7 @@ http://www.miliao.com
     <string name="err_pkg_not_exist">Uygulama bulunamadı</string>
     <string name="err_user_abort">Kullanıcı tarafından iptal edildi</string>
     <string name="err_binder_died">Uygulama beklenmedik bir şekilde durdu</string>
+    <string name="err_no_gms">Uyumsuz uygulama sürümü. Bu uygulamayı ayrı olarak yükleyin</string>
     <string name="backup_is_running">Cihaz yedekleniyor</string>
     <string name="restore_is_running">Cihaz geri yükleniyor</string>
     <string name="notif_backup_title">Verileri yedekle</string>
@@ -312,8 +316,11 @@ Cihazları birbirine yakın konumda tutun"</string>
     <string name="trans_detail_qq_data">QQ verileri (Sohbet geçmişi dahil)</string>
     <string name="trans_detail_app_data_useless_tip">Bunları uygulamadan geri yükleyebilirsiniz. Aktarmanıza gerek yoktur</string>
     <string name="trans_detail_item_app_data_too_large_tip">Öğe aktarmak için çok büyük gibi görünüyor</string>
+    <string name="trans_detail_item_app_data_skip_data">Uygulama verileri aktarılamıyor</string>
     <string name="trans_detail_item_app_data_selected_tip">İlgili uygulamalar da seçildi</string>
-    <string name="trans_detail_list_footer">Not: Uygulamaları ayrı ayrı aktarmayı seçebilirsiniz. Bununla birlikte uygulama verilerini seçerseniz karşılık gelen uygulamalar da aktarılır</string>
+    <string name="trans_detail_list_footer">"1. Aktarmak istediğiniz uygulamaları tek tek seçebilirsiniz
+2. Uygulama verilerini seçerseniz ilgili uygulamalar da seçilecektir
+3. WeChat ve QQ uygulama verileri uyumluluk sorunları nedeniyle aktarılmayabilir. Uygulama içi aktarım özelliklerini deneyebilirsiniz"</string>
     <string name="trans_detail_page_tip">Ne kadar çok öğe seçerseniz aktarım daha uzun sürer</string>
     <string name="trans_detail_sys_data_list_title">Sistem uygulamaları</string>
     <string name="trans_detail_app_data_list_title">Uygulama verisi</string>
@@ -373,8 +380,9 @@ Ardından QR kodunu taramak için yeniden bağlan seçeneğine dokunun"</string>
     <string name="trans_wait_trans_data">"Eski cihazınıza bağlanıldı
 Aktarım bekleniyor"</string>
     <string name="trans_select_data">Gönderilecek ögeleri seçin</string>
-    <string name="trans_select_data_tips">"Aktarmak istediğiniz dosyaları seçin
-Yeni cihazdaki benzer dosyaların üzerine yazılır"</string>
+    <string name="trans_select_data_tips">"Aktarılacak öğeleri seçin
+Yeni cihazdaki benzer öğelerin üzerine yazılacaktır
+(Şimdi gördüğünüz aktarılan öğelerin boyutu kabaca bir tahmindir)"</string>
     <string name="trans_select_data_no_space">"Yeni cihazda yeterli depolama alanı yok (%s kullanılabilir)
 Depolama alanını boşaltın veya yalnızca önemli öğeleri aktarın"</string>
     <string name="trans_select_data_too_large">"Aktarmak için çok fazla öğe seçtiniz
@@ -390,6 +398,23 @@ En az %s yer açın"</string>
     <string name="trans_old_phone_low_space_msg">Mi taşıyıcının aktarılan verileri paketlemek için bir miktar depolama alanına ihtiyacı var. Ancak eski cihazda yeterli alan olmadığı anlaşılıyor. Güvenlik uygulaması içinde yer açın veya sadece önemli öğeleri aktarın</string>
     <string name="button_clean_garbage">Boş alan</string>
     <string name="button_quit">Çıkış</string>
+    <string name="soft_ap_creating">Bağlantı noktası oluşturuluyor</string>
+    <string name="wait_link">"Eski cihazda Mi taşıyıcıyı açın
+Göndericiyime dokunun ve bağlanmak için bir bağlantı noktası seçin
+Bağlantı kurulmadan önce sayfayı kapatmayın"</string>
+    <string name="old_way">Ayrıca yeni cihazınızda bir QR kodu oluşturabilir ve eskisini kullanarak tarayabilirsiniz</string>
+    <string name="soft_ap_create_failed">"Bağlantı noktası oluşturulamadı"</string>
+    <string name="scan_soft_ap_label">Eski cihaza bağlan</string>
+    <string name="scan_soft_ap">Yeni cihaz aranıyor</string>
+    <string name="click_soft_ap_to_link">Bağlanmak için bir bağlantı noktası seçin</string>
+    <string name="waiting">Bekleniliyor</string>
+    <string name="old_soft_name">QR kodu ile bağlan</string>
+    <string name="confirm_exit_link_title">Aktarma kesiliyor</string>
+    <string name="confirm_exit_link_msg">Uygulamadan şimdi ayrılmak devam eden aktarımı kesecektir. İki cihaz arasında tekrar bağlantı kurmanız gerekecek. Yine de uygulamadan ayırılırsın mı?</string>
+    <string name="confirm_exit_link">Ayrıl</string>
+    <string name="confirm_exit_link_cancel">"Ayrılma"</string>
+    <string name="connect_soft_ap_label">Yeni cihaza bağlanılıyor</string>
+    <string name="recreate_soft_ap_tips">Tekrar denemek için aşağıdaki düğmeye dokunun</string>
     <string name="trans_install_guide_page_title">Mi taşıyıcıyı eski telefonunuza yükle</string>
     <string name="trans_install_guide_scan_install_tip">"Mi taşıyıcıyı indirmek ve yüklemek için 
 QR kodunu eski telefonunuzla tarayın"</string>
@@ -422,6 +447,8 @@ QR kodunu eski telefonunuzla tarayın"</string>
     <string name="trans_intro_title_old">Eski telefonda:</string>
     <string name="trans_intro_desc_old">Gönderen tarafım seçeneğine dokunun. QR kodunu yeni telefonla tarayın ve Mi taşıyıcının hangi dosyaların gönderileceğini algılamasına kadar bekleyin ardından gönder seçeneğine dokunun</string>
     <string name="trans_intro_desc_old_market">Başlat düğmesine hafifçe dokunun. Yeni telefonda QR kodunu tarayın, Mi taşıyıcının hangi dosyaları gönderileceğini belirleyip bekleyin ve gönder düğmesine dokunun</string>
+    <string name="trans_intro_question_10">%d. Bağlantı noktasını eski cihazda bulamıyor musunuz?</string>
+    <string name="trans_intro_desc_10">Yeni cihazda QR kodu ile bağlan düğmesine dokunun ve bağlantı kurmak için QR kodunu tarayın</string>
     <string name="trans_intro_question_3">3. Aktarım işlemi sırasında neden wifi ağını kullanamıyorum?</string>
     <string name="trans_intro_desc_3">"Mi taşıyıcı dosya aktarımı için wifi kullanır. Bu nedenle bir aktarım işlemi sırasında wifi'yi kullanarak internete bağlanamazsınız. Mobil veri kullanmaya devam edebilirsiniz. Ancak bazı yeni cihazlar aktarım işlemleri sırasında wifi kullanarak internete bağlanabilmektedir (Örneğin: Mi6)"</string>
     <string name="trans_intro_question_4">4. Mi taşıyıcı neden eski telefonumda yeterli depolama alanı bulunmadığı uyarısı veriyor?</string>
@@ -444,6 +471,8 @@ QR kodunu eski telefonunuzla tarayın"</string>
     <string name="trans_intro_desc_multiuser">Mi taşıyıcı ikinci alandaki ögelere erişemez. Ögeleri ilk alana taşıyın ve Mi taşıyıcıyı bu alanda başlatın</string>
     <string name="trans_intro_title_multiapp">Çift uygulama verileri:</string>
     <string name="trans_intro_desc_multiapp">Mi taşıyıcı dosyalar arasında çakışma meydana gelmemesi için Çift uygulamaları transfer etmez</string>
+    <string name="trans_intro_title_gms">Google uygulamaları tarafından oluşturulan veriler:</string>
+    <string name="trans_intro_desc_gms">Uyumluluk sorunlarından kaynaklanan başarısız aktarım olasılıklarının yüksek olması nedeniyle Mi taşıyıcı Google uygulamaları tarafından oluşturulan verilerin aktarılmasını desteklememektedir</string>
     <string name="trans_intro_question_9_market">%d. Geri bildirim</string>
     <string name="trans_intro_desc_9_method_1_title">1. Geri bildirim uygulamasını kullanarak geri bildiriminizi paylaşın</string>
     <string name="trans_intro_desc_9_method_1_dec">Ana ekran > Araçlar > Geri bildirime gidin</string>
@@ -475,7 +504,6 @@ Mi taşıyıcıyı sevdin mi?"</string>
     <string name="trans_success_dialog_button_survey">Anket</string>
     <string name="trans_success_dialog_survey_title">Geri bildirim için teşekkürler</string>
     <string name="trans_success_survey_hint">İlk önce tüm alanları doldurun</string>
-    <string name="trans_cancel_dialog_survey_title">Aktarımı neden engellediniz?</string>
     <string name="trans_dialog_survey_finish">Gönder</string>
     <string name="trans_failed_details_page_title">Başarısız transferler</string>
     <string name="close_twice_auth_tutor">Apple kimliği iki faktörlü kimlik doğrulamayı kapat</string>
@@ -487,7 +515,7 @@ Mi taşıyıcıyı sevdin mi?"</string>
 İki faktörlü kimlik doğrulama işlevi yeni güvenlik sorusu oluşturmanızdan ve doğum tarihinizi doğrulamanızdan sonra kapatılır. Apple hesap kimliği hesap sayfanızda iki faktörlü kimlik doğrulamayı kapatma seçeneği görmüyorsanız işlevi kapatamazsınız"</string>
     <string name="close_twice_auth_btn">İki faktörlü kimlik doğrulamayı kapat</string>
     <string name="close_twice_auth_operation">"Bağlantı adresi:
-https://appleid.apple.com/#!&amp;page=&amp;page=signin"</string>
+https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="platform_chooser_title">Eski cihazı seçin</string>
     <string name="platform_chooser_item_ios">iOS cihazından içeri aktar</string>
     <string name="platform_chooser_item_android_mi">Mi telefon</string>
@@ -618,4 +646,17 @@ Sadece önemli öğelerin geri yüklenmesi daha hızlı olacaktır"</string>
 Boş yer açın veya daha küçük transferler yapın"</string>
     <string name="usb_trans_old_phone_low_space_title">Yeterli depolama alanı yok</string>
     <string name="usb_trans_old_phone_low_space_msg">Yedeklerinizi paketlemek için ek depolama gereklidir. Aktarıma devam etmek için yeterli depolama alanı yok. Boş alan açabilir, gereksiz dosyaları güvenlikten silebilir veya yalnızca önemli öğelerin aktarılmasını deneyebilirsiniz</string>
+    <string name="dialog_app_upgrade_message">Mi taşıyıcının yeni bir sürümü mevcut. Mi taşıyıcı şimdi güncellensin mi?</string>
+    <string name="dialog_app_upgrade_exit">Çıkış</string>
+    <string name="dialog_app_upgrade_download">Güncelle</string>
+    <string name="dialog_backup_password_change_machine_tips">Parola korumalı yedekleri aktaramazsınız. Mi taşıyıcıyı kullanmadan önce yedekleme şifresini kapatın</string>
+    <string name="dialog_backup_password_backup_tips">Yedekleme şifresi açıkken öğeler yedeklenemiyor. Yedekleme şifresini kapatın</string>
+    <string name="dialog_backup_password_cancel">İptal et</string>
+    <string name="dialog_backup_password_to_settings">Ayarlar</string>
+    <string name="user_feedback">Geri bildirim</string>
+    <string name="iCloud_ID_verification_tip">Doğrulama kodunun görünmesi için Apple cihazınızda izin ver seçeneğine dokunun. Doğrulama kodunu buraya girin</string>
+    <string name="trans_complete_restoring">Aktarıldı. Uygulama verileri geri yükleniyor</string>
+    <string name="dialog_backup_password_auto_backup_tips">Yedekleme şifresi açıkken öğeler otomatik olarak yedeklenemiyor. Önce yedekleme şifresini kapatın</string>
+    <string name="dialog_backup_password_change_device_restore_tips">Yedekleme şifresi açıkken Mi taşıyıcı kullanılamaz. Önce yedekleme şifresini kapatın</string>
+    <string name="dialog_backup_password_restore_tips">Yedekleme şifresi açıkken öğeler geri yüklenemez. Önce yedekleme şifresini kapatın</string>
 </resources>

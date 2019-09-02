@@ -8,7 +8,6 @@
     <string name="close_panel">Hızlı erişimi kapat</string>
     <string name="customize_entries">Kısayolları seçin</string>
     <string name="enable_touch_assistant">Hızlı erişim</string>
-    <string name="enabled_for_pad_hint">Manzara modunda navigasyon tuşlarını engelle özelliği açık olduğunda çalış</string>
     <string name="function_settings">Kısayol ayarları</string>
     <string name="handy_mode_default_to_close_whether_open">Tek el modu varsayılan olarak kapalı durumdadır. Tek el modu açılsın mı?</string>
     <string name="hide_touch_assistant">Otomatik gizle</string>

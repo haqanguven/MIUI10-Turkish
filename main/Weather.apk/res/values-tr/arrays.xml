@@ -2,7 +2,7 @@
 <resources>
     <string-array name="aqi_detail_title">
         <item>İyi</item>
-        <item>Hafif</item>
+        <item>Orta</item>
         <item>Hassas gruplar için sağlıksız</item>
         <item>Sağlıksız</item>
         <item>Çok sağlıksız</item>
@@ -42,77 +42,72 @@
         <item>Endeksin üzerinde</item>
     </string-array>
     <string-array name="breeze">
-        <item>&lt;2. kuvet</item>
-        <item>&lt;6.0km/h</item>
+        <item>&lt;2. kuvvet</item>
+        <item>&lt;6.0km/s</item>
         <item>&lt;1.7m/s</item>
         <item>&lt;3.7mph</item>
         <item>&lt;3.2kn</item>
     </string-array>
+    <string-array name="dislike_alert_dialog_selectitems">
+        <item>İlgilenmiyorum</item>
+        <item>Düşük içerik kalitesi</item>
+    </string-array>
     <string-array name="hot_city">
-        <item>İzmir</item>
+        <item>Pekin</item>
+        <item>Şangay</item>
+        <item>Hong Kong</item>
+        <item>Taipei</item>
+        <item>Jakarta</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Moskova</item>
+        <item>Chennai</item>
         <item>İstanbul</item>
-        <item>Ankara</item>
-        <item>Trabzon</item>
-        <item>Rize</item>
-        <item>Antalya</item>
-        <item>Bursa</item>
-        <item>Sivas</item>
-        <item>Muğla</item>
-        <item>Nevşehir</item>
-        <item>Malatya</item>
-        <item>Hatay</item>
-        <item>Eskişehir</item>
-        <item>Çanakkale</item>
-        <item>Adana</item>
-        <item>Manisa</item>
-        <item>Konya</item>
-        <item>Kars</item>
-        <item>Giresun</item>
-        <item>Denizli</item>
-        <item>Bolu</item>
-        <item>Bilecik</item>
+        <item>Rio de Janeiro</item>
+        <item>Singapur</item>
+        <item>Berlin</item>
+        <item>Roma</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Şikago</item>
+        <item>Tokyo</item>
+        <item>Paris</item>
+        <item>Bangkok</item>
+        <item>Seul</item>
+        <item>Kuala Lumpur</item>
     </string-array>
     <string-array name="minute_rain_array">
         <item>Ağır</item>
         <item>Orta</item>
         <item>Hafif</item>
     </string-array>
-    <string-array name="pollution_level_desc_arr">
-        <item>Harika</item>
-        <item>İyi</item>
-        <item>Hafif kirli</item>
-        <item>Kısmen kirli</item>
-        <item>Ağır kirli</item>
-        <item>Aşırı kirli</item>
-        <item>Endeksin üzerinde</item>
-    </string-array>
     <string-array name="weather_type">
         <item>Açık</item>
         <item>Bulutlu</item>
         <item>Kapalı</item>
         <item>Sisli</item>
-        <item>Şiddetli sağanak</item>
+        <item>Şiddetli yağmur fırtınası</item>
         <item>Sağanak</item>
-        <item>Çok yoğun sağanak</item>
+        <item>Yağmur fırtınası</item>
         <item>Gök gürültülü sağanak</item>
         <item>Yağmurlu</item>
         <item>Yoğun sağanak</item>
-        <item>Hafif yağmurlu</item>
+        <item>Yağmurlu</item>
         <item>Hafif yağmur</item>
         <item>Karla karışık yağmur</item>
         <item>Kar fırtınası</item>
-        <item>Karlı yağış</item>
-        <item>Yoğun kar yağışı</item>
-        <item>Kar yağışı</item>
-        <item>Hafif kar yağışı</item>
+        <item>Karlı</item>
+        <item>Yoğun karlı</item>
+        <item>Karlı</item>
+        <item>Hafif karlı</item>
         <item>Şiddetli kum fırtınası</item>
         <item>Kum fırtınası</item>
-        <item>Hafif kum fırtınası</item>
+        <item>Kum</item>
         <item>Rüzgarlı</item>
         <item>Dolu</item>
         <item>Toz</item>
         <item>Sisli</item>
-        <item>Dondurucu yağmur</item>
+        <item>Donan yağmur</item>
         <item></item>
     </string-array>
     <string-array name="wind_direction">
@@ -124,16 +119,6 @@
         <item>Güneybatı</item>
         <item>Batı</item>
         <item>Kuzeybatı</item>
-    </string-array>
-    <string-array name="wind_direction_simple">
-        <item>N</item>
-        <item>NE</item>
-        <item>E</item>
-        <item>SE</item>
-        <item>S</item>
-        <item>SW</item>
-        <item>W</item>
-        <item>NW</item>
     </string-array>
     <string-array name="wind_power">
         <item>0</item>
@@ -152,17 +137,26 @@
     </string-array>
     <string-array name="wind_unit_detail">
         <item>Beaufort ölçeği</item>
-        <item>Kilometre / saat (km/s)</item>
-        <item>Metre / saniye (m/s)</item>
-        <item>Mil / saat (mph)</item>
+        <item>Kilometre/saat (km/s)</item>
+        <item>Metre/saniye (m/s)</item>
+        <item>Mil/saat (mph)</item>
         <item>Knot (kn)</item>
     </string-array>
     <string-array name="wind_unit_replace">
-        <item>%1$s kuvvet</item>
+        <item>%1$s. kuvvet</item>
         <item>%1$skm/s</item>
         <item>%1$sm/s</item>
         <item>%1$smph</item>
         <item>%1$skn</item>
+    </string-array>
+    <string-array name="pollution_level_desc_arr">
+        <item>Harika</item>
+        <item>İyi</item>
+        <item>Hafif kirli</item>
+        <item>Kısmen kirli</item>
+        <item>Ağır kirli</item>
+        <item>Aşırı kirli</item>
+        <item>Endeksin üzerinde</item>
     </string-array>
     <string-array name="temperature_setting_unit_values">
         <item>0</item>
@@ -171,6 +165,16 @@
     <string-array name="temperature_unit_settings_labels">
         <item>@string/set_degree_centigrade</item>
         <item>@string/set_fahrenheit</item>
+    </string-array>
+    <string-array name="wind_direction_simple">
+        <item>K</item>
+        <item>KD</item>
+        <item>D</item>
+        <item>GD</item>
+        <item>G</item>
+        <item>GB</item>
+        <item>B</item>
+        <item>KB</item>
     </string-array>
     <string-array name="wind_power_setting_unit_values">
         <item>0</item>

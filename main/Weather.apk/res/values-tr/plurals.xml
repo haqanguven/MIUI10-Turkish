@@ -12,21 +12,45 @@
         <item quantity="other">%d gün önce</item>
         <item quantity="one">%d gün önce</item>
     </plurals>
-    <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s günlük hava tahmini</item>
-        <item quantity="one">%1$s günlük hava tahmini</item>
+    <plurals name="aqi_all_city_cur_num">
+        <item quantity="other">%1$s durağının ortalaması</item>
+        <item quantity="one">%1$s durağının ortalaması</item>
     </plurals>
-    <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">Geri bildirimden sonra %1$s saniye</item>
-        <item quantity="one">Geri bildirimden sonra %1$s saniye</item>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">%1$s günlük hava durumu</item>
+        <item quantity="one">%1$s günlük hava durumu</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_minute">
+        <item quantity="other">%1$s dakika içince tekrar geri bildirim gönderebilirsiniz</item>
+        <item quantity="one">%1$s dakika içince tekrar geri bildirim gönderebilirsiniz</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_second">
+        <item quantity="other">%1$s saniye içinde tekrar geri bildirim gönderebilirsiniz</item>
+        <item quantity="one">%1$s saniye içinde tekrar geri bildirim gönderebilirsiniz</item>
     </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s kişi | </item>
         <item quantity="one">%1$s kişi | </item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&lt;font color='#20a7ff'>%1$s kişi oy kullandı"</item>
-        <item quantity="one">"&lt;font color='#20a7ff'>%1$s kişi oy kullandı"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> kişi oy kullandı"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> kişi oy kullandı"</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">En yüksek sıcaklık: %1$s derece</item>
+        <item quantity="one">En yüksek sıcaklık: %1$s derece</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">En yüksek sıcaklık: %1$s Fahrenheit derece</item>
+        <item quantity="one">En yüksek sıcaklık: %1$s Fahrenheit derece</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">En düşük sıcaklık: %1$s derece</item>
+        <item quantity="one">En düşük sıcaklık: %1$s derece</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">En düşük sıcaklık: %1$s Fahrenheit derece</item>
+        <item quantity="one">En düşük sıcaklık: %1$s Fahrenheit derece</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Açık</item>

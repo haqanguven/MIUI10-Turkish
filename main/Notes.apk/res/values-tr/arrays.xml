@@ -6,7 +6,7 @@
     </string-array>
     <string-array name="contact_entries">
         <item>İsim</item>
-        <item>Takma ad</item>
+        <item>Kullanıcı adı</item>
         <item>Telefon</item>
         <item>E-posta</item>
         <item>Şirket</item>
@@ -18,14 +18,14 @@
         <item>Not</item>
     </string-array>
     <string-array name="first_guide_contents">
-        <item>Notlara hoş geldiniz</item>
-        <item>Not almak</item>
-        <item>Notlarınızdaki metin, resim ve ses kayıtlarını kullanabilirsiniz. Zengin stiller ve yazı tipi kütüphanesi ile basit karalamalarınızın çarpıcı görünmesini sağlar</item>
-        <item>Bir sonraki seyahatinizi planlamak veya bir bakkal listesi hazırlamak için temel ve etkili araçlara ihtiyaç duyduğunuzda kontrol listeleri ve hatırlatmalar yardımcı olur</item>
+        <item>Notlara hoşgeldiniz</item>
+        <item>Not alın</item>
+        <item>Notlarınızda metin, resim, ve ses kayıtlarını kullanabilirsiniz. Stiller ve yazı tiplerinden oluşan zengin bir kütüphane karalamalarınızın muhteşem gözükmesini sağlar</item>
+        <item>Kontrol listeleri ve hatırlatıcılar bir sonraki seyahatinizi planlamak veya alışveriş listesi hazırlamak için temel ve etkili araçlara ihtiyaç duyduğunuzda yardımınıza koşar</item>
         <item>Notları paylaş</item>
-        <item>Otomatik olarak notlarda kaydırma ekran görüntüleri oluşturabilir ve ardından arkadaşlarınızla paylaşabilirsiniz</item>
-        <item>Oluştur &amp; klasörler arasında geçiş yap</item>
-        <item>Yeni bir klasör oluşturmak veya mevcut olanlar arasında geçiş yapmak için aşağıdaki oka basın</item>
+        <item>Notlar uygulamasında otomatik olarak kaydırmalı ekran görüntüleri oluşturabilir ve bunları arkadaşlarınızla paylaşabilirsiniz</item>
+        <item>Klasör oluşturun &amp; klasörler arasında geçiş yapın</item>
+        <item>Yeni bir klasör oluşturmak veya mevcut klasörler arasında geçiş yapmak için aşağıdaki oka dokunun</item>
     </string-array>
     <string-array name="folder_operations">
         <item>Yeniden adlandır</item>
@@ -47,7 +47,7 @@
     </string-array>
     <string-array name="second_guide_contents_pad_or_inter">
         <item>Sesli notlar</item>
-        <item>Şimdi sesli notlar oluşturabilirsiniz. Simgeye dokunun, sesinizi kaydedin ve ses dosyasını notun içine kaydedin</item>
+        <item>Şimdi sesli not oluşturabilirsiniz. Simgeye dokunun, sesinizi kaydedin ve ses dosyasını notun içine kaydedin</item>
     </string-array>
     <string-array name="contact_values">
         <item>vnd.android.cursor.item/name</item>

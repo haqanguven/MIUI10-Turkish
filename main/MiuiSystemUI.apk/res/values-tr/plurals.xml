@@ -28,6 +28,14 @@
         <item quantity="other">Yanlış Puk kodu. %d deneme kaldı</item>
         <item quantity="one">Yanlış Puk kodu. %d deneme kaldı</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Her zaman hatırlamak için şifrenizi en az her %d saatte bir girin</item>
+        <item quantity="one">Her zaman hatırlamak için şifrenizi en az her %d saatte bir girin</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Her zaman hatırlamak için şifrenizi en az her %d saatte bir girin</item>
+        <item quantity="one">Her zaman hatırlamak için şifrenizi en az her %d saatte bir girin</item>
+    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Yaklaşık %d saat kaldı</item>
         <item quantity="one">Yaklaşık %d saat kaldı</item>
@@ -53,16 +61,16 @@
         <item quantity="one">%1$d saat %2$d dakika</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
-        <item quantity="other">Kalan %d saat</item>
-        <item quantity="one">Kalan %d saat</item>
+        <item quantity="other">%d saat şarj süresi kaldı</item>
+        <item quantity="one">%d saat şarj süresi kaldı</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
-        <item quantity="other">Kalan %d dakika</item>
-        <item quantity="one">Kalan %d dakika</item>
+        <item quantity="other">%d dakika şarj süresi kaldı</item>
+        <item quantity="one">%d dakika şarj süresi kaldı</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
-        <item quantity="other">Kalan %1$d saat %2$d dakika</item>
-        <item quantity="one">Kalan %1$d saat %2$d dakika</item>
+        <item quantity="other">%1$d saat %2$d dakika şarj süresi kaldı</item>
+        <item quantity="one">%1$d saat %2$d dakika şarj süresi kaldı</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Sim Pin kodunu girin. %d giriş hakkınız kaldı</item>
@@ -131,5 +139,9 @@
     <plurals name="view_realtime_clear">
         <item quantity="other">Açık</item>
         <item quantity="one">Güneşli</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d cihaz bağlandı</item>
+        <item quantity="one">%1$d cihaz bağlandı</item>
     </plurals>
 </resources>

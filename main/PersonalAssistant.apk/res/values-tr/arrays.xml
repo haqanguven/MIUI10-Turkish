@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aqi_title">
-        <item>Mükemmel</item>
-        <item>İyi</item>
-        <item>Hafif</item>
-        <item>Ilımlı</item>
-        <item>Şiddetli</item>
-        <item>Ciddi</item>
-    </string-array>
-    <string-array name="aqi_title_append">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s kirli</item>
-        <item>%1$s kirli</item>
-        <item>%1$s kirli</item>
-        <item>%1$s kirli</item>
-    </string-array>
-    <string-array name="aqi_title_prefix">
-        <item>Hava: %1$s</item>
-        <item>Hava: %1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="day_time_space">
-        <item>Gece</item>
-        <item>Sabahın erken saatleri</item>
-        <item>Sabah</item>
-        <item>Öğlen</item>
-        <item>Öğleden sonra</item>
-        <item>İkindiden sonra</item>
-        <item>Akşam</item>
-    </string-array>
-    <string-array name="detail_font_size">
-        <item>Küçük</item>
-        <item>Orta</item>
-        <item>Büyük</item>
-    </string-array>
-    <string-array name="stock_color_schema">
-        <item>"Kırmızı - yukarı | Yeşil - aşağı"</item>
-        <item>"Yeşil - yukarı | Kırmızı - aşağı"</item>
-    </string-array>
     <string-array name="alipay_CountryCodes">
         <item>93,AF</item>
         <item>355,AL</item>
@@ -250,6 +208,30 @@
         <item>260,ZM</item>
         <item>263,ZW</item>
     </string-array>
+    <string-array name="aqi_title">
+        <item>Mükemmel</item>
+        <item>İyi</item>
+        <item>Hafif</item>
+        <item>Ilımlı</item>
+        <item>Şiddetli</item>
+        <item>Ciddi</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s kirli</item>
+        <item>%1$s kirli</item>
+        <item>%1$s kirli</item>
+        <item>%1$s kirli</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>Hava: %1$s</item>
+        <item>Hava: %1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
     <string-array name="ball_world_cup_groups">
         <item>@string/setting_world_cup_a</item>
         <item>@string/setting_world_cup_b</item>
@@ -259,6 +241,20 @@
         <item>@string/setting_world_cup_f</item>
         <item>@string/setting_world_cup_g</item>
         <item>@string/setting_world_cup_h</item>
+    </string-array>
+    <string-array name="day_time_space">
+        <item>Gece</item>
+        <item>Sabahın erken saatleri</item>
+        <item>Sabah</item>
+        <item>Öğlen</item>
+        <item>Öğleden sonra</item>
+        <item>İkindiden sonra</item>
+        <item>Akşam</item>
+    </string-array>
+    <string-array name="detail_font_size">
+        <item>Küçük</item>
+        <item>Orta</item>
+        <item>Büyük</item>
     </string-array>
     <string-array name="keyword_recommend_unit">
         <item>İçin</item>
@@ -279,5 +275,9 @@
     </string-array>
     <string-array name="sms_exclude_category">
         <item>Ödeme</item>
+    </string-array>
+    <string-array name="stock_color_schema">
+        <item>Kırmızı - yukarı | Yeşil - aşağı</item>
+        <item>Yeşil - yukarı | Kırmızı - aşağı</item>
     </string-array>
 </resources>

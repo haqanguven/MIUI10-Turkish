@@ -17,8 +17,4 @@
     <string name="wifi_calling_enable_dialog_cancel">İptal et</string>
     <string name="wifi_calling_enable_dialog_enable">Etkinleştir</string>
     <string name="ims_channel_name">İms</string>
-    <string name="rtt_upgrade_received">Alınan RTT yükseltme isteği</string>
-    <string name="rtt_modify_response">Gönderilen RTT yükseltme isteği</string>
-    <string name="rtt_upgrade_sent">Gönderilen RTT yükseltme isteği</string>
-    <string name="rtt_downgrade_sent">Gönderilen RTT indirme Talebi isteği</string>
 </resources>

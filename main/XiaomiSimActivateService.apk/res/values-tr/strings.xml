@@ -14,8 +14,8 @@
     <string name="activate_status_title_activating">Sim kart etkinleştiriliyor</string>
     <string name="activate_status_title_activating_msim">Sim kart %d etkinleştiriliyor</string>
     <string name="activate_auto_sms_notification_title">Sim kart etkinleştirme</string>
-    <string name="activate_auto_sms_notification_desc_2_cards">Cihaz bul özelliğinin etkinleştirilmesi için %s kartından mesaj gönderildi</string>
-    <string name="activate_auto_sms_notification_desc_1_card">Cihaz bul özelliğinin etkinleştirilmesi için mesaj gönderildi</string>
+    <string name="activate_auto_sms_notification_desc_2_cards">Cihazı bul özelliğinin etkinleştirilmesi için %s kartından mesaj gönderildi</string>
+    <string name="activate_auto_sms_notification_desc_1_card">Cihazı bul özelliğinin etkinleştirilmesi için mesaj gönderildi</string>
     <string name="activate_status_desc_query_activation_info">Etkinleştirme verileri alınıyor</string>
     <string name="activate_status_desc_query_activation_info_no_info">Etkinleştirme verileri sunucuda bulunamadı</string>
     <string name="activate_status_desc_query_activation_info_server_error">Etkinleştirme verileri alınırken sunucuda bir hata oluştu</string>
@@ -96,7 +96,7 @@ Yeniden etkinleştirme işlemi için yeni Sim kartınız (%s) ile bağlantılı 
     <string name="activate_feature_voip">Mi mesaj sesi</string>
     <string name="activate_feature_mms_sync">Mesajları senkronize et</string>
     <string name="activate_feature_call_log_sync">Arama geçmişini senkronize et</string>
-    <string name="activate_feature_find_device">Cihaz bul</string>
+    <string name="activate_feature_find_device">Cihazı bul</string>
     <string name="activate_feature_register_xiaomi_account">Mi hesabı kurulumu</string>
     <string name="activate_feature_verify_mx_token">Mi hesabı doğrulama</string>
     <string name="activate_feature_live_talk">Bakiye paketi</string>

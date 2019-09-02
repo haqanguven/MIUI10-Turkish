@@ -30,7 +30,8 @@
     <string name="sdcard_not_present">USB depolama kullanılamıyor</string>
     <string name="only_primary_user_allowed">Yalnızca cihaz sahibi sertifikaları yükleyebilir</string>
     <string name="credential_usage_label">Kimlik bilgisinin kullanımı:</string>
-    <string name="wifi_title">Wifi Profili</string>
+    <string name="certificate_capabilities_warning">Not: Bu sertifikanın vericisi cihazdan gelen ve giden tüm trafiği inceleyebilir</string>
+    <string name="wifi_title">Wifi profili</string>
     <string name="wifi_detail_title">%s ayrıntıları</string>
     <string name="wifi_detail_label">Ayrıntılar</string>
     <string name="wifi_install_label">Yükle</string>

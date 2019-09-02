@@ -4,9 +4,17 @@
         <item quantity="other">%d gün önce</item>
         <item quantity="one">1 gün önce</item>
     </plurals>
+    <plurals name="Ndays_after">
+        <item quantity="other">%1$d gün sonra</item>
+        <item quantity="one">%1$d gün sonra</item>
+    </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">%1$d gün içerisinde %2$s saatinde</item>
         <item quantity="one">%1$d gün içerisinde %2$s saatinde</item>
+    </plurals>
+    <plurals name="Ndays_ago">
+        <item quantity="other">%1$d gün önce</item>
+        <item quantity="one">%1$d gün önce</item>
     </plurals>
     <plurals name="Ndays_ago_at">
         <item quantity="other">%1$d gün önce %2$s saatinde</item>
@@ -76,9 +84,36 @@
         <item quantity="other">%1$d güne kadar girebilirsiniz</item>
         <item quantity="one">%1$d güne kadar girebilirsiniz</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">%d adet hatırlatıcıya kadar ayarlanabilir</item>
+        <item quantity="one">%d adet hatırlatıcıya kadar ayarlanabilir</item>
+    </plurals>
+    <plurals name="feed_list_dislike_title">
+        <item quantity="other">%1$d seçildi</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_day">
+        <item quantity="other">" gün"</item>
+        <item quantity="one">" gün"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_hour">
+        <item quantity="other">" saat"</item>
+        <item quantity="one">" saat"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_minute">
+        <item quantity="other">" dakika"</item>
+        <item quantity="one">" dakika"</item>
+    </plurals>
+    <plurals name="reminder_later_toast">
+        <item quantity="other">Bir sonraki hatırlatıcı %1$d dakika içinde</item>
+        <item quantity="one">Bir sonraki hatırlatıcı %1$d dakika içinde</item>
+    </plurals>
+    <plurals name="repeat_custom_prompt">
+        <item quantity="other">her %1$s %2$s</item>
+        <item quantity="one">her %1$s %2$s</item>
     </plurals>
     <plurals name="repeat_interval_frequency_day_multiple">
         <item quantity="other">%1$d gün</item>
@@ -96,19 +131,15 @@
         <item quantity="other">%1$d yıl</item>
         <item quantity="one">%1$d yıl</item>
     </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%1$s konumuna gitmeniz %2$s sürecek</item>
+        <item quantity="one">%1$s konumuna gitmeniz %2$s sürecek</item>
+    </plurals>
     <plurals name="weekN">
         <item quantity="other">%d hafta</item>
     </plurals>
     <plurals name="work_days">
-        <item quantity="other">%d çalışma günü</item>
-        <item quantity="one">%d çalışma günü</item>
-    </plurals>
-    <plurals name="Ndays_after">
-        <item quantity="other">%1$d gün sonra</item>
-        <item quantity="one">%1$d gün sonra</item>
-    </plurals>
-    <plurals name="Ndays_ago">
-        <item quantity="other">%1$d gün önce</item>
-        <item quantity="one">%1$d gün önce</item>
+        <item quantity="other">%d iş günü</item>
+        <item quantity="one">%d iş günü</item>
     </plurals>
 </resources>

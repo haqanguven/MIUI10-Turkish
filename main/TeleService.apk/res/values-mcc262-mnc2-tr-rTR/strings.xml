@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_hint_label_wifi_call">Wifi ile ara</string>
+    <string name="wifi_calling">Wifi ile aranıyor</string>
+    <string name="wifi_calling_settings_title">Wifi ile aranıyor</string>
+</resources>

@@ -596,4 +596,5 @@
     <string name="select_all_description">Tümünü seç</string>
     <string name="deselect_all_description">Tüm seçimi kaldır</string>
     <string name="delete_description">Sil</string>
+    <string name="search_action_mode_cancel">İptal et</string>
 </resources>

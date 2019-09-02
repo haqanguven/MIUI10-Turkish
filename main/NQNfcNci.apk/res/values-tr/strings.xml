@@ -34,19 +34,19 @@
     <string name="complete_with">İşlemi şu uygulamayla tamamla:</string>
     <string name="default_pay_app_removed">Dokundur ve öde özelliği için tercih ettiğiniz hizmet kaldırıldı. Başka bir hizmet seçmek ister misiniz?</string>
     <string name="ask_nfc_tap">Tamamlamak için diğer cihaza hafifçe dokunun</string>
+    <string name="permgrouplab_NFC">Nfc yakın alan iletişimi</string>
+    <string name="permgroupdesc_NFC">Çeşitli Nfc özelliklerine erişin</string>
+    <string name="permlab_nfcReceiveEvent">Nfc işlem farkındalığı</string>
+    <string name="permdesc_nfcReceiveEvent">Uygulamaya gerçekleştirilen Nfc işlemi hakkında bilgi alma izni verir</string>
+    <string name="nfc_enabled_dialog">"Nfc şu anda devre dışı
+Nfc servisiniz için etkinleştirmek istiyor musunuz?"</string>
+    <string name="ok">Tamam</string>
+    <string name="no">Hayır</string>
     <string name="wifi_connect">Bağlan</string>
     <string name="status_unable_to_connect">Ağa bağlanılamıyor</string>
     <string name="status_wifi_connected">Bağlanıldı</string>
-    <string name="title_connect_to_network">Ağa bağlanın</string>
-    <string name="prompt_connect_to_network">%1$s adlı ağa bağlanılsın mı?</string>
-    <string name="beam_requires_nfc_enabled">"Android ışın Nfc'nin etkinleştirilmesini gerektiriyor. Etkinleştirmek istiyor musunuz?"</string>
+    <string name="title_connect_to_network">Ağa bağlan</string>
+    <string name="prompt_connect_to_network">%1$s ağına bağlanılsın mı?</string>
+    <string name="beam_requires_nfc_enabled">"Android ışın Nfc'nin etkin olmasını gerektirir. Etkinleştirmek ister misiniz?"</string>
     <string name="android_beam">Android ışın</string>
-    <string name="permlab_nfcReceiveEvent">Nfc işlem bilinci</string>
-    <string name="permdesc_nfcReceiveEvent">Uygulamanın gerçekleştirilen Nfc işlemi hakkında bilgi almasına izin verir</string>
-    <string name="nfc_enabled_dialog">"Nfc şu anda devre dışı
-Nfc hizmetiniz için onu etkinleştirmek istiyor musunuz?"</string>
-    <string name="permgrouplab_NFC">Nfc yakın alan iletişimi</string>
-    <string name="permgroupdesc_NFC">Çeşitli Nfc özelliklerine erişme</string>
-    <string name="ok">Tamam</string>
-    <string name="no">Hayır</string>
 </resources>

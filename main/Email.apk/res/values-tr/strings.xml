@@ -3,9 +3,15 @@
     <string name="SMTP_independent_verification_text">SMTP bağımsız doğrulama</string>
     <string name="SMTP_password_text">Şifre</string>
     <string name="SMTP_username_text">Kullanıcı adı</string>
+    <string name="account_add_title">Bir e-posta servisi seçin</string>
+    <string name="account_cache_provider">Hesap ön bellek sağlayıcısı</string>
     <string name="account_duplicate_dlg_message_fmt">Bu kullanıcı adını %s hesabı için zaten kullanıyorsunuz</string>
     <string name="account_duplicate_dlg_title">Çift hesap</string>
     <string name="account_failure">Oturum zaman aşımına uğradı</string>
+    <string name="account_manager_type_exchange">com.android.exchange</string>
+    <string name="account_manager_type_imap">com.android.email</string>
+    <string name="account_manager_type_legacy_imap">com.android.email</string>
+    <string name="account_manager_type_pop3">com.android.email</string>
     <string name="account_name_toast">Aynı isimde bir hesap zaten mevcut</string>
     <string name="account_options_sync_title">Senkronizasyon</string>
     <string name="account_password_spaces_error">"Şifre bir veya daha fazla boşluk karakteriyle başlıyor
@@ -36,7 +42,7 @@
     <string name="account_settings_incoming_summary">Kullanıcı adı, şifre ve diğer sunucu ayarları</string>
     <string name="account_settings_login_dialog_content_fmt">"%s hesabı kullanıcı adı ve şifresi yanlış
  Kullanıcı adı ve şifre şimdi güncellensin mi?"</string>
-    <string name="account_settings_login_dialog_reason_fmt" formatted="false">%s hesabında oturum açılamadı. Sunucu şu yanıtı verdi: %s</string>
+    <string name="account_settings_login_dialog_reason_fmt">%1$s hesabında oturum açılamadı. Sunucu şu yanıtı verdi: %2$s</string>
     <string name="account_settings_login_dialog_title">Oturum açılamadı</string>
     <string name="account_settings_mail_check_frequency_dialog_title">E-postalarınızı senkronize etmek için, E-posta uygulamasını manuel olarak yenilemeniz gerekmektedir</string>
     <string name="account_settings_mail_check_frequency_dialog_title_eas">İletileri ve takvim etkinliklerini senkronize edebilmek için postayı elle eşitlemeniz gerekir</string>
@@ -48,6 +54,7 @@
     <string name="account_settings_notify_summary">Yeni e-posta alındığında bildirim görüntüle</string>
     <string name="account_settings_param">Hesap ayarları</string>
     <string name="account_settings_policies">Güvenlik politikaları</string>
+    <string name="account_settings_preference_add_account">E-posta hesabı ekle</string>
     <string name="account_settings_preference_att_save_path">Eklentiler için varsayılan konum</string>
     <string name="account_settings_preference_head_icon">Profil fotoğrafları</string>
     <string name="account_settings_preference_notify">Bildir</string>
@@ -77,6 +84,7 @@
     <string name="account_setup_basics_manual_setup_action">El ile ayarla</string>
     <string name="account_setup_basics_mi_mail_login_help">E-posta almak için hesabınızı mesaj yoluyla doğrulamanız gerekebilir</string>
     <string name="account_setup_basics_password_label">Şifre girin</string>
+    <string name="account_setup_basics_password_label_authcode">Şifreyi veya doğrulama kodunu girin</string>
     <string name="account_setup_basics_title">Hesap ekle</string>
     <string name="account_setup_check_settings_check_incoming_msg">Sunucu ayarları doğrulanıyor</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Smtp ayarları doğrulanıyor</string>
@@ -87,6 +95,7 @@
     <string name="account_setup_exchange_certificate_title">İstemci sertifikası</string>
     <string name="account_setup_exchange_device_id_label">Mobil cihaz kimliği</string>
     <string name="account_setup_exchange_no_certificate">Yok</string>
+    <string name="account_setup_failed_auth_required">Kimlik doğrulama yöntemleri sunucu tarafından desteklenmez</string>
     <string name="account_setup_failed_certificate_inaccessible">Sertifika geçersiz veya erişilebilir durumda değil</string>
     <string name="account_setup_failed_certificate_required">İstemci sertifikası gerekmektedir. Sunucuya bir istemci sertifikası ile bağlanmak ister misiniz?</string>
     <string name="account_setup_failed_check_credentials_message">Sunucu hata gönderdi. Kullanıcı adınızı ve şifrenizi kontrol ettikten sonra tekrar deneyin</string>
@@ -163,8 +172,10 @@
     <string name="ad_merge">Reklamlar &amp; bildirimler</string>
     <string name="add_account">Hesap ekle</string>
     <string name="add_account_keywords">Hesap ekle;e-posta hesabı ekle</string>
+    <string name="add_account_search">Hesap ekle</string>
     <string name="add_attachment">Eklenti ekle</string>
     <string name="add_calendar">Hatırlatma</string>
+    <string name="add_file_exception">Eklenemedi. Bu eki farklı bir yerden eklemeyi deneyin</string>
     <string name="add_label">Klasör ekle</string>
     <string name="add_pre_message_attachments">Bir önceki e-postanın eklentilerini ekle?</string>
     <string name="add_pre_message_attachments_no">Ekleme</string>
@@ -174,6 +185,11 @@
     <string name="always_bcc_myself">Her zaman bilgi kısmına beni ekle</string>
     <string name="always_show_images">Bu gönderenden gelen resimleri her zaman görüntüle</string>
     <string name="app_name">E-posta</string>
+    <string name="application_mime_type">application/email-ls</string>
+    <string name="appraise_des">Uygulamamızı beğendiniz mi?</string>
+    <string name="appraise_good">Evet</string>
+    <string name="appraise_ignore">Yorum yok</string>
+    <string name="appraise_negative">Hayır</string>
     <string name="archive">Arşiv</string>
     <string name="archived">Arşivlendi</string>
     <string name="att_download_failed_content">İleti eki indirilemedi</string>
@@ -202,6 +218,7 @@
     <string name="attachment_not_exists">Eklenti mevcut değil</string>
     <string name="attachment_open_SecurityException_hint">Bu dosyayı açma izniniz yok veya dosya hasar görmüş durumda</string>
     <string name="attachment_open_SecurityException_title">Dosya açılamıyor</string>
+    <string name="attachment_opening_mode">Ekler için uygulamalar</string>
     <string name="attachment_size_exceed_limit">Eklenti boyutu sunucu sınırını aşmış gibi görünüyor</string>
     <string name="attachment_stop_all">Durdur</string>
     <string name="attachment_text">Metin</string>
@@ -209,11 +226,17 @@
     <string name="attachment_unknown">%s dosya</string>
     <string name="attachment_video">Video</string>
     <string name="attachments_header">Eklentiler</string>
+    <string name="authority_email_provider">com.android.email.provider</string>
     <string name="auto_advance_help_title">Bir mesaj silindikten sonra şunu görüntüle</string>
     <string name="auto_advance_label">Mesaj akışını sil</string>
     <string name="auto_advance_summary">Bir mesaj silindikten sonra hangi mesaja geçileceğini seçin</string>
     <string name="auto_login_fail">Otomatik olarak oturum açılamadı</string>
     <string name="auto_login_fail_to_retry">Otomatik olarak oturum açılamadı. Tekrar deneyin</string>
+    <string name="auto_mail_enable_txt">Ayarları başlat</string>
+    <string name="auto_mail_name">Otomatik posta</string>
+    <string name="auto_mail_title_note">139 posta kutusu otomatik yapılandırma seçeneğini bulun. Başlamak için tıklayın</string>
+    <string name="auto_mail_window_description">139 e-posta hizmeti otomatik yapılandırma</string>
+    <string name="auto_mail_window_label">139 posta kutusu otomatik yapılandırma</string>
     <string name="auto_remind_bind">Ekle</string>
     <string name="auto_remind_discribe_text">Otomatik hatırlatıcılar almak için açın</string>
     <string name="auto_remind_text">Otomatik hatırlatıcılar</string>
@@ -222,6 +245,7 @@
     <string name="automatic_remind_text">Otomatik olarak hatırlat</string>
     <string name="back">Geri</string>
     <string name="bank_card_detail">Kredi kartı ayrıntıları</string>
+    <string name="bank_card_list_card_num_fmt">****%s</string>
     <string name="battery_saver">Pil tasarrufu</string>
     <string name="battery_saver_keywords">pil tasarrufu;e-posta pil kullanımı</string>
     <string name="bcc">Kopya</string>
@@ -229,6 +253,8 @@
     <string name="bill_center_setting">Fatura ayarları</string>
     <string name="bill_center_setting_head">Bu hesaplardan bilgi aktar</string>
     <string name="bill_cycle_text">Faturalandırma döngüsü</string>
+    <string name="bill_list_card_name_fmt">%1$s | %2$s</string>
+    <string name="bill_list_card_num_fmt">**** **** **** %s</string>
     <string name="bill_remind">Geri ödeme hatırlatıcı</string>
     <string name="bill_remind_due">%s tarihli bir geri ödemeniz var, görüntülemek için dokunun</string>
     <string name="blank_feedback_toast">Geri bildirim yazmanız gerekmektedir</string>
@@ -271,6 +297,9 @@
     <string name="compose_picturesexceedlimits">Bir iletide 5 satır-içi resim miktarı aşılamıyor</string>
     <string name="compose_send">Gönder</string>
     <string name="compose_sent">E-posta gönderildi</string>
+    <string name="config">139 posta kutusu yapılandırılmış telefon numarası</string>
+    <string name="config_cancel">İptal et</string>
+    <string name="config_retry">Yeniden dene</string>
     <string name="confirm">Tamam</string>
     <string name="confirm_before_delete">Silmeden önce onayla</string>
     <string name="confirm_before_delete_keywords">silmeden önce onayla;silme onayı</string>
@@ -286,6 +315,9 @@
     <string name="confirm_send_message_with_no_body">Mesaj bölümünde metin yok</string>
     <string name="confirm_send_message_with_no_subject">Bu iletinin bir konusu yok</string>
     <string name="confirm_send_title">İleti gönderilsin mi?</string>
+    <string name="contact_add_options">Kişilere ekle</string>
+    <string name="contact_add_options_details1">Tümü</string>
+    <string name="contact_add_options_details2">Sadece alıcılar</string>
     <string name="contact_edit_set_black_list_from">Bu kişiden gelen tüm e-postaları çöp kutusuna taşı</string>
     <string name="contact_edit_set_black_list_receive">Bu alıcıya gelen tüm e-postaları çöp kutusuna taşı(Yalnızca yeni e-postalar)</string>
     <string name="contact_edit_set_black_list_receive_summary">Kime veya bilgi kısmında bu alıcıyı içeren e-postaları sil</string>
@@ -318,6 +350,7 @@
     <string name="contextmenu_send_mail">E-posta gönder</string>
     <string name="contextmenu_sharelink">Bağlantı adresini paylaş</string>
     <string name="contextmenu_sms_dot">Mesaj</string>
+    <string name="conversation_content_provider">Konuşma içerik sağlayıcı</string>
     <string name="conversation_detail_hide">Gizle</string>
     <string name="conversation_detail_show">Ayrıntılar</string>
     <string name="conversation_folder_moved">%1$s konumuna taşındı</string>
@@ -344,11 +377,16 @@
     <string name="debug_mode_preferencecategory">Günlük çıktısını ayarla</string>
     <string name="debug_mode_settings">Hata modu ayarları</string>
     <string name="default_">Varsayılan</string>
+    <string name="default_exchange">Exchange</string>
+    <string name="default_imap">IMAP</string>
+    <string name="default_opening_attchemnt_mode">Varsayılan uygulamaları kullanarak ekleri aç</string>
+    <string name="default_pop3">POP3</string>
     <string name="default_setup">Varsayılan ayarlar</string>
     <string name="default_signature">Mi Telefonumdan gönderildi</string>
     <string name="default_signature_2">%s cihazımdan gönderildi</string>
     <string name="del_account_questionnair_hint">Hesabı silmek istemenizin nedenini bizimle paylaşır mısınız?</string>
     <string name="delete">Sil</string>
+    <string name="delete_contact_content">Bu kişi şimdi silinsin mi?</string>
     <string name="delete_message_flow">Mesaj akışını sil</string>
     <string name="delete_message_flow_keywords">mesaj akışını sil;yönlendirmeleri sil</string>
     <string name="deleted">Silindi</string>
@@ -359,7 +397,9 @@
     <string name="device_not_activiey_lint1">Aygıt yöneticisi etkin durumda değil</string>
     <string name="device_not_activiey_lint2">E-posta hizmeti Exchange servisi ile çalışmıyor</string>
     <string name="dialog_account_auto_sync_setting_no_open">E-postaları manuel olarak senkronize etmeyi seçtiniz. Eşitlemek için yenileyin</string>
+    <string name="dialog_agree">Kabul et</string>
     <string name="dialog_change_sync_lookback">%s önce alınan e-postalar otomatik olarak silinecektir. Değiştirmek için dokunun</string>
+    <string name="dialog_disagree">Reddet</string>
     <string name="dialog_insufficient_space_on_external">Eklenti indirilemiyor. Harici depolama alanında yeterli boş alan yok</string>
     <string name="dialog_insufficient_space_on_internal">Dahili depolama alanında yeterli boş alan yok</string>
     <string name="dialog_system_auto_sync_account_no_open">E-postaları otomatik olarak almak için hesap senkronizasyonunu açın</string>
@@ -396,13 +436,21 @@
     <string name="drawer_open">Navigasyon çekmecesini aç</string>
     <string name="due">Vade</string>
     <string name="due_date_text">Son geri ödeme</string>
+    <string name="eas_hotmail_email">hotmail.com</string>
+    <string name="eas_outlook_email">outlook.com</string>
     <string name="edit_quick_response_dialog">Hızlı yanıt</string>
     <string name="edit_signature">İmzayı düzenle</string>
+    <string name="elided_padding_token"> </string>
+    <string name="email_feedback_uri" />
     <string name="email_netease">NetEase posta</string>
+    <string name="email_package_name">com.android.email</string>
     <string name="email_qq">QQ posta</string>
     <string name="email_setting">Posta</string>
     <string name="email_setting_keywords">Hesaplar;Hesap ekle;e-posta hesapları;e-posta hesabı ekle;silmeden önce onayla;silme onayı;göndermeden önce onayla;gönderme onayı;mesaj akışını sil;yönlendirmeleri sil;konuşma görünümü;posta konuşması;pil tasarrufu;e-posta pil kullanımı;geribildirim gönder;kayıtları karşıya yükle</string>
     <string name="email_sina">Sina posta</string>
+    <string name="email_suggestions_authority">com.android.email.provider</string>
+    <string name="email_sync_failed">Senkronizasyon başarısız oldu</string>
+    <string name="eml_attachment_provider">com.android.email.provider.eml.attachment</string>
     <string name="eml_parse_message">EML dosyası açılıyor</string>
     <string name="empty_account_tip">Hesap bulunamadı</string>
     <string name="empty_email_tip">Boş mesaj gönderilemiyor</string>
@@ -411,11 +459,13 @@
     <string name="empty_trash">Çöp kutusu boş</string>
     <string name="empty_trash_dialog_title">Çöp kutusu boşaltılsın mı?</string>
     <string name="enable_sync_in_account_settings">%1$s menüsünde açın</string>
+    <string name="enumeration_delimiter">" | "</string>
     <string name="error">Hata</string>
     <string name="exception_cancel">"
         Bu etkinlik
         iptal edildi:
-%s "</string>
+%s
+"</string>
     <string name="exception_updated">Bu etkinliğin ayrıntıları değiştirildi: %s</string>
     <string name="exchange_name">Kurumsal</string>
     <string name="exchange_name_alternate">Microsoft Exchange etkin senkronizasyonu</string>
@@ -428,6 +478,7 @@
     <string name="failed_read_write_contacts_permission">Kişilere erişime izin ver</string>
     <string name="feedback">Geri bildirim gönder</string>
     <string name="feedback_body">Mesaj</string>
+    <string name="feedback_body_domestic" />
     <string name="feedback_sent">Geri bildirimiz için teşekkürler</string>
     <string name="feedback_user_edit_hint">Burada sorununuzu açıklayın. Sorununuz gözden geçirildikten sonra size bir e-posta göndereceğiz</string>
     <string name="feedback_user_edit_tag">"Miui'den"</string>
@@ -444,19 +495,56 @@
     <string name="file_save_term">Dosya kaydetme şartları</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">%s öğesini bu konuşmadaki tüm kişilere göndermek için tuşa dokunun</string>
+    <string name="float_window_info">139 posta kutusunu yapılandırırken, yapılandırma hataları durumunda telefonu çalıştırmayın</string>
+    <string name="float_window_title">Yapılandırılıyor</string>
+    <string name="folder_drafts_name_cn0">Taslak</string>
+    <string name="folder_drafts_name_cn1">Taslak kutusu</string>
+    <string name="folder_drafts_name_cn2">[Gmail]/Taslak</string>
+    <string name="folder_drafts_name_en0">Taslaklar</string>
+    <string name="folder_drafts_name_en1">Taslaklar</string>
+    <string name="folder_drafts_name_en2">[Gmail]/Taslaklar</string>
+    <string name="folder_empty_to_fresh">E-posta senkronize edilmedi. Senkronize etmek için aşağı çekin</string>
+    <string name="folder_junk_name_cn0">Spam</string>
+    <string name="folder_junk_name_cn1">Çöp Kutusu</string>
+    <string name="folder_junk_name_cn2">[Gmail]/Spam</string>
+    <string name="folder_junk_name_en0">Spam</string>
+    <string name="folder_junk_name_en1">Toplu posta</string>
+    <string name="folder_junk_name_en2">İstenmeyen posta</string>
+    <string name="folder_junk_name_en3">Gereksiz e-posta</string>
+    <string name="folder_junk_name_en4">Önemsiz</string>
     <string name="folder_list_display_all">Tüm klasörleri göster</string>
     <string name="folder_list_display_only_import">Yalnızca önemli klasörleri görüntüleme</string>
+    <string name="folder_no_mails">Bu klasörde e-posta yok.</string>
     <string name="folder_picker_title">Klasörleri seçin</string>
     <string name="folder_removed">%1$s kaldırıldı</string>
+    <string name="folder_sent_name_cn0">Gönderilen</string>
+    <string name="folder_sent_name_cn1">Gönderilen posta</string>
+    <string name="folder_sent_name_cn2">Gönderilen posta</string>
+    <string name="folder_sent_name_cn3">[Gmail]/Gönderilen posta</string>
+    <string name="folder_sent_name_en0">Gönderilen</string>
+    <string name="folder_sent_name_en1">Gönderilen mesajlar</string>
+    <string name="folder_sent_name_en2">Gönderilen mesaj</string>
+    <string name="folder_sent_name_en3">Gönderilen öğeler</string>
+    <string name="folder_sent_name_en4">[Gmail]/Gönderilen posta</string>
     <string name="folder_shortcut_widget_label">E-posta klasörü</string>
     <string name="folder_synchronization_mail_settings">Klasör senkronizasyon ayarları</string>
+    <string name="folder_trash_name_cn0">Silinen</string>
+    <string name="folder_trash_name_cn1">Silinen e-posta</string>
+    <string name="folder_trash_name_cn2">[Gmail]/Silinen e-posta</string>
+    <string name="folder_trash_name_en0">Çöp</string>
+    <string name="folder_trash_name_en1">Silinen mesajlar</string>
+    <string name="folder_trash_name_en2">Silinen mesaj</string>
+    <string name="folder_trash_name_en3">[Gmail]/Bin</string>
     <string name="forever">Her zaman</string>
+    <string name="formatted_email_address">&lt;%1$s></string>
+    <string name="formatted_subject">%1$s %2$s</string>
     <string name="forward">Yönlendir</string>
     <string name="forward_attachment">İlet</string>
     <string name="forward_attribution">---------- İletilen mesaj ----------&lt;br>Kimden: %1$s&lt;br>Tarih: %2$s&lt;br>Konu: %3$s&lt;br>Kime: %4$s&lt;br></string>
     <string name="forward_attribution_no_headers">---------- İletilen mesaj ----------</string>
     <string name="forward_download_failed_ticker">Bir veya daha fazla ek yönlendirilemedi</string>
     <string name="forward_download_failed_title">Ekler yönlendirilemedi</string>
+    <string name="forward_subject_label">İlet:</string>
     <string name="free_period_text">Faizsiz dönem</string>
     <string name="from_heading">"Başlangıç: "</string>
     <string name="general_preference_confirm_delete_label">Silmeden önce onayla</string>
@@ -472,19 +560,26 @@
     <string name="general_preference_text_zoom_tiny">Çok küçük</string>
     <string name="generic_attachment_problem">Dosya eklenemiyor</string>
     <string name="get_database_exception">Ayarlar > Sistem ayarları menüsünde uygulamanın verilerini temizleyin ve ardından tekrar deneyin</string>
+    <string name="get_oauth_code">Kod al</string>
     <string name="gmail_acceleration">Gmail hesabı için vekil sunucu kullan</string>
     <string name="gmail_login_confirm_to_use_proxy">Gmail hesabı erişimi için vekil sunucu kullanılsın mı?</string>
     <string name="gmail_login_failed_non_proxy_title">Gmail sunucusuna bağlanılamadı</string>
     <string name="gmail_server_authorization_deleted">Hesap kimliği doğrulanamadı. Hesabı yeniden eklemeyi deneyin</string>
     <string name="gmail_web_login_go">Tamam</string>
     <string name="gmail_web_login_required_message">Gmail ile oturum açın</string>
+    <string name="have_auth_code">Kodum var</string>
     <string name="header_category_account">Hesaplar</string>
     <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Geri bildirim</string>
     <string name="header_label_general_preferences">Genel</string>
     <string name="help_and_info">Yardım</string>
+    <string name="help_me_get_qq_auth">QQ kodunu al</string>
+    <string name="help_weixin_title">"Herhangi bir sorunuz varsa resmi WeChat hesabımıza bir satır bırakmaktan çekinmeyin: "</string>
     <string name="hide_elided">▼ Alıntı metni gizle</string>
     <string name="hide_password">Şifreyi gizle</string>
+    <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
+    <string name="hierarchical_folder_parent_top_ellip">%1$s∕…∕%2$s∕</string>
+    <string name="hierarchical_folder_top">%1$s∕</string>
     <string name="hint_quick_reply_all">Tümünü yanıtla</string>
     <string name="imap_name">IMAP</string>
     <string name="imap_or_pop3_name">IMAP/POP3</string>
@@ -497,31 +592,46 @@
     <string name="info_switch_title">Promosyon</string>
     <string name="inline_picture_deleted">Eksik resimler indiriliyor…</string>
     <string name="input_password_prompt">Şifrenizi girin</string>
+    <string name="intent_account_manager_entry">com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
+    <string name="intent_exchange_package">com.android.exchange</string>
     <string name="interact_with_server_error">Sunucuya bağlanılamadı</string>
     <string name="invalid_recipient">%s adresi geçersizdir.</string>
     <string name="invalid_recipient_title">Alıcı hatası</string>
     <string name="kilobytes">%s KB</string>
     <string name="label_notification_ticker" formatted="false">%s: %s</string>
+    <string name="list_empty_to_fresh">Henüz e-posta yok</string>
+    <string name="load_attachment">@string/load_more</string>
     <string name="load_from_remote">Sunucu posta kutusunu ara</string>
     <string name="load_more">Daha fazla yükle</string>
     <string name="loading_conversation">Yükleniyor</string>
     <string name="loading_conversations">Yükleniyor</string>
     <string name="loading_from_remote">Yükleniyor</string>
     <string name="local_search">Yerel arama</string>
-    <string name="log_save_path">Log path</string>
+    <string name="log_save_path">Günlük yolu</string>
     <string name="login">Oturum açın</string>
     <string name="login139">Çin mobil ile oturum aç</string>
+    <string name="login_err_message">Girdiğiniz şifre yanlış. Giriş yapmak için bir doğrulama koduna da ihtiyacınız olabilir. Şifrenizi sıfırlamanız gerekiyorsa kullanabileceğiniz seçenekleri görmek için https://email.163.com/ adresini ziyaret edin</string>
     <string name="login_failed_ticker">%s oturumu açılamadı</string>
+    <string name="login_failed_tip">Giriş yardımı geri bildirimi ekleyin:</string>
     <string name="login_failed_title">Oturum açılamıyor</string>
+    <string name="login_mail">Mail ile oturum aç</string>
+    <string name="login_qq_psw">QQ şifre veya doğrulama kodunu kullanarak giriş yapın</string>
     <string name="login_support_tip_text">Tüm önemli e-posta hesaplarını destekler</string>
     <string name="long_press_to_select_tip">Bir konuşmayı seçmek için konuşmanın üzerine basın &amp; basılı tutun ardından daha fazla seçim için diğerlerine dokunun</string>
+    <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
     <string name="mail">Posta</string>
     <string name="mail_body_turncated">E-posta boyutu yüklenemeyecek kadar büyük, lütfen e-postayı daha sonra bilgisayarınız üzerinden görüntüleyin</string>
     <string name="mail_description_content">E-posta uygulaması birden çok e-posta hesabını yönetebileceğiniz, takvim bilgilerinizi ve kişilerinizi senkronize etmekle birlikte e-posta alıp gönderebileceğiniz bir e-posta istemcisidir. Uygulamayı kaldırmadan önce uygulamaya gerçekten ihtiyacınız olmadığından emin olun. Exchange kişileriniz ve takvim bilgileriniz de silinecektir</string>
     <string name="mail_description_title">E-posta hakkında</string>
     <string name="mail_header_network_not_available">Ağ bağlantınız yok</string>
+    <string name="mail_login_help">Giriş yardımı</string>
+    <string name="mail_login_help_bottom_tip">Parolanızı sıfırlamanız veya ayar durumunu kontrol etmeniz gerekirse kullanabileceğiniz seçenekleri görmek için https://email.163.com/ adresini ziyaret edin:</string>
+    <string name="mail_login_help_details1">1.E-posta şifresi: Müşteri doğrulama kodunu ayarlamadıysanız ve POP3/IMAP/SMTP protokolünü zaten açtıysanız oturum açmak için e-posta şifresini kullanabilirsiniz</string>
+    <string name="mail_login_help_details2">2. Müşteri doğrulama kodu: Zaten bir müşteri doğrulama kodu ayarladıysanız oturum açmak için bunu kullanmanız gerekir. POP3/IMAP/SMTP protokolünün açık olduğundan emin olun</string>
+    <string name="mail_login_help_title">E-posta şifresi veya müşteri doğrulama kodu açıklaması:</string>
     <string name="mailbox_list_account_selector_combined_view">Birleşik hesap</string>
     <string name="mailbox_name_display_ad">Reklamlar</string>
+    <string name="mailbox_name_display_add_account">E-posta hesabı ekle</string>
     <string name="mailbox_name_display_circular">Bildirimler</string>
     <string name="mailbox_name_display_drafts">Taslaklar</string>
     <string name="mailbox_name_display_inbox">Gelen kutusu</string>
@@ -531,6 +641,14 @@
     <string name="mailbox_name_display_starred">Favoriler</string>
     <string name="mailbox_name_display_trash">Çöp kutusu</string>
     <string name="mailbox_name_display_unread">Okunmamış</string>
+    <string name="mailbox_name_server_all_unread">Okunmamış</string>
+    <string name="mailbox_name_server_drafts">Taslaklar</string>
+    <string name="mailbox_name_server_inbox">Gelen kutusu</string>
+    <string name="mailbox_name_server_junk">Önemsiz</string>
+    <string name="mailbox_name_server_outbox">Giden kutusu</string>
+    <string name="mailbox_name_server_sent">Gönderilen</string>
+    <string name="mailbox_name_server_starred">Favoriler</string>
+    <string name="mailbox_name_server_trash">Çöp kutusu</string>
     <string name="mailbox_settings_activity_title">Senkronizasyon ayarları</string>
     <string name="mailbox_settings_activity_title_with_mailbox">Senkronizasyon ayarları (%s)</string>
     <string name="mailbox_settings_mailbox_sync_window_label">E-postaları şuradan senkronize et</string>
@@ -542,6 +660,7 @@
     <string name="maileditor_fontsize_textitem4">14pt</string>
     <string name="maileditor_fontsize_textitem5">16pt</string>
     <string name="maileditor_fontsize_textitem6">18pt</string>
+    <string name="main_help_context">ttl</string>
     <string name="manual_sync">Şimdi senkronize et</string>
     <string name="mark_important">Önemli işaretle</string>
     <string name="mark_not_important">Önemli işaretini kaldır</string>
@@ -552,38 +671,48 @@
     <string name="me_subject_pronun">ben</string>
     <string name="meeting_accepted">"
         Kabul edildi:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_allday">"
         Ne zaman:
-%s (Tüm gün)
-    "</string>
+		%s
+		(Tüm gün)
+	"</string>
     <string name="meeting_allday_recurring">"
         Ne zaman:
-%s (Tüm gün, yinelenen)
+		%s
+		(Tüm gün. Yinelenen)
     "</string>
     <string name="meeting_canceled">"
         İptal edildi:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_declined">"
         Reddedildi:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_recurring">"
         Ne zaman:
-%s (Yinelenen)
+		%s
+		(Yinelenen)
     "</string>
     <string name="meeting_responded_failed">Yanıt yok</string>
     <string name="meeting_tentative">"
         Geçici:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_updated">"
         Güncellendi:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_when">"
         Ne zaman:
-%s "</string>
+		%s
+	"</string>
     <string name="meeting_where">"
         Nerede:
-%s "</string>
+		%s
+	"</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Eklentiler</string>
     <string name="menu_att_mgr_order_default">Yakınlarda görüntülenen</string>
@@ -607,6 +736,7 @@
     <string name="merged_mailbox_compose_select_account">Hesap seçin</string>
     <string name="message_body_load_set_description">Mobil veri kullanıyorken e-posta yükle</string>
     <string name="message_compose_insert_quick_response_list_title">Hızlı yanıt ekle</string>
+    <string name="message_count_spacer">  </string>
     <string name="message_decode_error">Mesaj çözümlenemiyor</string>
     <string name="message_details_title">Mesaj ayrıntıları</string>
     <string name="message_discarded">Taslak kaydedilmedi</string>
@@ -617,6 +747,9 @@
     <string name="message_invite_title">Takvim daveti</string>
     <string name="message_saved">İleti taslak olarak kaydedildi</string>
     <string name="message_view_attachment_background_load">Yönlendirilen iletinizdeki eklentiler gönderme işlemi amacıyla indirilecektir</string>
+    <string name="mi_sync_erroe_toast">"Bir ağ hatası oluştu: "</string>
+    <string name="mi_sync_erroe_toast_other">"Bir sunucu hatası oluştu: "</string>
+    <string name="mi_sync_erroe_toast_other_details">-ERR:unknown_error</string>
     <string name="mibill_privacy_policy_button1">Sonra</string>
     <string name="mibill_privacy_policy_button2">Kabul et</string>
     <string name="mibill_privacy_policy_description">Mi cüzdan ile faturalarınızı otomatik olarak analiz etme ve yönetme izni verin. Bu özellik iş ile bağlantılı e-posta adresleri için otomatik olarak kapatılacaktır</string>
@@ -624,19 +757,23 @@
     <string name="mibill_privacy_policy_title">Faturaları otomatik olarak yönet</string>
     <string name="min_payment_text">Minimum ödeme</string>
     <string name="more_context">Daha fazla</string>
+    <string name="more_string">+%1$s</string>
     <string name="move_to_selection_dialog_title">Başka bir klasöre taşı</string>
-    <string name="multiple_new_message_notification_item"><b>%1$s</b>"\"   %2$s\""</string>
+    <string name="multiple_new_message_notification_item"><b>%1$s</b>"\"\"   %2$s\"\""</string>
     <string name="mute">Sessiz</string>
     <string name="navigation_menu">Gezinme menüsü</string>
+    <string name="need_get_qq_mail">QQ mail ihtiyacınız var</string>
     <string name="network_error">Bağlantı yok</string>
     <string name="network_invaild">Ağa bağlanılamıyor</string>
     <string name="network_not_available">Ağa bağlanılamıyor</string>
+    <string name="network_tip">Kimlik doğrulama başarısız oldu. Lütfen ağ bağlantınızı kontrol edin</string>
     <string name="network_try_again">Ağ bağlantınızı kontrol edin ve tekrar deneyin</string>
     <string name="network_unavailable">Ağ kullanılamıyor</string>
     <string name="new_incoming_messages_one">%s adlı kişiden yeni bir mesaj geldi. Görüntüle</string>
     <string name="new_signature_has_saved">Başarıyla kaydedildi</string>
     <string name="next_action">Sonraki</string>
     <string name="no">Hayır</string>
+    <string name="no_address_email">noaddressemail@123.com</string>
     <string name="no_application_found">Bu eklentiyi açabilecek bir uygulama bulunamadı</string>
     <string name="no_application_found_title">Bu eki açın</string>
     <string name="no_bill_discribe">"Herhangi bir fatura bulunamadı
@@ -647,10 +784,14 @@ Farklı bir e-posta hesabı kullanmayı deneyin"</string>
     <string name="no_filtrable_email_account">Filtre uygulanacak hesap yok</string>
     <string name="no_mails">E-posta yok</string>
     <string name="no_matched_attachment">Sonuç yok</string>
+    <string name="no_more_mail">Başka mesaj yok</string>
     <string name="no_recognize_describe">"Bilet veya rezervasyon içeren bir e-posta bulunamadı
 Farklı bir posta kutusu deneyin"</string>
+    <string name="no_search_results">Sonuç bulunamadı</string>
     <string name="not_subject">(Konu yok)</string>
     <string name="not_synced_title">Hesap senkronize edilmedi</string>
+    <string name="note_text">Olası Çin mobil veya mesaj doğrulama ağı sayesinde akış veya mesaj için ek maliyetler üretebilir</string>
+    <string name="note_title">139 e-posta otomatik yapılandırma</string>
     <string name="notification_action_archive">Arşiv</string>
     <string name="notification_action_delete">Sil</string>
     <string name="notification_action_remove_label">Etiketi kaldır</string>
@@ -660,6 +801,11 @@ Farklı bir posta kutusu deneyin"</string>
     <string name="notification_action_undo_delete">Silindi</string>
     <string name="notification_action_undo_remove_label">Etiket kaldırıldı</string>
     <string name="notification_exchange_calendar_added">Exchange hesabı takvimi eklendi</string>
+    <string name="notify_channel_new_mail">Yeni mesajları bildir</string>
+    <string name="notify_channel_no_disterb">Rahatsız etme modu</string>
+    <string name="notify_channel_permission_notice">İzin gerekli</string>
+    <string name="notify_channel_send_fail">Başarısız teslimatları bildir</string>
+    <string name="notify_channel_service">Arka plan senkronizasyonu hakkında uyar</string>
     <string name="oauth_error_description">Kimlik doğrulanamadı</string>
     <string name="oauth_gmail_login_notify">Takip eden oturum açma sayfasında Google hesap adı ve şifrenizi girin</string>
     <string name="oauth_login_continue">Devam et</string>
@@ -670,10 +816,15 @@ Farklı bir posta kutusu deneyin"</string>
     <string name="one_day">1 gün</string>
     <string name="one_month">1 ay</string>
     <string name="one_week">1 hafta</string>
+    <string name="open_androidp_warning">"9.0 resmi olmayan Sdk’ları uyar"</string>
     <string name="open_calendar_and_contacts_permission">E-posta uygulamasına Ayarlar menüsünde takvim bilgilerine erişim izni verin</string>
     <string name="open_external_storage_and_calendar_permission">E-posta uygulamasına Ayarlar menüsünde depolama alanına erişim izni verin</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">E-posta uygulamasına Ayarlar menüsünde depolama alanına, kişilere ve takvim bilgilerine erişim izni verin</string>
     <string name="open_external_storage_and_contacts_permission">E-posta uygulamasına Ayarlar menüsünde depolama alanına ve kişilere erişim izni verin</string>
+    <string name="open_notification_kingagent">Mezarlık noktası bildirimini aç</string>
+    <string name="optimization_suggestion">Optimizasyon önerisi</string>
+    <string name="others_mail">Diğerleri</string>
+    <string name="others_mail_des">Bu diğer e-posta servisi veya kurumsal e-posta servisi için</string>
     <string name="outbox_alert_button_no_resend">Gönderilemedi</string>
     <string name="outbox_alert_button_resend">Tekrar gönder</string>
     <string name="outbox_alert_certificate_error">Sertifikanızı güncellemek için e-posta sunucunuzun sistem yöneticiyle iletişime geçin</string>
@@ -700,6 +851,11 @@ Farklı bir posta kutusu deneyin"</string>
     <string name="output_db_title">Veri tabanını çıkarma</string>
     <string name="output_to_disk">Kayıtları bir dosyaya kaydet</string>
     <string name="over_due">Vadesi dolmuş</string>
+    <string name="overlays_fail_tip">Maalesef posta kutunuz başarıyla yapılandırılmadı. Kayan pencere izinlerini açın ve tekrar deneyin</string>
+    <string name="overlays_ok">İzinleri aç</string>
+    <string name="overlays_tip">Kayan pencere izinlerini açın ve otomatik olarak aşırı deneyim yapılandırmak için 139 posta kutusunun keyfini çıkarın</string>
+    <string name="overlays_tip_23">Yüzen pencere izinlerini açın ve aşırı deneyimi otomatik olarak yapılandırmak için hemen 139 posta kutusunun tadını çıkarın</string>
+    <string name="overlays_title">Kayan pencere izinlerini aç</string>
     <string name="parase_setup_data">Veri alınıyor</string>
     <string name="parse_bill_discribe">Kredi kartı faturaları işleniyor</string>
     <string name="parse_recognize_describe">E-posta analiz ediliyor</string>
@@ -731,9 +887,10 @@ Farklı bir posta kutusu deneyin"</string>
     <string name="permission_access_provider_label">Kullanıcı verilerine erişim</string>
     <string name="permission_read_attachment_desc">Uygulamaya e-posta eklentilerini okuma izni verir</string>
     <string name="permission_read_attachment_label">Eklentileri oku</string>
+    <string name="permission_tip">Yapılandırma başarısız oldu. Yapılandırma izinleri sırasında lütfen aramalara ve metin mesajlarına izin verin</string>
     <string name="phone">telefon</string>
     <string name="photo_load_failed">Resim yüklenemedi</string>
-    <string name="photo_view_count" formatted="false">%d/%d</string>
+    <string name="photo_view_count">%1$d - %2$d</string>
     <string name="please_fill_in_your_mailbox_information2">Posta kutusu bilgilerinizi girin</string>
     <string name="pls_parse_bill_discribe">"Ödemeleriniz ve seyahatleriniz hakkında hatırlatıcı mesajlar almak için
 e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
@@ -767,6 +924,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="policy_screen_timeout">Cihaz boştayken ekranın kilitlemesini gerektir</string>
     <string name="policy_text_truncation">Metin e-posta boyutunu sınırla</string>
     <string name="pop3_name">POP3</string>
+    <string name="prefDefault_autoAdvance">liste</string>
     <string name="preference_eas_tips">E-posta sunucusu kurulumu için Etkinleştir e dokunun</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">POP3 protokolünde e-posta ekleri, e-postalar ile birlikte indirilir. Bu durum mobil veri kullanımızı arttırabilir</string>
@@ -778,8 +936,16 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="preview_attachment">Önizleme</string>
     <string name="previous_action">Geri</string>
     <string name="print">Yazdır</string>
+    <string name="print_scheduler_title">Tüm zamanlayıcıları yazdır</string>
+    <string name="privacy_des">Günlükler e-posta istemcisinin hata ayıklama bilgilerini ve cihaz bilginizi içerir. Bu bilgiler sorunları daha hızlı bir şekilde bulmak için kullanılır. Aşağıdaki %1$s seçeneğine dokunarak %2$s sözleşmemizi kabul etmiş sayılıyorsunuz</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
     <string name="prompt_title">Komut istemi</string>
+    <string name="protocol_eas">eas</string>
+    <string name="protocol_imap">imap</string>
+    <string name="protocol_legacy_imap">imap</string>
+    <string name="protocol_pop3">pop3</string>
     <string name="protocol_setting_toast">Kabul etmenizden sonra ayarlara gitmek için sağ üst köşeye dokunun</string>
+    <string name="pull_load_more">Daha fazlasını yüklemek için yukarı çekin</string>
     <string name="pull_to_refresh">Yenilemek için aşağı doğru çekin</string>
     <string name="push_wps_better_confirm_download">İndir</string>
     <string name="push_wps_better_confirm_exit">Şimdi değil</string>
@@ -791,6 +957,9 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="push_wps_confirm_message">Bu eklentiyi açmak için WPS ofis yazılımını kullanmayı deneyin</string>
     <string name="push_wps_confirm_title">WPS ofis yazılımını dene</string>
     <string name="push_wps_no_response_app">Bu işlemi gerçekleştirebilecek uygulama bulunamadı</string>
+    <string name="qq_authorization_help_get">Almama yardım et</string>
+    <string name="qq_authorization_know">Yetkilendirme kodunu anlama</string>
+    <string name="qq_authorization_tips">Artık istemiyor</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Başarıyla kopyalandı. Oturum sayfasına geri dönün ve kodu şifre formuna yapıştırın</string>
     <string name="qq_auto_login_failed_dialog_message">Doğrulama kodunu kopyalayın, oturum açma sayfasında oturum açmak için kullanıcı adı ve parola girine dokunun ve kodu şifre formuna yapıştırın</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Kodu kopyala</string>
@@ -798,12 +967,20 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="qq_bar_send_message">Mesaj gönder</string>
     <string name="qq_login_basecode">Web QQ mail oturumu açılıyor. Bağımsız bir parola girin</string>
     <string name="qq_login_get_auth">Mesaj alamıyorsanız parola korumasını açın</string>
+    <string name="qq_login_help_bottom_tip">Parolanızı sıfırlamanız veya ayar durumunu kontrol etmeniz gerekirse size sunulan seçenekleri görmek için https://mail.qq.com/ adresini ziyaret edin. Daha fazla soru için WeChat genel numarasını ekleyin:</string>
+    <string name="qq_login_help_details1">1.QQ şifresi: E-posta şifresini ve müşteri doğrulama kodunu ayarlamadıysanız ve POP3/IMAP/SMTP protokolünün açık olduğundan emin olun. Oturum açmak için QQ şifresini kullanabilirsiniz</string>
+    <string name="qq_login_help_details2">2.E-posta şifresi: Zaten bir e-posta şifresi ayarladıysanız ve müşteri doğrulama kodunu ayarlamadıysanız ve POP3/IMAP/SMTP protokolünün açık olduğundan emin olun. Oturum açmak için e-posta şifresini kullanabilirsiniz</string>
+    <string name="qq_login_help_details3">3.Müşteri doğrulama kodu: Zaten QQ müşteri doğrulama kodunu ayarladıysanız oturum açmak için bize bu işlemi yapmanız gerekir. Müşteri doğrulama kodunuzu sıfırlamanız gerekirse buraya tıklayın:</string>
+    <string name="qq_login_help_title">QQ şifre/e-posta şifresi/müşteri doğrulama kodu açıklaması</string>
+    <string name="qq_login_notice">Not: Şifre belirlediyseniz oturum açtığınızda şifrenizi doğrulamanız gerekir</string>
     <string name="qq_login_open_imap">IMAP/SMTP açmak için yardım seçeneğine dokunun</string>
     <string name="qq_login_origin_setting">Oturum açmak için kullanıcı adı ve parola girin ></string>
     <string name="qq_login_send_message">Doğrulama kodu almak için mesaj gönder seçeneğine dokunun</string>
     <string name="qq_login_webview">QQ internet istemcisinde oturum açılıyor. Şifre kullanarak oturum açmak için dokunun</string>
     <string name="qq_next_generation_auth_toast">Tarayıcınızda parola korumasını açın</string>
+    <string name="qq_pwd_or_qq_auth_code">QQ kodunu veya e-posta şifrenizi girin</string>
     <string name="qq_uthentication_failed">Hesap doğrulanamadı. Yeniden oturum açın</string>
+    <string name="qq_verify_code">(QQ doğrulama kodu gerekir)</string>
     <string name="qq_webview_loading">Yükleniyor</string>
     <string name="questionnair_body_invisibility">Mesajlar görüntülenmiyor</string>
     <string name="questionnair_confirm_delete">Hesap kaldırılsın mı?</string>
@@ -822,8 +999,31 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="quick_reply_hint_bcc">(BCC)</string>
     <string name="quick_reply_hint_cc">(Bilgi)</string>
     <string name="quick_reply_hint_reply_only_from">Hızlı yanıt (yalnızca gönderen)</string>
+    <string name="quick_reply_pattern">.*Onay.*|.*Onayla.*|.*Uygulama.*|.*Açıklama.*|.*Göster.*|.*İstek.*</string>
     <string name="quick_responses_empty_view">Hızlı yanıt yok</string>
+    <string name="quote_begin">&lt;div class=\"wps_quotion\"></string>
+    <string name="quote_divider_1">-------- Orijinal posta --------</string>
+    <string name="quote_divider_11">----- Orijinal -----</string>
+    <string name="quote_divider_12">  Orijinal posta </string>
+    <string name="quote_divider_2">--- Orijinal posta ---</string>
+    <string name="quote_divider_3">-------- Orijinal mesaj --------</string>
+    <string name="quote_divider_4">----- Orijinal posta -----</string>
+    <string name="quote_divider_5">----------- Referans için bölüm çizgisi -------------</string>
+    <string name="quote_divider_6">---Orijinal---</string>
+    <string name="quote_divider_7">Orijinal mesaj</string>
+    <string name="quote_divider_apple">"
+>"</string>
+    <string name="quote_divider_huawei_zh">Huawei cep telefonundan</string>
+    <string name="quote_divider_ipad_zh">iPad cep telefonundan</string>
+    <string name="quote_divider_iphone_en">"iPhone'umdan gönderildi"</string>
+    <string name="quote_divider_iphone_fwd_en">İletilir mesaja başlayın:</string>
+    <string name="quote_divider_iphone_fwd_zh">Aşağıdakiler postayla gönderilir:</string>
+    <string name="quote_divider_ks_web">________________________________________</string>
+    <string name="quote_divider_qq_en">------------------ Orijinal ------------------</string>
+    <string name="quote_divider_qq_zh">------------------ Orijinal posta ------------------</string>
     <string name="quoted_text">Alıntı metinlerini içer</string>
+    <string name="quoted_text_background_color_string">@android:color/white</string>
+    <string name="quoted_text_font_color_string">@color/gray_text_color</string>
     <string name="quoted_text_label">Metni alıntıla</string>
     <string name="re_download_message_button">Tekrar indirmek için dokunun</string>
     <string name="re_download_message_info">E-posta indirilemedi</string>
@@ -856,6 +1056,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="recognize_ticket_train_return">İptal edildi</string>
     <string name="recognize_ticket_train_user_name">Yolcu: %1$s</string>
     <string name="recognize_title">Seyahat bilgileri</string>
+    <string name="recommend_protocal">Öneriler kullanım protokolü</string>
     <string name="reduce_the_receiving_frequencye_summary">Ayarlanan zamanlarda senkronizasyon sıklığını düşür</string>
     <string name="reduce_the_receiving_frequencye_title">Senkronizasyon sıklığını düşür</string>
     <string name="refresh">Yenile</string>
@@ -863,17 +1064,26 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="refreshing_done">Tamamlandı</string>
     <string name="release_to_refresh">Yenilemek için bırakın</string>
     <string name="remind_attachment_size_limit">E-postalarınız %sMB boyutundan küçük olmalıdır</string>
+    <string name="remote_no_mail">remote_no_mail</string>
+    <string name="remote_search_body_too_large_prompt">"Bu e-posta çok uzun
+Tamamen senkronize edilmesini bekleyin veya mesajı bilgisayarınızda görüntüleyin"</string>
     <string name="remove_account">Hesabı kaldır</string>
     <string name="remove_folder">%1$s klasöründen kaldır</string>
     <string name="remove_star">Favorilerden çıkar</string>
     <string name="reply">Yanıtla</string>
     <string name="reply_add_bodycontent">İleti gövdesine yanıt eklensin mi?</string>
     <string name="reply_all">Tümünü yanıtla</string>
-    <string name="reply_attribution" formatted="false">%s tarihinde, %s şunu yazdı:</string>
+    <string name="reply_attribution">%1$s tarihinde %2$s şunu yazdı:</string>
+    <string name="reply_subject_label">Konu:</string>
     <string name="report_phishing">Dolandırıcılık rapor et</string>
+    <string name="report_rendering_improvement">İyi görünüyor</string>
+    <string name="report_rendering_improvement_desc">Bu mesaj iyi görünüyor</string>
+    <string name="report_rendering_problem">Kötü görünüyor</string>
+    <string name="report_rendering_problem_desc">Bu mesaj kötü görünüyor</string>
     <string name="report_spam">Spam bildir</string>
     <string name="request_copy_db_to_disk">Mail veri tabanınızı bir dosyaya kopyalamayı istiyor</string>
     <string name="request_entity_large">Dosya çok büyük</string>
+    <string name="request_permission_activity">İzin isteği</string>
     <string name="respond_inline">"   Sıralı yanıtla"</string>
     <string name="retry_login">Tekrar oturum açın</string>
     <string name="save_action">Kaydet</string>
@@ -882,16 +1092,18 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="save_power_summary">Güç tasarruf zamanını ayarlayın</string>
     <string name="save_power_title">Pil tasarrufu</string>
     <string name="save_this_new_signature">Yeni imza kaydedilsin mi?</string>
-    <string name="saved">Kaydedildi, %s</string>
+    <string name="saved">Kaydedildi: %s</string>
     <string name="saving">Kaydediliyor</string>
     <string name="sdcard_cannot_use">SD kart kullanılamıyor</string>
     <string name="search_bar_text">İleti ve kişileri arayın</string>
     <string name="search_hint">E-posta ara</string>
+    <string name="search_remote_again">Ağ kullanılamıyor. Yeniden deneyi tıklayın</string>
     <string name="search_result">"Sonuçlar "</string>
     <string name="search_tabs_name_all">Tümü</string>
     <string name="search_tabs_name_recipient">Alıcı</string>
     <string name="search_tabs_name_sender">Gönderen</string>
     <string name="search_tabs_name_subject">Konu</string>
+    <string name="search_title">Birleştirilmiş e-posta</string>
     <string name="search_txt_size_limit_prompt">Arama terimleri 3 karakterden fazla olmalıdır</string>
     <string name="security_changed_ticker_fmt">%s hesabı güvenlik ayarlarını değiştirdi; Kullanıcı işlemine gerek yoktur</string>
     <string name="security_needed_ticker_fmt">%s hesabı güvenlik ayarları güncellemesi gerektiriyor</string>
@@ -911,6 +1123,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="send_feed_back_keywords">geribildirim gönder</string>
     <string name="send_mail">Gönder</string>
     <string name="sender_whitelist_cleared">Resimler otomatik olarak görüntülenmeyecek</string>
+    <string name="senders_elided">..</string>
     <string name="senders_split_token">, </string>
     <string name="sending">Gönderiliyor</string>
     <string name="sending_message">E-posta gönderiliyor</string>
@@ -931,35 +1144,55 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="service_protocol_discribe"><u>WPS mail hizmet Sözleşmesini okudum ve kabul ediyorum</u></string>
     <string name="service_protocol_title">Hizmet sözleşmesi</string>
     <string name="set_network">Ağı ayarla</string>
+    <string name="setting_default_lable" />
     <string name="settings_activity_title">Ayarlar</string>
     <string name="share_choose">Paylaşılacak dosyayı seçin</string>
     <string name="sharing">Paylaş</string>
     <string name="shortcut_name_title">Klasör kısayol adı</string>
     <string name="show_elided">▶ Alıntı metni göster</string>
     <string name="show_images">Resimleri indir ve göster</string>
+    <string name="show_more_attachment">Daha fazla ek</string>
     <string name="show_password">Şifreyi göster</string>
     <string name="signature">"
 
 
 
 %s"</string>
+    <string name="signature_black_shark">Blackshark telefonumdan gönderildi</string>
     <string name="silent_ringtone">Sessiz</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
     <string name="single_new_message_notification_title">%1$s: %2$s</string>
+    <string name="sms_tip">Kimlik doğrulama başarısız oldu. Antivirüs yazılımının mesajları engelleyip engellemediğini kontrol edin</string>
     <string name="smtp_password_error">Giden posta sunucusu şifresi yanlış</string>
+    <string name="snip_pic">%1$s</string>
     <string name="sort_attachment">Sırala</string>
+    <string name="special_text_1">Yazılan:</string>
+    <string name="special_text_2">Şöyle diyor:</string>
+    <string name="special_text_3">Yazılan:</string>
+    <string name="special_text_4">Yazılan:</string>
+    <string name="special_text_5">wrote:</string>
+    <string name="special_text_colon_en">:</string>
+    <string name="special_text_colon_zh">：</string>
+    <string name="special_text_qq_subscribe">loadScript(_aoFiles){</string>
+    <string name="special_text_sender_en">sender</string>
+    <string name="special_text_sender_zh">Gönderen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage">Depolama</string>
     <string name="str_select_all">Tümünü seç</string>
     <string name="str_select_none">Tüm seçimleri kaldır</string>
-    <string name="subject_and_snippet" formatted="false">%s — %s</string>
+    <string name="subject_and_snippet">%1$s — %2$s</string>
     <string name="subject_hint">Konu</string>
+    <string name="suffix_sancharnet">sancharnet.in</string>
+    <string name="suffix_vsnl">vsnl.com</string>
+    <string name="suggestions_authority">com.android.mail.providers.SuggestionsProvider</string>
     <string name="sync_contacts_fail_per_content">Kişilere erişime izin vermek için dokunun</string>
     <string name="sync_contacts_fail_per_title">Kişiler senkronize edilemedi</string>
     <string name="sync_contacts_fail_permission">Kişiler senkronize edilemedi. E-posta uygulamasına ayarlar menüsünde kişilerinize erişim izni verin</string>
     <string name="sync_contacts_req_per_ignored">Senkronizasyon için E-posta uygulamasına kişilerinize erişim izni verin</string>
     <string name="sync_error">Senkronize edilemedi</string>
     <string name="sync_error_message">Cihazınızda senkronizasyon işleminin yapılabilmesi için yeterli depolama alanı yok</string>
+    <string name="sync_failed_mi_authority_view_detail">Detayları göster</string>
     <string name="syncing_wait_restart">Yeniden deneyin</string>
     <string name="syncing_wait_restart_title">Sunucu bağlantısı zaman aşımına uğradı</string>
     <string name="system_account_create_failed">Hesap oluşturulamadı. Yeniden deneyin</string>
@@ -977,6 +1210,7 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="tap_to_configure">Kurulum için dokunun</string>
     <string name="tap_to_enable_sync">Açmak için dokunun</string>
     <string name="three_day">3 days</string>
+    <string name="title_activity_about">Hakkında</string>
     <string name="to">Kime</string>
     <string name="to_heading">"Bitiş: "</string>
     <string name="toast_bar_fail_synchronization">Ağa bağlanılamıyor</string>
@@ -985,6 +1219,9 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="toast_bar_no_connection_network">İnternet bağlantınız yok</string>
     <string name="toast_bar_open_gmail_synchronization">"Gmail'e bağlanılamadı. Gmail vekil sunucu özelliğini açın"</string>
     <string name="toast_bar_send_fail_remind">E-posta gönderilemedi. Giden klasörüne kaydedildi</string>
+    <string name="toast_bar_sync_failed_client_cert">QQ şifre/e-posta şifresi/ müşteri doğrulama kodu açıklaması</string>
+    <string name="toast_bar_sync_failed_mi_authority">"Senkronize edilemedi. Bir iki dakika bekleyin ve tekrar deneyin
+(Yetkisiz bir cihaz kullanıyorsanız intranete bağlanın veya bir doğrulama kodu kullanın)"</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">Takvim bilgilerini ve kişileri senkronize etmek için e-posta uygulamasına ayarlar menüsünde gerekli izinleri verin</string>
     <string name="toastbar_calendar_permission_switch_close">Takvim hatırlatıcıları almak için e-posta uygulamasına Ayarlar menüsünde gerekli izinleri verin</string>
     <string name="toastbar_contacts_permission_switch_close">Kişi eklemek için e-posta uygulamasına ayarlar menüsünde gerekli izinleri verin</string>
@@ -1006,6 +1243,9 @@ e-postanızdaki fatura ve seyahat bilgilerini analiz edin"</string>
     <string name="translation_query_failure">Sonuç bulunamadı</string>
     <string name="translation_technology_support">Teknik destek iciba.com tarafından sağlanmaktadır</string>
     <string name="trash_folder_selection_title">%s için sunucunun çöp kutusu klasörünü seçin</string>
+    <string name="trigger_compose_char">c</string>
+    <string name="trigger_refresh_char">u</string>
+    <string name="trigger_y_char">y</string>
     <string name="try_exchange_login">Exchange hesabı ile oturum açın</string>
     <string name="turn_auto_sync_on_dialog_body">"Yalnızca Gmail değil 
     tüm uygulamalarda ve hesaplarınızda yaptığınız değişiklikler internet, diğer cihazlarınız ve
@@ -1019,6 +1259,9 @@ Hesap kaldırılsın mı?"</string>
     <string name="unread_string">okunmamış konuşma</string>
     <string name="unzip_file_failed">Dosya çıkartılamadı</string>
     <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
+    <string name="update_domain_summary">Kullanılabilir alanların ve yapılandırmaların listesini güncelleyin</string>
+    <string name="update_domain_title">Etki alanı ayarlarını güncelle</string>
+    <string name="update_to_wps_mail">Wps mail ile daha fazla özellikten yararlanın</string>
     <string name="updated_at">%1$s tarihinde yenilendi</string>
     <string name="upload_log">Kayıtları karşıya yükle</string>
     <string name="upload_log_failed">Günlükler gönderilemedi</string>
@@ -1034,11 +1277,15 @@ Hesap kaldırılsın mı?"</string>
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
+    <string name="verify_code">Doğrulama kodu</string>
+    <string name="version_string">Sürüm: %s</string>
     <string name="via_domain">%1$s üzerinden</string>
     <string name="view_more_conversations">Daha fazla konuşma görüntüle</string>
     <string name="wait_for_manual_sync_body">"Bu hesap otomatik olarak senkronize edilecek şekilde yapılandırılmadı
-Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e veya bu hesabı postayı otomatik olarak senkronize edilecek şekilde ayarlamak için \"\""<b>Senkronizasyon ayarlarını değiştir</b>"\"'e dokunun"</string>
+Postayı bir kez senkronize etmek için <b>Şimdi senkronize et</b> veya bu hesabı postayı otomatik olarak senkronize edilecek şekilde ayarlamak için <b>Senkronizasyon ayarlarını değiştire</b> dokunun"</string>
     <string name="wait_for_sync_title">Senkronizasyon için bekleniyor</string>
+    <string name="wait_help_context">Bekleyin</string>
+    <string name="wait_while_update_db">Veri tabanı yükseltme işlemi sırasında bir dakika bekleyin lütfen</string>
     <string name="webview_logout">Tekrar oturum açmayı deneyebilirsiniz</string>
     <string name="webview_logout_cancel">Şimdi değil</string>
     <string name="webview_logout_sure">Yeniden deneyin</string>
@@ -1048,185 +1295,14 @@ Postayı bir kez senkronize etmek için \"\""<b>Şimdi senkronize et</b>"\"\"'e 
     <string name="widget_all_mail">Tüm postalar</string>
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Diğerleri</string>
+    <string name="widget_provider">com.kingsoft.email.provider.WidgetProvider</string>
     <string name="wipe_account_fail_description">İzin ver</string>
+    <string name="wipe_account_fail_description_remind">Veri kullanımı kısıtlamalarından sebebiyle hesabı sildikten sonra takvim ve kişiler uygulamasında artık veri kalabilir. Bu öğeleri bizzat silin</string>
     <string name="wipe_account_fail_title">Kişisel bilgiler silinemedi</string>
+    <string name="wps_title">WPS mail</string>
     <string name="wrong_password">Girmiş olduğunuz şifre hatalı</string>
     <string name="yes">Evet</string>
     <string name="you_are_in_mobile_network">Günlük yüklemek için mobil veri kullanıyor musunuz?</string>
     <string name="youfuli">Promosyon</string>
     <string name="zip_viewer_no_file">Dosya yok</string>
-    <string name="accessibility_guide_first">Bir sonraki ekranda hizmetler sekmesini seçin ve 139 posta kutusu otomatik yapılandırmasını etkinleştirin</string>
-    <string name="accessibility_guide_second">Daha sonra sağ üst köşedeki anahtarı tıklayın. Devam etmek için onayla düğmesine tıklayın</string>
-    <string name="auto_mail_describe">139 e-posta hizmeti otomatik yapılandırması oturum açma bilgilerini posta kutusuna doldurmanıza yardımcı olabilir. Bu özelliği etkinleştirmek istiyor musunuz?</string>
-    <string name="auto_mail_disable_txt">Devre dışı</string>
-    <string name="auto_mail_enable_txt">Ayarları başlat</string>
-    <string name="auto_mail_go_email">Posta kutusu</string>
-    <string name="auto_mail_name">Otomatik posta</string>
-    <string name="auto_mail_title_note">139 posta kutusu otomatik yapılandırma seçeneğini bulun. Başlamak için tıklayın</string>
-    <string name="auto_mail_window_description">139 e-posta hizmeti otomatik yapılandırma</string>
-    <string name="auto_mail_window_label">139 posta kutusu otomatik yapılandırma</string>
-    <string name="close">Kapat</string>
-    <string name="config">139 posta kutusu yapılandırılmış telefon numarası</string>
-    <string name="config_cancel">İptal et</string>
-    <string name="config_retry">Yeniden dene</string>
-    <string name="email_address">E-posta adresi</string>
-    <string name="float_window_content">Posta kutusunu kullandığını algılar. Otomatik olarak 139 e-posta hesabı ve parolasını girmesini onayla seçeneğini tıklayın</string>
-    <string name="float_window_info">139 posta kutusunu yapılandırırken, yapılandırma hataları durumunda telefonu çalıştırmayın</string>
-    <string name="float_window_title">Yapılandırılıyor</string>
-    <string name="help_config">Kendi yapılandırma</string>
-    <string name="network_tip">Kimlik doğrulama başarısız oldu. Lütfen ağ bağlantınızı kontrol edin</string>
-    <string name="no_remind">Hatırlatma</string>
-    <string name="note_text">Olası Çin mobil veya mesaj doğrulama ağı sayesinde akış veya mesaj için ek maliyetler üretebilir</string>
-    <string name="note_title">139 e-posta otomatik yapılandırma</string>
-    <string name="overlays_fail_tip">Maalesef posta kutunuz başarıyla yapılandırılmadı. Kayan pencere izinlerini açın ve tekrar deneyin</string>
-    <string name="overlays_ok">İzinleri aç</string>
-    <string name="overlays_tip">Kayan pencere izinlerini açın ve otomatik olarak aşırı deneyim yapılandırmak için 139 posta kutusunun keyfini çıkarın</string>
-    <string name="overlays_title">Kayan pencere izinlerini aç</string>
-    <string name="permission_tip">Yapılandırma başarısız oldu. Yapılandırma izinleri sırasında lütfen aramalara ve metin mesajlarına izin verin</string>
-    <string name="sms_tip">Kimlik doğrulama başarısız oldu. Antivirüs yazılımının mesajları engelleyip engellemediğini kontrol edin</string>
-    <string name="account_setup_failed_auth_required">Kimlik doğrulama yöntemleri sunucu tarafından desteklenmez</string>
-    <string name="default_exchange">Exchange</string>
-    <string name="default_imap">IMAP</string>
-    <string name="default_pop3">POP3</string>
-    <string name="enumeration_delimiter">" | "</string>
-    <string name="load_attachment">@string/load_more</string>
-    <string name="more_string">+%1$s</string>
-    <string name="no_address_email">noaddressemail@123.com</string>
-    <string name="login_mail">Mail ile oturum aç</string>
-    <string name="need_get_qq_mail">QQ mail ihtiyacınız var</string>
-    <string name="open_notification_kingagent">Mezarlık noktası bildirimini aç</string>
-    <string name="optimization_suggestion">Optimizasyon önerisi</string>
-    <string name="others_mail">Diğerleri</string>
-    <string name="others_mail_des">"(60,0000'den fazla dönüştürme)"</string>
-    <string name="qq_authorization_help_get">Almama yardım et</string>
-    <string name="qq_authorization_know">Yetkilendirme kodunu anlama</string>
-    <string name="qq_authorization_tips">Artık istemiyor</string>
-    <string name="qq_verify_code">(QQ doğrulama kodu gerekir)</string>
-    <string name="signature_black_shark">Blackshark telefonumdan gönderildi</string>
-    <string name="title_activity_about">Hakkında</string>
-    <string name="verify_code">Doğrulama kodu</string>
-    <string name="version_string">Sürüm: %s</string>
-    <string name="wps_title">WPS mail</string>
-    <string name="account_cache_provider">Hesap ön bellek sağlayıcısı</string>
-    <string name="account_manager_type_exchange">com.android.exchange</string>
-    <string name="account_manager_type_imap">com.android.email</string>
-    <string name="account_manager_type_legacy_imap">com.android.email</string>
-    <string name="account_manager_type_pop3">com.android.email</string>
-    <string name="application_mime_type">application/email-ls</string>
-    <string name="authority_email_provider">com.android.email.provider</string>
-    <string name="bank_card_list_card_num_fmt">****%s</string>
-    <string name="bill_list_card_name_fmt" formatted="false">%s | %s</string>
-    <string name="bill_list_card_num_fmt">**** **** **** %s</string>
-    <string name="conversation_content_provider">Konuşma içerik sağlayıcı</string>
-    <string name="eas_hotmail_email">hotmail.com</string>
-    <string name="eas_outlook_email">outlook.com</string>
-    <string name="elided_padding_token"> </string>
-    <string name="email_feedback_uri" />
-    <string name="email_package_name">com.android.email</string>
-    <string name="email_suggestions_authority">com.android.email.provider</string>
-    <string name="eml_attachment_provider">com.android.email.provider.eml.attachment</string>
-    <string name="folder_drafts_name_cn0">Taslak</string>
-    <string name="folder_drafts_name_cn1">Taslak kutusu</string>
-    <string name="folder_drafts_name_cn2">[Gmail]/Taslak</string>
-    <string name="folder_drafts_name_en0">Taslaklar</string>
-    <string name="folder_drafts_name_en1">Taslaklar</string>
-    <string name="folder_drafts_name_en2">[Gmail]/Taslaklar</string>
-    <string name="folder_junk_name_cn0">Spam</string>
-    <string name="folder_junk_name_cn1">Çöp Kutusu</string>
-    <string name="folder_junk_name_cn2">[Gmail]/Spam</string>
-    <string name="folder_junk_name_en0">Spam</string>
-    <string name="folder_junk_name_en1">Toplu posta</string>
-    <string name="folder_junk_name_en2">İstenmeyen posta</string>
-    <string name="folder_junk_name_en3">Gereksiz e-posta</string>
-    <string name="folder_junk_name_en4">Önemsiz</string>
-    <string name="folder_sent_name_cn0">Gönderilen</string>
-    <string name="folder_sent_name_cn1">Gönderilen posta</string>
-    <string name="folder_sent_name_cn2">Gönderilen posta</string>
-    <string name="folder_sent_name_cn3">[Gmail]/Gönderilen posta</string>
-    <string name="folder_sent_name_en0">Gönderilen</string>
-    <string name="folder_sent_name_en1">Gönderilen mesajlar</string>
-    <string name="folder_sent_name_en2">Gönderilen mesaj</string>
-    <string name="folder_sent_name_en3">Gönderilen öğeler</string>
-    <string name="folder_sent_name_en4">[Gmail]/Gönderilen posta</string>
-    <string name="folder_trash_name_cn0">Silinen</string>
-    <string name="folder_trash_name_cn1">Silinen e-posta</string>
-    <string name="folder_trash_name_cn2">[Gmail]/Silinen e-posta</string>
-    <string name="folder_trash_name_en0">Çöp</string>
-    <string name="folder_trash_name_en1">Silinen mesajlar</string>
-    <string name="folder_trash_name_en2">Silinen mesaj</string>
-    <string name="folder_trash_name_en3">[Gmail]/Bin</string>
-    <string name="formatted_email_address">&lt;%1$s></string>
-    <string name="formatted_subject">%1$s %2$s</string>
-    <string name="forward_subject_label">İlet:</string>
-    <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
-    <string name="hierarchical_folder_parent_top_ellip">%1$s∕…∕%2$s∕</string>
-    <string name="hierarchical_folder_top">%1$s∕</string>
-    <string name="intent_account_manager_entry">com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
-    <string name="intent_exchange_package">com.android.exchange</string>
-    <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
-    <string name="mailbox_name_server_all_unread">Okunmamış</string>
-    <string name="mailbox_name_server_drafts">Taslaklar</string>
-    <string name="mailbox_name_server_inbox">Gelen kutusu</string>
-    <string name="mailbox_name_server_junk">Önemsiz</string>
-    <string name="mailbox_name_server_outbox">Giden kutusu</string>
-    <string name="mailbox_name_server_sent">Gönderilen</string>
-    <string name="mailbox_name_server_starred">Favoriler</string>
-    <string name="mailbox_name_server_trash">Çöp kutusu</string>
-    <string name="main_help_context">ttl</string>
-    <string name="message_count_spacer">  </string>
-    <string name="prefDefault_autoAdvance">liste</string>
-    <string name="protocol_eas">eas</string>
-    <string name="protocol_imap">imap</string>
-    <string name="protocol_legacy_imap">imap</string>
-    <string name="protocol_pop3">pop3</string>
-    <string name="quick_reply_pattern">.*Onay.*|.*Onayla.*|.*Uygulama.*|.*Açıklama.*|.*Göster.*|.*İstek.*</string>
-    <string name="quote_begin">&lt;div class=\"wps_quotion\"></string>
-    <string name="quote_divider_1">-------- Orijinal posta --------</string>
-    <string name="quote_divider_11">----- Orijinal -----</string>
-    <string name="quote_divider_12">  Orijinal posta </string>
-    <string name="quote_divider_2">--- Orijinal posta ---</string>
-    <string name="quote_divider_3">-------- Orijinal mesaj --------</string>
-    <string name="quote_divider_4">----- Orijinal posta -----</string>
-    <string name="quote_divider_5">----------- Referans için bölüm çizgisi -------------</string>
-    <string name="quote_divider_6">---Orijinal---</string>
-    <string name="quote_divider_7">Orijinal mesaj</string>
-    <string name="quote_divider_apple">"
->"</string>
-    <string name="quote_divider_huawei_zh">Huawei cep telefonundan</string>
-    <string name="quote_divider_ipad_zh">iPad cep telefonundan</string>
-    <string name="quote_divider_iphone_en">"iPhone'umdan gönderildi"</string>
-    <string name="quote_divider_iphone_fwd_en">İletilir mesaja başlayın:</string>
-    <string name="quote_divider_iphone_fwd_zh">Aşağıdakiler postayla gönderilir:</string>
-    <string name="quote_divider_ks_web">________________________________________</string>
-    <string name="quote_divider_qq_en">------------------ Orijinal ------------------</string>
-    <string name="quote_divider_qq_zh">------------------ Orijinal posta ------------------</string>
-    <string name="quoted_text_background_color_string">@android:color/white</string>
-    <string name="quoted_text_font_color_string">@color/gray_text_color</string>
-    <string name="remote_no_mail">remote_no_mail</string>
-    <string name="reply_subject_label">Konu:</string>
-    <string name="report_rendering_improvement">İyi görünüyor</string>
-    <string name="report_rendering_improvement_desc">Bu mesaj iyi görünüyor</string>
-    <string name="report_rendering_problem">Kötü görünüyor</string>
-    <string name="report_rendering_problem_desc">Bu mesaj kötü görünüyor</string>
-    <string name="request_permission_activity">İzin isteği</string>
-    <string name="search_title">Birleştirilmiş e-posta</string>
-    <string name="senders_elided">..</string>
-    <string name="setting_default_lable" />
-    <string name="show_more_attachment">Daha fazla ek</string>
-    <string name="special_text_1">Yazılan:</string>
-    <string name="special_text_2">Şöyle diyor:</string>
-    <string name="special_text_3">Yazılan:</string>
-    <string name="special_text_4">Yazılan:</string>
-    <string name="special_text_5">wrote:</string>
-    <string name="special_text_colon_en">:</string>
-    <string name="special_text_colon_zh">：</string>
-    <string name="special_text_qq_subscribe">loadScript(_aoFiles){</string>
-    <string name="special_text_sender_en">sender</string>
-    <string name="special_text_sender_zh">Gönderen</string>
-    <string name="suggestions_authority">com.android.mail.providers.SuggestionsProvider</string>
-    <string name="trigger_compose_char">c</string>
-    <string name="trigger_refresh_char">u</string>
-    <string name="trigger_y_char">y</string>
-    <string name="wait_help_context">wait</string>
-    <string name="widget_provider">com.kingsoft.email.provider.WidgetProvider</string>
 </resources>

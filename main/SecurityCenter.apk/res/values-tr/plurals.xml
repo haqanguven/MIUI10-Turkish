@@ -120,6 +120,10 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">%d pil sorunu bulundu. Onarın</item>
         <item quantity="one">%d pil sorunu bulundu. Onarın</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Son %1$d dakika boyunca pilin %%%2$d boşaldı</item>
+        <item quantity="one">Son %1$d dakika boyunca pilin %%%2$d boşaldı</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">öğe</item>
         <item quantity="one">öğe</item>
@@ -127,6 +131,62 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     <plurals name="power_center_list_item_optimize_button">
         <item quantity="other">%d dakika ekle</item>
         <item quantity="one">%d dakika ekle</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s days</item>
+        <item quantity="one">%s day</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s saat</item>
+        <item quantity="one">%s saat</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s dakika</item>
+        <item quantity="one">%s dakika</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s gün kaldı</item>
+        <item quantity="one">%s gün kaldı</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s saat kaldı</item>
+        <item quantity="one">%s saat kaldı</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s dakika kaldı</item>
+        <item quantity="one">%s dakika kaldı</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s gün kaldı</item>
+        <item quantity="one">%s gün kaldı</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s saat kaldı</item>
+        <item quantity="one">%s saat kaldı</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s dakika kaldı</item>
+        <item quantity="one">%s dakika kaldı</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">Tamamen şarj olmasına %s gün</item>
+        <item quantity="one">Tamamen şarj olmasına %s gün</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">Tamamen şarj olmasına %s saat</item>
+        <item quantity="one">Tamamen şarj olmasına %s saat</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">Tamamen şarj olmasına %s dakika</item>
+        <item quantity="one">Tamamen şarj olmasına %s dakika</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%1$s dahil, %2$d uygulama pili boşaltıyor</item>
+        <item quantity="one">%1$s dahil, %2$d uygulama pili boşaltıyor</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d uygulama pili boşaltıyor</item>
+        <item quantity="one">%d uygulama pili boşaltıyor</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">%1$d kişi tarafından indirildi</item>
@@ -242,13 +302,17 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">Son kontrolden beri %d gün</item>
         <item quantity="one">Son kontrolden beri %d gün</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d risk bulundu. Şimdi düzelt</item>
+        <item quantity="one">%d risk bulundu. Şimdi düzelt</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d risk,</item>
         <item quantity="one">%d risk,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojan,</item>
-        <item quantity="one">%d trojan,</item>
+        <item quantity="other">%d trojan</item>
+        <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Tehlikeli uygulamalar: %d</item>
@@ -261,6 +325,18 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">"%d saniye bekledikten sonra yeniden deneyin. "</item>
         <item quantity="one">"%d saniye bekledikten sonra yeniden deneyin. "</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">En az %d noktayı bağlayın</item>
+        <item quantity="one">En az %d noktayı bağlayın</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">En az %d basamak girin</item>
+        <item quantity="one">En az %d basamak girin</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">En az %d karakter girin</item>
+        <item quantity="one">En az %d karakter girin</item>
     </plurals>
     <plurals name="number_masked">
         <item quantity="other">%d uygulama</item>
@@ -351,6 +427,10 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">Üst üste %d gün içinde kontrol edildi</item>
         <item quantity="one">%d zaman içinde kontrol edildi</item>
     </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d özellik</item>
+        <item quantity="one">%d özellik</item>
+    </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d daha fazla karakter</item>
         <item quantity="one">    +%1$d daha fazla karakter</item>
@@ -363,12 +443,14 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">%d uygulama gizlendi</item>
         <item quantity="one">%d uygulama gizlendi</item>
     </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d uygulama yanlış görüntüleniyor olabilir. Kayan bildirimleri kısıtlayın</item>
-        <item quantity="one">%d uygulama yanlış görüntüleniyor olabilir. Kayan bildirimleri kısıtlayın</item>
-    </plurals>
     <plurals name="first_aid_result_summary_exception">
-        <item quantity="other">%1$d sorun optimizasyon gerektiriyor</item>
-        <item quantity="one">%1$d sorun optimizasyon gerektiriyor</item>
+        <item quantity="other">%1$d sorun optimizasyon gerektirir</item>
+        <item quantity="one">%1$d sorun optimizasyon gerektirir</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
     </plurals>
 </resources>

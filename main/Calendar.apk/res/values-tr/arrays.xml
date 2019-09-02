@@ -1,12 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="account_birthday">
+        <item>#fff26f85</item>
+        <item>#fff26f85</item>
+        <item>#fffbe1df</item>
+        <item>#fff26f85</item>
+    </array>
+    <array name="account_preset1">
+        <item>#fffb735a</item>
+        <item>#fffb735a</item>
+        <item>#fffde5d4</item>
+        <item>#fffb735a</item>
+    </array>
+    <array name="account_preset2">
+        <item>#ff66bdcd</item>
+        <item>#ff66bdcd</item>
+        <item>#ffd5f0ed</item>
+        <item>#ff66bdcd</item>
+    </array>
+    <array name="account_preset3">
+        <item>#ff8a88eb</item>
+        <item>#ff8a88eb</item>
+        <item>#ffe0e0fc</item>
+        <item>#ff8a88eb</item>
+    </array>
+    <array name="account_preset4">
+        <item>#fffea31a</item>
+        <item>#fffea31a</item>
+        <item>#fffde5d4</item>
+        <item>#fffea31a</item>
+    </array>
+    <array name="account_xiaomi">
+        <item>#ff4c9fed</item>
+        <item>#ff4c9fed</item>
+        <item>#ffdeedfa</item>
+        <item>#ff4c9fed</item>
+    </array>
+    <integer-array name="allday_reminder_minutes_values">
+        <item>0</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+    </integer-array>
+    <array name="aqi_level_bg_colors">
+        <item>#ff88b932</item>
+        <item>#ffbaa419</item>
+        <item>#ffda8522</item>
+        <item>#ffe86848</item>
+        <item>#ff7b6dce</item>
+        <item>#ff98557e</item>
+    </array>
+    <array name="aqi_level_content_colors">
+        <item>#ff7bb11c</item>
+        <item>#ffb39500</item>
+        <item>#ffd6780a</item>
+        <item>#ffe65834</item>
+        <item>#ff6d5dc9</item>
+        <item>#ff8d4370</item>
+    </array>
+    <string-array name="aqi_level_simple_desc">
+        <item>Mükemmel</item>
+        <item>İyi</item>
+        <item>Hafif</item>
+        <item>Ilımlı</item>
+        <item>Şiddetli</item>
+        <item>Ciddi</item>
+    </string-array>
     <string-array name="aquarius_info">
-        <item>kova</item>
+        <item>aquarius</item>
         <item>Kova</item>
         <item>20/1 - 18/2</item>
     </string-array>
     <string-array name="aries_info">
-        <item>koç</item>
+        <item>aries</item>
         <item>Koç</item>
         <item>21/3 - 19/4</item>
     </string-array>
@@ -15,18 +82,22 @@
         <item>Bundesliga</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>yengeç</item>
+        <item>cancer</item>
         <item>Yengeç</item>
         <item>22/6 - 22/7</item>
     </string-array>
     <string-array name="capricorn_info">
-        <item>oğlak</item>
+        <item>capricorn</item>
         <item>Oğlak</item>
         <item>22/12 - 19/1</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Yalnızca bu etkinlik</item>
         <item>Serinin tüm etkinlikleri</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Yalnızca bu defa</item>
+        <item>Tekrarlanan hatırlatıcıyı kapat</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>İleri</item>
@@ -43,17 +114,93 @@
         <item>2 gün önce</item>
         <item>1 hafta önce</item>
     </string-array>
+    <string-array name="default_reminder_later_time_labels">
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+    </string-array>
     <string-array name="delete_repeating_labels">
         <item>Yalnızca bu etkinlik</item>
         <item>Bu ve gelecekteki etkinlikler</item>
         <item>Tüm etkinlikler</item>
     </string-array>
+    <integer-array name="delete_repeating_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="di_zhi">
+        <item>Zırh</item>
+        <item>Otsu</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>Zırh</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <integer-array name="edit_alarm_repeating_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="edit_event_dislike">
+        <item>Hiçbir etkinlik türü oluşturma</item>
+        <item>Doldurmayacak kadar tembel bir sürü ayar var</item>
+        <item>Bazı kurulum bilgileri belirlenemiyor</item>
+        <item>Sadece bir göz at</item>
+        <item>Tekrar sorma</item>
+    </string-array>
     <string-array name="english_premium_league">
         <item>4</item>
         <item>@string/english_premium_league</item>
     </string-array>
+    <string-array name="entryvalues_settings_debug">
+        <item>Hayır</item>
+        <item>Günlükleri dışa aktar ve gönder</item>
+        <item>Dosya yöneticisi için günlük oluştur</item>
+        <item>Cihaz kimliğini görüntüle</item>
+        <item>Sunucu yapılandırmasını şimdi güncelle</item>
+    </string-array>
+    <string-array name="fortune_gender">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+    <integer-array name="fortune_gender_values">
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="fortune_random_birthday">
+        <item>1992-01-01</item>
+        <item>2013-02-04</item>
+        <item>1995-04-05</item>
+        <item>1999-08-06</item>
+        <item>1996-06-21</item>
+        <item>2014-01-18</item>
+        <item>2006-01-23</item>
+        <item>2012-01-13</item>
+        <item>1993-01-17</item>
+        <item>1980-01-08</item>
+        <item>1982-01-10</item>
+    </string-array>
+    <string-array name="fortune_random_name">
+        <item>Hakan</item>
+        <item>Gökhan</item>
+        <item>Barış</item>
+        <item>Hüseyin</item>
+        <item>Gamze</item>
+        <item>Gizem</item>
+        <item>Şengül</item>
+        <item>Ayşe</item>
+        <item>Duru</item>
+        <item>Hira</item>
+        <item>Rüzgar</item>
+    </string-array>
     <string-array name="gemini_info">
-        <item>ikizler</item>
+        <item>gemini</item>
         <item>İkizler</item>
         <item>21/5 - 21/6</item>
     </string-array>
@@ -78,17 +225,79 @@
         <item>@array/aquarius_info</item>
         <item>@array/pisces_info</item>
     </array>
+    <string-array name="jia_zi">
+        <item>甲子</item>
+        <item>乙丑</item>
+        <item>丙寅</item>
+        <item>丁卯</item>
+        <item>戊辰</item>
+        <item>己巳</item>
+        <item>庚午</item>
+        <item>辛未</item>
+        <item>壬申</item>
+        <item>癸酉</item>
+        <item>甲戌</item>
+        <item>乙亥</item>
+        <item>丙子</item>
+        <item>丁丑</item>
+        <item>戊寅</item>
+        <item>己卯</item>
+        <item>庚辰</item>
+        <item>辛巳</item>
+        <item>壬午</item>
+        <item>癸未</item>
+        <item>甲申</item>
+        <item>乙酉</item>
+        <item>丙戌</item>
+        <item>丁亥</item>
+        <item>戊子</item>
+        <item>己丑</item>
+        <item>庚寅</item>
+        <item>辛卯</item>
+        <item>壬辰</item>
+        <item>癸巳</item>
+        <item>甲午</item>
+        <item>乙未</item>
+        <item>丙申</item>
+        <item>丁酉</item>
+        <item>戊戌</item>
+        <item>己亥</item>
+        <item>庚子</item>
+        <item>辛丑</item>
+        <item>壬寅</item>
+        <item>癸卯</item>
+        <item>甲辰</item>
+        <item>乙巳</item>
+        <item>丙午</item>
+        <item>丁未</item>
+        <item>戊申</item>
+        <item>己酉</item>
+        <item>庚戌</item>
+        <item>辛亥</item>
+        <item>壬子</item>
+        <item>癸丑</item>
+        <item>甲寅</item>
+        <item>乙卯</item>
+        <item>丙辰</item>
+        <item>丁巳</item>
+        <item>戊午</item>
+        <item>己未</item>
+        <item>庚申</item>
+        <item>辛酉</item>
+        <item>壬戌</item>
+        <item>癸亥</item>
+    </string-array>
     <string-array name="la_liga">
         <item>3</item>
         <item>La Liga</item>
     </string-array>
     <string-array name="leo_info">
-        <item>aslan</item>
+        <item>leo</item>
         <item>Aslan</item>
         <item>23/7 - 22/8</item>
     </string-array>
     <string-array name="libra_info">
-        <item>terazi</item>
+        <item>libra</item>
         <item>Terazi</item>
         <item>23/9 - 23/10</item>
     </string-array>
@@ -96,22 +305,57 @@
         <item>5</item>
         <item>Lig 1</item>
     </string-array>
-    <string-array name="ordinal_labels">
-        <item>ilk</item>
-        <item>ikinci</item>
-        <item>üçüncü</item>
-        <item>dördüncü</item>
-        <item>son</item>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Yalnızca bu defa</item>
+        <item>Tekrarlanan hatırlatıcı ayarla</item>
     </string-array>
     <string-array name="pisces_info">
-        <item>balık</item>
+        <item>pisces</item>
         <item>Balık</item>
         <item>19/2 - 20/3</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup">
+        <item>Kapalı</item>
+        <item>Tüm etkinlikler için</item>
+        <item>En ilgili etkinlikler için</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new">
+        <item>Kapalı</item>
+        <item>Tüm etkinlikler için</item>
+        <item>Zamana duyarlı olaylar için</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Her zaman</item>
         <item>Yalnızca zil sesi susturulduğunda</item>
         <item>Asla</item>
+    </string-array>
+    <string-array name="prefValues_alerts_popup">
+        <item>none</item>
+        <item>all</item>
+        <item>smart</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_later_time_values">
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Bölge varsayılanı</item>
@@ -119,38 +363,55 @@
         <item>Pazar</item>
         <item>Pazartesi</item>
     </string-array>
+    <string-array name="preferences_week_start_day_values">
+        <item>-1</item>
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <integer-array name="reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </integer-array>
     <string-array name="repeat_choose_day">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
-        <item>11.</item>
-        <item>12.</item>
-        <item>13.</item>
-        <item>14.</item>
-        <item>15.</item>
-        <item>16.</item>
-        <item>17.</item>
-        <item>18.</item>
-        <item>19.</item>
-        <item>20.</item>
-        <item>21.</item>
-        <item>22.</item>
-        <item>23.</item>
-        <item>24.</item>
-        <item>25.</item>
-        <item>26.</item>
-        <item>27.</item>
-        <item>28.</item>
-        <item>29.</item>
-        <item>30.</item>
-        <item>31.</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>13th</item>
+        <item>14th</item>
+        <item>15th</item>
+        <item>16th</item>
+        <item>17th</item>
+        <item>18th</item>
+        <item>19th</item>
+        <item>20th</item>
+        <item>21st</item>
+        <item>22nd</item>
+        <item>23rd</item>
+        <item>24th</item>
+        <item>25th</item>
+        <item>26th</item>
+        <item>27th</item>
+        <item>28th</item>
+        <item>29th</item>
+        <item>30th</item>
+        <item>31st</item>
     </string-array>
     <string-array name="repeat_choose_end">
         <item>Asla</item>
@@ -172,11 +433,11 @@
         <item>Aralık</item>
     </string-array>
     <string-array name="repeat_choose_week_left">
-        <item>ilk</item>
-        <item>ikinci</item>
-        <item>üçüncü</item>
-        <item>dördüncü</item>
-        <item>son</item>
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>last</item>
     </string-array>
     <string-array name="repeat_choose_week_right">
         <item>Pazartesi - Cuma</item>
@@ -198,10 +459,47 @@
         <item>Yıllık</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
-        <item>gün</item>
-        <item>hafta</item>
-        <item>ay</item>
-        <item>yıl</item>
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+    </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
+        <item>İlk pazartesi</item>
+        <item>İlk salı</item>
+        <item>İlk çarşamba</item>
+        <item>İlk perşembe</item>
+        <item>İlk cuma</item>
+        <item>İlk cumartesi</item>
+        <item>İlk pazar</item>
+        <item>İkinci pazartesi</item>
+        <item>İkinci salı</item>
+        <item>İkinci çarşamba</item>
+        <item>İkinci perşembe</item>
+        <item>İkinci cuma</item>
+        <item>İkinci cumartesi</item>
+        <item>İkinci pazar</item>
+        <item>Üçüncü pazartesi</item>
+        <item>Üçüncü salı</item>
+        <item>Üçüncü çarşamba</item>
+        <item>Üçüncü perşembe</item>
+        <item>Üçüncü cuma</item>
+        <item>Üçüncü cumartesi</item>
+        <item>Üçüncü pazar</item>
+        <item>Dördüncü pazartesi</item>
+        <item>Dördüncü salı</item>
+        <item>Dördüncü çarşamba</item>
+        <item>Dördüncü perşembe</item>
+        <item>Dördüncü cuma</item>
+        <item>Dördüncü cumartesi</item>
+        <item>Dördüncü pazar</item>
+        <item>sonson pazartesi</item>
+        <item>Son salı</item>
+        <item>Son çarşamba</item>
+        <item>Son perşembe</item>
+        <item>Son cuma</item>
+        <item>Son cumartesi</item>
+        <item>Son pazar</item>
     </string-array>
     <string-array name="response_labels1">
         <item>Yanıt yok</item>
@@ -210,23 +508,37 @@
         <item>Hayır</item>
     </string-array>
     <string-array name="sagittarius_info">
-        <item>yay</item>
+        <item>sagittarius</item>
         <item>Yay</item>
         <item>23/11- 21/12</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>akrep</item>
+        <item>scorpio</item>
         <item>Akrep</item>
         <item>24/10 - 22/11</item>
     </string-array>
     <string-array name="serie_a">
         <item>1</item>
-        <item>Seri A</item>
+        <item>Serie A</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>boğa</item>
+        <item>taurus</item>
         <item>Boğa</item>
         <item>20/4 - 20/5</item>
+    </string-array>
+    <string-array name="tian_gan">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marşal Adaları</item>
@@ -316,214 +628,6 @@
         <item>Fiji</item>
         <item>Tonga</item>
     </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-        <item>3 saat önce</item>
-        <item>4 saat önce</item>
-        <item>5 saat önce</item>
-        <item>6 saat önce</item>
-        <item>1 gün önce</item>
-    </string-array>
-    <string-array name="virgo_info">
-        <item>başak</item>
-        <item>Başak</item>
-        <item>23/8 - 22/9</item>
-    </string-array>
-    <string-array name="week_header_name">
-        <item>Pazar</item>
-        <item>Pazartesi</item>
-        <item>Salı</item>
-        <item>Çarşamba</item>
-        <item>Perşembe</item>
-        <item>Cuma</item>
-        <item>Cumartesi</item>
-    </string-array>
-    <string-array name="widget_style_list">
-        <item>Şeffaf</item>
-        <item>Beyaz arkaplan</item>
-    </string-array>
-    <array name="account_birthday">
-        <item>#ffe99080</item>
-        <item>#b3d5a198</item>
-        <item>#fffcefef</item>
-        <item>#ffce7e6f</item>
-    </array>
-    <array name="account_preset1">
-        <item>#ffb69dd0</item>
-        <item>#b3bfa5db</item>
-        <item>#fff6f1fa</item>
-        <item>#ffa894be</item>
-    </array>
-    <array name="account_preset2">
-        <item>#fff0a16f</item>
-        <item>#b3d88c5b</item>
-        <item>#fffdf3ec</item>
-        <item>#ffe4884d</item>
-    </array>
-    <array name="account_preset3">
-        <item>#ff64bce1</item>
-        <item>#b33aadd2</item>
-        <item>#ffe2f5fb</item>
-        <item>#ff5bb5db</item>
-    </array>
-    <array name="account_preset4">
-        <item>#ff88c984</item>
-        <item>#b37dc07a</item>
-        <item>#fff1faf1</item>
-        <item>#ff91c58e</item>
-    </array>
-    <array name="account_xiaomi">
-        <item>#ff31aeaa</item>
-        <item>#b355c3bf</item>
-        <item>#ffe9f5f5</item>
-        <item>#ff349a97</item>
-    </array>
-    <integer-array name="allday_reminder_minutes_values">
-        <item>0</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>4320</item>
-        <item>10080</item>
-    </integer-array>
-    <array name="aqi_level_bg_colors">
-        <item>#ff88b932</item>
-        <item>#ffbaa419</item>
-        <item>#ffda8522</item>
-        <item>#ffe86848</item>
-        <item>#ff7b6dce</item>
-        <item>#ff98557e</item>
-    </array>
-    <array name="aqi_level_content_colors">
-        <item>#ff7bb11c</item>
-        <item>#ffb39500</item>
-        <item>#ffd6780a</item>
-        <item>#ffe65834</item>
-        <item>#ff6d5dc9</item>
-        <item>#ff8d4370</item>
-    </array>
-    <string-array name="aqi_level_simple_desc">
-        <item>Mükemmel</item>
-        <item>İyi</item>
-        <item>Hafif</item>
-        <item>Ilımlı</item>
-        <item>Şiddetli</item>
-        <item>Ciddi</item>
-    </string-array>
-    <integer-array name="delete_repeating_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <string-array name="di_zhi">
-        <item>甲</item>
-        <item>乙</item>
-        <item>丙</item>
-        <item>丁</item>
-        <item>戊</item>
-        <item>甲</item>
-        <item>己</item>
-        <item>庚</item>
-        <item>壬</item>
-        <item>癸</item>
-    </string-array>
-    <string-array name="entryvalues_settings_debug">
-        <item>Hayır</item>
-        <item>Günlükleri dışa aktar ve gönder</item>
-        <item>Dosya yöneticisi için günlük oluştur</item>
-    </string-array>
-    <string-array name="fortune_gender">
-        <item>Erkek</item>
-        <item>Kadın</item>
-    </string-array>
-    <integer-array name="fortune_gender_values">
-        <item>1</item>
-        <item>0</item>
-    </integer-array>
-    <string-array name="fortune_random_birthday">
-        <item>1992-01-01</item>
-        <item>2013-02-04</item>
-        <item>1995-04-05</item>
-        <item>1999-08-06</item>
-        <item>1996-06-21</item>
-        <item>2014-01-18</item>
-        <item>2006-01-23</item>
-        <item>2012-01-13</item>
-        <item>1993-01-17</item>
-        <item>1980-01-08</item>
-        <item>1982-01-10</item>
-    </string-array>
-    <string-array name="fortune_random_name">
-        <item>Hakan</item>
-        <item>Gökhan</item>
-        <item>Barış</item>
-        <item>Hüseyin</item>
-        <item>Gamze</item>
-        <item>Gizem</item>
-        <item>Şengül</item>
-        <item>Ayşe</item>
-        <item>Duru</item>
-        <item>Hira</item>
-        <item>Rüzgar</item>
-    </string-array>
-    <string-array name="jia_zi">
-        <item>乙丑</item>
-        <item>丙寅</item>
-        <item>丁卯</item>
-        <item>戊辰</item>
-        <item>己巳</item>
-        <item>庚午</item>
-        <item>辛未</item>
-        <item>壬申</item>
-        <item>癸酉</item>
-        <item>甲戌</item>
-        <item>乙亥</item>
-    </string-array>
-    <string-array name="prefValues_alerts_vibrateWhen">
-        <item>always</item>
-        <item>silent</item>
-        <item>never</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_values">
-        <item>0</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>10080</item>
-    </string-array>
-    <string-array name="preferences_week_start_day_values">
-        <item>-1</item>
-        <item>7</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <integer-array name="reminder_minutes_values">
-        <item>0</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>10080</item>
-    </integer-array>
-    <string-array name="tian_gan">
-        <item>子</item>
-        <item>丑</item>
-        <item>寅</item>
-        <item>卯</item>
-        <item>辰</item>
-        <item>巳</item>
-        <item>午</item>
-        <item>未</item>
-        <item>申</item>
-        <item>酉</item>
-        <item>戌</item>
-        <item>亥</item>
-    </string-array>
     <string-array name="timezone_values">
         <item>Pacific/Majuro</item>
         <item>Pacific/Midway</item>
@@ -612,6 +716,13 @@
         <item>Pacific/Fiji</item>
         <item>Pacific/Tongatapu</item>
     </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 saat önce</item>
+        <item>4 saat önce</item>
+        <item>5 saat önce</item>
+        <item>6 saat önce</item>
+        <item>1 gün önce</item>
+    </string-array>
     <integer-array name="travel_reminder_minutes_values">
         <item>180</item>
         <item>240</item>
@@ -619,4 +730,40 @@
         <item>360</item>
         <item>1440</item>
     </integer-array>
+    <string-array name="virgo_info">
+        <item>virgo</item>
+        <item>Başak</item>
+        <item>23/8 - 22/9</item>
+    </string-array>
+    <string-array name="week_header_name">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>Şeffaf</item>
+        <item>Beyaz arkaplan</item>
+    </string-array>
+    <string-array name="year_view_week_header_name">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="year_view_week_header_name_other">
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 </resources>

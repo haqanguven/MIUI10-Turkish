@@ -51,9 +51,12 @@
     <string name="text_invalid_user_cert">Geçersiz kullanıcı sertifikası</string>
     <string name="text_invalid_ca_cert">Geçersiz yayıncı sertifikası</string>
     <string name="text_invalid_trust_as_cert">Geçersiz T-ASU sertifikası</string>
+    <string name="text_install_cert_success">Wapi sertifikası başarıyla yüklendi</string>
     <string name="text_install_cert_fail">Bir sertifika yüklenemedi</string>
     <string name="text_no_lockscreen">Kilit ekranı nedeniyle bir sertifika yükleme reddedildi</string>
     <string name="text_name_has_exists">Sertifika adı zaten var</string>
+    <string name="text_confirm_del_cert_sucess">Wapi sertifikası silindi</string>
+    <string name="text_confirm_del_cert_failed">Wapi sertifikası silinemedi</string>
     <string name="text_confirm_del_cert">Bu sertifika silinsin mi?</string>
     <string name="text_confirm_del_as_cert">Sertifikayı silerseniz tüm T-ASU sertifikalarını silersiniz. Silmek istediğinize emin misiniz?</string>
     <string name="text_screen_cert_rename">Sertifika adı:</string>
@@ -68,5 +71,5 @@
     <string name="text_enter_cert_rename">Lütfen sertifika adını girin</string>
     <string name="auto_match_CA_cert">Otomatik eşleştirme CA sertifikası</string>
     <string name="enter_p12_password">P12 sertifikasının şifresini girin</string>
-    <string name="wapi_cert_permission_text">WAPI sertifika erişimi</string>
+    <string name="wapi_cert_permission_text">Wapi sertifika erişimi</string>
 </resources>

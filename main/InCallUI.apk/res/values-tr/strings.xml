@@ -15,12 +15,12 @@
     <string name="callFailed_out_of_network">Ağ alanı dışından arandı</string>
     <string name="callFailed_server_error">Sunucu hatası. Daha sonra yeniden deneyin</string>
     <string name="callFailed_noSignal">Sinyal yok</string>
-    <string name="callFailed_limitExceeded">ACM sınırı aşıldı</string>
+    <string name="callFailed_limitExceeded">Acm sınırı aşıldı</string>
     <string name="callFailed_powerOff">Anten kapalı</string>
     <string name="callFailed_simError">Sim kart hatası</string>
     <string name="callFailed_outOfService">Hizmet alanı dışında</string>
-    <string name="callFailed_fdn_only">Giden aramalar SAN tarafından kısıtlandı</string>
-    <string name="callFailed_dialToUssd">Arama talebi USSD talebi olarak değiştirildi</string>
+    <string name="callFailed_fdn_only">Giden aramalar San tarafından kısıtlandı</string>
+    <string name="callFailed_dialToUssd">Arama talebi sorgulama talebi olarak değiştirildi</string>
     <string name="callFailed_dialToSs">Arama talebi SS talebi olarak değiştirildi</string>
     <string name="callFailed_dialToDial">Arama isteği farklı numara ile arama isteği olarak değiştirildi</string>
     <string name="callFailed_cb_enabled">Telefonunuzun tüm yada belirli aramalara kapalı olma fonksiyonu açık durumdayken giden arama yapamazsınız</string>
@@ -52,14 +52,13 @@
     <string name="onscreen_note_calls_text">Not</string>
     <string name="call_record_wait_label">Bekliyor</string>
     <string name="contacts_icon_label">Kişiler</string>
-    <string name="conference_call_number">%s kişi</string>
+    <string name="call_not_support_high_frequency_click">Bu düğmeye çok sık dokunma</string>
     <string name="conference_call_description" formatted="false">%s,%s vb. toplam %s</string>
     <string name="conference_call_single_description" formatted="false">%s vb. toplam %s</string>
     <string name="separate_from_conference">Aramaları ayır</string>
     <string name="caller_manage_header">Konferans araması %s</string>
     <string name="incall_call_type_label_sip">İnternet araması</string>
     <string name="incoming_call_forwarded_title">Gelen aramaları yönlendirme</string>
-    <string name="call_title_redialing_with_times">%d defa tekrar arandı</string>
     <string name="card_title_dialing">Aranıyor</string>
     <string name="card_title_conf_call">Konferans araması</string>
     <string name="card_title_video_conf_call">Video konferans araması</string>
@@ -80,6 +79,7 @@
     <string name="respond_via_sms_custom_message">Özel mesaj</string>
     <string name="manageConferenceLabel">Konferans araması yönetme</string>
     <string name="emergency_call_dialog_number_for_display">Acil durum numarası</string>
+    <string name="volte_call">VoLTE arama</string>
     <string name="notification_dialing">Aranıyor</string>
     <string name="notification_ongoing_call">Devam eden arama</string>
     <string name="notification_on_hold">Beklemede</string>
@@ -129,9 +129,14 @@
     <string name="msim_select_default_time_left">(%d saniye)</string>
     <string name="select_sim_hint">Sim %1$d kullanımdayken. Sim %2$d kullanılamıyor</string>
     <string name="select_one_sim_title">Yalnızca %1$d Sim kartı kullanılabiliyor</string>
+    <string name="select_sim_hint_for_heduohao">"Sim %1$d Sub %2$d kullanımdayken diğerlerini kullanamazsınız"</string>
+    <string name="select_one_sim_title_for_heduohao">Sadece Sim %1$d Sub %2$d kullanabilir</string>
     <string name="can_not_use">Kullanılamıyor</string>
     <string name="sim1_description">Sim1</string>
     <string name="sim2_description">Sim2</string>
+    <string name="sim1_heduohao_card">Sub1</string>
+    <string name="sim2_heduohao_card">Sub2</string>
+    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Kayıt ediliyor</string>
     <string name="call_recording_error_privacy">Ziyaretçi modunda kayıt yapılamıyor</string>
     <string name="call_recording_error_sd_access">SD karta ulaşılamıyor</string>
@@ -147,7 +152,6 @@
     <string name="call_recording_deny_permission_msg">Kayıt iznini devre dışı bıraktınız. Kayıt edilemiyor</string>
     <string name="call_contacts_deny_permission_msg">Kişi okuma iznini devre dışı bıraktınız. Kişi bilgileri görüntülenemiyor</string>
     <string name="conference_call_recorder_title">Konferans araması</string>
-    <string name="antispam_marked_count">%1$d Miui kullanıcısı tarafından bildirildi</string>
     <string name="antispam_local_marked">Yerel işaretli</string>
     <string name="antispam_provider">%s olarak tanımlandı</string>
     <string name="antispam_notification_title">Bilinmeyen numara</string>
@@ -209,4 +213,6 @@
     <string name="dialpad_tuv">TUV</string>
     <string name="dialpad_wxyz">WXYZ</string>
     <string name="prompt_no_volte_when_failed">Arama yapamazsınız. Cihazınızın VoLTE desteği ile 4G ağa bağlı olduğundan emin olun</string>
+    <string name="volume_boost_text">Ses arttırıldı</string>
+    <string name="supp_service_notification_call_waiting">Aradığınız numara şuanda meşgul. Lütfen bekleyin</string>
 </resources>

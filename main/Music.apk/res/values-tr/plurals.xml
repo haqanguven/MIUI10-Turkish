@@ -48,10 +48,14 @@
         <item quantity="other">%d dakika kaldı</item>
         <item quantity="one">%d dakika kaldı</item>
     </plurals>
+    <plurals name="Nsleep_quit_warning_custom">
+        <item quantity="other">Özel: %d dakika kaldı</item>
+        <item quantity="one">Özel: %d dakika kaldı</item>
+    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">"%1$s oluşturuldu | toplam %2$d şarkı"</item>
-        <item quantity="zero">"%1$s oluşturuldu | toplam %2$d şarkı"</item>
-        <item quantity="one">"%1$s oluşturuldu | toplam %2$d şarkı"</item>
+        <item quantity="other">%1$s oluşturuldu | toplam %2$d şarkı</item>
+        <item quantity="zero">%1$s oluşturuldu | toplam %2$d şarkı</item>
+        <item quantity="one">%1$s oluşturuldu | toplam %2$d şarkı</item>
     </plurals>
     <plurals name="Nstop_backup_songs_message">
         <item quantity="other">"%d şarkı Mi bulut'a yedeklenemedi. Şimdi durdurulsun mu?"</item>
@@ -85,6 +89,10 @@
         <item quantity="other">%1$d şarkıyı yedekle (%2$.1fMB)</item>
         <item quantity="one">%1$d şarkıyı yedekle (%2$.1fMB)</item>
     </plurals>
+    <plurals name="check_in_day_label">
+        <item quantity="other">%1$d gün</item>
+        <item quantity="one">%1$d gün</item>
+    </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d yorum</item>
         <item quantity="one">%d yorum</item>
@@ -111,7 +119,7 @@
     </plurals>
     <plurals name="download_finished">
         <item quantity="other">&lt;font color="red">%d şarkı&lt;/font> indirildi</item>
-        <item quantity="one">&lt;font color=""=red">%d şarkı&lt;/font> indirildi</item>
+        <item quantity="one">&lt;font color="""=red">%d şarkı&lt;/font> indirildi</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d indirme kaldırıldı</item>
@@ -119,7 +127,7 @@
     </plurals>
     <plurals name="download_running">
         <item quantity="other">&lt;font color="red">%d şarkı&lt;/font> indiriliyor</item>
-        <item quantity="one">&lt;font color=""=red">%d şarkı&lt;/font> indiriliyor</item>
+        <item quantity="one">&lt;font color="""=red">%d şarkı&lt;/font> indiriliyor</item>
     </plurals>
     <plurals name="folder_songs_count">
         <item quantity="other">%d şarkı</item>
@@ -164,6 +172,10 @@
     <plurals name="swipe_to_load_head_complete_success">
         <item quantity="other">Merhaba %1$s! İşte sizin için %1$d güncellemesi:</item>
         <item quantity="one">Merhaba %1$s! İşte sizin için %1$d güncellemesi:</item>
+    </plurals>
+    <plurals name="dialog_remove_favorite_song_descript">
+        <item quantity="other">%d şarkı favorilerden çıkarılsın mı?</item>
+        <item quantity="one">%d şarkı favorilerden çıkarılsın mı?</item>
     </plurals>
     <plurals name="NPlaylist_delete_confirm">
         <item quantity="other">%d oynatma listesinden kaldırılsın mı?</item>

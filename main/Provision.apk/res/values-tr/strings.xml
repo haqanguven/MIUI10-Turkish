@@ -6,7 +6,7 @@
     <string name="app_name">Provizyon</string>
     <string name="system_navigation_mode">Sistem gezinme modu</string>
     <string name="input_method_setting">Klavye seçin</string>
-    <string name="input_method_category">Mesaj yazmak, not yazmak ve diğer alanlarda kullanmak üzere varsayılan klavyenizi seçin. Dilediğiniz zaman üçüncü parti klavye uygulamalarını yükleyebileceğinizi unutmayın</string>
+    <string name="input_method_category">Mesaj yazma, not yazma ve diğer alanlarda kullanmak üzere varsayılan klavyenizi seçin. Dilediğiniz zaman üçüncü parti klavye uygulamalarını yükleyebileceğinizi unutmayın</string>
     <string name="provision_inputmethod_policy_description">"
 Seçili klavyenin gizlilik politikasını görüntüleyin"</string>
     <string name="provision_inputmethod_policy_description1">Gizlilik politikası</string>
@@ -32,6 +32,10 @@ Seçili klavyenin gizlilik politikasını görüntüleyin"</string>
     <string name="other_settings_auto_update_summary">Miui güncellemeleri yüklemek için en iyi zamanı seçer</string>
     <string name="other_settings_ad_enable">Kişiselleştirilmiş reklam tavsiye</string>
     <string name="other_settings_ad_enable_summary">Davranış verilerinize dayalı kişiselleştirilmiş reklamlar önerin</string>
+    <string name="other_settings_enhanced_lockscreen">Atlı karınca duvar kağıdı</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Günlük olarak kilit ekranınıza gönderilen fotoğrafları ve hikayelerini alın. Gizlilik poltikası şartları ve koşulları geçerlidir</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Şartlar ve koşullar</string>
+    <string name="other_settings_enhanced_lockscreen_privacy_index">Gizlilik politikası</string>
     <string name="back">Geri</string>
     <string name="next">İleri</string>
     <string name="skip_underline">Bu adımı atla</string>
@@ -50,10 +54,13 @@ Seçili klavyenin gizlilik politikasını görüntüleyin"</string>
     <string name="terms_of_use_label">"Gizliliğiniz bizim için çok önemlidir. Hangi bilgileri topladığımızı, nasıl kullandığımızı ve sizin için hangi seçenekleri kullanabileceğinizi anlamak için hizmet şartları ve gizlilik politikamızı okuyun
 
 Miui'yi kullanabilmeniz için hizmet iartlarımız ve gizlilik politikamızı kabul etmeniz gerekir. %s ve Mi hesap bileşenleri internete bağlanacak ve konumunuzu alacaktır"</string>
-    <string name="terms_of_use_lable_apps">Mi hizmetleri, Mi Sim etkinleştirme hizmetleri, Mi bulut, Cihaz bul, Ana ekran, Oyun merkezi, MAB, Miui daemon ve MSA sistem bileşenleri, Çeviri hizmetleri, Hızlı uygulamalar, Uygulama kasası, İstatistik, Mi bağlantı</string>
+    <string name="terms_of_use_lable_apps">Mi hizmetleri, Mi Sim etkinleştirme hizmetleri, Mi bulut, Cihazı bul, Ana ekran, Oyun merkezi, MAB, Miui daemon ve MSA sistem bileşenleri, Çeviri hizmetleri, Hızlı uygulamalar, Uygulama kasası, İstatistik, Mi bağlantı</string>
     <string name="terms_of_use_lable_gms">, Google Play hizmetleri</string>
     <string name="terms_of_use_label_systemhelper">, Kayıtlı servis</string>
+    <string name="terms_of_use_ble_htmlViewer">, Kaynaşmış konum sağlayıcı, HTML görüntüleyici</string>
     <string name="terms_of_use_lable_smart_cards">, Akıllı kartlar</string>
+    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Güncelleme</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Bu özelliği kullanmadan önce facemoji gizlilik politikasını kabul etmeniz gerekir"</string>
@@ -70,8 +77,8 @@ Bu özelliği kullanmadan önce kika gizlilik politikasını kabul etmeniz gerek
     <string name="setting_locale">Bölge ayarlanıyor</string>
     <string name="agree_terms">Hizmet şartları ve gizlilik politikasını okudum ve kabul ediyorum</string>
     <string name="poco_agree_terms_other">(Poco başlatıcı gizlilik politikası ve kullanıcı sözleşmesi dahil)</string>
-    <string name="agree_terms_input_method_facemoji">"Facemoji gizlilik politikasını okudum ve kabul ettim"</string>
-    <string name="agree_terms_input_method_kika">"Kika gizlilik politikasını okudum ve kabul ettim"</string>
+    <string name="agree_terms_input_method_facemoji">Facemoji gizlilik politikasını okudum ve kabul ettim</string>
+    <string name="agree_terms_input_method_kika">Kika gizlilik politikasını okudum ve kabul ettim</string>
     <string name="miui_terms_no_network">İnternet bağlantınız yok. Hizmet koşullarını %s adresinde görüntüleyin</string>
     <string name="miui_privacy_policy_no_network">İnternet bağlantınız yok. Hizmet koşullarını %s adresinde görüntüleyin</string>
     <string name="locale_picker_title">Bölgenizi seçin</string>
@@ -86,10 +93,12 @@ Bu özelliği kullanmadan önce kika gizlilik politikasını kabul etmeniz gerek
     <string name="desc_international_fingerprint">Cihazınızın kilidini açmak veya diğer uygulama ve hizmetlerde oturum açmak için parmak izinizi kullanın</string>
     <string name="content_description_start">Başlat</string>
     <string name="start_up_slogan">Hoş geldiniz</string>
-    <string name="content_description_miui_version">Miui 10</string>
+    <string name="content_description_miui_version">Miui10</string>
     <string name="content_description_complete">Tamamlandı</string>
     <string name="language_picker_other_languages_title">Daha fazla dil</string>
     <string name="language_settings">Dil seçin</string>
+    <string name="font_hint_normal">Metin boyutunu arttır</string>
+    <string name="font_hint_large">Varsayılan metin boyutu</string>
     <string name="navigation_picker_radio_text_full_screen">Tam ekran modu</string>
     <string name="navigation_picker_radio_text_virtual_key">Sanal tuş modu</string>
     <string name="congratulation_swipe">Sisteme girmek için yukarı doğru kaydırın</string>
@@ -115,4 +124,10 @@ Bu özelliği kullanmadan önce kika gizlilik politikasını kabul etmeniz gerek
     <string name="ai_button_single_press_desc">Mi AI tetikleyici</string>
     <string name="ai_button_double_press">Çift baskı</string>
     <string name="ai_button_double_press_desc">Mi AI özelliklerini ayarlayın</string>
+    <string name="zone_picker_title">Saat dilimini seç</string>
+    <string name="locale_picker_other_locale_title">Daha fazla bölge</string>
+    <string name="skip_gesture_guide_dialog_title">Tam ekran hareketleri</string>
+    <string name="skip_gesture_guide_dialog_message">Bu seçeneği seçmeden önce tam ekran hareketlerini nasıl kullanacağınızı bildiğinizden emin olun</string>
+    <string name="skip_gesture_guide_dialog_negative_btn">İptal et</string>
+    <string name="skip_gesture_guide_dialog_positive_btn">Tamam</string>
 </resources>
