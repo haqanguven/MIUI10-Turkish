@@ -1,2 +1,2 @@
-# Miui Turkish Team
+# MIUITR Team
 # Developer
