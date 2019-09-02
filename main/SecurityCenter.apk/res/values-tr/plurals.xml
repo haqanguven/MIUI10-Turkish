@@ -24,6 +24,10 @@
         <item quantity="other">%d numara</item>
         <item quantity="one">%d numara</item>
     </plurals>
+    <plurals name="ew_alert_second_after">
+        <item quantity="other">%d saniye içinde</item>
+        <item quantity="one">%d saniye içinde</item>
+    </plurals>
     <plurals name="hints_traffic_enable_title">
         <item quantity="other">%d uygulamanın veri kullanımı takip edilmiyor</item>
         <item quantity="one">%d uygulamanın veri kullanımı takip edilmiyor</item>
@@ -180,6 +184,22 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">Tamamen şarj olmasına %s dakika</item>
         <item quantity="one">Tamamen şarj olmasına %s dakika</item>
     </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">Son şarjdan bu yana %d dakika</item>
+        <item quantity="one">Son şarjdan bu yana %d dakika</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">Son şarjdan bu yana %d saniye</item>
+        <item quantity="one">Son şarjdan bu yana %d saniye</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d dakika kaldı</item>
+        <item quantity="one">%d dakika kaldı</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d saat kaldı</item>
+        <item quantity="one">%d saat kaldı</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%1$s dahil, %2$d uygulama pili boşaltıyor</item>
         <item quantity="one">%1$s dahil, %2$d uygulama pili boşaltıyor</item>
@@ -190,9 +210,11 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     </plurals>
     <plurals name="people">
         <item quantity="other">%1$d kişi tarafından indirildi</item>
+        <item quantity="one">%1$d kişi tarafından indirildi</item>
     </plurals>
     <plurals name="people_million">
         <item quantity="other">%1$d kişi tarafından indirildi</item>
+        <item quantity="one">%1$d kişi tarafından indirildi</item>
     </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">%1$d kişi oynuyor</item>
@@ -204,11 +226,7 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d görüntülenme</item>
-        <item quantity="zero">%1$d görüntülenme</item>
         <item quantity="one">%1$d görüntülenme</item>
-        <item quantity="two">%1$d görüntülenme</item>
-        <item quantity="few">%1$d görüntülenme</item>
-        <item quantity="many">%1$d görüntülenme</item>
     </plurals>
     <plurals name="result_virus_header">
         <item quantity="other">%d virüs uygulaması bulundu</item>
@@ -234,21 +252,21 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
         <item quantity="other">%s korunmuyor</item>
         <item quantity="one">%s korunmuyor</item>
     </plurals>
-    <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d öğe</item>
-        <item quantity="one">%d öğe</item>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d uygulama virüs veya kötü amaçlı yazılım içeriyor</item>
+        <item quantity="one">%d uygulama virüs veya kötü amaçlı yazılım içeriyor</item>
     </plurals>
-    <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d gün</item>
-        <item quantity="one">%d gün</item>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">%d gün boyunca cihaz taranmadı</item>
+        <item quantity="one">%d gün boyunca cihaz taranmadı</item>
     </plurals>
-    <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d öğe</item>
-        <item quantity="one">%d öğe</item>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d mesaj ve arama engellendi</item>
+        <item quantity="one">%d mesaj ve arama engellendi</item>
     </plurals>
-    <plurals name="menu_text_app_manager_2">
-        <item quantity="other">%d uygulama</item>
-        <item quantity="one">%d uygulama</item>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d güncelleme mevcut</item>
+        <item quantity="one">%d güncelleme mevcut</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d öğe güvenli</item>
@@ -364,7 +382,6 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     </plurals>
     <plurals name="found_apps_title">
         <item quantity="other">%d uygulama bulundu</item>
-        <item quantity="zero">0 uygulama bulundu</item>
         <item quantity="one">%d uygulama bulundu</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
@@ -449,8 +466,10 @@ Mobil veriyi tekrar açmanız durumunda, operatörünüz tarafından ek ücretle
     </plurals>
     <plurals name="game_booster_incoming_call_duration_p1">
         <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
     </plurals>
     <plurals name="game_booster_incoming_call_duration_p2">
         <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
     </plurals>
 </resources>
