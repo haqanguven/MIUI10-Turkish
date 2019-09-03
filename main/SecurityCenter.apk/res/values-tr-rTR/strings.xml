@@ -770,7 +770,7 @@ bekleniyor"</string>
     <string name="pref_key_daily_package_switch">Günlük tarife</string>
     <string name="pref_key_daily_package_value">Günlük tarife</string>
     <string name="pref_key_direction_traffic">Belirlenmiş mobil veri</string>
-    <string name="pref_key_daily_package_summary">Günlük tarifeyi resetlemek için açın</string>
+    <string name="pref_key_daily_package_summary">Günlük tarifeyi sıfırlamak için açın</string>
     <string name="traffic_setting_fragment_title">Veri kullanım sorgusu</string>
     <string name="traffic_setting_fragment_title_guide">Taşıyıcılar ve veri planları</string>
     <string name="traffic_setting_fragment_button1_text">İptal et</string>
@@ -1492,15 +1492,15 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="power_setting_category_other">Ek ayarlar</string>
     <string name="power_setting_background_app_save_title">Arka plan pil tasarrufu</string>
     <string name="power_setting_background_app_save_summary">İşlevselliği etkilemeden arka planda uygulamaların etkinliğini sınırla</string>
-    <string name="power_setting_warm_configure">Temperature control</string>
-    <string name="power_setting_config_scenario_policies_title">Scenarios</string>
-    <string name="power_setting_scenario_policies_summary">Identify scenarios to switch between battery saving modes automatically</string>
-    <string name="power_setting_important_warning">Attention</string>
-    <string name="power_setting_warm_performance_tip">Scenarios that require high power consumption will raise the temperature of your device above the levels of the default temperature control mode.</string>
-    <string name="power_setting_features">Special features</string>
-    <string name="power_setting_wireless_reverse_charging_title">Reverse wireless charging</string>
-    <string name="power_setting_wireless_reverse_charging_summary">Charge compatible devices wirelessly</string>
-    <string name="battery_and_property">Battery &amp; performance</string>
+    <string name="power_setting_warm_configure">Sıcaklık kontrolü</string>
+    <string name="power_setting_config_scenario_policies_title">Senaryolar</string>
+    <string name="power_setting_scenario_policies_summary">Pil tasarruf modları arasında otomatik olarak geçiş yapmak için senaryolar belirleyin</string>
+    <string name="power_setting_important_warning">Dikkat</string>
+    <string name="power_setting_warm_performance_tip">Yüksek güç tüketimi gerektiren senaryolar cihazınızın sıcaklığını varsayılan sıcaklık kontrol modunun seviyelerinin üzerine çıkartacaktır</string>
+    <string name="power_setting_features">Özel özellikler</string>
+    <string name="power_setting_wireless_reverse_charging_title">Ters kablosuz şarj</string>
+    <string name="power_setting_wireless_reverse_charging_summary">Uyumlu cihazları kablosuz olarak şarj edin</string>
+    <string name="battery_and_property">Pil &amp; performans</string>
     <string name="power_settings_lock_screen_saver_title">Kilit ekranı ayarları</string>
     <string name="quick_optimize_sub_summary_with_battery_text">%1$s eklendi. Yaklaşık %2$s kaldı</string>
     <string name="quick_optimize_sub_battery_text">Yaklaşık %s kaldı</string>
@@ -1515,17 +1515,17 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="pc_main_sub_battery_text_hour_minute">%1$s saat %2$s dakika kaldı</string>
     <string name="pc_main_power_manager_day_hour">Tamamen şarj olmasına %1$s gün %2$s saat</string>
     <string name="pc_main_power_manager_hour_minute">Tamamen şarj olmasına %1$s saat %2$s dakika</string>
-    <string name="battery_statistics_activity_title">Battery usage stats</string>
-    <string name="pc_battery_history_consume_rank_menu_item">Ranking</string>
-    <string name="pc_battery_history_battery_detail_menu_item">Details</string>
-    <string name="pc_battery_history_rank_percent_menu_item">Percentage</string>
-    <string name="pc_battery_history_rank_mha_menu_item">Milliampere hour</string>
-    <string name="pc_battery_detail_curve_reference_now">Now</string>
-    <string name="pc_battery_detail_device_item_title">Battery usage stats</string>
-    <string name="pc_statistics_battery_use_title">Battery usage</string>
-    <string name="pc_statistics_battery_use_summary">%s since last charge</string>
-    <string name="pc_statistics_battery_use_hour_minute">%1$dh %2$dm since last charge</string>
-    <string name="pc_statistics_battery_last_hour_minute">%1$dh %2$dm remaining</string>
+    <string name="battery_statistics_activity_title">Pil kullanım istatistikleri</string>
+    <string name="pc_battery_history_consume_rank_menu_item">Sıralama</string>
+    <string name="pc_battery_history_battery_detail_menu_item">Ayrıntılar</string>
+    <string name="pc_battery_history_rank_percent_menu_item">Yüzde</string>
+    <string name="pc_battery_history_rank_mha_menu_item">Miliamper saat</string>
+    <string name="pc_battery_detail_curve_reference_now">Şimdi</string>
+    <string name="pc_battery_detail_device_item_title">Pil kullanım istatistikleri</string>
+    <string name="pc_statistics_battery_use_title">Pil kullanımı</string>
+    <string name="pc_statistics_battery_use_summary">Son şarjdan bu yana %s</string>
+    <string name="pc_statistics_battery_use_hour_minute">Son şarjdan bu yana %1$d saat %2$d dakika</string>
+    <string name="pc_statistics_battery_last_hour_minute">%1$d saat %2$d dakika kaldı</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s pili boşalıyor</string>
     <string name="notification_battery_scan_consume_abnormal_summary">Sorunu çözmek için dokunun</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Sistemin bekleme moduna girmesini önler</string>
@@ -1535,38 +1535,38 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="pc_abnormal_scan_reason_wake_system">Sistemi çok sık uyandırır</string>
     <string name="pc_abnormal_scan_reason_reconnect">Ağa çok sık bağlanmaya çalışır</string>
     <string name="pc_abnormal_scan_button_text">Uygulamaları kapat</string>
-    <string name="superpower_settings">Ultra battery saver</string>
-    <string name="superpower_notification_time_12">EEEE, MMMM dd</string>
-    <string name="superpower_notification_time_24">EEEE, MMMM dd</string>
+    <string name="superpower_settings">Ultra pil tasarrufu</string>
+    <string name="superpower_notification_time_12">dd MMMM EEEE</string>
+    <string name="superpower_notification_time_24">dd MMMM EEEE</string>
     <string name="superpower_notification_hint_enter">Turn on</string>
-    <string name="superpower_savemode_limit1">Dark theme</string>
-    <string name="superpower_savemode_limit2">Restrict background activity</string>
-    <string name="superpower_savemode_limit3">Restrict power-consuming activity (sync, GPS, vibration, Ambient display, etc.)</string>
-    <string name="superpower_savemode_limit4">Allow selected apps to work normally</string>
-    <string name="superpower_settins_switch_summary">Restricts most power-consuming features in order to leave basic functionality (e.g. calls, SMS, and selected apps) available as long as possible</string>
-    <string name="superpower_settins_autoleave_title">Turn off automatically</string>
-    <string name="superpower_settins_autoleave_summary">Turn off Ultra battery saver automatically when the battery is 50% charged</string>
-    <string name="superpower_settins_other">Additional settings</string>
-    <string name="superpower_settins_autoenter_title">Turn on automatically</string>
-    <string name="superpower_settins_autoenter_summary">Turn on Ultra battery saver automatically when the battery is only 10% charged</string>
-    <string name="superpower_notification_title">Less than 10% of battery remaining</string>
-    <string name="superpower_notification_summary">Turn on Ultra battery saver</string>
-    <string name="superpower_dialog_title">Ultra battery saver</string>
-    <string name="superpower_dialog_massage">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
-    <string name="superpower_dialog_button_ok">OK</string>
-    <string name="superpower_dialog_button_disable_dialog">"Don't show again"</string>
-    <string name="superpower_progress_title">Remaining time</string>
-    <string name="superpower_progress_content">Turning on Ultra battery saver…</string>
-    <string name="superpower_progress_turnoff_items">Restricting power-consuming activity</string>
-    <string name="superpower_progress_turnoff_process">Restrict background activity</string>
-    <string name="superpower_progress_turndown_brightness">Decreasing screen brightness</string>
-    <string name="superpower_progress_switch_home">Switching to Dark theme</string>
-    <string name="superpower_progress_left_time">%1$dh %2$dm</string>
-    <string name="pc_search_keywords_battery">Battery</string>
-    <string name="pc_search_keywords_battery_save">Battery saver</string>
-    <string name="pc_search_keywords_battery_use">Battery usage</string>
-    <string name="pc_search_keywords_capacity">Battery capacity</string>
-    <string name="pc_search_keywords_property">Performance</string>
+    <string name="superpower_savemode_limit1">Karanlık tema</string>
+    <string name="superpower_savemode_limit2">Arka plan etkinliği kısıtla</string>
+    <string name="superpower_savemode_limit3">Güç tüketen etkinliği kısıtla (Senkronizasyon, GPS, titreşim, Ortam ekranı vb.)</string>
+    <string name="superpower_savemode_limit4">Seçilen uygulamaların normal çalışmasına izin ver</string>
+    <string name="superpower_settins_switch_summary">Temel işlevleri mümkün olduğunca uzun süre kullanılabilir durumda bırakmak için güç tüketen özellikleri kısıtlar</string>
+    <string name="superpower_settins_autoleave_title">Otomatik olarak kapat</string>
+    <string name="superpower_settins_autoleave_summary">Pil %50 şarj olduğunda ultra pil tasarrufunu otomatik olarak kapat</string>
+    <string name="superpower_settins_other">Ek ayarlar</string>
+    <string name="superpower_settins_autoenter_title">Otomatik olarak aç</string>
+    <string name="superpower_settins_autoenter_summary">Pil sadece %10 sarj olduğunda ultra pil tasarrufunu otomatik olarak aç</string>
+    <string name="superpower_notification_title">Kalan pil %10 değerinden az</string>
+    <string name="superpower_notification_summary">Ultra pil tasarrufunu aç</string>
+    <string name="superpower_dialog_title">Ultra pil tasarrufu</string>
+    <string name="superpower_dialog_massage">Ultra pil tasarrufu güç tüketen özelliklerin çoğunu kısıtlar ve temel işlevselliklerin mümkün olduğunca uzun süre kullanılabilmesi için cihazınızın performansını düşürür. Ultra pil tasarrufu açılsın mı?</string>
+    <string name="superpower_dialog_button_ok">Tamam</string>
+    <string name="superpower_dialog_button_disable_dialog">Tekrar gösterme</string>
+    <string name="superpower_progress_title">Kalan süre</string>
+    <string name="superpower_progress_content">Ultra pil tasarrufu açılıyor</string>
+    <string name="superpower_progress_turnoff_items">Güç tüketen etkinliği kısıtla</string>
+    <string name="superpower_progress_turnoff_process">Arka plan etkinliği kısıtla</string>
+    <string name="superpower_progress_turndown_brightness">Ekran parlaklığını azalt</string>
+    <string name="superpower_progress_switch_home">Karanlık temaya geçiş</string>
+    <string name="superpower_progress_left_time">%1$d saat %2$d dakika</string>
+    <string name="pc_search_keywords_battery">Pil</string>
+    <string name="pc_search_keywords_battery_save">Pil tasarrufu</string>
+    <string name="pc_search_keywords_battery_use">Pil kullanımı</string>
+    <string name="pc_search_keywords_capacity">Pil kapasitesi</string>
+    <string name="pc_search_keywords_property">Performans</string>
     <string name="handle_bar_title_system">Sistem</string>
     <string name="apps_list_header_title_sms">Mesajlaşma uygulamasını kontrol et</string>
     <string name="apps_list_header_title_sms_access">Doğrulama kodlarına erişimi kısıtla</string>
@@ -1724,7 +1724,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="menu_text_license_manager">İzinler</string>
     <string name="menu_text_garbage_cleanup">Temizleyici</string>
     <string name="menu_summary_garbage_cleanup">Çöp bulunamadı</string>
-    <string name="menu_summary_garbage_cleanup_ex">Clear %s of trash</string>
+    <string name="menu_summary_garbage_cleanup_ex">%s çöp kutusunu temizle</string>
     <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Pil kullanımı</string>
     <string name="menu_summary_power_manager">Pil tasarrufu size ücretler arasında daha fazla zaman verir</string>
@@ -1846,8 +1846,8 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="permission_action_accept">Kabul et</string>
     <string name="permission_action_prompt">Bildir</string>
     <string name="permission_action_reject">Reddet</string>
-    <string name="permission_action_always">Always allow</string>
-    <string name="permission_action_foreground">While using the app</string>
+    <string name="permission_action_always">Herzaman izin ver</string>
+    <string name="permission_action_foreground">Uygulamayı kullanırken</string>
     <string name="empty_title_permission_apps_list">Uygulama yok</string>
     <string name="old_sdk_deny_warning">Bu uygulama güncel Android izin gereksinimleri ile uyumlu değil. Reddedilen izinler bu uygulamanın çalışma biçimini etkileyebilir</string>
     <string name="empty_title_root_apps">Kök erişimi olan uygulama yok</string>
@@ -2553,8 +2553,8 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="function_close">Kapat</string>
     <string name="add_done">Eklendi</string>
     <string name="boost_done">Hızlandırıldı</string>
-    <string name="boost_stop">Hız artırımını kapat</string>
-    <string name="already_close_gamebooster">Oyun hızı artırması kapalı</string>
+    <string name="boost_stop">Hız artışını kapat</string>
+    <string name="already_close_gamebooster">Oyun hızı arttırması kapalı</string>
     <string name="no_game">Oyunlar bulunamadı</string>
     <string name="gamebooster_network_dialog_title">Bazı özellikler kullanılabilir durumda değil</string>
     <string name="gamebooster_network_dialog_message">Güvenlik uygulamasına oyun hız arttırmanın tüm özelliklerini kullanmak için ağa bağlanma izni verilsin mi?</string>
@@ -2569,12 +2569,12 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="gmscore_support_service">Google hizmetleri</string>
     <string name="gmscore_support_remind">Gmail, Google haritalar ve diğer Google uygulamalarında sorun yaşıyorsanız bu özelliği etkinleştirin. Bu özellik pil ömrünü bir miktar azaltacaktır</string>
     <string name="google_base_app_install_choice">%s uygulaması normal olarak çalışabilmesi için Google hizmet çerçevesi uygulamasına ihtiyaç duyuyor. Uygulama indirilsin ve yüklensin mi?</string>
-    <string name="function_gwsd_title">"Don't allow incoming calls to interrupt data SIM connection"</string>
-    <string name="function_gwsd_detail">"About this feature:
- 1. Incoming calls to your data SIM won't interrupt mobile data connection. The connection will be interrupted only when you answer a call.
- 2. When this feature is turned on, the caller won't hear call waiting ringtones. Incoming calls will be ended unless you answer within 6 seconds.
- 3. This feature only works for data SIM cards. Calls to your primary SIM will interrupt mobile data connection.
- 4. This feature is supported only by China Mobile and China Unicom."</string>
+    <string name="function_gwsd_title">Gelen aramaları veri Sim bağlantısını kesmesine izin verme</string>
+    <string name="function_gwsd_detail">"Bu özellik hakkında:
+ 1. Veri Sim üzerinden gelen aramalar mobil veri bağlantısını kesmez. Bağlantı yalnızca bir aramayı cevapladığınızda kesilecektir
+ 2. Bu özellik açıldığında arayan arama bekletme zil seslerini duymaz. 6 saniye içinde cevap vermezseniz gelen aramaya son verilir
+ 3. Bu özellik sadece veri Sim kartlarında çalışır. Birincil Sim ile yapılan aramalar mobil veri bağlantısını keser
+ 4. Bu özellik yalnızca Çin Mobil ve Çin Unicom tarafından desteklenmektedir"</string>
     <string name="application_item_disable">Kısıtlandı</string>
     <string name="application_item_already_permission">İzin verildi</string>
     <string name="man_add_application">Otomatik başlatma uygulamalarını manuel olarak ekle</string>
@@ -2673,12 +2673,12 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="gb_get_gift_right_now">Şimdi yer bildirimi yap</string>
     <string name="gb_have_signed">Bugün yer bildirimi yapıldı</string>
     <string name="gb_sign_gift_button_text">Al</string>
-    <string name="gb_xunyou_gift_type_one">Xunyou 1 günlük hızlandırıcı</string>
-    <string name="gb_xunyou_gift_type_two">Xunyou 2 günlük hızlandırıcı</string>
-    <string name="gb_xunyou_gift_type_three">Xunyou 3 günlük hızlandırıcı</string>
-    <string name="gb_signed_title">Bu ay yer bildirimi yapıldı</string>
-    <string name="gb_network_status_bad">Bağlantı hatası meydana geldi</string>
-    <string name="gs_open_game_booster_summary">Ağ hızınızı oyunlar için hızlandırın</string>
+    <string name="gb_xunyou_gift_type_one">Xunyou 1 günlük destek</string>
+    <string name="gb_xunyou_gift_type_two">Xunyou 2 günlük destek</string>
+    <string name="gb_xunyou_gift_type_three">Xunyou 3 günlük destek</string>
+    <string name="gb_signed_title">Bu ay kontrol edildi</string>
+    <string name="gb_network_status_bad">Bir bağlantı hatası oluştu</string>
+    <string name="gs_open_game_booster_summary">Oyunlar için ağ hızını artırın</string>
     <string name="gb_signed_gift_loading_summary">Yükleniyor</string>
     <string name="gb_signed_gift_loading_fail">Yüklenemedi</string>
     <string name="gb_msg_completely_shielded">Mesajları gizle</string>
@@ -2801,12 +2801,12 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="gb_add_game_hint">Uygulamalar listesinden öğe ekleyin</string>
     <string name="gb_first_guide_title">Sistem düzeyinde hızı ve performansı artırın</string>
     <string name="gb_first_guide_gamebox_des">Oyun oynarken kısayolları kullanın</string>
-    <string name="gb_first_guide_handsfree_des">Arka planda çağrıları cevapla</string>
-    <string name="gb_first_guide_shortcut_des">Oyun Turbo için bir Ana ekran kısayolu oluşturuldu</string>
-    <string name="gb_first_guide_function_shiled_title">Oyun Turbo açıkken sistem özelliklerini kapatın</string>
-    <string name="stop_milink_connect">Stopped casting</string>
-    <string name="other_milink_connect">"Can't cast. Another feature is being cast now."</string>
-    <string name="alert_back_milink_hangup_tips_content">"Casting won't be interrupted while you're ending a call. You can press the Power button to wake the screen."</string>
+    <string name="gb_first_guide_handsfree_des">Arka planda aramaları cevapla</string>
+    <string name="gb_first_guide_shortcut_des">Oyun turbo için bir ana ekran kısayolu oluşturuldu</string>
+    <string name="gb_first_guide_function_shiled_title">Oyun turbo açıkken sistem özelliklerini kapatın</string>
+    <string name="stop_milink_connect">Yansıtma durduruldu</string>
+    <string name="other_milink_connect">Yansıtılamadı. Şuan başka bir özellik yansıtılıyor</string>
+    <string name="alert_back_milink_hangup_tips_content">Bir aramayı bitirirken yansıtma kesintiye uğramaz. Ekranı uyandırmak için güç düğmesine basabilirsiniz</string>
     <string name="notify_channel_name_security">Sistem güvenliği</string>
     <string name="privacy_apps_category_title">Gizli uygulamalar</string>
     <string name="privacy_apps">Gizli uygulamalar</string>
@@ -2821,12 +2821,12 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="privacy_apps_checkbox_remind_choice">Tekrar gösterme</string>
     <string name="privacy_apps_go_to_use">Başlat</string>
     <string name="privacy_apps_close">Kapat</string>
-    <string name="privacy_apps_shield_message_title">"Don't show notifications"</string>
-    <string name="privacy_apps_shield_message_summary">"Don't show notifications for protected apps"</string>
-    <string name="privacy_apps_begin_use">Start</string>
-    <string name="privacy_apps_next_stup">Next</string>
-    <string name="privacy_apps_button_know">Got it</string>
-    <string name="privacy_apps_tutorial_dlg_title">How to find hidden apps</string>
+    <string name="privacy_apps_shield_message_title">Bildirimleri gösterme</string>
+    <string name="privacy_apps_shield_message_summary">Korunan uygulamalar için bildirimleri gösterme</string>
+    <string name="privacy_apps_begin_use">Başla</string>
+    <string name="privacy_apps_next_stup">Sonraki</string>
+    <string name="privacy_apps_button_know">Anladım</string>
+    <string name="privacy_apps_tutorial_dlg_title">Gizli uygulamalar nasıl bulunur</string>
     <string name="first_aid_stop_scan">Taramayı durdur</string>
     <string name="first_aid_scanning_item1">Performans sorunları kontrol ediliyor</string>
     <string name="first_aid_scanning_item2">Ağ sorunları kontrol ediliyor</string>
@@ -2890,7 +2890,7 @@ Cihazınızdaki tüm veriler silinebilir ve kilit ekranı şifreniz sıfırlanab
     <string name="app_permission_use_group_mic">Mikrofon</string>
     <string name="app_permission_use_group_mic_des">Ses kaydı</string>
     <string name="app_permission_use_group_phone">Telefon</string>
-    <string name="app_permission_use_group_phone_des">Çağrı geçmişinde öğeleri okuyun ve ekleyin, çağrı yapın ve çağrı durumuna erişin</string>
+    <string name="app_permission_use_group_phone_des">Arama geçmişinde öğeleri okuyun, ekleyin, arama yapın ve arama durumuna erişin</string>
     <string name="app_permission_use_group_sms">Mesajlaşma</string>
     <string name="app_permission_use_group_sms_des">Mesaj gönderin, alın ve okuyun</string>
     <string name="app_permission_use_group_storage">Depolama</string>
@@ -2900,46 +2900,46 @@ Cihazınızdaki tüm veriler silinebilir ve kilit ekranı şifreniz sıfırlanab
     <string name="third_desktop_dialog_ok">Anladım</string>
     <string name="user_guide">Daha yeni oyunlar keşfetmek için yukarı kaydırın</string>
     <string name="user_guide_title">Joystick seçtikleri</string>
-    <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
-    <string name="system_permission_declare_privacy_declare">"We respect and protect your privacy.
-Note that %1s needs to collect your data and requires the following permissions to work normally:"</string>
-    <string name="system_permission_declare_analytics_declare">"Thank you for enrolling in our User Experience Program. Your device needs to be connected to the internet to allow this feature to work normally. You're also required to grant the following permissions to allow us to collect the data that will help us improve our products and services. This data is collected for statistical purposes only. We won't be able to use this data to identify you personally."</string>
-    <string name="system_permission_declare_privacy_no_permission">"Note that %1s needs to collect your data to work normally.
-We respect and protect your privacy."</string>
-    <string name="system_permission_declare_use_network">Connect to the network</string>
-    <string name="system_permission_declare_use_network_no_permission">Connect to the network</string>
-    <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
-    <string name="system_permission_declare_no_say_no_analytics">"If you don't want to grant these permissions, you can unenroll in Settings > Additional settings > Privacy > User Experience Program."</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work partially."</string>
-    <string name="system_permission_declare_revoke_uninstallable">You can sign out, uninstall this app, or revoke your authorization in Security > Manage apps > Permissions > Permissions.</string>
-    <string name="system_permission_declare_revoke_system">You can exit this app.</string>
-    <string name="system_permission_declare_double_link"><Data>Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before using this feature.</Data></string>
-    <string name="system_permission_declare_user_agreement"><Data>Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> before using this feature.</Data></string>
-    <string name="system_permission_declare_privacy_policy"><Data>Read and agree to our &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using this feature.</Data></string>
-    <string name="system_permission_declare_agree">Agree</string>
-    <string name="system_permission_declare_disagree">Disagree</string>
-    <string name="system_permission_perm_send_mms">Send MMS</string>
-    <string name="system_permission_perm_read_mms">Read MMS</string>
-    <string name="system_permission_perm_answer_call">Make calls</string>
-    <string name="system_permission_perm_read_numbers">Read phone numbers</string>
-    <string name="phone_manage">Utilities</string>
-    <string name="securitycenter_tab_title">Security</string>
-    <string name="phone_manage_system_tool_title">Tools</string>
-    <string name="phone_manage_system_tool_summary">Useful system-level tools</string>
-    <string name="phone_manage_clean_title">Cleaner</string>
-    <string name="phone_manage_clean_summary">Free up storage space</string>
-    <string name="phone_manage_app_manager_summary">Manage apps on your device</string>
-    <string name="phone_manage_electric_title">Battery</string>
-    <string name="phone_manage_electric_summary">Optimize your device to save battery</string>
-    <string name="phone_manage_special_title">Special features</string>
-    <string name="phone_manage_special_summary">Explore our additional functionality</string>
-    <string name="system_tool_green_guard">Family Guard</string>
-    <string name="system_tool_sos">Emergency SOS</string>
-    <string name="power_save_mode">Battery saver</string>
-    <string name="power_save_settings">Battery settings</string>
-    <string name="banner_optimizemanage_summary">Free up memory</string>
-    <string name="banner_red_money_assist_summary">Open red envelopes faster</string>
-    <string name="banner_red_money_assist_button">Turn on</string>
-    <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
-    <string name="mian_page_primary_txt">Overseas roaming</string>
+    <string name="system_permission_declare_main_purpose" formatted="false">%1s hoş geldiniz. Bu uygulama aşağıdaki özelliği kullanmanızı sağlar: %2s</string>
+    <string name="system_permission_declare_privacy_declare">"Gizliliğinize saygı duyuyor ve koruyoruz
+%1s için verilerinizi toplaması ve normal çalışması için aşağıdaki izinlerin gerekli olduğunu unutmayın:"</string>
+    <string name="system_permission_declare_analytics_declare">Kullanıcı deneyimi programımıza kayıt olduğunuz için teşekkür ederiz.. Bu özelliğin normal çalışabilmesi için cihazınızın internete bağlı olması gerekir. Ayrıca ürünlerimizi ve hizmetlerimizi geliştirmemize yardımcı olacak verileri toplamamıza izin vermek için aşağıdaki izinleri vermeniz gerekir. Bu veriler sadece istatistiksel amaçlar için toplanır. Bu verileri sizi kişisel olarak tanımlamak için kullanamayız</string>
+    <string name="system_permission_declare_privacy_no_permission">"%1s normal çalışması için verilerinizi toplaması gerektiğini unutmayın
+Gizliliğinize saygı duyuyor ve koruyoruz"</string>
+    <string name="system_permission_declare_use_network">Ağa bağlan</string>
+    <string name="system_permission_declare_use_network_no_permission">Ağa bağlan</string>
+    <string name="system_permission_declare_no_say_no">Gerekli izinleri vermemeyi seçerseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama normal şekilde çalışamaz</string>
+    <string name="system_permission_declare_no_say_no_analytics">Bu izinleri vermek istemiyorsanız Ayarlar> Ek ayarlar> Gizlilik> Kullanıcı deneyimi programından kaydını silebilirsiniz</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Gerekli izinleri vermemeyi seçerseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama kısmen çalışama</string>
+    <string name="system_permission_declare_revoke_uninstallable">Güvenlik > Uygulamaları yönet > İzinler > İzinler bölümünden çıkış yapabilir, bu uygulamayı kaldırabilir veya yetkilendirmenizi iptal edebilirsiniz</string>
+    <string name="system_permission_declare_revoke_system">Bu uygulamadan çıkabilirsiniz.</string>
+    <string name="system_permission_declare_double_link">Bu özelliği kullanmadan önce <a href="%1$s">Kullanıcı sözleşmemizi</a> ve <a href="%2$s">Gizlilik politikamızı</a> okuyun ve kabul edin</string>
+    <string name="system_permission_declare_user_agreement">Bu özelliği kullanmadan önce <a href="%1$s">Kullanıcı sözleşmemizi</a> okuyun ve kabul edin</string>
+    <string name="system_permission_declare_privacy_policy">Bu özelliği kullanmadan önce <a href="%1$s">Gizlilik politikası</a> okuyun ve kabul edin</string>
+    <string name="system_permission_declare_agree">Kabul et</string>
+    <string name="system_permission_declare_disagree">Kabul etmiyorum</string>
+    <string name="system_permission_perm_send_mms">Multimedya gönder</string>
+    <string name="system_permission_perm_read_mms">Multimedyayı oku</string>
+    <string name="system_permission_perm_answer_call">Arama yap</string>
+    <string name="system_permission_perm_read_numbers">Telefon numaralarını oku</string>
+    <string name="phone_manage">Araçlar</string>
+    <string name="securitycenter_tab_title">Güvenlik</string>
+    <string name="phone_manage_system_tool_title">Araçlar</string>
+    <string name="phone_manage_system_tool_summary">Sistem düzeyinde faydalı araçlar</string>
+    <string name="phone_manage_clean_title">Temizleyici</string>
+    <string name="phone_manage_clean_summary">Boş depolama alanı</string>
+    <string name="phone_manage_app_manager_summary">Cihazınızdaki uygulamaları yönetin</string>
+    <string name="phone_manage_electric_title">Pil</string>
+    <string name="phone_manage_electric_summary">Pilden tasarruf etmek için cihazınızı optimize edin</string>
+    <string name="phone_manage_special_title">Ayrıcalıklı özellikler</string>
+    <string name="phone_manage_special_summary">Ek işlevselliğimizi keşfedin</string>
+    <string name="system_tool_green_guard">Aile Koruması</string>
+    <string name="system_tool_sos">Acil durum</string>
+    <string name="power_save_mode">Pil tasarrufu</string>
+    <string name="power_save_settings">Pil ayarları</string>
+    <string name="banner_optimizemanage_summary">Boş hafıza</string>
+    <string name="banner_red_money_assist_summary">Kırmızı zarfları daha hızlı açın</string>
+    <string name="banner_red_money_assist_button">Aç</string>
+    <string name="firewall_rule_group_title_roaming">Yurtdışı dolaşım</string>
+    <string name="mian_page_primary_txt">Uluslararası dolaşım</string>
 </resources>
