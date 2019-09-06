@@ -80,10 +80,15 @@
     <string name="apply_font_btn_exclude">Şimdi değil</string>
     <string name="apply_font_btn_reboot">Yeniden başlat</string>
     <string name="apply_font_tip">Bu temanın yazı tipini uygulamak için cihazınızı yeniden başlatın</string>
-    <string name="apply_theme_with_ringtones">Tema zil sesini kullan</string>
+    <string name="apply_theme_with_ringtones">Tema zil sesi</string>
     <string name="audio_duration_minutes_format">%1$d dakika</string>
     <string name="audio_duration_seconds_format">%1$d saniye</string>
     <string name="audition_ringtone">Oynat</string>
+    <string name="author_attention">Takip et</string>
+    <string name="author_attention_success">Başarıyla takip edildi</string>
+    <string name="author_dialog_message">Bu hesabın takibi bırakılsın mı?</string>
+    <string name="author_dynamic">Durum</string>
+    <string name="author_dynamic_no_resource">Sonuç bulunamadı</string>
     <string name="automatically_update_using_theme_tips">Bir sonraki defa otomatik olarak güncelle</string>
     <string name="backup_theme_dialog_message">Mevcut temayı yedeklensin mi?</string>
     <string name="backup_theme_dialog_ok">Yedekle</string>
@@ -135,7 +140,10 @@
     <string name="description_version_szie">Sürüm: %1$s Boyut: %2$s</string>
     <string name="desktop_effects">Ana sayfa efektleri</string>
     <string name="desktop_wallpaper">Ana ekran</string>
-    <string name="detail_recommend_title">Bunları beğenebilirsiniz</string>
+    <string name="detail_author_attention_head">En göze çarpan tasarımcılarımızdan bazılarını takip edin</string>
+    <string name="detail_author_fans">"Takipçiler: "</string>
+    <string name="detail_author_works">"Öğeler: "</string>
+    <string name="detail_recommend_title">Bunları beğenebilirsin</string>
     <string name="dev_options">Geliştirici seçenekleri</string>
     <string name="dev_options_summary">İnternet kaynakları</string>
     <string name="download_failed">İndirilemedi</string>
@@ -196,7 +204,7 @@
     <string name="gift_operation_fail_dlg_abandon"> İptal et</string>
     <string name="gift_operation_fail_dlg_retry">Yeniden deneyin</string>
     <string name="gift_operation_waiting">Yükleniyor</string>
-    <string name="gift_owned">Satın alınanlar</string>
+    <string name="gift_owned">Satın aldıklarım</string>
     <string name="gift_present">Hediye et</string>
     <string name="gift_present_dlg_anonymous">Göndereni gizli hediye</string>
     <string name="gift_present_dlg_input_hint">Mi hesap kimliği/Telefon</string>
@@ -233,7 +241,7 @@
     <string name="hide_free_font">Ücretsiz fontları gizle</string>
     <string name="hide_free_theme">Ücretsiz temaları gizle</string>
     <string name="hide_free_wallpaper">Ücretsiz duvar kağıtlarını gizle</string>
-    <string name="hide_incompatible">Uyumsuz %1$s öğeyi gizle</string>
+    <string name="hide_incompatible">Uyumsuz %1$s öğelerini gizle</string>
     <string name="hide_mamual_hide_font">Gizli yazı tiplerini gösterme</string>
     <string name="hide_mamual_hide_theme">Gizli temaları gösterme</string>
     <string name="hide_mamual_hide_wallpaper">Gizli duvar kağıtlarını gösterme</string>
@@ -267,8 +275,8 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="item_resource_audio_optional_phone_ring">Zil sesi</string>
     <string name="kuyin_user_agreement_content">Özel zil sesi abonelikleri iFlytek tarafından sağlanır. Özel zil sesi abonelikleri kullanmadan önce %s şartını kabul etmelisiniz. Kabul edilsin mi?</string>
     <string name="kuyin_user_agreement_content_href">iFlytek gizlilik politikası</string>
-    <string name="lab">Tema laboratuvarı</string>
-    <string name="like_list">Beğendiğim ögeler</string>
+    <string name="lab">Diğer</string>
+    <string name="like_list">Beğendiklerim</string>
     <string name="live_wallpaper">Canlı duvar kağıtları</string>
     <string name="loading">Yükleniyor</string>
     <string name="loading_resource_detail_fail">Kaynak yüklenemiyor</string>
@@ -288,7 +296,6 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="lockscreen_wallpaper">Kilit ekranı</string>
     <string name="lockstyle_personal_settings">Kişiselleştir</string>
     <string name="long_click_can_hide_resource">Öğeleri gizlemek için basılı tutun</string>
-    <string name="loop_wallpaper_is_here">Duvar kağıdı slayt gösterileri şimdi kullanılabilir</string>
     <string name="mi_wallpaper">Miui duvar kağıtları</string>
     <string name="miuishare_account_activate_confirmation">Mi hesabını etkinleştir</string>
     <string name="miuishare_account_activate_ok">Etkinleştir</string>
@@ -325,7 +332,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="multi_sim_ringtone_settings_dialog_remind_never">Tekrar gösterme</string>
     <string name="multi_sim_ringtone_settings_dialog_title">Uyumluluk sorunları</string>
     <string name="my_gifts">Hediyeler</string>
-    <string name="my_gifts_purchased">Satın alınanlar</string>
+    <string name="my_gifts_purchased">Satın aldıklarım</string>
     <string name="my_gifts_received">Alınanlar</string>
     <string name="network_exception">Ağa bağlanılamadı. Ağ bağlantılarınızı kontrol edin ve tekrar deneyin</string>
     <string name="no_data">Ağa bağlanılamıyor</string>
@@ -361,7 +368,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="pull_down_view_error_message">Tüh! İnternet bağlantısı bulunamadı. Bağlantınızı kontrol edin veya tekrar deneyin</string>
     <string name="pull_down_view_refresh">Yenile</string>
     <string name="pull_down_view_title">Yenilikler</string>
-    <string name="purchased_list">Satın alınanlar</string>
+    <string name="purchased_list">Satın aldıklarım</string>
     <string name="purchased_list_current">Optimize edilmiş temalar</string>
     <string name="purchased_list_legacy">Mevcut temalar</string>
     <string name="recently_used">Son kullanılanlar</string>
@@ -383,6 +390,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="resource_alarm_default">Alarm</string>
     <string name="resource_app_name">Kaynakları görüntüle</string>
     <string name="resource_apply">Uygula</string>
+    <string name="resource_apply_trial">Uygula</string>
     <string name="resource_back">Geri</string>
     <string name="resource_buy">Satın al</string>
     <string name="resource_can_not_selected">%1$s seçilemiyor</string>
@@ -455,6 +463,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="resource_download">İndir</string>
     <string name="resource_download_notification_title_many">%1$s tema indirildi</string>
     <string name="resource_download_notification_title_one">Tema indirildi</string>
+    <string name="resource_download_trial">Dene</string>
     <string name="resource_downloaded_title">İndirilmiş kaynaklar</string>
     <string name="resource_downloading">İndiriliyor</string>
     <string name="resource_exchange">Kullan</string>
@@ -613,7 +622,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="show_free_font">Ücretsiz yazı tiplerini göster</string>
     <string name="show_free_theme">Ücretsiz temaları göster</string>
     <string name="show_free_wallpaper">Ücretsiz duvar kağıtlarını göster</string>
-    <string name="show_incompatible">Uyumsuz %1$s ögeyi göster</string>
+    <string name="show_incompatible">Uyumsuz %1$s ögelerini göster</string>
     <string name="show_mamual_hide_font">Gizli yazı tiplerini göster</string>
     <string name="show_mamual_hide_theme">Gizli yazı temaları göster</string>
     <string name="show_mamual_hide_wallpaper">Gizli yazı duvar kağıtlarını göster</string>
@@ -709,7 +718,7 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="theme_yes">Evet</string>
     <string name="third_party_pickers_activity_title">Ekle %1$s</string>
     <string name="tips_theme_gate_transfer_fail">Bu sayfa açılamadı. Bir veya iki dakika bekleyin ve tekrar deneyin</string>
-    <string name="title_component">Temayı kişiselleştir</string>
+    <string name="title_component">Özelleştir</string>
     <string name="title_my_audio_resource">Zil seslerim</string>
     <string name="title_my_miwallpaper_desktop_effects">Ana sayfa efektleri</string>
     <string name="title_my_miwallpaper_resource">Canlı duvar kağıtlarım</string>
@@ -760,9 +769,9 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="update_no_net">Bir ağ hatası meydana geldi. Tekrar deneyin</string>
     <string name="update_title">Yeni güncelleme mevcut</string>
     <string name="using_theme_has_update_tips">Bu tema için bir güncelleme mevcut</string>
-    <string name="using_theme_next_automatic_update">Otomatik güncellemeler</string>
-    <string name="using_theme_next_automatic_update_summary">İndirilen temaları ekran kilitli olduğunda Wi-Fi üzerinden otomatik olarak güncelle</string>
-    <string name="using_theme_show_ad">Tavsiyeler</string>
+    <string name="using_theme_next_automatic_update">Otomatik güncelleme</string>
+    <string name="using_theme_next_automatic_update_summary">İndirilen temaları ekran kilitli olduğunda wifi ağı üzerinden otomatik olarak günceller</string>
+    <string name="using_theme_show_ad">Öneriler</string>
     <string name="version_update">Güncellemeleri kontrol et</string>
     <string name="video_ad_click">Şimdi deneyin</string>
     <string name="video_ad_try_for_free">Ücretsiz deneme</string>
@@ -805,6 +814,8 @@ Bu özelliği kapatmak için Ayarlar > ses &amp; titreşim > Profil videosu ayar
     <string name="wallpaper_loop_title">Duvar kağıtı slaytı</string>
     <string name="wallpaper_loop_title_desk_wallpaper">Ana ekran duvar kağıdı slaytı</string>
     <string name="wallpaper_loop_title_lock_walpaper">Kilit ekranı duvar kağıdı slaytı</string>
+    <string name="wallpaper_no_favorite">Burada henüz öğe yok</string>
+    <string name="wallpaper_no_record">Burada henüz öğe yok</string>
     <string name="wallpaper_online">Çevrimiçi duvar kağıtları</string>
     <string name="wallpaper_online_no_more">Şimdilik bu kadar</string>
     <string name="wallpaper_online_tip">Daha fazla öğe görüntülemek için ağa bağlanın</string>

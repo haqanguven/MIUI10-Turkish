@@ -16,7 +16,7 @@
     <string name="abc_menu_meta_shortcut_label">Meta+</string>
     <string name="abc_menu_shift_shortcut_label">Üst karakter+</string>
     <string name="abc_menu_space_shortcut_label">Boşluk</string>
-    <string name="abc_menu_sym_shortcut_label">Sembol+</string>
+    <string name="abc_menu_sym_shortcut_label">Seymbol+</string>
     <string name="abc_prepend_shortcut_label">Menü+</string>
     <string name="abc_search_hint">Ara</string>
     <string name="abc_searchview_description_clear">Sorguyu temizle</string>
@@ -101,13 +101,13 @@
     <string name="error_permissions">Barkod okuyucu normal olarak çalışabilmesi için gerekli izinlere sahip değil. Devam etmek için ayarlar menüsüne gidin ve izin ayarlarını kontrol edin</string>
     <string name="error_server_error">Bir sunucu hatası oluştu</string>
     <string name="fax">Faks</string>
-    <string name="feed_search_fail">Sonuç yok. Yeniden deneyin</string>
-    <string name="feedback_description_camera_access">Barkod okuyucu kameraya bağlanamıyor</string>
+    <string name="feed_search_fail">Sonuç yok. Tekrar deneyin</string>
+    <string name="feedback_description_camera_access">Barkod okuyucu Kameraya bağlanamıyor</string>
     <string name="feedback_description_save_photo">Fotoğraf veya video kaydedilemedi</string>
     <string name="got_it">Anladım</string>
     <string name="gps">Git</string>
     <string name="import_contact">Kişiyi içe aktar</string>
-    <string name="impunity_declaration_content">Tarayıcı kameranıza bağlanmaya ve siz uygulamayı kullanırken çektiğiniz resimleri işlemeye ihtiyaç duyar. Kişisel bilgilerinizin bulunduğu cisimlerin fotoğraflarını çekmek için Tarayıcı uygulamasını kullanmayın. Kabul et seçeneğine dokunarak &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Gizlilik politikasını&lt;/a>&lt;/font> kabul etmiş sayılırsınız ve tarayıcı uygulamasının internete bağlanmasına izin vermiş olursunuz</string>
+    <string name="impunity_declaration_content">"Tarayıcı, kameranıza bağlanmaya ve siz uygulamayı kullanırken çektiğiniz resimleri işlemeye ihtiyaç duyar. Kişisel bilgilerinizin bulunduğu cisimlerin fotoğraflarını çekmek için Tarayıcı uygulamasını kullanmayın. Kabul et seçeneğine dokunarak &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\">Gizlilik Politikasını&lt;/a>&lt;/font> kabul etmiş sayılırsınız ve Tarayıcı uygulamasının internete bağlanmasına izin vermiş olursunuz"</string>
     <string name="impunity_declaration_negative_text">Çık</string>
     <string name="impunity_declaration_title">Gizlilik politikası</string>
     <string name="jd_shopping_title">"JD'de ara"</string>
@@ -122,7 +122,7 @@
     <string name="language_entry_spanish">İspanyolca</string>
     <string name="low_version_tip">"Barkod okuyucuyu kullanabilmek için Miui'yi en yeni sürümüne güncelleyin"</string>
     <string name="miracast_connect">Yansıt</string>
-    <string name="miracast_connect_fail">Yansıtılamadı</string>
+    <string name="miracast_connect_fail">Yansıtılamadı. Tekrar deneyin</string>
     <string name="miracast_connecting">Yansıtılıyor</string>
     <string name="miracast_details">Yansıtmak için QR kodunu taratın</string>
     <string name="miracast_message">%s cihazına yansıtılsın mı?</string>
@@ -266,8 +266,8 @@
     <string name="language_value_japanese">japanese</string>
     <string name="language_value_korean">korean</string>
     <string name="language_value_spanish">spanish</string>
-    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
-    <string name="password_toggle_content_description">Show password</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s kaldır</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
